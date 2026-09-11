@@ -1,134 +1,183 @@
 {
-  "generated_by": "scripts/build_folium_municipal_simulator.py",
-  "mode": "standby",
   "municipality_code": "52110",
   "municipality_name": "전주시",
-  "standby_manifest": "C:\\Users\\choi-\\Desktop\\2-2 수행\\오대위T수행\\6\\data\\jeonju_real\\52110_jeonju\\standby_grid_only.json",
-  "scenario_file": "C:\\Users\\choi-\\Desktop\\2-2 수행\\오대위T수행\\6\\data\\jeonju_real\\52110_jeonju\\scenario_standby.json",
-  "processed_csv_folder": "C:\\Users\\choi-\\Desktop\\2-2 수행\\오대위T수행\\6\\data\\processed\\jeonju_20260911\\52110",
-  "results_file": "C:\\Users\\choi-\\Desktop\\2-2 수행\\오대위T수행\\6\\outputs\\jeonju_standby_grid_test\\standby_placement_result.json",
-  "results_file_requested": "C:\\Users\\choi-\\Desktop\\2-2 수행\\오대위T수행\\6\\outputs\\jeonju_standby_grid_test\\standby_placement_result.json",
-  "policy": "scheduled standby posts + centralized greedy expected-survival",
-  "schedule": {
-    "free_hours": [
-      0,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12,
-      13,
-      14,
-      15,
-      16,
-      17,
-      18,
-      19,
-      20,
-      21,
-      22,
-      23
-    ],
-    "home_hours": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6
+  "objective": "local expected survivors",
+  "cross_municipality_resources_allowed": false,
+  "search": "greedy forward selection over (ambulance, post) moves with paired episode seeds",
+  "search_note": "greedy solution; the global optimum over all assignments is not guaranteed",
+  "episodes": 2,
+  "movable": 3,
+  "allow_shared_posts": false,
+  "shortlisted_posts": [
+    "P005",
+    "P015",
+    "P022",
+    "P023",
+    "P024",
+    "P030",
+    "P038",
+    "P039",
+    "P040",
+    "P047",
+    "P048",
+    "P049",
+    "P053",
+    "P055",
+    "P063"
+  ],
+  "baseline_home_bases": {
+    "mean": 87.2789575,
+    "standard_deviation": 11.126885937647806,
+    "ci95_low": 71.85788036000001,
+    "ci95_high": 102.70003464,
+    "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
+    "values": [
+      79.411061,
+      95.146854
     ]
   },
-  "schedule_rule": "07~24시 자유 배치 / 01~06시 원소속 복귀(최하위 우선순위)",
-  "seed": 42,
-  "coordinate_order": "network.positions are [longitude, latitude] in WGS84",
-  "model_parameters": {
-    "path": "data/processed/calibration/model_parameters_calibrated.json",
-    "status": "calibrated",
-    "generated_at": "2026-09-11T10:25:00+09:00"
+  "best": {
+    "assignment": {
+      "A05-1": "P049",
+      "A10-1": "P055",
+      "A07-1": "P063"
+    },
+    "moved_ambulances": [
+      "A05-1",
+      "A10-1",
+      "A07-1"
+    ],
+    "expected_saved": {
+      "mean": 87.518733,
+      "standard_deviation": 11.289126638843594,
+      "ci95_low": 71.87280172,
+      "ci95_high": 103.16466428,
+      "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
+      "values": [
+        79.536115,
+        95.501351
+      ]
+    },
+    "incremental_expected_saved": {
+      "mean": 0.23977549999999326,
+      "standard_deviation": 0.16224070119578743,
+      "ci95_low": 0.01492135999998992,
+      "ci95_high": 0.4646296399999966,
+      "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
+      "values": [
+        0.12505399999999156,
+        0.35449699999999496
+      ]
+    }
   },
-  "caveats": [
-    "행정동 점은 행정복지센터 대표좌표이며 실제 신고 좌표가 아닙니다.",
-    "지도 위 구급차 이동선은 재생용 직선 보간이며, 소요시간만 카카오 자동차 경로 실측값입니다.",
-    "대기지는 1km 격자 칸의 중심점이며, 실제로 구급차가 주차·대기할 수 있는지는 검증되지 않았습니다.",
-    "1km 격자는 분석용 사각격자이며 행정경계가 아닙니다.",
-    "배정은 탐욕 순차 해이며 전역 최적이 아닙니다.",
-    "재생 화면은 시나리오별 단일 에피소드(고정 시드)이며, 결과표의 평균/CI는 다중 에피소드 결과입니다."
-  ],
-  "grid_km": 1.0,
-  "grid_cell_count": 132,
-  "scenarios": [
+  "steps": [
     {
-      "key": "baseline",
-      "label": "기준안: 전원 원소속 대기",
-      "seed": 42,
-      "is_best": false,
-      "assignment": {},
-      "moved_ambulances": [],
-      "patients": 91,
-      "expected_saved": 79.411061,
-      "expected_lost": 11.588939,
-      "expected_saved_per_patient": 0.8726490261727536,
-      "response": {
-        "mean_minutes": 7.30884424254532,
-        "p90_minutes": 12.033333333333303,
-        "reached_patients": 91,
-        "unreached_patients": 0,
-        "response_rate": 1.0
+      "step": 1,
+      "ambulance_id": "A05-1",
+      "post_id": "P049",
+      "post_name": "전북특별자치도 전주시 덕진구 인후동2가 격자 5-8",
+      "post_location": "52110::standby::GRID-1KM-52110-005-008",
+      "home_base": "52110::ambulance_base::005",
+      "evaluated_moves": 180,
+      "assignment": {
+        "A05-1": "P049"
       },
-      "events": {
-        "patient_arrival": 91,
-        "arrive_scene": 91,
-        "scene_complete": 91,
-        "arrive_hospital": 273,
-        "transfer_ready": 182,
-        "shift_change": 3,
-        "restock_complete": 91,
-        "reposition_complete": 91,
-        "hospital_release": 273
+      "expected_saved": {
+        "mean": 87.362909,
+        "standard_deviation": 11.18596824474984,
+        "ci95_low": 71.85994796000001,
+        "ci95_high": 102.86587003999999,
+        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
+        "values": [
+          79.453235,
+          95.272583
+        ]
       },
-      "frame_count": 1188,
-      "log_entry_count": 1459
+      "incremental_expected_saved": {
+        "mean": 0.08395149999999774,
+        "standard_deviation": 0.05908230710203479,
+        "ci95_low": 0.002067600000007705,
+        "ci95_high": 0.16583539999998775,
+        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
+        "values": [
+          0.04217400000000282,
+          0.12572899999999265
+        ]
+      },
+      "step_gain_mean": 0.08395149999999774
     },
     {
-      "key": "best",
-      "label": "최적 배정: 3대 이동",
-      "seed": 42,
-      "is_best": true,
+      "step": 2,
+      "ambulance_id": "A10-1",
+      "post_id": "P055",
+      "post_name": "전북특별자치도 전주시 덕진구 덕진동1가 격자 6-6",
+      "post_location": "52110::standby::GRID-1KM-52110-006-006",
+      "home_base": "52110::ambulance_base::010",
+      "evaluated_moves": 154,
+      "assignment": {
+        "A05-1": "P049",
+        "A10-1": "P055"
+      },
+      "expected_saved": {
+        "mean": 87.4321605,
+        "standard_deviation": 11.14326111648652,
+        "ci95_low": 71.98838852,
+        "ci95_high": 102.87593247999999,
+        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
+        "values": [
+          79.552685,
+          95.311636
+        ]
+      },
+      "incremental_expected_saved": {
+        "mean": 0.15320299999999065,
+        "standard_deviation": 0.016375178838714623,
+        "ci95_low": 0.13050815999999543,
+        "ci95_high": 0.17589783999998587,
+        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
+        "values": [
+          0.1416239999999931,
+          0.16478199999998822
+        ]
+      },
+      "step_gain_mean": 0.06925149999999292
+    },
+    {
+      "step": 3,
+      "ambulance_id": "A07-1",
+      "post_id": "P063",
+      "post_name": "전북특별자치도 전주시 덕진구 송천동1가 격자 7-6",
+      "post_location": "52110::standby::GRID-1KM-52110-007-006",
+      "home_base": "52110::ambulance_base::007",
+      "evaluated_moves": 130,
       "assignment": {
         "A05-1": "P049",
         "A10-1": "P055",
         "A07-1": "P063"
       },
-      "moved_ambulances": [
-        "A05-1",
-        "A10-1",
-        "A07-1"
-      ],
-      "patients": 91,
-      "expected_saved": 79.536115,
-      "expected_lost": 11.463885,
-      "expected_saved_per_patient": 0.874023244624052,
-      "response": {
-        "mean_minutes": 6.7991372828383545,
-        "p90_minutes": 10.983333333333348,
-        "reached_patients": 91,
-        "unreached_patients": 0,
-        "response_rate": 1.0
+      "expected_saved": {
+        "mean": 87.518733,
+        "standard_deviation": 11.289126638843594,
+        "ci95_low": 71.87280172,
+        "ci95_high": 103.16466428,
+        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
+        "values": [
+          79.536115,
+          95.501351
+        ]
       },
-      "events": {
-        "patient_arrival": 91,
-        "arrive_scene": 91,
-        "scene_complete": 91,
-        "arrive_hospital": 273,
-        "transfer_ready": 182,
-        "shift_change": 3,
-        "restock_complete": 91,
-        "reposition_complete": 94,
-        "hospital_release": 273
+      "incremental_expected_saved": {
+        "mean": 0.23977549999999326,
+        "standard_deviation": 0.16224070119578743,
+        "ci95_low": 0.01492135999998992,
+        "ci95_high": 0.4646296399999966,
+        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
+        "values": [
+          0.12505399999999156,
+          0.35449699999999496
+        ]
       },
-      "frame_count": 1191,
-      "log_entry_count": 1462
+      "step_gain_mean": 0.0865725000000026
     }
   ],
   "provenance": {
@@ -407,5 +456,35 @@
       "cooldown_minutes": 360.0,
       "episode_rule": "patients arrive only before the cut-off; the run continues through the cool-down so they can be resolved"
     }
+  },
+  "schedule": {
+    "free_hours": [
+      0,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "home_hours": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
   }
 }

@@ -20,22 +20,20 @@
 
 결과 파일: `outputs/suwon_grid_k1/hospital_placement_result.json` — 실행 중(20 episode, 11:13 시작). 완료 시 이 절을 갱신한다.
 
-## 3. 전주시 구급차 상시대기 재배치 (예비, 2 episode, 이동 3대, 후보 사전선별 15곳)
+## 3. 전주시 구급차 상시대기 재배치 (예비, 2 episode, 이동 3대, 격자 칸만 후보)
 
-결과 파일: `outputs/jeonju_standby_test/standby_placement_result.json`
-시뮬레이터: `outputs/jeonju_standby_simulator.html`
+결과 파일: `outputs/jeonju_standby_grid_test/standby_placement_result.json`
+시뮬레이터: `outputs/jeonju_standby_simulator.html` (https://choi-0912.github.io/2026_2_CS_OT_6/outputs/jeonju_standby_simulator.html)
 
 | 항목 | 값 |
 |---|---|
-| 기준안(전원 원소속 대기) 하루 기대 생존자 | 87.30명 (환자 약 104명) |
-| 3대 이동 후 | 87.48명, 증분 +0.176명/일 (0.019~0.333, episode 2개) |
-| 이동 1 | 평화119안전센터 차량 → 서신119안전센터 대기 |
-| 이동 2 | 조촌119안전센터 차량 → 교동119안전센터 대기 |
-| 이동 3 | 전미119안전센터 차량 → 덕진구 송천동1가 격자 7-6 (칸 추정 인구 약 1만 명) |
+| 기준안(전원 원소속 대기) 하루 기대 생존자 | 87.28명 (환자 약 104명) |
+| 3대 이동 후 | 87.52명, 증분 +0.240명/일 (95% CI 0.015~0.465, episode 2개) |
+| 이동 1 | 평화119안전센터 차량 → 덕진구 인후동2가 격자 5-8 (칸 인구 약 4,900명), +0.084 |
+| 이동 2 | 조촌119안전센터 차량 → 덕진구 덕진동1가 격자 6-6 (약 3,900명), +0.069 |
+| 이동 3 | 아중119안전센터 차량 → 덕진구 송천동1가 격자 7-6 (약 10,700명), +0.087 |
 
-seed 42 하루 재생: 기준안 79.41 → 최적 79.58.
-
-10 episode 예비 실행(`outputs/jeonju_standby_prelim/`)은 실행 중이다.
+세 이동 모두 덕진구 방향이며 완산구 차량은 이동 이득이 없었다. 안전센터 간 이동을 허용한 이전 시험(+0.176, `outputs/jeonju_standby_test/`)은 사용자 규칙(새 격자로만 이동)에 맞지 않아 참고용으로만 남긴다.
 
 ## 4. 해석 (두 문제 공통)
 

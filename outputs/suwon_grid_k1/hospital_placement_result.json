@@ -1,7 +1,6 @@
-wrote: outputs\suwon_grid_k1\hospital_placement_result.json
 {
   "municipality_code": "41110",
-  "municipality_name": "¼ö¿ø½Ã",
+  "municipality_name": "ìˆ˜ì›ì‹œ",
   "objective": "local expected survivors",
   "cross_municipality_resources_allowed": false,
   "search": "exact exhaustive combinations",
@@ -42,7 +41,7 @@ wrote: outputs\suwon_grid_k1\hospital_placement_result.json
       "C02"
     ],
     "candidate_names": [
-      "¿µÅë±¸º¸°Ç¼Ò"
+      "ì˜í†µêµ¬ë³´ê±´ì†Œ"
     ],
     "total_cost": 1.0,
     "expected_saved": {
@@ -254,7 +253,7 @@ wrote: outputs\suwon_grid_k1\hospital_placement_result.json
         "C02"
       ],
       "candidate_names": [
-        "¿µÅë±¸º¸°Ç¼Ò"
+        "ì˜í†µêµ¬ë³´ê±´ì†Œ"
       ],
       "total_cost": 1.0,
       "expected_saved": {
@@ -465,7 +464,7 @@ wrote: outputs\suwon_grid_k1\hospital_placement_result.json
         "C03"
       ],
       "candidate_names": [
-        "Àå¾È±¸º¸°Ç¼Ò"
+        "ì¥ì•ˆêµ¬ë³´ê±´ì†Œ"
       ],
       "total_cost": 1.0,
       "expected_saved": {
@@ -676,7 +675,7 @@ wrote: outputs\suwon_grid_k1\hospital_placement_result.json
         "C04"
       ],
       "candidate_names": [
-        "ÆÈ´Ş±¸º¸°Ç¼Ò"
+        "íŒ”ë‹¬êµ¬ë³´ê±´ì†Œ"
       ],
       "total_cost": 1.0,
       "expected_saved": {
@@ -887,7 +886,7 @@ wrote: outputs\suwon_grid_k1\hospital_placement_result.json
         "C01"
       ],
       "candidate_names": [
-        "¼ö¿ø½Ã±Ç¼±±¸º¸°Ç¼Ò"
+        "ìˆ˜ì›ì‹œê¶Œì„ êµ¬ë³´ê±´ì†Œ"
       ],
       "total_cost": 1.0,
       "expected_saved": {
@@ -1119,13 +1118,13 @@ wrote: outputs\suwon_grid_k1\hospital_placement_result.json
           "2024"
         ]
       },
-      "treatment_success_basis": "temporary category-level coefficients copied from scripts/build_folium_municipal_simulator.py (0.86 for categories containing '¼¾ÅÍ', 0.78 for Áö¿ªÀÀ±ŞÀÇ·á±â°ü, 0.25 when no bed is open, 75-minute bed occupancy, 5-minute transfer delay); not observed hospital outcomes",
+      "treatment_success_basis": "temporary category-level coefficients copied from scripts/build_folium_municipal_simulator.py (0.86 for categories containing 'ì„¼í„°', 0.78 for ì§€ì—­ì‘ê¸‰ì˜ë£Œê¸°ê´€, 0.25 when no bed is open, 75-minute bed occupancy, 5-minute transfer delay); not observed hospital outcomes",
       "official_identifiers": "scenario.json hospitals.<id>.official_identifiers",
       "dataset_details": "see provenance.sources"
     },
     "demand_source": {
       "method": "population_proportional_provincial_dispatches",
-      "basis": "temporary estimate: official 2023 Gyeonggi headquarters dispatch total (data/raw/nfa_headquarters_ambulance_activity_20260910/nfa_headquarters_ambulance_activity_20231231.csv, º»ºÎ±¸ºĞ=°æ±â, ³âµµ=2023) divided by 365.25 and allocated by 2026-08 resident-population share; not observed municipal 119 calls",
+      "basis": "temporary estimate: official 2023 Gyeonggi headquarters dispatch total (data/raw/nfa_headquarters_ambulance_activity_20260910/nfa_headquarters_ambulance_activity_20231231.csv, ë³¸ë¶€êµ¬ë¶„=ê²½ê¸°, ë…„ë„=2023) divided by 365.25 and allocated by 2026-08 resident-population share; not observed municipal 119 calls",
       "year": 2023,
       "provincial_annual_dispatches": 846564,
       "provincial_population_reference": "MOIS resident population 2026-08 (sum of the 31 municipalities in municipality_summary.csv)",
@@ -1147,7 +1146,7 @@ wrote: outputs\suwon_grid_k1\hospital_placement_result.json
         "requires_planning_review_existing_public_health_facility"
       ],
       "interpretation": "existing public-health facilities; requires planning review before any site is presented as feasible",
-      "model_assumption": "temporary planning assumption: every new-build candidate is modelled as a Áö¿ªÀÀ±ŞÀÇ·á±â°ü with 20 emergency-room beds, 75-minute bed occupancy and unit cost; not a design or budget figure"
+      "model_assumption": "temporary planning assumption: every new-build candidate is modelled as a ì§€ì—­ì‘ê¸‰ì˜ë£Œê¸°ê´€ with 20 emergency-room beds, 75-minute bed occupancy and unit cost; not a design or budget figure"
     },
     "road_time_source": {
       "provider": "Kakao Mobility Directions API",
@@ -1167,37 +1166,37 @@ wrote: outputs\suwon_grid_k1\hospital_placement_result.json
     "sources": [
       {
         "id": "S1",
-        "title": "¼Ò¹æÃ» º»ºÎº° ±¸±ŞÈ°µ¿Á¤º¸ (2023-12-31 ±âÁØ, nfa_headquarters_ambulance_activity_20231231.csv)",
+        "title": "ì†Œë°©ì²­ ë³¸ë¶€ë³„ êµ¬ê¸‰í™œë™ì •ë³´ (2023-12-31 ê¸°ì¤€, nfa_headquarters_ambulance_activity_20231231.csv)",
         "url": "https://www.data.go.kr/data/15080046/fileData.do",
         "used_for": "demand: 2023 Gyeonggi annual dispatch total (846,564)"
       },
       {
         "id": "S2",
-        "title": "ÇàÁ¤¾ÈÀüºÎ ÁÖ¹Îµî·Ï ÀÎ±¸ ¹× ¼¼´ëÇöÈ² ÀüÃ¼ À¾¸éµ¿ (2026-08)",
+        "title": "í–‰ì •ì•ˆì „ë¶€ ì£¼ë¯¼ë“±ë¡ ì¸êµ¬ ë° ì„¸ëŒ€í˜„í™© ì „ì²´ ìë©´ë™ (2026-08)",
         "url": "https://jumin.mois.go.kr/statMonth.do",
         "used_for": "demand: municipal and administrative-dong population shares"
       },
       {
         "id": "S3",
-        "title": "°æ±âµµ ÀÀ±ŞÀÇ·á±â°ü ÇöÈ² (±âÁØÀÏ 2025-09-17)",
+        "title": "ê²½ê¸°ë„ ì‘ê¸‰ì˜ë£Œê¸°ê´€ í˜„í™© (ê¸°ì¤€ì¼ 2025-09-17)",
         "url": "https://www.data.go.kr/data/15011313/fileData.do",
         "used_for": "hospital: existing emergency institution registry, category, coordinates"
       },
       {
         "id": "S4",
-        "title": "°Ç°­º¸Çè½É»çÆò°¡¿ø Àü±¹ º´ÀÇ¿ø ¹× ¾à±¹ ÇöÈ² 2026.6",
+        "title": "ê±´ê°•ë³´í—˜ì‹¬ì‚¬í‰ê°€ì› ì „êµ­ ë³‘ì˜ì› ë° ì•½êµ­ í˜„í™© 2026.6",
         "url": "https://opendata.hira.or.kr/op/opc/selectOpenData.do?sno=11925",
         "used_for": "hospital: static emergency-room bed capacity (not real-time availability)"
       },
       {
         "id": "S5",
-        "title": "±¹¸³Áß¾ÓÀÇ·á¿ø Áß¾ÓÀÀ±ŞÀÇ·á¼¾ÅÍ 2024³âµµ ÀÀ±ŞÀÇ·á±â°ü Æò°¡",
+        "title": "êµ­ë¦½ì¤‘ì•™ì˜ë£Œì› ì¤‘ì•™ì‘ê¸‰ì˜ë£Œì„¼í„° 2024ë…„ë„ ì‘ê¸‰ì˜ë£Œê¸°ê´€ í‰ê°€",
         "url": "https://www.e-gen.or.kr/nemc/business_medical_institution_evaluation.do?tabId=9",
         "used_for": "hospital: E-Gen institution code and evaluation grade preserved as official identifiers"
       },
       {
         "id": "S6",
-        "title": "º¸°Çº¹ÁöºÎ Àü±¹ Áö¿ªº¸°ÇÀÇ·á±â°ü ÇöÈ² (2025-12-31)",
+        "title": "ë³´ê±´ë³µì§€ë¶€ ì „êµ­ ì§€ì—­ë³´ê±´ì˜ë£Œê¸°ê´€ í˜„í™© (2025-12-31)",
         "url": "https://www.data.go.kr/data/3072692/fileData.do",
         "used_for": "candidate: existing public-health facilities used as planning-review candidate sites"
       },
