@@ -289,15 +289,19 @@ class Simulation:
         success = hospital.treatment_success(patient)
         # Capacity is reserved only after the arrival's service quality has been
         # evaluated.  Thus the final open bed is usable by this patient.
-        if hospital.reserve_bed():
+        treated = patient.profile.name in hospital.capabilities and hospital.reserve_bed()
+        if treated:
             self.schedule(self.now + max(0.0, hospital.treatment_minutes), EventKind.HOSPITAL_RELEASE, hospital_id=hospital.id)
         self._save(patient, alive * success)
         patient.remaining_mass *= 1 - success
+        # A patient who was actually admitted and treated has a final outcome: the
+        # unsuccessful share is lost, never re-treated elsewhere.  Transfers exist only
+        # for patients the hospital could not admit (no bed / no capability).
         if patient.remaining_mass <= self.mass_epsilon:
             patient.status = PatientStatus.COMPLETE
             self._begin_restock(ambulance)
             return
-        if patient.transfers >= self.scenario.max_transfers:
+        if treated or patient.transfers >= self.scenario.max_transfers:
             self._lose(patient)
             self._begin_restock(ambulance)
             return

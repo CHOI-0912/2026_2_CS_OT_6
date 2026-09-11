@@ -8,25 +8,25 @@ wrote: outputs\suwon_grid_k1\hospital_placement_result.json
   "new_hospitals": 1,
   "episodes": 10,
   "baseline_existing_only": {
-    "mean": 185.5827444,
-    "standard_deviation": 11.255657273726523,
-    "ci95_low": 178.60641574474545,
-    "ci95_high": 192.55907305525454,
+    "mean": 177.193084,
+    "standard_deviation": 10.148572357978377,
+    "ci95_low": 170.9029336845535,
+    "ci95_high": 183.4832343154465,
     "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
     "values": [
-      187.758295,
-      187.185998,
-      202.274878,
-      194.421771,
-      167.499351,
-      185.101382,
-      176.630138,
-      189.377814,
-      169.774577,
-      195.80324
+      180.019399,
+      178.063178,
+      191.559349,
+      185.815244,
+      160.672944,
+      176.015544,
+      169.676553,
+      181.521987,
+      162.650537,
+      185.936105
     ]
   },
-  "baseline_expected_saved_mean": 185.5827444,
+  "baseline_expected_saved_mean": 177.193084,
   "best": {
     "candidate_ids": [
       "C11"
@@ -36,115 +36,115 @@ wrote: outputs\suwon_grid_k1\hospital_placement_result.json
     ],
     "total_cost": 1.0,
     "expected_saved": {
-      "mean": 185.70063850000003,
-      "standard_deviation": 11.30284270525622,
-      "ci95_low": 178.69506401128717,
-      "ci95_high": 192.70621298871288,
+      "mean": 177.2141316,
+      "standard_deviation": 10.150318504096415,
+      "ci95_low": 170.92289901197682,
+      "ci95_high": 183.50536418802318,
       "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
       "values": [
-        187.757225,
-        187.199614,
-        202.612192,
-        194.503545,
-        167.673874,
-        185.190513,
-        176.694073,
-        189.530016,
-        169.819634,
-        196.025699
+        180.029972,
+        178.064459,
+        191.591951,
+        185.840246,
+        160.704311,
+        176.042355,
+        169.695175,
+        181.566217,
+        162.660531,
+        185.946099
       ]
     },
     "incremental_expected_saved": {
-      "mean": 0.11789410000000373,
-      "standard_deviation": 0.10479501659530926,
-      "ci95_low": 0.05294147578424481,
-      "ci95_high": 0.18284672421576265,
+      "mean": 0.021047599999994303,
+      "standard_deviation": 0.01323696552336057,
+      "ci95_low": 0.012843243768857638,
+      "ci95_high": 0.029251956231130968,
       "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
       "values": [
-        -0.001069999999998572,
-        0.013615999999984751,
-        0.3373139999999921,
-        0.0817739999999958,
-        0.17452300000002197,
-        0.08913100000000895,
-        0.06393500000001495,
-        0.1522019999999884,
-        0.045057000000014114,
-        0.22245900000001484
+        0.010572999999993726,
+        0.0012810000000058608,
+        0.03260199999999713,
+        0.025002000000000635,
+        0.03136699999998882,
+        0.026810999999980822,
+        0.018621999999993477,
+        0.04422999999999888,
+        0.009993999999977632,
+        0.009994000000006054
       ]
     },
-    "expected_saved_mean": 185.70063850000003,
-    "incremental_expected_saved_mean": 0.11789410000000373,
+    "expected_saved_mean": 177.2141316,
+    "incremental_expected_saved_mean": 0.021047599999994303,
     "episodes": [
       {
         "episode": 0,
         "seed": 42,
-        "expected_saved": 187.757225,
-        "baseline": 187.758295,
-        "difference": -0.001069999999998572
+        "expected_saved": 180.029972,
+        "baseline": 180.019399,
+        "difference": 0.010572999999993726
       },
       {
         "episode": 1,
         "seed": 43,
-        "expected_saved": 187.199614,
-        "baseline": 187.185998,
-        "difference": 0.013615999999984751
+        "expected_saved": 178.064459,
+        "baseline": 178.063178,
+        "difference": 0.0012810000000058608
       },
       {
         "episode": 2,
         "seed": 44,
-        "expected_saved": 202.612192,
-        "baseline": 202.274878,
-        "difference": 0.3373139999999921
+        "expected_saved": 191.591951,
+        "baseline": 191.559349,
+        "difference": 0.03260199999999713
       },
       {
         "episode": 3,
         "seed": 45,
-        "expected_saved": 194.503545,
-        "baseline": 194.421771,
-        "difference": 0.0817739999999958
+        "expected_saved": 185.840246,
+        "baseline": 185.815244,
+        "difference": 0.025002000000000635
       },
       {
         "episode": 4,
         "seed": 46,
-        "expected_saved": 167.673874,
-        "baseline": 167.499351,
-        "difference": 0.17452300000002197
+        "expected_saved": 160.704311,
+        "baseline": 160.672944,
+        "difference": 0.03136699999998882
       },
       {
         "episode": 5,
         "seed": 47,
-        "expected_saved": 185.190513,
-        "baseline": 185.101382,
-        "difference": 0.08913100000000895
+        "expected_saved": 176.042355,
+        "baseline": 176.015544,
+        "difference": 0.026810999999980822
       },
       {
         "episode": 6,
         "seed": 48,
-        "expected_saved": 176.694073,
-        "baseline": 176.630138,
-        "difference": 0.06393500000001495
+        "expected_saved": 169.695175,
+        "baseline": 169.676553,
+        "difference": 0.018621999999993477
       },
       {
         "episode": 7,
         "seed": 49,
-        "expected_saved": 189.530016,
-        "baseline": 189.377814,
-        "difference": 0.1522019999999884
+        "expected_saved": 181.566217,
+        "baseline": 181.521987,
+        "difference": 0.04422999999999888
       },
       {
         "episode": 8,
         "seed": 50,
-        "expected_saved": 169.819634,
-        "baseline": 169.774577,
-        "difference": 0.045057000000014114
+        "expected_saved": 162.660531,
+        "baseline": 162.650537,
+        "difference": 0.009993999999977632
       },
       {
         "episode": 9,
         "seed": 51,
-        "expected_saved": 196.025699,
-        "baseline": 195.80324,
-        "difference": 0.22245900000001484
+        "expected_saved": 185.946099,
+        "baseline": 185.936105,
+        "difference": 0.009994000000006054
       }
     ]
   },
@@ -158,236 +158,115 @@ wrote: outputs\suwon_grid_k1\hospital_placement_result.json
       ],
       "total_cost": 1.0,
       "expected_saved": {
-        "mean": 185.70063850000003,
-        "standard_deviation": 11.30284270525622,
-        "ci95_low": 178.69506401128717,
-        "ci95_high": 192.70621298871288,
+        "mean": 177.2141316,
+        "standard_deviation": 10.150318504096415,
+        "ci95_low": 170.92289901197682,
+        "ci95_high": 183.50536418802318,
         "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
         "values": [
-          187.757225,
-          187.199614,
-          202.612192,
-          194.503545,
-          167.673874,
-          185.190513,
-          176.694073,
-          189.530016,
-          169.819634,
-          196.025699
+          180.029972,
+          178.064459,
+          191.591951,
+          185.840246,
+          160.704311,
+          176.042355,
+          169.695175,
+          181.566217,
+          162.660531,
+          185.946099
         ]
       },
       "incremental_expected_saved": {
-        "mean": 0.11789410000000373,
-        "standard_deviation": 0.10479501659530926,
-        "ci95_low": 0.05294147578424481,
-        "ci95_high": 0.18284672421576265,
+        "mean": 0.021047599999994303,
+        "standard_deviation": 0.01323696552336057,
+        "ci95_low": 0.012843243768857638,
+        "ci95_high": 0.029251956231130968,
         "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
         "values": [
-          -0.001069999999998572,
-          0.013615999999984751,
-          0.3373139999999921,
-          0.0817739999999958,
-          0.17452300000002197,
-          0.08913100000000895,
-          0.06393500000001495,
-          0.1522019999999884,
-          0.045057000000014114,
-          0.22245900000001484
+          0.010572999999993726,
+          0.0012810000000058608,
+          0.03260199999999713,
+          0.025002000000000635,
+          0.03136699999998882,
+          0.026810999999980822,
+          0.018621999999993477,
+          0.04422999999999888,
+          0.009993999999977632,
+          0.009994000000006054
         ]
       },
-      "expected_saved_mean": 185.70063850000003,
-      "incremental_expected_saved_mean": 0.11789410000000373,
+      "expected_saved_mean": 177.2141316,
+      "incremental_expected_saved_mean": 0.021047599999994303,
       "episodes": [
         {
           "episode": 0,
           "seed": 42,
-          "expected_saved": 187.757225,
-          "baseline": 187.758295,
-          "difference": -0.001069999999998572
+          "expected_saved": 180.029972,
+          "baseline": 180.019399,
+          "difference": 0.010572999999993726
         },
         {
           "episode": 1,
           "seed": 43,
-          "expected_saved": 187.199614,
-          "baseline": 187.185998,
-          "difference": 0.013615999999984751
+          "expected_saved": 178.064459,
+          "baseline": 178.063178,
+          "difference": 0.0012810000000058608
         },
         {
           "episode": 2,
           "seed": 44,
-          "expected_saved": 202.612192,
-          "baseline": 202.274878,
-          "difference": 0.3373139999999921
+          "expected_saved": 191.591951,
+          "baseline": 191.559349,
+          "difference": 0.03260199999999713
         },
         {
           "episode": 3,
           "seed": 45,
-          "expected_saved": 194.503545,
-          "baseline": 194.421771,
-          "difference": 0.0817739999999958
+          "expected_saved": 185.840246,
+          "baseline": 185.815244,
+          "difference": 0.025002000000000635
         },
         {
           "episode": 4,
           "seed": 46,
-          "expected_saved": 167.673874,
-          "baseline": 167.499351,
-          "difference": 0.17452300000002197
+          "expected_saved": 160.704311,
+          "baseline": 160.672944,
+          "difference": 0.03136699999998882
         },
         {
           "episode": 5,
           "seed": 47,
-          "expected_saved": 185.190513,
-          "baseline": 185.101382,
-          "difference": 0.08913100000000895
+          "expected_saved": 176.042355,
+          "baseline": 176.015544,
+          "difference": 0.026810999999980822
         },
         {
           "episode": 6,
           "seed": 48,
-          "expected_saved": 176.694073,
-          "baseline": 176.630138,
-          "difference": 0.06393500000001495
+          "expected_saved": 169.695175,
+          "baseline": 169.676553,
+          "difference": 0.018621999999993477
         },
         {
           "episode": 7,
           "seed": 49,
-          "expected_saved": 189.530016,
-          "baseline": 189.377814,
-          "difference": 0.1522019999999884
+          "expected_saved": 181.566217,
+          "baseline": 181.521987,
+          "difference": 0.04422999999999888
         },
         {
           "episode": 8,
           "seed": 50,
-          "expected_saved": 169.819634,
-          "baseline": 169.774577,
-          "difference": 0.045057000000014114
+          "expected_saved": 162.660531,
+          "baseline": 162.650537,
+          "difference": 0.009993999999977632
         },
         {
           "episode": 9,
           "seed": 51,
-          "expected_saved": 196.025699,
-          "baseline": 195.80324,
-          "difference": 0.22245900000001484
-        }
-      ]
-    },
-    {
-      "candidate_ids": [
-        "C10"
-      ],
-      "candidate_names": [
-        "경기도 수원시 권선구 세류동 격자 2-6"
-      ],
-      "total_cost": 1.0,
-      "expected_saved": {
-        "mean": 185.6641931,
-        "standard_deviation": 11.288553605046994,
-        "ci95_low": 178.66747508735276,
-        "ci95_high": 192.66091111264726,
-        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
-        "values": [
-          187.831931,
-          187.1884,
-          202.416991,
-          194.422675,
-          167.560603,
-          185.194599,
-          176.68005,
-          189.541753,
-          169.796581,
-          196.008348
-        ]
-      },
-      "incremental_expected_saved": {
-        "mean": 0.0814487000000014,
-        "standard_deviation": 0.06964029206182551,
-        "ci95_low": 0.03828519979239783,
-        "ci95_high": 0.12461220020760497,
-        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
-        "values": [
-          0.07363599999999337,
-          0.002401999999989357,
-          0.14211299999999483,
-          0.0009039999999913562,
-          0.06125199999999609,
-          0.09321700000000988,
-          0.049912000000006174,
-          0.16393899999999917,
-          0.022004000000009682,
-          0.20510800000002405
-        ]
-      },
-      "expected_saved_mean": 185.6641931,
-      "incremental_expected_saved_mean": 0.0814487000000014,
-      "episodes": [
-        {
-          "episode": 0,
-          "seed": 42,
-          "expected_saved": 187.831931,
-          "baseline": 187.758295,
-          "difference": 0.07363599999999337
-        },
-        {
-          "episode": 1,
-          "seed": 43,
-          "expected_saved": 187.1884,
-          "baseline": 187.185998,
-          "difference": 0.002401999999989357
-        },
-        {
-          "episode": 2,
-          "seed": 44,
-          "expected_saved": 202.416991,
-          "baseline": 202.274878,
-          "difference": 0.14211299999999483
-        },
-        {
-          "episode": 3,
-          "seed": 45,
-          "expected_saved": 194.422675,
-          "baseline": 194.421771,
-          "difference": 0.0009039999999913562
-        },
-        {
-          "episode": 4,
-          "seed": 46,
-          "expected_saved": 167.560603,
-          "baseline": 167.499351,
-          "difference": 0.06125199999999609
-        },
-        {
-          "episode": 5,
-          "seed": 47,
-          "expected_saved": 185.194599,
-          "baseline": 185.101382,
-          "difference": 0.09321700000000988
-        },
-        {
-          "episode": 6,
-          "seed": 48,
-          "expected_saved": 176.68005,
-          "baseline": 176.630138,
-          "difference": 0.049912000000006174
-        },
-        {
-          "episode": 7,
-          "seed": 49,
-          "expected_saved": 189.541753,
-          "baseline": 189.377814,
-          "difference": 0.16393899999999917
-        },
-        {
-          "episode": 8,
-          "seed": 50,
-          "expected_saved": 169.796581,
-          "baseline": 169.774577,
-          "difference": 0.022004000000009682
-        },
-        {
-          "episode": 9,
-          "seed": 51,
-          "expected_saved": 196.008348,
-          "baseline": 195.80324,
-          "difference": 0.20510800000002405
+          "expected_saved": 185.946099,
+          "baseline": 185.936105,
+          "difference": 0.009994000000006054
         }
       ]
     },
@@ -400,478 +279,236 @@ wrote: outputs\suwon_grid_k1\hospital_placement_result.json
       ],
       "total_cost": 1.0,
       "expected_saved": {
-        "mean": 185.6592269,
-        "standard_deviation": 11.279043163730536,
-        "ci95_low": 178.66840351995097,
-        "ci95_high": 192.65005028004902,
+        "mean": 177.2056837,
+        "standard_deviation": 10.14874433620994,
+        "ci95_low": 170.91542679134122,
+        "ci95_high": 183.4959406086588,
         "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
         "values": [
-          187.872906,
-          187.188016,
-          202.478155,
-          194.383381,
-          167.602537,
-          185.110016,
-          176.688888,
-          189.542627,
-          169.801595,
-          195.924148
+          180.04611,
+          178.063178,
+          191.579873,
+          185.818882,
+          160.690182,
+          176.039283,
+          169.689556,
+          181.533799,
+          162.655203,
+          185.940771
         ]
       },
       "incremental_expected_saved": {
-        "mean": 0.07648250000000303,
-        "standard_deviation": 0.07754916520827258,
-        "ci95_low": 0.02841702943024888,
-        "ci95_high": 0.1245479705697572,
+        "mean": 0.012599699999998392,
+        "standard_deviation": 0.00926916015673141,
+        "ci95_low": 0.006854615013936097,
+        "ci95_high": 0.018344784986060687,
         "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
         "values": [
-          0.11461099999999647,
-          0.0020179999999925258,
-          0.20327699999998572,
-          -0.0383899999999926,
-          0.1031860000000222,
-          0.008634000000000697,
-          0.05875000000000341,
-          0.16481300000000942,
-          0.02701799999999821,
-          0.12090800000001423
+          0.026711000000005924,
+          0.0,
+          0.020523999999994658,
+          0.003637999999995145,
+          0.01723799999999187,
+          0.023739000000006172,
+          0.013002999999997655,
+          0.01181199999999194,
+          0.00466599999998607,
+          0.004666000000014492
         ]
       },
-      "expected_saved_mean": 185.6592269,
-      "incremental_expected_saved_mean": 0.07648250000000303,
+      "expected_saved_mean": 177.2056837,
+      "incremental_expected_saved_mean": 0.012599699999998392,
       "episodes": [
         {
           "episode": 0,
           "seed": 42,
-          "expected_saved": 187.872906,
-          "baseline": 187.758295,
-          "difference": 0.11461099999999647
+          "expected_saved": 180.04611,
+          "baseline": 180.019399,
+          "difference": 0.026711000000005924
         },
         {
           "episode": 1,
           "seed": 43,
-          "expected_saved": 187.188016,
-          "baseline": 187.185998,
-          "difference": 0.0020179999999925258
+          "expected_saved": 178.063178,
+          "baseline": 178.063178,
+          "difference": 0.0
         },
         {
           "episode": 2,
           "seed": 44,
-          "expected_saved": 202.478155,
-          "baseline": 202.274878,
-          "difference": 0.20327699999998572
+          "expected_saved": 191.579873,
+          "baseline": 191.559349,
+          "difference": 0.020523999999994658
         },
         {
           "episode": 3,
           "seed": 45,
-          "expected_saved": 194.383381,
-          "baseline": 194.421771,
-          "difference": -0.0383899999999926
+          "expected_saved": 185.818882,
+          "baseline": 185.815244,
+          "difference": 0.003637999999995145
         },
         {
           "episode": 4,
           "seed": 46,
-          "expected_saved": 167.602537,
-          "baseline": 167.499351,
-          "difference": 0.1031860000000222
+          "expected_saved": 160.690182,
+          "baseline": 160.672944,
+          "difference": 0.01723799999999187
         },
         {
           "episode": 5,
           "seed": 47,
-          "expected_saved": 185.110016,
-          "baseline": 185.101382,
-          "difference": 0.008634000000000697
+          "expected_saved": 176.039283,
+          "baseline": 176.015544,
+          "difference": 0.023739000000006172
         },
         {
           "episode": 6,
           "seed": 48,
-          "expected_saved": 176.688888,
-          "baseline": 176.630138,
-          "difference": 0.05875000000000341
+          "expected_saved": 169.689556,
+          "baseline": 169.676553,
+          "difference": 0.013002999999997655
         },
         {
           "episode": 7,
           "seed": 49,
-          "expected_saved": 189.542627,
-          "baseline": 189.377814,
-          "difference": 0.16481300000000942
+          "expected_saved": 181.533799,
+          "baseline": 181.521987,
+          "difference": 0.01181199999999194
         },
         {
           "episode": 8,
           "seed": 50,
-          "expected_saved": 169.801595,
-          "baseline": 169.774577,
-          "difference": 0.02701799999999821
+          "expected_saved": 162.655203,
+          "baseline": 162.650537,
+          "difference": 0.00466599999998607
         },
         {
           "episode": 9,
           "seed": 51,
-          "expected_saved": 195.924148,
-          "baseline": 195.80324,
-          "difference": 0.12090800000001423
+          "expected_saved": 185.940771,
+          "baseline": 185.936105,
+          "difference": 0.004666000000014492
         }
       ]
     },
     {
       "candidate_ids": [
-        "C03"
+        "C02"
       ],
       "candidate_names": [
-        "경기도 수원시 권선구 곡반정동 격자 0-7"
+        "경기도 수원시 권선구 대황교동 격자 0-6"
       ],
       "total_cost": 1.0,
       "expected_saved": {
-        "mean": 185.6423633,
-        "standard_deviation": 11.271926235110014,
-        "ci95_low": 178.65595103801056,
-        "ci95_high": 192.62877556198944,
+        "mean": 177.2056451,
+        "standard_deviation": 10.146782677474809,
+        "ci95_low": 170.91660404002184,
+        "ci95_high": 183.49468615997816,
         "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
         "values": [
-          187.827872,
-          187.18601,
-          202.318701,
-          194.46634,
-          167.517678,
-          185.199199,
-          176.724394,
-          189.491975,
-          169.774921,
-          195.916543
+          180.027903,
+          178.063178,
+          191.574946,
+          185.815361,
+          160.693899,
+          176.041571,
+          169.686698,
+          181.545298,
+          162.661014,
+          185.946583
         ]
       },
       "incremental_expected_saved": {
-        "mean": 0.05961890000000096,
-        "standard_deviation": 0.044550019093272185,
-        "ci95_low": 0.032006512092810004,
-        "ci95_high": 0.08723128790719192,
+        "mean": 0.012561099999999215,
+        "standard_deviation": 0.008945404126640235,
+        "ci95_low": 0.007016681080352136,
+        "ci95_high": 0.018105518919646294,
         "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
         "values": [
-          0.06957700000000955,
-          1.1999999998124622e-05,
-          0.043823000000003276,
-          0.04456899999999564,
-          0.018326999999999316,
-          0.09781699999999205,
-          0.09425600000000145,
-          0.11416099999999574,
-          0.0003440000000125565,
-          0.11330300000000193
+          0.008504000000016276,
+          0.0,
+          0.01559700000001385,
+          0.00011699999998882049,
+          0.020954999999986512,
+          0.026026999999999134,
+          0.010144999999994297,
+          0.023311000000006743,
+          0.010476999999980308,
+          0.010478000000006205
         ]
       },
-      "expected_saved_mean": 185.6423633,
-      "incremental_expected_saved_mean": 0.05961890000000096,
+      "expected_saved_mean": 177.2056451,
+      "incremental_expected_saved_mean": 0.012561099999999215,
       "episodes": [
         {
           "episode": 0,
           "seed": 42,
-          "expected_saved": 187.827872,
-          "baseline": 187.758295,
-          "difference": 0.06957700000000955
+          "expected_saved": 180.027903,
+          "baseline": 180.019399,
+          "difference": 0.008504000000016276
         },
         {
           "episode": 1,
           "seed": 43,
-          "expected_saved": 187.18601,
-          "baseline": 187.185998,
-          "difference": 1.1999999998124622e-05
+          "expected_saved": 178.063178,
+          "baseline": 178.063178,
+          "difference": 0.0
         },
         {
           "episode": 2,
           "seed": 44,
-          "expected_saved": 202.318701,
-          "baseline": 202.274878,
-          "difference": 0.043823000000003276
+          "expected_saved": 191.574946,
+          "baseline": 191.559349,
+          "difference": 0.01559700000001385
         },
         {
           "episode": 3,
           "seed": 45,
-          "expected_saved": 194.46634,
-          "baseline": 194.421771,
-          "difference": 0.04456899999999564
+          "expected_saved": 185.815361,
+          "baseline": 185.815244,
+          "difference": 0.00011699999998882049
         },
         {
           "episode": 4,
           "seed": 46,
-          "expected_saved": 167.517678,
-          "baseline": 167.499351,
-          "difference": 0.018326999999999316
+          "expected_saved": 160.693899,
+          "baseline": 160.672944,
+          "difference": 0.020954999999986512
         },
         {
           "episode": 5,
           "seed": 47,
-          "expected_saved": 185.199199,
-          "baseline": 185.101382,
-          "difference": 0.09781699999999205
+          "expected_saved": 176.041571,
+          "baseline": 176.015544,
+          "difference": 0.026026999999999134
         },
         {
           "episode": 6,
           "seed": 48,
-          "expected_saved": 176.724394,
-          "baseline": 176.630138,
-          "difference": 0.09425600000000145
+          "expected_saved": 169.686698,
+          "baseline": 169.676553,
+          "difference": 0.010144999999994297
         },
         {
           "episode": 7,
           "seed": 49,
-          "expected_saved": 189.491975,
-          "baseline": 189.377814,
-          "difference": 0.11416099999999574
+          "expected_saved": 181.545298,
+          "baseline": 181.521987,
+          "difference": 0.023311000000006743
         },
         {
           "episode": 8,
           "seed": 50,
-          "expected_saved": 169.774921,
-          "baseline": 169.774577,
-          "difference": 0.0003440000000125565
+          "expected_saved": 162.661014,
+          "baseline": 162.650537,
+          "difference": 0.010476999999980308
         },
         {
           "episode": 9,
           "seed": 51,
-          "expected_saved": 195.916543,
-          "baseline": 195.80324,
-          "difference": 0.11330300000000193
-        }
-      ]
-    },
-    {
-      "candidate_ids": [
-        "C09"
-      ],
-      "candidate_names": [
-        "경기도 수원시 권선구 세류동 격자 2-5"
-      ],
-      "total_cost": 1.0,
-      "expected_saved": {
-        "mean": 185.6354274,
-        "standard_deviation": 11.294761128086117,
-        "ci95_low": 178.63486192471214,
-        "ci95_high": 192.63599287528785,
-        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
-        "values": [
-          187.8117,
-          187.187917,
-          202.391456,
-          194.425877,
-          167.495671,
-          185.144021,
-          176.647668,
-          189.484687,
-          169.788418,
-          195.976859
-        ]
-      },
-      "incremental_expected_saved": {
-        "mean": 0.05268300000000466,
-        "standard_deviation": 0.06018857145856035,
-        "ci95_low": 0.015377736915517366,
-        "ci95_high": 0.08998826308449195,
-        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
-        "values": [
-          0.053404999999997926,
-          0.0019189999999866814,
-          0.11657800000000407,
-          0.0041060000000072705,
-          -0.003680000000002792,
-          0.04263900000000831,
-          0.017530000000022028,
-          0.10687300000000732,
-          0.013841000000013537,
-          0.1736190000000022
-        ]
-      },
-      "expected_saved_mean": 185.6354274,
-      "incremental_expected_saved_mean": 0.05268300000000466,
-      "episodes": [
-        {
-          "episode": 0,
-          "seed": 42,
-          "expected_saved": 187.8117,
-          "baseline": 187.758295,
-          "difference": 0.053404999999997926
-        },
-        {
-          "episode": 1,
-          "seed": 43,
-          "expected_saved": 187.187917,
-          "baseline": 187.185998,
-          "difference": 0.0019189999999866814
-        },
-        {
-          "episode": 2,
-          "seed": 44,
-          "expected_saved": 202.391456,
-          "baseline": 202.274878,
-          "difference": 0.11657800000000407
-        },
-        {
-          "episode": 3,
-          "seed": 45,
-          "expected_saved": 194.425877,
-          "baseline": 194.421771,
-          "difference": 0.0041060000000072705
-        },
-        {
-          "episode": 4,
-          "seed": 46,
-          "expected_saved": 167.495671,
-          "baseline": 167.499351,
-          "difference": -0.003680000000002792
-        },
-        {
-          "episode": 5,
-          "seed": 47,
-          "expected_saved": 185.144021,
-          "baseline": 185.101382,
-          "difference": 0.04263900000000831
-        },
-        {
-          "episode": 6,
-          "seed": 48,
-          "expected_saved": 176.647668,
-          "baseline": 176.630138,
-          "difference": 0.017530000000022028
-        },
-        {
-          "episode": 7,
-          "seed": 49,
-          "expected_saved": 189.484687,
-          "baseline": 189.377814,
-          "difference": 0.10687300000000732
-        },
-        {
-          "episode": 8,
-          "seed": 50,
-          "expected_saved": 169.788418,
-          "baseline": 169.774577,
-          "difference": 0.013841000000013537
-        },
-        {
-          "episode": 9,
-          "seed": 51,
-          "expected_saved": 195.976859,
-          "baseline": 195.80324,
-          "difference": 0.1736190000000022
-        }
-      ]
-    },
-    {
-      "candidate_ids": [
-        "C14"
-      ],
-      "candidate_names": [
-        "경기도 수원시 권선구 구운동 격자 6-2"
-      ],
-      "total_cost": 1.0,
-      "expected_saved": {
-        "mean": 185.63371030000002,
-        "standard_deviation": 11.253809739353594,
-        "ci95_low": 178.65852675841356,
-        "ci95_high": 192.60889384158648,
-        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
-        "values": [
-          187.800017,
-          187.243594,
-          202.338637,
-          194.39006,
-          167.780831,
-          185.092645,
-          176.458672,
-          189.52024,
-          169.758729,
-          195.953678
-        ]
-      },
-      "incremental_expected_saved": {
-        "mean": 0.05096590000000276,
-        "standard_deviation": 0.12294055637805043,
-        "ci95_low": -0.025233446292741317,
-        "ci95_high": 0.12716524629274684,
-        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
-        "values": [
-          0.04172199999999293,
-          0.057595999999989544,
-          0.06375900000000456,
-          -0.03171100000000138,
-          0.28148000000001616,
-          -0.008736999999996442,
-          -0.17146599999998102,
-          0.14242600000000039,
-          -0.015848000000005413,
-          0.1504380000000083
-        ]
-      },
-      "expected_saved_mean": 185.63371030000002,
-      "incremental_expected_saved_mean": 0.05096590000000276,
-      "episodes": [
-        {
-          "episode": 0,
-          "seed": 42,
-          "expected_saved": 187.800017,
-          "baseline": 187.758295,
-          "difference": 0.04172199999999293
-        },
-        {
-          "episode": 1,
-          "seed": 43,
-          "expected_saved": 187.243594,
-          "baseline": 187.185998,
-          "difference": 0.057595999999989544
-        },
-        {
-          "episode": 2,
-          "seed": 44,
-          "expected_saved": 202.338637,
-          "baseline": 202.274878,
-          "difference": 0.06375900000000456
-        },
-        {
-          "episode": 3,
-          "seed": 45,
-          "expected_saved": 194.39006,
-          "baseline": 194.421771,
-          "difference": -0.03171100000000138
-        },
-        {
-          "episode": 4,
-          "seed": 46,
-          "expected_saved": 167.780831,
-          "baseline": 167.499351,
-          "difference": 0.28148000000001616
-        },
-        {
-          "episode": 5,
-          "seed": 47,
-          "expected_saved": 185.092645,
-          "baseline": 185.101382,
-          "difference": -0.008736999999996442
-        },
-        {
-          "episode": 6,
-          "seed": 48,
-          "expected_saved": 176.458672,
-          "baseline": 176.630138,
-          "difference": -0.17146599999998102
-        },
-        {
-          "episode": 7,
-          "seed": 49,
-          "expected_saved": 189.52024,
-          "baseline": 189.377814,
-          "difference": 0.14242600000000039
-        },
-        {
-          "episode": 8,
-          "seed": 50,
-          "expected_saved": 169.758729,
-          "baseline": 169.774577,
-          "difference": -0.015848000000005413
-        },
-        {
-          "episode": 9,
-          "seed": 51,
-          "expected_saved": 195.953678,
-          "baseline": 195.80324,
-          "difference": 0.1504380000000083
+          "expected_saved": 185.946583,
+          "baseline": 185.936105,
+          "difference": 0.010478000000006205
         }
       ]
     },
@@ -884,235 +521,840 @@ wrote: outputs\suwon_grid_k1\hospital_placement_result.json
       ],
       "total_cost": 1.0,
       "expected_saved": {
-        "mean": 185.6302475,
-        "standard_deviation": 11.281210137878139,
-        "ci95_low": 178.63808101545928,
-        "ci95_high": 192.6224139845407,
+        "mean": 177.199984,
+        "standard_deviation": 10.14657327948648,
+        "ci95_low": 170.91107272623964,
+        "ci95_high": 183.48889527376036,
         "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
         "values": [
-          187.795478,
-          187.338464,
-          202.330279,
-          194.387556,
-          167.581491,
-          185.091334,
-          176.552689,
-          189.517034,
-          169.753844,
-          195.954306
+          180.019399,
+          178.063178,
+          191.559349,
+          185.821238,
+          160.693071,
+          176.017343,
+          169.684693,
+          181.550732,
+          162.650537,
+          185.9403
         ]
       },
       "incremental_expected_saved": {
-        "mean": 0.04750309999999445,
-        "standard_deviation": 0.08285344499302025,
-        "ci95_low": -0.003849997241211399,
-        "ci95_high": 0.09885619724120029,
+        "mean": 0.0069000000000016826,
+        "standard_deviation": 0.009878670715798748,
+        "ci95_low": 0.0007771364555226121,
+        "ci95_high": 0.013022863544480753,
         "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
         "values": [
-          0.037182999999998856,
-          0.15246599999997557,
-          0.05540099999998915,
-          -0.034215000000017426,
-          0.08214000000000965,
-          -0.010048000000011825,
-          -0.07744900000000143,
-          0.13921999999999457,
-          -0.020733000000006996,
-          0.15106600000001436
+          0.0,
+          0.0,
+          0.0,
+          0.005993999999986954,
+          0.020127000000002226,
+          0.0017990000000054351,
+          0.008139999999997372,
+          0.028745000000014898,
+          0.0,
+          0.004195000000009941
         ]
       },
-      "expected_saved_mean": 185.6302475,
-      "incremental_expected_saved_mean": 0.04750309999999445,
+      "expected_saved_mean": 177.199984,
+      "incremental_expected_saved_mean": 0.0069000000000016826,
       "episodes": [
         {
           "episode": 0,
           "seed": 42,
-          "expected_saved": 187.795478,
-          "baseline": 187.758295,
-          "difference": 0.037182999999998856
+          "expected_saved": 180.019399,
+          "baseline": 180.019399,
+          "difference": 0.0
         },
         {
           "episode": 1,
           "seed": 43,
-          "expected_saved": 187.338464,
-          "baseline": 187.185998,
-          "difference": 0.15246599999997557
+          "expected_saved": 178.063178,
+          "baseline": 178.063178,
+          "difference": 0.0
         },
         {
           "episode": 2,
           "seed": 44,
-          "expected_saved": 202.330279,
-          "baseline": 202.274878,
-          "difference": 0.05540099999998915
+          "expected_saved": 191.559349,
+          "baseline": 191.559349,
+          "difference": 0.0
         },
         {
           "episode": 3,
           "seed": 45,
-          "expected_saved": 194.387556,
-          "baseline": 194.421771,
-          "difference": -0.034215000000017426
+          "expected_saved": 185.821238,
+          "baseline": 185.815244,
+          "difference": 0.005993999999986954
         },
         {
           "episode": 4,
           "seed": 46,
-          "expected_saved": 167.581491,
-          "baseline": 167.499351,
-          "difference": 0.08214000000000965
+          "expected_saved": 160.693071,
+          "baseline": 160.672944,
+          "difference": 0.020127000000002226
         },
         {
           "episode": 5,
           "seed": 47,
-          "expected_saved": 185.091334,
-          "baseline": 185.101382,
-          "difference": -0.010048000000011825
+          "expected_saved": 176.017343,
+          "baseline": 176.015544,
+          "difference": 0.0017990000000054351
         },
         {
           "episode": 6,
           "seed": 48,
-          "expected_saved": 176.552689,
-          "baseline": 176.630138,
-          "difference": -0.07744900000000143
+          "expected_saved": 169.684693,
+          "baseline": 169.676553,
+          "difference": 0.008139999999997372
         },
         {
           "episode": 7,
           "seed": 49,
-          "expected_saved": 189.517034,
-          "baseline": 189.377814,
-          "difference": 0.13921999999999457
+          "expected_saved": 181.550732,
+          "baseline": 181.521987,
+          "difference": 0.028745000000014898
         },
         {
           "episode": 8,
           "seed": 50,
-          "expected_saved": 169.753844,
-          "baseline": 169.774577,
-          "difference": -0.020733000000006996
+          "expected_saved": 162.650537,
+          "baseline": 162.650537,
+          "difference": 0.0
         },
         {
           "episode": 9,
           "seed": 51,
-          "expected_saved": 195.954306,
-          "baseline": 195.80324,
-          "difference": 0.15106600000001436
+          "expected_saved": 185.9403,
+          "baseline": 185.936105,
+          "difference": 0.004195000000009941
         }
       ]
     },
     {
       "candidate_ids": [
-        "C24"
+        "C10"
       ],
       "candidate_names": [
-        "경기도 수원시 영통구 이의동 격자 8-10"
+        "경기도 수원시 권선구 세류동 격자 2-6"
       ],
       "total_cost": 1.0,
       "expected_saved": {
-        "mean": 185.6185796,
-        "standard_deviation": 11.238231645364875,
-        "ci95_low": 178.6530514611008,
-        "ci95_high": 192.5841077388992,
+        "mean": 177.19996120000002,
+        "standard_deviation": 10.14893295979472,
+        "ci95_low": 170.90958738123217,
+        "ci95_high": 183.49033501876787,
         "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
         "values": [
-          187.759393,
-          187.20847,
-          202.380432,
-          194.437173,
-          167.705107,
-          185.109613,
-          176.630138,
-          189.377871,
-          169.774359,
-          195.80324
+          180.045398,
+          178.063178,
+          191.57276,
+          185.815244,
+          160.683814,
+          176.028954,
+          169.681635,
+          181.521987,
+          162.650537,
+          185.936105
         ]
       },
       "incremental_expected_saved": {
-        "mean": 0.035835199999999644,
-        "standard_deviation": 0.06786160834751653,
-        "ci95_low": -0.006225860619848075,
-        "ci95_high": 0.07789626061984736,
+        "mean": 0.006877199999999561,
+        "standard_deviation": 0.008860999740438262,
+        "ci95_low": 0.0013850954609141994,
+        "ci95_high": 0.012369304539084924,
         "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
         "values": [
-          0.0010979999999847223,
-          0.022471999999993386,
-          0.10555400000001214,
-          0.015401999999994587,
-          0.20575600000000804,
-          0.008230999999994992,
+          0.025999000000012984,
           0.0,
-          5.699999999819738e-05,
-          -0.0002179999999896154,
+          0.013410999999990736,
+          0.0,
+          0.01087000000001126,
+          0.01340999999999326,
+          0.005081999999987374,
+          0.0,
+          0.0,
           0.0
         ]
       },
-      "expected_saved_mean": 185.6185796,
-      "incremental_expected_saved_mean": 0.035835199999999644,
+      "expected_saved_mean": 177.19996120000002,
+      "incremental_expected_saved_mean": 0.006877199999999561,
       "episodes": [
         {
           "episode": 0,
           "seed": 42,
-          "expected_saved": 187.759393,
-          "baseline": 187.758295,
-          "difference": 0.0010979999999847223
+          "expected_saved": 180.045398,
+          "baseline": 180.019399,
+          "difference": 0.025999000000012984
         },
         {
           "episode": 1,
           "seed": 43,
-          "expected_saved": 187.20847,
-          "baseline": 187.185998,
-          "difference": 0.022471999999993386
+          "expected_saved": 178.063178,
+          "baseline": 178.063178,
+          "difference": 0.0
         },
         {
           "episode": 2,
           "seed": 44,
-          "expected_saved": 202.380432,
-          "baseline": 202.274878,
-          "difference": 0.10555400000001214
+          "expected_saved": 191.57276,
+          "baseline": 191.559349,
+          "difference": 0.013410999999990736
         },
         {
           "episode": 3,
           "seed": 45,
-          "expected_saved": 194.437173,
-          "baseline": 194.421771,
-          "difference": 0.015401999999994587
+          "expected_saved": 185.815244,
+          "baseline": 185.815244,
+          "difference": 0.0
         },
         {
           "episode": 4,
           "seed": 46,
-          "expected_saved": 167.705107,
-          "baseline": 167.499351,
-          "difference": 0.20575600000000804
+          "expected_saved": 160.683814,
+          "baseline": 160.672944,
+          "difference": 0.01087000000001126
         },
         {
           "episode": 5,
           "seed": 47,
-          "expected_saved": 185.109613,
-          "baseline": 185.101382,
-          "difference": 0.008230999999994992
+          "expected_saved": 176.028954,
+          "baseline": 176.015544,
+          "difference": 0.01340999999999326
         },
         {
           "episode": 6,
           "seed": 48,
-          "expected_saved": 176.630138,
-          "baseline": 176.630138,
+          "expected_saved": 169.681635,
+          "baseline": 169.676553,
+          "difference": 0.005081999999987374
+        },
+        {
+          "episode": 7,
+          "seed": 49,
+          "expected_saved": 181.521987,
+          "baseline": 181.521987,
+          "difference": 0.0
+        },
+        {
+          "episode": 8,
+          "seed": 50,
+          "expected_saved": 162.650537,
+          "baseline": 162.650537,
+          "difference": 0.0
+        },
+        {
+          "episode": 9,
+          "seed": 51,
+          "expected_saved": 185.936105,
+          "baseline": 185.936105,
+          "difference": 0.0
+        }
+      ]
+    },
+    {
+      "candidate_ids": [
+        "C03"
+      ],
+      "candidate_names": [
+        "경기도 수원시 권선구 곡반정동 격자 0-7"
+      ],
+      "total_cost": 1.0,
+      "expected_saved": {
+        "mean": 177.1993139,
+        "standard_deviation": 10.151892691580887,
+        "ci95_low": 170.90710562046547,
+        "ci95_high": 183.4915221795345,
+        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
+        "values": [
+          180.028295,
+          178.063178,
+          191.571795,
+          185.833142,
+          160.672944,
+          176.02085,
+          169.687167,
+          181.529126,
+          162.650537,
+          185.936105
+        ]
+      },
+      "incremental_expected_saved": {
+        "mean": 0.006229899999999589,
+        "standard_deviation": 0.006307311003907418,
+        "ci95_low": 0.0023205881380550268,
+        "ci95_high": 0.01013921186194415,
+        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
+        "values": [
+          0.008896000000021331,
+          0.0,
+          0.012446000000011281,
+          0.017898000000002412,
+          0.0,
+          0.005305999999990263,
+          0.010613999999975476,
+          0.0071389999999951215,
+          0.0,
+          0.0
+        ]
+      },
+      "expected_saved_mean": 177.1993139,
+      "incremental_expected_saved_mean": 0.006229899999999589,
+      "episodes": [
+        {
+          "episode": 0,
+          "seed": 42,
+          "expected_saved": 180.028295,
+          "baseline": 180.019399,
+          "difference": 0.008896000000021331
+        },
+        {
+          "episode": 1,
+          "seed": 43,
+          "expected_saved": 178.063178,
+          "baseline": 178.063178,
+          "difference": 0.0
+        },
+        {
+          "episode": 2,
+          "seed": 44,
+          "expected_saved": 191.571795,
+          "baseline": 191.559349,
+          "difference": 0.012446000000011281
+        },
+        {
+          "episode": 3,
+          "seed": 45,
+          "expected_saved": 185.833142,
+          "baseline": 185.815244,
+          "difference": 0.017898000000002412
+        },
+        {
+          "episode": 4,
+          "seed": 46,
+          "expected_saved": 160.672944,
+          "baseline": 160.672944,
+          "difference": 0.0
+        },
+        {
+          "episode": 5,
+          "seed": 47,
+          "expected_saved": 176.02085,
+          "baseline": 176.015544,
+          "difference": 0.005305999999990263
+        },
+        {
+          "episode": 6,
+          "seed": 48,
+          "expected_saved": 169.687167,
+          "baseline": 169.676553,
+          "difference": 0.010613999999975476
+        },
+        {
+          "episode": 7,
+          "seed": 49,
+          "expected_saved": 181.529126,
+          "baseline": 181.521987,
+          "difference": 0.0071389999999951215
+        },
+        {
+          "episode": 8,
+          "seed": 50,
+          "expected_saved": 162.650537,
+          "baseline": 162.650537,
+          "difference": 0.0
+        },
+        {
+          "episode": 9,
+          "seed": 51,
+          "expected_saved": 185.936105,
+          "baseline": 185.936105,
+          "difference": 0.0
+        }
+      ]
+    },
+    {
+      "candidate_ids": [
+        "C21"
+      ],
+      "candidate_names": [
+        "경기도 수원시 장안구 율전동 격자 8-2"
+      ],
+      "total_cost": 1.0,
+      "expected_saved": {
+        "mean": 177.1975904,
+        "standard_deviation": 10.147963980959428,
+        "ci95_low": 170.90781716053644,
+        "ci95_high": 183.48736363946355,
+        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
+        "values": [
+          180.019399,
+          178.063178,
+          191.559349,
+          185.81876,
+          160.683602,
+          176.017191,
+          169.68018,
+          181.545734,
+          162.650537,
+          185.937974
+        ]
+      },
+      "incremental_expected_saved": {
+        "mean": 0.004506399999999644,
+        "standard_deviation": 0.007499331217594719,
+        "ci95_low": -0.00014173364481856552,
+        "ci95_high": 0.009154533644817855,
+        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0035159999999905267,
+          0.010658000000006496,
+          0.0016469999999912943,
+          0.0036269999999944957,
+          0.023747000000014395,
+          0.0,
+          0.0018689999999992324
+        ]
+      },
+      "expected_saved_mean": 177.1975904,
+      "incremental_expected_saved_mean": 0.004506399999999644,
+      "episodes": [
+        {
+          "episode": 0,
+          "seed": 42,
+          "expected_saved": 180.019399,
+          "baseline": 180.019399,
+          "difference": 0.0
+        },
+        {
+          "episode": 1,
+          "seed": 43,
+          "expected_saved": 178.063178,
+          "baseline": 178.063178,
+          "difference": 0.0
+        },
+        {
+          "episode": 2,
+          "seed": 44,
+          "expected_saved": 191.559349,
+          "baseline": 191.559349,
+          "difference": 0.0
+        },
+        {
+          "episode": 3,
+          "seed": 45,
+          "expected_saved": 185.81876,
+          "baseline": 185.815244,
+          "difference": 0.0035159999999905267
+        },
+        {
+          "episode": 4,
+          "seed": 46,
+          "expected_saved": 160.683602,
+          "baseline": 160.672944,
+          "difference": 0.010658000000006496
+        },
+        {
+          "episode": 5,
+          "seed": 47,
+          "expected_saved": 176.017191,
+          "baseline": 176.015544,
+          "difference": 0.0016469999999912943
+        },
+        {
+          "episode": 6,
+          "seed": 48,
+          "expected_saved": 169.68018,
+          "baseline": 169.676553,
+          "difference": 0.0036269999999944957
+        },
+        {
+          "episode": 7,
+          "seed": 49,
+          "expected_saved": 181.545734,
+          "baseline": 181.521987,
+          "difference": 0.023747000000014395
+        },
+        {
+          "episode": 8,
+          "seed": 50,
+          "expected_saved": 162.650537,
+          "baseline": 162.650537,
+          "difference": 0.0
+        },
+        {
+          "episode": 9,
+          "seed": 51,
+          "expected_saved": 185.937974,
+          "baseline": 185.936105,
+          "difference": 0.0018689999999992324
+        }
+      ]
+    },
+    {
+      "candidate_ids": [
+        "C09"
+      ],
+      "candidate_names": [
+        "경기도 수원시 권선구 세류동 격자 2-5"
+      ],
+      "total_cost": 1.0,
+      "expected_saved": {
+        "mean": 177.1973826,
+        "standard_deviation": 10.148830146370205,
+        "ci95_low": 170.90707250565285,
+        "ci95_high": 183.48769269434715,
+        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
+        "values": [
+          180.035048,
+          178.063178,
+          191.567414,
+          185.815244,
+          160.680158,
+          176.021885,
+          169.678276,
+          181.52371,
+          162.651584,
+          185.937329
+        ]
+      },
+      "incremental_expected_saved": {
+        "mean": 0.004298600000001329,
+        "standard_deviation": 0.005010408348849672,
+        "ci95_low": 0.0011931167315831926,
+        "ci95_high": 0.007404083268419466,
+        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
+        "values": [
+          0.01564899999999625,
+          0.0,
+          0.008065000000016198,
+          0.0,
+          0.007214000000004717,
+          0.006340999999991936,
+          0.0017229999999983647,
+          0.0017229999999983647,
+          0.001046999999999798,
+          0.0012240000000076634
+        ]
+      },
+      "expected_saved_mean": 177.1973826,
+      "incremental_expected_saved_mean": 0.004298600000001329,
+      "episodes": [
+        {
+          "episode": 0,
+          "seed": 42,
+          "expected_saved": 180.035048,
+          "baseline": 180.019399,
+          "difference": 0.01564899999999625
+        },
+        {
+          "episode": 1,
+          "seed": 43,
+          "expected_saved": 178.063178,
+          "baseline": 178.063178,
+          "difference": 0.0
+        },
+        {
+          "episode": 2,
+          "seed": 44,
+          "expected_saved": 191.567414,
+          "baseline": 191.559349,
+          "difference": 0.008065000000016198
+        },
+        {
+          "episode": 3,
+          "seed": 45,
+          "expected_saved": 185.815244,
+          "baseline": 185.815244,
+          "difference": 0.0
+        },
+        {
+          "episode": 4,
+          "seed": 46,
+          "expected_saved": 160.680158,
+          "baseline": 160.672944,
+          "difference": 0.007214000000004717
+        },
+        {
+          "episode": 5,
+          "seed": 47,
+          "expected_saved": 176.021885,
+          "baseline": 176.015544,
+          "difference": 0.006340999999991936
+        },
+        {
+          "episode": 6,
+          "seed": 48,
+          "expected_saved": 169.678276,
+          "baseline": 169.676553,
+          "difference": 0.0017229999999983647
+        },
+        {
+          "episode": 7,
+          "seed": 49,
+          "expected_saved": 181.52371,
+          "baseline": 181.521987,
+          "difference": 0.0017229999999983647
+        },
+        {
+          "episode": 8,
+          "seed": 50,
+          "expected_saved": 162.651584,
+          "baseline": 162.650537,
+          "difference": 0.001046999999999798
+        },
+        {
+          "episode": 9,
+          "seed": 51,
+          "expected_saved": 185.937329,
+          "baseline": 185.936105,
+          "difference": 0.0012240000000076634
+        }
+      ]
+    },
+    {
+      "candidate_ids": [
+        "C14"
+      ],
+      "candidate_names": [
+        "경기도 수원시 권선구 구운동 격자 6-2"
+      ],
+      "total_cost": 1.0,
+      "expected_saved": {
+        "mean": 177.19732770000002,
+        "standard_deviation": 10.148101598791593,
+        "ci95_low": 170.90746916412039,
+        "ci95_high": 183.48718623587965,
+        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
+        "values": [
+          180.019399,
+          178.063178,
+          191.559349,
+          185.818554,
+          160.682642,
+          176.017267,
+          169.679632,
+          181.545027,
+          162.650537,
+          185.937692
+        ]
+      },
+      "incremental_expected_saved": {
+        "mean": 0.004243699999997829,
+        "standard_deviation": 0.007232077818074905,
+        "ci95_low": -0.00023878827165888915,
+        "ci95_high": 0.008726188271654549,
+        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.003309999999999036,
+          0.009697999999985996,
+          0.0017229999999983647,
+          0.003078999999985399,
+          0.02304000000000883,
+          0.0,
+          0.0015870000000006712
+        ]
+      },
+      "expected_saved_mean": 177.19732770000002,
+      "incremental_expected_saved_mean": 0.004243699999997829,
+      "episodes": [
+        {
+          "episode": 0,
+          "seed": 42,
+          "expected_saved": 180.019399,
+          "baseline": 180.019399,
+          "difference": 0.0
+        },
+        {
+          "episode": 1,
+          "seed": 43,
+          "expected_saved": 178.063178,
+          "baseline": 178.063178,
+          "difference": 0.0
+        },
+        {
+          "episode": 2,
+          "seed": 44,
+          "expected_saved": 191.559349,
+          "baseline": 191.559349,
+          "difference": 0.0
+        },
+        {
+          "episode": 3,
+          "seed": 45,
+          "expected_saved": 185.818554,
+          "baseline": 185.815244,
+          "difference": 0.003309999999999036
+        },
+        {
+          "episode": 4,
+          "seed": 46,
+          "expected_saved": 160.682642,
+          "baseline": 160.672944,
+          "difference": 0.009697999999985996
+        },
+        {
+          "episode": 5,
+          "seed": 47,
+          "expected_saved": 176.017267,
+          "baseline": 176.015544,
+          "difference": 0.0017229999999983647
+        },
+        {
+          "episode": 6,
+          "seed": 48,
+          "expected_saved": 169.679632,
+          "baseline": 169.676553,
+          "difference": 0.003078999999985399
+        },
+        {
+          "episode": 7,
+          "seed": 49,
+          "expected_saved": 181.545027,
+          "baseline": 181.521987,
+          "difference": 0.02304000000000883
+        },
+        {
+          "episode": 8,
+          "seed": 50,
+          "expected_saved": 162.650537,
+          "baseline": 162.650537,
+          "difference": 0.0
+        },
+        {
+          "episode": 9,
+          "seed": 51,
+          "expected_saved": 185.937692,
+          "baseline": 185.936105,
+          "difference": 0.0015870000000006712
+        }
+      ]
+    },
+    {
+      "candidate_ids": [
+        "C17"
+      ],
+      "candidate_names": [
+        "경기도 수원시 권선구 입북동 격자 7-1"
+      ],
+      "total_cost": 1.0,
+      "expected_saved": {
+        "mean": 177.19511849999998,
+        "standard_deviation": 10.14929983036935,
+        "ci95_low": 170.90451729249415,
+        "ci95_high": 183.4857197075058,
+        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
+        "values": [
+          180.019399,
+          178.063178,
+          191.571879,
+          185.815244,
+          160.672944,
+          176.015544,
+          169.676553,
+          181.521987,
+          162.658352,
+          185.936105
+        ]
+      },
+      "incremental_expected_saved": {
+        "mean": 0.002034499999999184,
+        "standard_deviation": 0.004430741378895212,
+        "ci95_low": -0.0007117019581717537,
+        "ci95_high": 0.004780701958170121,
+        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
+        "values": [
+          0.0,
+          0.0,
+          0.012529999999998154,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.007814999999993688,
+          0.0
+        ]
+      },
+      "expected_saved_mean": 177.19511849999998,
+      "incremental_expected_saved_mean": 0.002034499999999184,
+      "episodes": [
+        {
+          "episode": 0,
+          "seed": 42,
+          "expected_saved": 180.019399,
+          "baseline": 180.019399,
+          "difference": 0.0
+        },
+        {
+          "episode": 1,
+          "seed": 43,
+          "expected_saved": 178.063178,
+          "baseline": 178.063178,
+          "difference": 0.0
+        },
+        {
+          "episode": 2,
+          "seed": 44,
+          "expected_saved": 191.571879,
+          "baseline": 191.559349,
+          "difference": 0.012529999999998154
+        },
+        {
+          "episode": 3,
+          "seed": 45,
+          "expected_saved": 185.815244,
+          "baseline": 185.815244,
+          "difference": 0.0
+        },
+        {
+          "episode": 4,
+          "seed": 46,
+          "expected_saved": 160.672944,
+          "baseline": 160.672944,
+          "difference": 0.0
+        },
+        {
+          "episode": 5,
+          "seed": 47,
+          "expected_saved": 176.015544,
+          "baseline": 176.015544,
+          "difference": 0.0
+        },
+        {
+          "episode": 6,
+          "seed": 48,
+          "expected_saved": 169.676553,
+          "baseline": 169.676553,
           "difference": 0.0
         },
         {
           "episode": 7,
           "seed": 49,
-          "expected_saved": 189.377871,
-          "baseline": 189.377814,
-          "difference": 5.699999999819738e-05
+          "expected_saved": 181.521987,
+          "baseline": 181.521987,
+          "difference": 0.0
         },
         {
           "episode": 8,
           "seed": 50,
-          "expected_saved": 169.774359,
-          "baseline": 169.774577,
-          "difference": -0.0002179999999896154
+          "expected_saved": 162.658352,
+          "baseline": 162.650537,
+          "difference": 0.007814999999993688
         },
         {
           "episode": 9,
           "seed": 51,
-          "expected_saved": 195.80324,
-          "baseline": 195.80324,
+          "expected_saved": 185.936105,
+          "baseline": 185.936105,
           "difference": 0.0
         }
       ]
@@ -1126,1082 +1368,356 @@ wrote: outputs\suwon_grid_k1\hospital_placement_result.json
       ],
       "total_cost": 1.0,
       "expected_saved": {
-        "mean": 185.61218200000002,
-        "standard_deviation": 11.258196242601821,
-        "ci95_low": 178.63427967553284,
-        "ci95_high": 192.5900843244672,
+        "mean": 177.194939,
+        "standard_deviation": 10.148168707932676,
+        "ci95_low": 170.9050388694438,
+        "ci95_high": 183.4848391305562,
         "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
         "values": [
-          187.725206,
-          187.169213,
-          202.274878,
-          194.421771,
-          167.562503,
-          185.125438,
-          176.630138,
-          189.423037,
-          169.806968,
-          195.982668
+          180.022491,
+          178.063178,
+          191.559349,
+          185.815244,
+          160.676036,
+          176.018635,
+          169.676553,
+          181.521987,
+          162.653629,
+          185.942288
         ]
       },
       "incremental_expected_saved": {
-        "mean": 0.029437599999999974,
-        "standard_deviation": 0.060153937012008905,
-        "ci95_low": -0.007846196432113338,
-        "ci95_high": 0.06672139643211328,
+        "mean": 0.0018549999999976307,
+        "standard_deviation": 0.0021616586224444977,
+        "ci95_low": 0.0005151901049469795,
+        "ci95_high": 0.003194809895048282,
         "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
         "values": [
-          -0.03308900000001813,
-          -0.016784999999998718,
+          0.0030920000000094205,
           0.0,
           0.0,
-          0.06315200000000232,
-          0.02405600000000163,
           0.0,
-          0.04522299999999291,
-          0.032391000000018266,
-          0.17942800000000148
+          0.0030920000000094205,
+          0.0030909999999835236,
+          0.0,
+          0.0,
+          0.003091999999980999,
+          0.006182999999992944
         ]
       },
-      "expected_saved_mean": 185.61218200000002,
-      "incremental_expected_saved_mean": 0.029437599999999974,
+      "expected_saved_mean": 177.194939,
+      "incremental_expected_saved_mean": 0.0018549999999976307,
       "episodes": [
         {
           "episode": 0,
           "seed": 42,
-          "expected_saved": 187.725206,
-          "baseline": 187.758295,
-          "difference": -0.03308900000001813
+          "expected_saved": 180.022491,
+          "baseline": 180.019399,
+          "difference": 0.0030920000000094205
         },
         {
           "episode": 1,
           "seed": 43,
-          "expected_saved": 187.169213,
-          "baseline": 187.185998,
-          "difference": -0.016784999999998718
+          "expected_saved": 178.063178,
+          "baseline": 178.063178,
+          "difference": 0.0
         },
         {
           "episode": 2,
           "seed": 44,
-          "expected_saved": 202.274878,
-          "baseline": 202.274878,
+          "expected_saved": 191.559349,
+          "baseline": 191.559349,
           "difference": 0.0
         },
         {
           "episode": 3,
           "seed": 45,
-          "expected_saved": 194.421771,
-          "baseline": 194.421771,
+          "expected_saved": 185.815244,
+          "baseline": 185.815244,
           "difference": 0.0
         },
         {
           "episode": 4,
           "seed": 46,
-          "expected_saved": 167.562503,
-          "baseline": 167.499351,
-          "difference": 0.06315200000000232
+          "expected_saved": 160.676036,
+          "baseline": 160.672944,
+          "difference": 0.0030920000000094205
         },
         {
           "episode": 5,
           "seed": 47,
-          "expected_saved": 185.125438,
-          "baseline": 185.101382,
-          "difference": 0.02405600000000163
+          "expected_saved": 176.018635,
+          "baseline": 176.015544,
+          "difference": 0.0030909999999835236
         },
         {
           "episode": 6,
           "seed": 48,
-          "expected_saved": 176.630138,
-          "baseline": 176.630138,
+          "expected_saved": 169.676553,
+          "baseline": 169.676553,
           "difference": 0.0
         },
         {
           "episode": 7,
           "seed": 49,
-          "expected_saved": 189.423037,
-          "baseline": 189.377814,
-          "difference": 0.04522299999999291
+          "expected_saved": 181.521987,
+          "baseline": 181.521987,
+          "difference": 0.0
         },
         {
           "episode": 8,
           "seed": 50,
-          "expected_saved": 169.806968,
-          "baseline": 169.774577,
-          "difference": 0.032391000000018266
+          "expected_saved": 162.653629,
+          "baseline": 162.650537,
+          "difference": 0.003091999999980999
         },
         {
           "episode": 9,
           "seed": 51,
-          "expected_saved": 195.982668,
-          "baseline": 195.80324,
-          "difference": 0.17942800000000148
+          "expected_saved": 185.942288,
+          "baseline": 185.936105,
+          "difference": 0.006182999999992944
         }
       ]
     },
     {
       "candidate_ids": [
-        "C02"
+        "C26"
       ],
       "candidate_names": [
-        "경기도 수원시 권선구 대황교동 격자 0-6"
+        "경기도 수원시 장안구 이목동 격자 9-3"
       ],
       "total_cost": 1.0,
       "expected_saved": {
-        "mean": 185.6022971,
-        "standard_deviation": 11.278558919461258,
-        "ci95_low": 178.6117738576586,
-        "ci95_high": 192.59282034234138,
+        "mean": 177.1947085,
+        "standard_deviation": 10.147860428945824,
+        "ci95_low": 170.9049994427394,
+        "ci95_high": 183.48441755726057,
         "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
         "values": [
-          187.747987,
-          187.186581,
-          202.374639,
-          194.433536,
-          167.439979,
-          185.202438,
-          176.688045,
-          189.26152,
-          169.799233,
-          195.889013
+          180.019399,
+          178.065051,
+          191.561222,
+          185.817117,
+          160.674817,
+          176.015544,
+          169.678427,
+          181.52386,
+          162.655543,
+          185.936105
         ]
       },
       "incremental_expected_saved": {
-        "mean": 0.019552699999997,
-        "standard_deviation": 0.07067450962460547,
-        "ci95_low": -0.02425181489413502,
-        "ci95_high": 0.06335721489412902,
+        "mean": 0.0016244999999969422,
+        "standard_deviation": 0.0014803360917133108,
+        "ci95_low": 0.0007069781845332118,
+        "ci95_high": 0.0025420218154606727,
         "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
         "values": [
-          -0.010308000000009088,
-          0.0005829999999775737,
-          0.09976100000000088,
-          0.011764999999996917,
-          -0.059371999999996206,
-          0.10105599999999981,
-          0.05790700000000015,
-          -0.11629400000001056,
-          0.024655999999993128,
-          0.08577300000001742
-        ]
-      },
-      "expected_saved_mean": 185.6022971,
-      "incremental_expected_saved_mean": 0.019552699999997,
-      "episodes": [
-        {
-          "episode": 0,
-          "seed": 42,
-          "expected_saved": 187.747987,
-          "baseline": 187.758295,
-          "difference": -0.010308000000009088
-        },
-        {
-          "episode": 1,
-          "seed": 43,
-          "expected_saved": 187.186581,
-          "baseline": 187.185998,
-          "difference": 0.0005829999999775737
-        },
-        {
-          "episode": 2,
-          "seed": 44,
-          "expected_saved": 202.374639,
-          "baseline": 202.274878,
-          "difference": 0.09976100000000088
-        },
-        {
-          "episode": 3,
-          "seed": 45,
-          "expected_saved": 194.433536,
-          "baseline": 194.421771,
-          "difference": 0.011764999999996917
-        },
-        {
-          "episode": 4,
-          "seed": 46,
-          "expected_saved": 167.439979,
-          "baseline": 167.499351,
-          "difference": -0.059371999999996206
-        },
-        {
-          "episode": 5,
-          "seed": 47,
-          "expected_saved": 185.202438,
-          "baseline": 185.101382,
-          "difference": 0.10105599999999981
-        },
-        {
-          "episode": 6,
-          "seed": 48,
-          "expected_saved": 176.688045,
-          "baseline": 176.630138,
-          "difference": 0.05790700000000015
-        },
-        {
-          "episode": 7,
-          "seed": 49,
-          "expected_saved": 189.26152,
-          "baseline": 189.377814,
-          "difference": -0.11629400000001056
-        },
-        {
-          "episode": 8,
-          "seed": 50,
-          "expected_saved": 169.799233,
-          "baseline": 169.774577,
-          "difference": 0.024655999999993128
-        },
-        {
-          "episode": 9,
-          "seed": 51,
-          "expected_saved": 195.889013,
-          "baseline": 195.80324,
-          "difference": 0.08577300000001742
-        }
-      ]
-    },
-    {
-      "candidate_ids": [
-        "C17"
-      ],
-      "candidate_names": [
-        "경기도 수원시 권선구 입북동 격자 7-1"
-      ],
-      "total_cost": 1.0,
-      "expected_saved": {
-        "mean": 185.601489,
-        "standard_deviation": 11.262928618230617,
-        "ci95_low": 178.62065351872963,
-        "ci95_high": 192.58232448127035,
-        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
-        "values": [
-          187.787817,
-          187.168109,
-          202.368049,
-          194.369515,
-          167.558139,
-          185.119327,
-          176.644519,
-          189.420489,
-          169.750485,
-          195.828441
-        ]
-      },
-      "incremental_expected_saved": {
-        "mean": 0.018744600000002266,
-        "standard_deviation": 0.04230973740090892,
-        "ci95_low": -0.0074792469285327595,
-        "ci95_high": 0.04496844692853729,
-        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
-        "values": [
-          0.029521999999985837,
-          -0.017889000000025135,
-          0.09317100000001233,
-          -0.05225599999999986,
-          0.05878800000002116,
-          0.017944999999997435,
-          0.01438100000001441,
-          0.04267500000000268,
-          -0.024091999999996005,
-          0.0252010000000098
-        ]
-      },
-      "expected_saved_mean": 185.601489,
-      "incremental_expected_saved_mean": 0.018744600000002266,
-      "episodes": [
-        {
-          "episode": 0,
-          "seed": 42,
-          "expected_saved": 187.787817,
-          "baseline": 187.758295,
-          "difference": 0.029521999999985837
-        },
-        {
-          "episode": 1,
-          "seed": 43,
-          "expected_saved": 187.168109,
-          "baseline": 187.185998,
-          "difference": -0.017889000000025135
-        },
-        {
-          "episode": 2,
-          "seed": 44,
-          "expected_saved": 202.368049,
-          "baseline": 202.274878,
-          "difference": 0.09317100000001233
-        },
-        {
-          "episode": 3,
-          "seed": 45,
-          "expected_saved": 194.369515,
-          "baseline": 194.421771,
-          "difference": -0.05225599999999986
-        },
-        {
-          "episode": 4,
-          "seed": 46,
-          "expected_saved": 167.558139,
-          "baseline": 167.499351,
-          "difference": 0.05878800000002116
-        },
-        {
-          "episode": 5,
-          "seed": 47,
-          "expected_saved": 185.119327,
-          "baseline": 185.101382,
-          "difference": 0.017944999999997435
-        },
-        {
-          "episode": 6,
-          "seed": 48,
-          "expected_saved": 176.644519,
-          "baseline": 176.630138,
-          "difference": 0.01438100000001441
-        },
-        {
-          "episode": 7,
-          "seed": 49,
-          "expected_saved": 189.420489,
-          "baseline": 189.377814,
-          "difference": 0.04267500000000268
-        },
-        {
-          "episode": 8,
-          "seed": 50,
-          "expected_saved": 169.750485,
-          "baseline": 169.774577,
-          "difference": -0.024091999999996005
-        },
-        {
-          "episode": 9,
-          "seed": 51,
-          "expected_saved": 195.828441,
-          "baseline": 195.80324,
-          "difference": 0.0252010000000098
-        }
-      ]
-    },
-    {
-      "candidate_ids": [
-        "C21"
-      ],
-      "candidate_names": [
-        "경기도 수원시 장안구 율전동 격자 8-2"
-      ],
-      "total_cost": 1.0,
-      "expected_saved": {
-        "mean": 185.5963489,
-        "standard_deviation": 11.247555875592491,
-        "ci95_low": 178.62504154333118,
-        "ci95_high": 192.56765625666884,
-        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
-        "values": [
-          187.767715,
-          187.186796,
-          202.272695,
-          194.438749,
-          167.546476,
-          185.116095,
-          176.647564,
-          189.392058,
-          169.781281,
-          195.81406
-        ]
-      },
-      "incremental_expected_saved": {
-        "mean": 0.013604500000002417,
-        "standard_deviation": 0.013488175877419522,
-        "ci95_low": 0.0052444419782996035,
-        "ci95_high": 0.02196455802170523,
-        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
-        "values": [
-          0.009420000000005757,
-          0.0007979999999747633,
-          -0.0021830000000022665,
-          0.01697799999999461,
-          0.04712500000002251,
-          0.01471300000000042,
-          0.017426000000000386,
-          0.01424399999999082,
-          0.006704000000013366,
-          0.01082000000002381
-        ]
-      },
-      "expected_saved_mean": 185.5963489,
-      "incremental_expected_saved_mean": 0.013604500000002417,
-      "episodes": [
-        {
-          "episode": 0,
-          "seed": 42,
-          "expected_saved": 187.767715,
-          "baseline": 187.758295,
-          "difference": 0.009420000000005757
-        },
-        {
-          "episode": 1,
-          "seed": 43,
-          "expected_saved": 187.186796,
-          "baseline": 187.185998,
-          "difference": 0.0007979999999747633
-        },
-        {
-          "episode": 2,
-          "seed": 44,
-          "expected_saved": 202.272695,
-          "baseline": 202.274878,
-          "difference": -0.0021830000000022665
-        },
-        {
-          "episode": 3,
-          "seed": 45,
-          "expected_saved": 194.438749,
-          "baseline": 194.421771,
-          "difference": 0.01697799999999461
-        },
-        {
-          "episode": 4,
-          "seed": 46,
-          "expected_saved": 167.546476,
-          "baseline": 167.499351,
-          "difference": 0.04712500000002251
-        },
-        {
-          "episode": 5,
-          "seed": 47,
-          "expected_saved": 185.116095,
-          "baseline": 185.101382,
-          "difference": 0.01471300000000042
-        },
-        {
-          "episode": 6,
-          "seed": 48,
-          "expected_saved": 176.647564,
-          "baseline": 176.630138,
-          "difference": 0.017426000000000386
-        },
-        {
-          "episode": 7,
-          "seed": 49,
-          "expected_saved": 189.392058,
-          "baseline": 189.377814,
-          "difference": 0.01424399999999082
-        },
-        {
-          "episode": 8,
-          "seed": 50,
-          "expected_saved": 169.781281,
-          "baseline": 169.774577,
-          "difference": 0.006704000000013366
-        },
-        {
-          "episode": 9,
-          "seed": 51,
-          "expected_saved": 195.81406,
-          "baseline": 195.80324,
-          "difference": 0.01082000000002381
-        }
-      ]
-    },
-    {
-      "candidate_ids": [
-        "C05"
-      ],
-      "candidate_names": [
-        "경기도 수원시 권선구 오목천동 격자 1-2"
-      ],
-      "total_cost": 1.0,
-      "expected_saved": {
-        "mean": 185.589941,
-        "standard_deviation": 11.25052077914684,
-        "ci95_low": 178.6167959770694,
-        "ci95_high": 192.56308602293063,
-        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
-        "values": [
-          187.760234,
-          187.187656,
-          202.280608,
-          194.423611,
-          167.530075,
-          185.110626,
-          176.634283,
-          189.38194,
-          169.781731,
-          195.808646
-        ]
-      },
-      "incremental_expected_saved": {
-        "mean": 0.007196600000003173,
-        "standard_deviation": 0.008620658871449608,
-        "ci95_low": 0.0018534602748401536,
-        "ci95_high": 0.012539739725166192,
-        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
-        "values": [
-          0.0019389999999930296,
-          0.0016579999999919437,
-          0.005729999999999791,
-          0.0018399999999871852,
-          0.030724000000020624,
-          0.009243999999995367,
-          0.004145000000022492,
-          0.004125999999985197,
-          0.0071540000000140935,
-          0.005406000000022004
-        ]
-      },
-      "expected_saved_mean": 185.589941,
-      "incremental_expected_saved_mean": 0.007196600000003173,
-      "episodes": [
-        {
-          "episode": 0,
-          "seed": 42,
-          "expected_saved": 187.760234,
-          "baseline": 187.758295,
-          "difference": 0.0019389999999930296
-        },
-        {
-          "episode": 1,
-          "seed": 43,
-          "expected_saved": 187.187656,
-          "baseline": 187.185998,
-          "difference": 0.0016579999999919437
-        },
-        {
-          "episode": 2,
-          "seed": 44,
-          "expected_saved": 202.280608,
-          "baseline": 202.274878,
-          "difference": 0.005729999999999791
-        },
-        {
-          "episode": 3,
-          "seed": 45,
-          "expected_saved": 194.423611,
-          "baseline": 194.421771,
-          "difference": 0.0018399999999871852
-        },
-        {
-          "episode": 4,
-          "seed": 46,
-          "expected_saved": 167.530075,
-          "baseline": 167.499351,
-          "difference": 0.030724000000020624
-        },
-        {
-          "episode": 5,
-          "seed": 47,
-          "expected_saved": 185.110626,
-          "baseline": 185.101382,
-          "difference": 0.009243999999995367
-        },
-        {
-          "episode": 6,
-          "seed": 48,
-          "expected_saved": 176.634283,
-          "baseline": 176.630138,
-          "difference": 0.004145000000022492
-        },
-        {
-          "episode": 7,
-          "seed": 49,
-          "expected_saved": 189.38194,
-          "baseline": 189.377814,
-          "difference": 0.004125999999985197
-        },
-        {
-          "episode": 8,
-          "seed": 50,
-          "expected_saved": 169.781731,
-          "baseline": 169.774577,
-          "difference": 0.0071540000000140935
-        },
-        {
-          "episode": 9,
-          "seed": 51,
-          "expected_saved": 195.808646,
-          "baseline": 195.80324,
-          "difference": 0.005406000000022004
-        }
-      ]
-    },
-    {
-      "candidate_ids": [
-        "C07"
-      ],
-      "candidate_names": [
-        "경기도 수원시 권선구 평리동 격자 1-4"
-      ],
-      "total_cost": 1.0,
-      "expected_saved": {
-        "mean": 185.5890602,
-        "standard_deviation": 11.253644004474,
-        "ci95_low": 178.61397938195617,
-        "ci95_high": 192.56414101804384,
-        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
-        "values": [
-          187.760817,
-          187.188154,
-          202.284276,
-          194.422735,
-          167.516463,
-          185.105874,
-          176.633441,
-          189.381668,
-          169.784169,
-          195.813005
-        ]
-      },
-      "incremental_expected_saved": {
-        "mean": 0.006315799999998717,
-        "standard_deviation": 0.00502759767682717,
-        "ci95_low": 0.0031996626757206967,
-        "ci95_high": 0.009431937324276737,
-        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
-        "values": [
-          0.002521999999999025,
-          0.0021559999999851698,
-          0.009398000000004458,
-          0.0009639999999819793,
-          0.01711199999999735,
-          0.004491999999999052,
-          0.0033030000000167092,
-          0.00385399999998981,
-          0.009591999999997824,
-          0.009765000000015789
-        ]
-      },
-      "expected_saved_mean": 185.5890602,
-      "incremental_expected_saved_mean": 0.006315799999998717,
-      "episodes": [
-        {
-          "episode": 0,
-          "seed": 42,
-          "expected_saved": 187.760817,
-          "baseline": 187.758295,
-          "difference": 0.002521999999999025
-        },
-        {
-          "episode": 1,
-          "seed": 43,
-          "expected_saved": 187.188154,
-          "baseline": 187.185998,
-          "difference": 0.0021559999999851698
-        },
-        {
-          "episode": 2,
-          "seed": 44,
-          "expected_saved": 202.284276,
-          "baseline": 202.274878,
-          "difference": 0.009398000000004458
-        },
-        {
-          "episode": 3,
-          "seed": 45,
-          "expected_saved": 194.422735,
-          "baseline": 194.421771,
-          "difference": 0.0009639999999819793
-        },
-        {
-          "episode": 4,
-          "seed": 46,
-          "expected_saved": 167.516463,
-          "baseline": 167.499351,
-          "difference": 0.01711199999999735
-        },
-        {
-          "episode": 5,
-          "seed": 47,
-          "expected_saved": 185.105874,
-          "baseline": 185.101382,
-          "difference": 0.004491999999999052
-        },
-        {
-          "episode": 6,
-          "seed": 48,
-          "expected_saved": 176.633441,
-          "baseline": 176.630138,
-          "difference": 0.0033030000000167092
-        },
-        {
-          "episode": 7,
-          "seed": 49,
-          "expected_saved": 189.381668,
-          "baseline": 189.377814,
-          "difference": 0.00385399999998981
-        },
-        {
-          "episode": 8,
-          "seed": 50,
-          "expected_saved": 169.784169,
-          "baseline": 169.774577,
-          "difference": 0.009591999999997824
-        },
-        {
-          "episode": 9,
-          "seed": 51,
-          "expected_saved": 195.813005,
-          "baseline": 195.80324,
-          "difference": 0.009765000000015789
-        }
-      ]
-    },
-    {
-      "candidate_ids": [
-        "C06"
-      ],
-      "candidate_names": [
-        "경기도 수원시 권선구 고색동 격자 1-3"
-      ],
-      "total_cost": 1.0,
-      "expected_saved": {
-        "mean": 185.5886884,
-        "standard_deviation": 11.256308007794198,
-        "ci95_low": 178.6119564155917,
-        "ci95_high": 192.5654203844083,
-        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
-        "values": [
-          187.765277,
-          187.189647,
-          202.298261,
-          194.417869,
-          167.465388,
-          185.122803,
-          176.683065,
-          189.365177,
-          169.790398,
-          195.788999
-        ]
-      },
-      "incremental_expected_saved": {
-        "mean": 0.005943999999999505,
-        "standard_deviation": 0.02426052643928663,
-        "ci95_low": -0.009092830073445057,
-        "ci95_high": 0.02098083007344407,
-        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
-        "values": [
-          0.006981999999993604,
-          0.0036489999999957945,
-          0.02338299999999549,
-          -0.0039020000000107302,
-          -0.033962999999999965,
-          0.021421000000003687,
-          0.05292700000001105,
-          -0.012637000000012222,
-          0.01582100000001674,
-          -0.014240999999998394
-        ]
-      },
-      "expected_saved_mean": 185.5886884,
-      "incremental_expected_saved_mean": 0.005943999999999505,
-      "episodes": [
-        {
-          "episode": 0,
-          "seed": 42,
-          "expected_saved": 187.765277,
-          "baseline": 187.758295,
-          "difference": 0.006981999999993604
-        },
-        {
-          "episode": 1,
-          "seed": 43,
-          "expected_saved": 187.189647,
-          "baseline": 187.185998,
-          "difference": 0.0036489999999957945
-        },
-        {
-          "episode": 2,
-          "seed": 44,
-          "expected_saved": 202.298261,
-          "baseline": 202.274878,
-          "difference": 0.02338299999999549
-        },
-        {
-          "episode": 3,
-          "seed": 45,
-          "expected_saved": 194.417869,
-          "baseline": 194.421771,
-          "difference": -0.0039020000000107302
-        },
-        {
-          "episode": 4,
-          "seed": 46,
-          "expected_saved": 167.465388,
-          "baseline": 167.499351,
-          "difference": -0.033962999999999965
-        },
-        {
-          "episode": 5,
-          "seed": 47,
-          "expected_saved": 185.122803,
-          "baseline": 185.101382,
-          "difference": 0.021421000000003687
-        },
-        {
-          "episode": 6,
-          "seed": 48,
-          "expected_saved": 176.683065,
-          "baseline": 176.630138,
-          "difference": 0.05292700000001105
-        },
-        {
-          "episode": 7,
-          "seed": 49,
-          "expected_saved": 189.365177,
-          "baseline": 189.377814,
-          "difference": -0.012637000000012222
-        },
-        {
-          "episode": 8,
-          "seed": 50,
-          "expected_saved": 169.790398,
-          "baseline": 169.774577,
-          "difference": 0.01582100000001674
-        },
-        {
-          "episode": 9,
-          "seed": 51,
-          "expected_saved": 195.788999,
-          "baseline": 195.80324,
-          "difference": -0.014240999999998394
-        }
-      ]
-    },
-    {
-      "candidate_ids": [
-        "C13"
-      ],
-      "candidate_names": [
-        "경기도 수원시 권선구 입북동 격자 6-1"
-      ],
-      "total_cost": 1.0,
-      "expected_saved": {
-        "mean": 185.5876179,
-        "standard_deviation": 11.255714742665557,
-        "ci95_low": 178.611253625128,
-        "ci95_high": 192.563982174872,
-        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
-        "values": [
-          187.767039,
-          187.186508,
-          202.286331,
-          194.422624,
-          167.504416,
-          185.102121,
-          176.632219,
-          189.384705,
-          169.784378,
-          195.805838
-        ]
-      },
-      "incremental_expected_saved": {
-        "mean": 0.0048735000000021955,
-        "standard_deviation": 0.00410869571761978,
-        "ci95_low": 0.002326904010671526,
-        "ci95_high": 0.0074200959893328654,
-        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
-        "values": [
-          0.00874400000000719,
-          0.0005099999999913507,
-          0.011452999999988833,
-          0.000853000000006432,
-          0.0050650000000018736,
-          0.0007390000000100372,
-          0.0020810000000039963,
-          0.006890999999995984,
-          0.009801000000010163,
-          0.0025980000000060954
-        ]
-      },
-      "expected_saved_mean": 185.5876179,
-      "incremental_expected_saved_mean": 0.0048735000000021955,
-      "episodes": [
-        {
-          "episode": 0,
-          "seed": 42,
-          "expected_saved": 187.767039,
-          "baseline": 187.758295,
-          "difference": 0.00874400000000719
-        },
-        {
-          "episode": 1,
-          "seed": 43,
-          "expected_saved": 187.186508,
-          "baseline": 187.185998,
-          "difference": 0.0005099999999913507
-        },
-        {
-          "episode": 2,
-          "seed": 44,
-          "expected_saved": 202.286331,
-          "baseline": 202.274878,
-          "difference": 0.011452999999988833
-        },
-        {
-          "episode": 3,
-          "seed": 45,
-          "expected_saved": 194.422624,
-          "baseline": 194.421771,
-          "difference": 0.000853000000006432
-        },
-        {
-          "episode": 4,
-          "seed": 46,
-          "expected_saved": 167.504416,
-          "baseline": 167.499351,
-          "difference": 0.0050650000000018736
-        },
-        {
-          "episode": 5,
-          "seed": 47,
-          "expected_saved": 185.102121,
-          "baseline": 185.101382,
-          "difference": 0.0007390000000100372
-        },
-        {
-          "episode": 6,
-          "seed": 48,
-          "expected_saved": 176.632219,
-          "baseline": 176.630138,
-          "difference": 0.0020810000000039963
-        },
-        {
-          "episode": 7,
-          "seed": 49,
-          "expected_saved": 189.384705,
-          "baseline": 189.377814,
-          "difference": 0.006890999999995984
-        },
-        {
-          "episode": 8,
-          "seed": 50,
-          "expected_saved": 169.784378,
-          "baseline": 169.774577,
-          "difference": 0.009801000000010163
-        },
-        {
-          "episode": 9,
-          "seed": 51,
-          "expected_saved": 195.805838,
-          "baseline": 195.80324,
-          "difference": 0.0025980000000060954
-        }
-      ]
-    },
-    {
-      "candidate_ids": [
-        "C29"
-      ],
-      "candidate_names": [
-        "경기도 수원시 장안구 이목동 격자 10-3"
-      ],
-      "total_cost": 1.0,
-      "expected_saved": {
-        "mean": 185.58617999999998,
-        "standard_deviation": 11.25849701104343,
-        "ci95_low": 178.60809125732135,
-        "ci95_high": 192.56426874267862,
-        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
-        "values": [
-          187.808806,
-          187.185998,
-          202.274878,
-          194.421771,
-          167.499351,
-          185.096237,
-          176.630138,
-          189.377814,
-          169.763567,
-          195.80324
-        ]
-      },
-      "incremental_expected_saved": {
-        "mean": 0.0034356000000002494,
-        "standard_deviation": 0.016934575979338725,
-        "ci95_low": -0.007060558935561584,
-        "ci95_high": 0.013931758935562082,
-        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
-        "values": [
-          0.050511000000000195,
           0.0,
+          0.001873000000017555,
+          0.0018729999999891334,
+          0.0018729999999891334,
+          0.0018729999999891334,
           0.0,
-          0.0,
-          0.0,
-          -0.005144999999998845,
-          0.0,
-          0.0,
-          -0.011009999999998854,
+          0.0018739999999866086,
+          0.001873000000017555,
+          0.005005999999980304,
           0.0
         ]
       },
-      "expected_saved_mean": 185.58617999999998,
-      "incremental_expected_saved_mean": 0.0034356000000002494,
+      "expected_saved_mean": 177.1947085,
+      "incremental_expected_saved_mean": 0.0016244999999969422,
       "episodes": [
         {
           "episode": 0,
           "seed": 42,
-          "expected_saved": 187.808806,
-          "baseline": 187.758295,
-          "difference": 0.050511000000000195
+          "expected_saved": 180.019399,
+          "baseline": 180.019399,
+          "difference": 0.0
         },
         {
           "episode": 1,
           "seed": 43,
-          "expected_saved": 187.185998,
-          "baseline": 187.185998,
+          "expected_saved": 178.065051,
+          "baseline": 178.063178,
+          "difference": 0.001873000000017555
+        },
+        {
+          "episode": 2,
+          "seed": 44,
+          "expected_saved": 191.561222,
+          "baseline": 191.559349,
+          "difference": 0.0018729999999891334
+        },
+        {
+          "episode": 3,
+          "seed": 45,
+          "expected_saved": 185.817117,
+          "baseline": 185.815244,
+          "difference": 0.0018729999999891334
+        },
+        {
+          "episode": 4,
+          "seed": 46,
+          "expected_saved": 160.674817,
+          "baseline": 160.672944,
+          "difference": 0.0018729999999891334
+        },
+        {
+          "episode": 5,
+          "seed": 47,
+          "expected_saved": 176.015544,
+          "baseline": 176.015544,
+          "difference": 0.0
+        },
+        {
+          "episode": 6,
+          "seed": 48,
+          "expected_saved": 169.678427,
+          "baseline": 169.676553,
+          "difference": 0.0018739999999866086
+        },
+        {
+          "episode": 7,
+          "seed": 49,
+          "expected_saved": 181.52386,
+          "baseline": 181.521987,
+          "difference": 0.001873000000017555
+        },
+        {
+          "episode": 8,
+          "seed": 50,
+          "expected_saved": 162.655543,
+          "baseline": 162.650537,
+          "difference": 0.005005999999980304
+        },
+        {
+          "episode": 9,
+          "seed": 51,
+          "expected_saved": 185.936105,
+          "baseline": 185.936105,
+          "difference": 0.0
+        }
+      ]
+    },
+    {
+      "candidate_ids": [
+        "C01"
+      ],
+      "candidate_names": [
+        "경기도 수원시 권선구 대황교동 격자 0-5"
+      ],
+      "total_cost": 1.0,
+      "expected_saved": {
+        "mean": 177.193084,
+        "standard_deviation": 10.148572357978377,
+        "ci95_low": 170.9029336845535,
+        "ci95_high": 183.4832343154465,
+        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
+        "values": [
+          180.019399,
+          178.063178,
+          191.559349,
+          185.815244,
+          160.672944,
+          176.015544,
+          169.676553,
+          181.521987,
+          162.650537,
+          185.936105
+        ]
+      },
+      "incremental_expected_saved": {
+        "mean": 0.0,
+        "standard_deviation": 0.0,
+        "ci95_low": 0.0,
+        "ci95_high": 0.0,
+        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "expected_saved_mean": 177.193084,
+      "incremental_expected_saved_mean": 0.0,
+      "episodes": [
+        {
+          "episode": 0,
+          "seed": 42,
+          "expected_saved": 180.019399,
+          "baseline": 180.019399,
+          "difference": 0.0
+        },
+        {
+          "episode": 1,
+          "seed": 43,
+          "expected_saved": 178.063178,
+          "baseline": 178.063178,
           "difference": 0.0
         },
         {
           "episode": 2,
           "seed": 44,
-          "expected_saved": 202.274878,
-          "baseline": 202.274878,
+          "expected_saved": 191.559349,
+          "baseline": 191.559349,
           "difference": 0.0
         },
         {
           "episode": 3,
           "seed": 45,
-          "expected_saved": 194.421771,
-          "baseline": 194.421771,
+          "expected_saved": 185.815244,
+          "baseline": 185.815244,
           "difference": 0.0
         },
         {
           "episode": 4,
           "seed": 46,
-          "expected_saved": 167.499351,
-          "baseline": 167.499351,
+          "expected_saved": 160.672944,
+          "baseline": 160.672944,
           "difference": 0.0
         },
         {
           "episode": 5,
           "seed": 47,
-          "expected_saved": 185.096237,
-          "baseline": 185.101382,
-          "difference": -0.005144999999998845
+          "expected_saved": 176.015544,
+          "baseline": 176.015544,
+          "difference": 0.0
         },
         {
           "episode": 6,
           "seed": 48,
-          "expected_saved": 176.630138,
-          "baseline": 176.630138,
+          "expected_saved": 169.676553,
+          "baseline": 169.676553,
           "difference": 0.0
         },
         {
           "episode": 7,
           "seed": 49,
-          "expected_saved": 189.377814,
-          "baseline": 189.377814,
+          "expected_saved": 181.521987,
+          "baseline": 181.521987,
           "difference": 0.0
         },
         {
           "episode": 8,
           "seed": 50,
-          "expected_saved": 169.763567,
-          "baseline": 169.774577,
-          "difference": -0.011009999999998854
+          "expected_saved": 162.650537,
+          "baseline": 162.650537,
+          "difference": 0.0
         },
         {
           "episode": 9,
           "seed": 51,
-          "expected_saved": 195.80324,
-          "baseline": 195.80324,
+          "expected_saved": 185.936105,
+          "baseline": 185.936105,
           "difference": 0.0
         }
       ]
@@ -2215,385 +1731,22 @@ wrote: outputs\suwon_grid_k1\hospital_placement_result.json
       ],
       "total_cost": 1.0,
       "expected_saved": {
-        "mean": 185.5860783,
-        "standard_deviation": 11.256511992422352,
-        "ci95_low": 178.60921988460927,
-        "ci95_high": 192.56293671539072,
+        "mean": 177.193084,
+        "standard_deviation": 10.148572357978377,
+        "ci95_low": 170.9029336845535,
+        "ci95_high": 183.4832343154465,
         "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
         "values": [
-          187.76011,
-          187.187419,
-          202.279275,
-          194.42409,
-          167.470684,
-          185.114622,
-          176.678294,
-          189.35312,
-          169.780709,
-          195.81246
-        ]
-      },
-      "incremental_expected_saved": {
-        "mean": 0.003333900000001222,
-        "standard_deviation": 0.02099569857772504,
-        "ci95_low": -0.009679368800104685,
-        "ci95_high": 0.01634716880010713,
-        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
-        "values": [
-          0.0018149999999934607,
-          0.0014209999999934553,
-          0.004397000000011531,
-          0.00231899999999996,
-          -0.028666999999984455,
-          0.013239999999996144,
-          0.04815600000000586,
-          -0.024694000000010874,
-          0.00613200000000802,
-          0.009219999999999118
-        ]
-      },
-      "expected_saved_mean": 185.5860783,
-      "incremental_expected_saved_mean": 0.003333900000001222,
-      "episodes": [
-        {
-          "episode": 0,
-          "seed": 42,
-          "expected_saved": 187.76011,
-          "baseline": 187.758295,
-          "difference": 0.0018149999999934607
-        },
-        {
-          "episode": 1,
-          "seed": 43,
-          "expected_saved": 187.187419,
-          "baseline": 187.185998,
-          "difference": 0.0014209999999934553
-        },
-        {
-          "episode": 2,
-          "seed": 44,
-          "expected_saved": 202.279275,
-          "baseline": 202.274878,
-          "difference": 0.004397000000011531
-        },
-        {
-          "episode": 3,
-          "seed": 45,
-          "expected_saved": 194.42409,
-          "baseline": 194.421771,
-          "difference": 0.00231899999999996
-        },
-        {
-          "episode": 4,
-          "seed": 46,
-          "expected_saved": 167.470684,
-          "baseline": 167.499351,
-          "difference": -0.028666999999984455
-        },
-        {
-          "episode": 5,
-          "seed": 47,
-          "expected_saved": 185.114622,
-          "baseline": 185.101382,
-          "difference": 0.013239999999996144
-        },
-        {
-          "episode": 6,
-          "seed": 48,
-          "expected_saved": 176.678294,
-          "baseline": 176.630138,
-          "difference": 0.04815600000000586
-        },
-        {
-          "episode": 7,
-          "seed": 49,
-          "expected_saved": 189.35312,
-          "baseline": 189.377814,
-          "difference": -0.024694000000010874
-        },
-        {
-          "episode": 8,
-          "seed": 50,
-          "expected_saved": 169.780709,
-          "baseline": 169.774577,
-          "difference": 0.00613200000000802
-        },
-        {
-          "episode": 9,
-          "seed": 51,
-          "expected_saved": 195.81246,
-          "baseline": 195.80324,
-          "difference": 0.009219999999999118
-        }
-      ]
-    },
-    {
-      "candidate_ids": [
-        "C22"
-      ],
-      "candidate_names": [
-        "경기도 수원시 영통구 이의동 격자 8-8"
-      ],
-      "total_cost": 1.0,
-      "expected_saved": {
-        "mean": 185.5855696,
-        "standard_deviation": 11.256239399598782,
-        "ci95_low": 178.60888013939177,
-        "ci95_high": 192.56225906060826,
-        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
-        "values": [
-          187.758295,
-          187.185998,
-          202.274878,
-          194.421771,
-          167.50157,
-          185.101382,
-          176.630138,
-          189.403847,
-          169.774577,
-          195.80324
-        ]
-      },
-      "incremental_expected_saved": {
-        "mean": 0.0028252000000009046,
-        "standard_deviation": 0.008184154742214303,
-        "ci95_low": -0.0022473916628975117,
-        "ci95_high": 0.00789779166289932,
-        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
-        "values": [
-          0.0,
-          0.0,
-          0.0,
-          0.0,
-          0.0022189999999966403,
-          0.0,
-          0.0,
-          0.026033000000012407,
-          0.0,
-          0.0
-        ]
-      },
-      "expected_saved_mean": 185.5855696,
-      "incremental_expected_saved_mean": 0.0028252000000009046,
-      "episodes": [
-        {
-          "episode": 0,
-          "seed": 42,
-          "expected_saved": 187.758295,
-          "baseline": 187.758295,
-          "difference": 0.0
-        },
-        {
-          "episode": 1,
-          "seed": 43,
-          "expected_saved": 187.185998,
-          "baseline": 187.185998,
-          "difference": 0.0
-        },
-        {
-          "episode": 2,
-          "seed": 44,
-          "expected_saved": 202.274878,
-          "baseline": 202.274878,
-          "difference": 0.0
-        },
-        {
-          "episode": 3,
-          "seed": 45,
-          "expected_saved": 194.421771,
-          "baseline": 194.421771,
-          "difference": 0.0
-        },
-        {
-          "episode": 4,
-          "seed": 46,
-          "expected_saved": 167.50157,
-          "baseline": 167.499351,
-          "difference": 0.0022189999999966403
-        },
-        {
-          "episode": 5,
-          "seed": 47,
-          "expected_saved": 185.101382,
-          "baseline": 185.101382,
-          "difference": 0.0
-        },
-        {
-          "episode": 6,
-          "seed": 48,
-          "expected_saved": 176.630138,
-          "baseline": 176.630138,
-          "difference": 0.0
-        },
-        {
-          "episode": 7,
-          "seed": 49,
-          "expected_saved": 189.403847,
-          "baseline": 189.377814,
-          "difference": 0.026033000000012407
-        },
-        {
-          "episode": 8,
-          "seed": 50,
-          "expected_saved": 169.774577,
-          "baseline": 169.774577,
-          "difference": 0.0
-        },
-        {
-          "episode": 9,
-          "seed": 51,
-          "expected_saved": 195.80324,
-          "baseline": 195.80324,
-          "difference": 0.0
-        }
-      ]
-    },
-    {
-      "candidate_ids": [
-        "C26"
-      ],
-      "candidate_names": [
-        "경기도 수원시 장안구 이목동 격자 9-3"
-      ],
-      "total_cost": 1.0,
-      "expected_saved": {
-        "mean": 185.5831789,
-        "standard_deviation": 11.264434707347926,
-        "ci95_low": 178.60140993502355,
-        "ci95_high": 192.56494786497646,
-        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
-        "values": [
-          187.811567,
-          187.167159,
-          202.328099,
-          194.359299,
-          167.516043,
-          185.101451,
-          176.634195,
-          189.383969,
-          169.725984,
-          195.804023
-        ]
-      },
-      "incremental_expected_saved": {
-        "mean": 0.00043450000000291313,
-        "standard_deviation": 0.03744776401053878,
-        "ci95_low": -0.022775864600538796,
-        "ci95_high": 0.02364486460054462,
-        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
-        "values": [
-          0.05327199999999266,
-          -0.01883900000001404,
-          0.053221000000007734,
-          -0.06247200000001385,
-          0.016692000000006146,
-          6.8999999996322e-05,
-          0.004057000000017297,
-          0.006155000000006794,
-          -0.04859299999998257,
-          0.0007830000000126347
-        ]
-      },
-      "expected_saved_mean": 185.5831789,
-      "incremental_expected_saved_mean": 0.00043450000000291313,
-      "episodes": [
-        {
-          "episode": 0,
-          "seed": 42,
-          "expected_saved": 187.811567,
-          "baseline": 187.758295,
-          "difference": 0.05327199999999266
-        },
-        {
-          "episode": 1,
-          "seed": 43,
-          "expected_saved": 187.167159,
-          "baseline": 187.185998,
-          "difference": -0.01883900000001404
-        },
-        {
-          "episode": 2,
-          "seed": 44,
-          "expected_saved": 202.328099,
-          "baseline": 202.274878,
-          "difference": 0.053221000000007734
-        },
-        {
-          "episode": 3,
-          "seed": 45,
-          "expected_saved": 194.359299,
-          "baseline": 194.421771,
-          "difference": -0.06247200000001385
-        },
-        {
-          "episode": 4,
-          "seed": 46,
-          "expected_saved": 167.516043,
-          "baseline": 167.499351,
-          "difference": 0.016692000000006146
-        },
-        {
-          "episode": 5,
-          "seed": 47,
-          "expected_saved": 185.101451,
-          "baseline": 185.101382,
-          "difference": 6.8999999996322e-05
-        },
-        {
-          "episode": 6,
-          "seed": 48,
-          "expected_saved": 176.634195,
-          "baseline": 176.630138,
-          "difference": 0.004057000000017297
-        },
-        {
-          "episode": 7,
-          "seed": 49,
-          "expected_saved": 189.383969,
-          "baseline": 189.377814,
-          "difference": 0.006155000000006794
-        },
-        {
-          "episode": 8,
-          "seed": 50,
-          "expected_saved": 169.725984,
-          "baseline": 169.774577,
-          "difference": -0.04859299999998257
-        },
-        {
-          "episode": 9,
-          "seed": 51,
-          "expected_saved": 195.804023,
-          "baseline": 195.80324,
-          "difference": 0.0007830000000126347
-        }
-      ]
-    },
-    {
-      "candidate_ids": [
-        "C01"
-      ],
-      "candidate_names": [
-        "경기도 수원시 권선구 대황교동 격자 0-5"
-      ],
-      "total_cost": 1.0,
-      "expected_saved": {
-        "mean": 185.5827444,
-        "standard_deviation": 11.255657273726523,
-        "ci95_low": 178.60641574474545,
-        "ci95_high": 192.55907305525454,
-        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
-        "values": [
-          187.758295,
-          187.185998,
-          202.274878,
-          194.421771,
-          167.499351,
-          185.101382,
-          176.630138,
-          189.377814,
-          169.774577,
-          195.80324
+          180.019399,
+          178.063178,
+          191.559349,
+          185.815244,
+          160.672944,
+          176.015544,
+          169.676553,
+          181.521987,
+          162.650537,
+          185.936105
         ]
       },
       "incremental_expected_saved": {
@@ -2615,106 +1768,106 @@ wrote: outputs\suwon_grid_k1\hospital_placement_result.json
           0.0
         ]
       },
-      "expected_saved_mean": 185.5827444,
+      "expected_saved_mean": 177.193084,
       "incremental_expected_saved_mean": 0.0,
       "episodes": [
         {
           "episode": 0,
           "seed": 42,
-          "expected_saved": 187.758295,
-          "baseline": 187.758295,
+          "expected_saved": 180.019399,
+          "baseline": 180.019399,
           "difference": 0.0
         },
         {
           "episode": 1,
           "seed": 43,
-          "expected_saved": 187.185998,
-          "baseline": 187.185998,
+          "expected_saved": 178.063178,
+          "baseline": 178.063178,
           "difference": 0.0
         },
         {
           "episode": 2,
           "seed": 44,
-          "expected_saved": 202.274878,
-          "baseline": 202.274878,
+          "expected_saved": 191.559349,
+          "baseline": 191.559349,
           "difference": 0.0
         },
         {
           "episode": 3,
           "seed": 45,
-          "expected_saved": 194.421771,
-          "baseline": 194.421771,
+          "expected_saved": 185.815244,
+          "baseline": 185.815244,
           "difference": 0.0
         },
         {
           "episode": 4,
           "seed": 46,
-          "expected_saved": 167.499351,
-          "baseline": 167.499351,
+          "expected_saved": 160.672944,
+          "baseline": 160.672944,
           "difference": 0.0
         },
         {
           "episode": 5,
           "seed": 47,
-          "expected_saved": 185.101382,
-          "baseline": 185.101382,
+          "expected_saved": 176.015544,
+          "baseline": 176.015544,
           "difference": 0.0
         },
         {
           "episode": 6,
           "seed": 48,
-          "expected_saved": 176.630138,
-          "baseline": 176.630138,
+          "expected_saved": 169.676553,
+          "baseline": 169.676553,
           "difference": 0.0
         },
         {
           "episode": 7,
           "seed": 49,
-          "expected_saved": 189.377814,
-          "baseline": 189.377814,
+          "expected_saved": 181.521987,
+          "baseline": 181.521987,
           "difference": 0.0
         },
         {
           "episode": 8,
           "seed": 50,
-          "expected_saved": 169.774577,
-          "baseline": 169.774577,
+          "expected_saved": 162.650537,
+          "baseline": 162.650537,
           "difference": 0.0
         },
         {
           "episode": 9,
           "seed": 51,
-          "expected_saved": 195.80324,
-          "baseline": 195.80324,
+          "expected_saved": 185.936105,
+          "baseline": 185.936105,
           "difference": 0.0
         }
       ]
     },
     {
       "candidate_ids": [
-        "C23"
+        "C05"
       ],
       "candidate_names": [
-        "경기도 수원시 영통구 이의동 격자 8-9"
+        "경기도 수원시 권선구 오목천동 격자 1-2"
       ],
       "total_cost": 1.0,
       "expected_saved": {
-        "mean": 185.5827444,
-        "standard_deviation": 11.255657273726523,
-        "ci95_low": 178.60641574474545,
-        "ci95_high": 192.55907305525454,
+        "mean": 177.193084,
+        "standard_deviation": 10.148572357978377,
+        "ci95_low": 170.9029336845535,
+        "ci95_high": 183.4832343154465,
         "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
         "values": [
-          187.758295,
-          187.185998,
-          202.274878,
-          194.421771,
-          167.499351,
-          185.101382,
-          176.630138,
-          189.377814,
-          169.774577,
-          195.80324
+          180.019399,
+          178.063178,
+          191.559349,
+          185.815244,
+          160.672944,
+          176.015544,
+          169.676553,
+          181.521987,
+          162.650537,
+          185.936105
         ]
       },
       "incremental_expected_saved": {
@@ -2736,106 +1889,106 @@ wrote: outputs\suwon_grid_k1\hospital_placement_result.json
           0.0
         ]
       },
-      "expected_saved_mean": 185.5827444,
+      "expected_saved_mean": 177.193084,
       "incremental_expected_saved_mean": 0.0,
       "episodes": [
         {
           "episode": 0,
           "seed": 42,
-          "expected_saved": 187.758295,
-          "baseline": 187.758295,
+          "expected_saved": 180.019399,
+          "baseline": 180.019399,
           "difference": 0.0
         },
         {
           "episode": 1,
           "seed": 43,
-          "expected_saved": 187.185998,
-          "baseline": 187.185998,
+          "expected_saved": 178.063178,
+          "baseline": 178.063178,
           "difference": 0.0
         },
         {
           "episode": 2,
           "seed": 44,
-          "expected_saved": 202.274878,
-          "baseline": 202.274878,
+          "expected_saved": 191.559349,
+          "baseline": 191.559349,
           "difference": 0.0
         },
         {
           "episode": 3,
           "seed": 45,
-          "expected_saved": 194.421771,
-          "baseline": 194.421771,
+          "expected_saved": 185.815244,
+          "baseline": 185.815244,
           "difference": 0.0
         },
         {
           "episode": 4,
           "seed": 46,
-          "expected_saved": 167.499351,
-          "baseline": 167.499351,
+          "expected_saved": 160.672944,
+          "baseline": 160.672944,
           "difference": 0.0
         },
         {
           "episode": 5,
           "seed": 47,
-          "expected_saved": 185.101382,
-          "baseline": 185.101382,
+          "expected_saved": 176.015544,
+          "baseline": 176.015544,
           "difference": 0.0
         },
         {
           "episode": 6,
           "seed": 48,
-          "expected_saved": 176.630138,
-          "baseline": 176.630138,
+          "expected_saved": 169.676553,
+          "baseline": 169.676553,
           "difference": 0.0
         },
         {
           "episode": 7,
           "seed": 49,
-          "expected_saved": 189.377814,
-          "baseline": 189.377814,
+          "expected_saved": 181.521987,
+          "baseline": 181.521987,
           "difference": 0.0
         },
         {
           "episode": 8,
           "seed": 50,
-          "expected_saved": 169.774577,
-          "baseline": 169.774577,
+          "expected_saved": 162.650537,
+          "baseline": 162.650537,
           "difference": 0.0
         },
         {
           "episode": 9,
           "seed": 51,
-          "expected_saved": 195.80324,
-          "baseline": 195.80324,
+          "expected_saved": 185.936105,
+          "baseline": 185.936105,
           "difference": 0.0
         }
       ]
     },
     {
       "candidate_ids": [
-        "C27"
+        "C06"
       ],
       "candidate_names": [
-        "경기도 수원시 영통구 이의동 격자 9-8"
+        "경기도 수원시 권선구 고색동 격자 1-3"
       ],
       "total_cost": 1.0,
       "expected_saved": {
-        "mean": 185.5827444,
-        "standard_deviation": 11.255657273726523,
-        "ci95_low": 178.60641574474545,
-        "ci95_high": 192.55907305525454,
+        "mean": 177.193084,
+        "standard_deviation": 10.148572357978377,
+        "ci95_low": 170.9029336845535,
+        "ci95_high": 183.4832343154465,
         "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
         "values": [
-          187.758295,
-          187.185998,
-          202.274878,
-          194.421771,
-          167.499351,
-          185.101382,
-          176.630138,
-          189.377814,
-          169.774577,
-          195.80324
+          180.019399,
+          178.063178,
+          191.559349,
+          185.815244,
+          160.672944,
+          176.015544,
+          169.676553,
+          181.521987,
+          162.650537,
+          185.936105
         ]
       },
       "incremental_expected_saved": {
@@ -2857,106 +2010,106 @@ wrote: outputs\suwon_grid_k1\hospital_placement_result.json
           0.0
         ]
       },
-      "expected_saved_mean": 185.5827444,
+      "expected_saved_mean": 177.193084,
       "incremental_expected_saved_mean": 0.0,
       "episodes": [
         {
           "episode": 0,
           "seed": 42,
-          "expected_saved": 187.758295,
-          "baseline": 187.758295,
+          "expected_saved": 180.019399,
+          "baseline": 180.019399,
           "difference": 0.0
         },
         {
           "episode": 1,
           "seed": 43,
-          "expected_saved": 187.185998,
-          "baseline": 187.185998,
+          "expected_saved": 178.063178,
+          "baseline": 178.063178,
           "difference": 0.0
         },
         {
           "episode": 2,
           "seed": 44,
-          "expected_saved": 202.274878,
-          "baseline": 202.274878,
+          "expected_saved": 191.559349,
+          "baseline": 191.559349,
           "difference": 0.0
         },
         {
           "episode": 3,
           "seed": 45,
-          "expected_saved": 194.421771,
-          "baseline": 194.421771,
+          "expected_saved": 185.815244,
+          "baseline": 185.815244,
           "difference": 0.0
         },
         {
           "episode": 4,
           "seed": 46,
-          "expected_saved": 167.499351,
-          "baseline": 167.499351,
+          "expected_saved": 160.672944,
+          "baseline": 160.672944,
           "difference": 0.0
         },
         {
           "episode": 5,
           "seed": 47,
-          "expected_saved": 185.101382,
-          "baseline": 185.101382,
+          "expected_saved": 176.015544,
+          "baseline": 176.015544,
           "difference": 0.0
         },
         {
           "episode": 6,
           "seed": 48,
-          "expected_saved": 176.630138,
-          "baseline": 176.630138,
+          "expected_saved": 169.676553,
+          "baseline": 169.676553,
           "difference": 0.0
         },
         {
           "episode": 7,
           "seed": 49,
-          "expected_saved": 189.377814,
-          "baseline": 189.377814,
+          "expected_saved": 181.521987,
+          "baseline": 181.521987,
           "difference": 0.0
         },
         {
           "episode": 8,
           "seed": 50,
-          "expected_saved": 169.774577,
-          "baseline": 169.774577,
+          "expected_saved": 162.650537,
+          "baseline": 162.650537,
           "difference": 0.0
         },
         {
           "episode": 9,
           "seed": 51,
-          "expected_saved": 195.80324,
-          "baseline": 195.80324,
+          "expected_saved": 185.936105,
+          "baseline": 185.936105,
           "difference": 0.0
         }
       ]
     },
     {
       "candidate_ids": [
-        "C28"
+        "C07"
       ],
       "candidate_names": [
-        "경기도 수원시 영통구 이의동 격자 9-9"
+        "경기도 수원시 권선구 평리동 격자 1-4"
       ],
       "total_cost": 1.0,
       "expected_saved": {
-        "mean": 185.5827444,
-        "standard_deviation": 11.255657273726523,
-        "ci95_low": 178.60641574474545,
-        "ci95_high": 192.55907305525454,
+        "mean": 177.193084,
+        "standard_deviation": 10.148572357978377,
+        "ci95_low": 170.9029336845535,
+        "ci95_high": 183.4832343154465,
         "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
         "values": [
-          187.758295,
-          187.185998,
-          202.274878,
-          194.421771,
-          167.499351,
-          185.101382,
-          176.630138,
-          189.377814,
-          169.774577,
-          195.80324
+          180.019399,
+          178.063178,
+          191.559349,
+          185.815244,
+          160.672944,
+          176.015544,
+          169.676553,
+          181.521987,
+          162.650537,
+          185.936105
         ]
       },
       "incremental_expected_saved": {
@@ -2978,106 +2131,106 @@ wrote: outputs\suwon_grid_k1\hospital_placement_result.json
           0.0
         ]
       },
-      "expected_saved_mean": 185.5827444,
+      "expected_saved_mean": 177.193084,
       "incremental_expected_saved_mean": 0.0,
       "episodes": [
         {
           "episode": 0,
           "seed": 42,
-          "expected_saved": 187.758295,
-          "baseline": 187.758295,
+          "expected_saved": 180.019399,
+          "baseline": 180.019399,
           "difference": 0.0
         },
         {
           "episode": 1,
           "seed": 43,
-          "expected_saved": 187.185998,
-          "baseline": 187.185998,
+          "expected_saved": 178.063178,
+          "baseline": 178.063178,
           "difference": 0.0
         },
         {
           "episode": 2,
           "seed": 44,
-          "expected_saved": 202.274878,
-          "baseline": 202.274878,
+          "expected_saved": 191.559349,
+          "baseline": 191.559349,
           "difference": 0.0
         },
         {
           "episode": 3,
           "seed": 45,
-          "expected_saved": 194.421771,
-          "baseline": 194.421771,
+          "expected_saved": 185.815244,
+          "baseline": 185.815244,
           "difference": 0.0
         },
         {
           "episode": 4,
           "seed": 46,
-          "expected_saved": 167.499351,
-          "baseline": 167.499351,
+          "expected_saved": 160.672944,
+          "baseline": 160.672944,
           "difference": 0.0
         },
         {
           "episode": 5,
           "seed": 47,
-          "expected_saved": 185.101382,
-          "baseline": 185.101382,
+          "expected_saved": 176.015544,
+          "baseline": 176.015544,
           "difference": 0.0
         },
         {
           "episode": 6,
           "seed": 48,
-          "expected_saved": 176.630138,
-          "baseline": 176.630138,
+          "expected_saved": 169.676553,
+          "baseline": 169.676553,
           "difference": 0.0
         },
         {
           "episode": 7,
           "seed": 49,
-          "expected_saved": 189.377814,
-          "baseline": 189.377814,
+          "expected_saved": 181.521987,
+          "baseline": 181.521987,
           "difference": 0.0
         },
         {
           "episode": 8,
           "seed": 50,
-          "expected_saved": 169.774577,
-          "baseline": 169.774577,
+          "expected_saved": 162.650537,
+          "baseline": 162.650537,
           "difference": 0.0
         },
         {
           "episode": 9,
           "seed": 51,
-          "expected_saved": 195.80324,
-          "baseline": 195.80324,
+          "expected_saved": 185.936105,
+          "baseline": 185.936105,
           "difference": 0.0
         }
       ]
     },
     {
       "candidate_ids": [
-        "C30"
+        "C12"
       ],
       "candidate_names": [
-        "경기도 수원시 장안구 파장동 격자 10-4"
+        "경기도 수원시 권선구 당수동 격자 6-0"
       ],
       "total_cost": 1.0,
       "expected_saved": {
-        "mean": 185.5827444,
-        "standard_deviation": 11.255657273726523,
-        "ci95_low": 178.60641574474545,
-        "ci95_high": 192.55907305525454,
+        "mean": 177.193084,
+        "standard_deviation": 10.148572357978377,
+        "ci95_low": 170.9029336845535,
+        "ci95_high": 183.4832343154465,
         "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
         "values": [
-          187.758295,
-          187.185998,
-          202.274878,
-          194.421771,
-          167.499351,
-          185.101382,
-          176.630138,
-          189.377814,
-          169.774577,
-          195.80324
+          180.019399,
+          178.063178,
+          191.559349,
+          185.815244,
+          160.672944,
+          176.015544,
+          169.676553,
+          181.521987,
+          162.650537,
+          185.936105
         ]
       },
       "incremental_expected_saved": {
@@ -3099,106 +2252,106 @@ wrote: outputs\suwon_grid_k1\hospital_placement_result.json
           0.0
         ]
       },
-      "expected_saved_mean": 185.5827444,
+      "expected_saved_mean": 177.193084,
       "incremental_expected_saved_mean": 0.0,
       "episodes": [
         {
           "episode": 0,
           "seed": 42,
-          "expected_saved": 187.758295,
-          "baseline": 187.758295,
+          "expected_saved": 180.019399,
+          "baseline": 180.019399,
           "difference": 0.0
         },
         {
           "episode": 1,
           "seed": 43,
-          "expected_saved": 187.185998,
-          "baseline": 187.185998,
+          "expected_saved": 178.063178,
+          "baseline": 178.063178,
           "difference": 0.0
         },
         {
           "episode": 2,
           "seed": 44,
-          "expected_saved": 202.274878,
-          "baseline": 202.274878,
+          "expected_saved": 191.559349,
+          "baseline": 191.559349,
           "difference": 0.0
         },
         {
           "episode": 3,
           "seed": 45,
-          "expected_saved": 194.421771,
-          "baseline": 194.421771,
+          "expected_saved": 185.815244,
+          "baseline": 185.815244,
           "difference": 0.0
         },
         {
           "episode": 4,
           "seed": 46,
-          "expected_saved": 167.499351,
-          "baseline": 167.499351,
+          "expected_saved": 160.672944,
+          "baseline": 160.672944,
           "difference": 0.0
         },
         {
           "episode": 5,
           "seed": 47,
-          "expected_saved": 185.101382,
-          "baseline": 185.101382,
+          "expected_saved": 176.015544,
+          "baseline": 176.015544,
           "difference": 0.0
         },
         {
           "episode": 6,
           "seed": 48,
-          "expected_saved": 176.630138,
-          "baseline": 176.630138,
+          "expected_saved": 169.676553,
+          "baseline": 169.676553,
           "difference": 0.0
         },
         {
           "episode": 7,
           "seed": 49,
-          "expected_saved": 189.377814,
-          "baseline": 189.377814,
+          "expected_saved": 181.521987,
+          "baseline": 181.521987,
           "difference": 0.0
         },
         {
           "episode": 8,
           "seed": 50,
-          "expected_saved": 169.774577,
-          "baseline": 169.774577,
+          "expected_saved": 162.650537,
+          "baseline": 162.650537,
           "difference": 0.0
         },
         {
           "episode": 9,
           "seed": 51,
-          "expected_saved": 195.80324,
-          "baseline": 195.80324,
+          "expected_saved": 185.936105,
+          "baseline": 185.936105,
           "difference": 0.0
         }
       ]
     },
     {
       "candidate_ids": [
-        "C31"
+        "C13"
       ],
       "candidate_names": [
-        "경기도 수원시 장안구 하광교동 격자 10-7"
+        "경기도 수원시 권선구 입북동 격자 6-1"
       ],
       "total_cost": 1.0,
       "expected_saved": {
-        "mean": 185.5827444,
-        "standard_deviation": 11.255657273726523,
-        "ci95_low": 178.60641574474545,
-        "ci95_high": 192.55907305525454,
+        "mean": 177.193084,
+        "standard_deviation": 10.148572357978377,
+        "ci95_low": 170.9029336845535,
+        "ci95_high": 183.4832343154465,
         "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
         "values": [
-          187.758295,
-          187.185998,
-          202.274878,
-          194.421771,
-          167.499351,
-          185.101382,
-          176.630138,
-          189.377814,
-          169.774577,
-          195.80324
+          180.019399,
+          178.063178,
+          191.559349,
+          185.815244,
+          160.672944,
+          176.015544,
+          169.676553,
+          181.521987,
+          162.650537,
+          185.936105
         ]
       },
       "incremental_expected_saved": {
@@ -3220,198 +2373,198 @@ wrote: outputs\suwon_grid_k1\hospital_placement_result.json
           0.0
         ]
       },
-      "expected_saved_mean": 185.5827444,
+      "expected_saved_mean": 177.193084,
       "incremental_expected_saved_mean": 0.0,
       "episodes": [
         {
           "episode": 0,
           "seed": 42,
-          "expected_saved": 187.758295,
-          "baseline": 187.758295,
+          "expected_saved": 180.019399,
+          "baseline": 180.019399,
           "difference": 0.0
         },
         {
           "episode": 1,
           "seed": 43,
-          "expected_saved": 187.185998,
-          "baseline": 187.185998,
+          "expected_saved": 178.063178,
+          "baseline": 178.063178,
           "difference": 0.0
         },
         {
           "episode": 2,
           "seed": 44,
-          "expected_saved": 202.274878,
-          "baseline": 202.274878,
+          "expected_saved": 191.559349,
+          "baseline": 191.559349,
           "difference": 0.0
         },
         {
           "episode": 3,
           "seed": 45,
-          "expected_saved": 194.421771,
-          "baseline": 194.421771,
+          "expected_saved": 185.815244,
+          "baseline": 185.815244,
           "difference": 0.0
         },
         {
           "episode": 4,
           "seed": 46,
-          "expected_saved": 167.499351,
-          "baseline": 167.499351,
+          "expected_saved": 160.672944,
+          "baseline": 160.672944,
           "difference": 0.0
         },
         {
           "episode": 5,
           "seed": 47,
-          "expected_saved": 185.101382,
-          "baseline": 185.101382,
+          "expected_saved": 176.015544,
+          "baseline": 176.015544,
           "difference": 0.0
         },
         {
           "episode": 6,
           "seed": 48,
-          "expected_saved": 176.630138,
-          "baseline": 176.630138,
+          "expected_saved": 169.676553,
+          "baseline": 169.676553,
           "difference": 0.0
         },
         {
           "episode": 7,
           "seed": 49,
-          "expected_saved": 189.377814,
-          "baseline": 189.377814,
+          "expected_saved": 181.521987,
+          "baseline": 181.521987,
           "difference": 0.0
         },
         {
           "episode": 8,
           "seed": 50,
-          "expected_saved": 169.774577,
-          "baseline": 169.774577,
+          "expected_saved": 162.650537,
+          "baseline": 162.650537,
           "difference": 0.0
         },
         {
           "episode": 9,
           "seed": 51,
-          "expected_saved": 195.80324,
-          "baseline": 195.80324,
+          "expected_saved": 185.936105,
+          "baseline": 185.936105,
           "difference": 0.0
         }
       ]
     },
     {
       "candidate_ids": [
-        "C25"
+        "C15"
       ],
       "candidate_names": [
-        "경기도 수원시 장안구 율전동 격자 9-2"
+        "경기도 수원시 영통구 하동 격자 6-11"
       ],
       "total_cost": 1.0,
       "expected_saved": {
-        "mean": 185.5812353,
-        "standard_deviation": 11.255078666933375,
-        "ci95_low": 178.6052652689513,
-        "ci95_high": 192.5572053310487,
+        "mean": 177.193084,
+        "standard_deviation": 10.148572357978377,
+        "ci95_low": 170.9029336845535,
+        "ci95_high": 183.4832343154465,
         "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
         "values": [
-          187.758295,
-          187.185998,
-          202.274878,
-          194.421771,
-          167.499417,
-          185.101382,
-          176.630138,
-          189.362657,
-          169.774577,
-          195.80324
+          180.019399,
+          178.063178,
+          191.559349,
+          185.815244,
+          160.672944,
+          176.015544,
+          169.676553,
+          181.521987,
+          162.650537,
+          185.936105
         ]
       },
       "incremental_expected_saved": {
-        "mean": -0.0015090999999983977,
-        "standard_deviation": 0.004795428110881368,
-        "ci95_low": -0.004481337136451184,
-        "ci95_high": 0.0014631371364543888,
+        "mean": 0.0,
+        "standard_deviation": 0.0,
+        "ci95_low": 0.0,
+        "ci95_high": 0.0,
         "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
         "values": [
           0.0,
           0.0,
           0.0,
           0.0,
-          6.600000000389628e-05,
           0.0,
           0.0,
-          -0.015156999999987875,
+          0.0,
+          0.0,
           0.0,
           0.0
         ]
       },
-      "expected_saved_mean": 185.5812353,
-      "incremental_expected_saved_mean": -0.0015090999999983977,
+      "expected_saved_mean": 177.193084,
+      "incremental_expected_saved_mean": 0.0,
       "episodes": [
         {
           "episode": 0,
           "seed": 42,
-          "expected_saved": 187.758295,
-          "baseline": 187.758295,
+          "expected_saved": 180.019399,
+          "baseline": 180.019399,
           "difference": 0.0
         },
         {
           "episode": 1,
           "seed": 43,
-          "expected_saved": 187.185998,
-          "baseline": 187.185998,
+          "expected_saved": 178.063178,
+          "baseline": 178.063178,
           "difference": 0.0
         },
         {
           "episode": 2,
           "seed": 44,
-          "expected_saved": 202.274878,
-          "baseline": 202.274878,
+          "expected_saved": 191.559349,
+          "baseline": 191.559349,
           "difference": 0.0
         },
         {
           "episode": 3,
           "seed": 45,
-          "expected_saved": 194.421771,
-          "baseline": 194.421771,
+          "expected_saved": 185.815244,
+          "baseline": 185.815244,
           "difference": 0.0
         },
         {
           "episode": 4,
           "seed": 46,
-          "expected_saved": 167.499417,
-          "baseline": 167.499351,
-          "difference": 6.600000000389628e-05
+          "expected_saved": 160.672944,
+          "baseline": 160.672944,
+          "difference": 0.0
         },
         {
           "episode": 5,
           "seed": 47,
-          "expected_saved": 185.101382,
-          "baseline": 185.101382,
+          "expected_saved": 176.015544,
+          "baseline": 176.015544,
           "difference": 0.0
         },
         {
           "episode": 6,
           "seed": 48,
-          "expected_saved": 176.630138,
-          "baseline": 176.630138,
+          "expected_saved": 169.676553,
+          "baseline": 169.676553,
           "difference": 0.0
         },
         {
           "episode": 7,
           "seed": 49,
-          "expected_saved": 189.362657,
-          "baseline": 189.377814,
-          "difference": -0.015156999999987875
+          "expected_saved": 181.521987,
+          "baseline": 181.521987,
+          "difference": 0.0
         },
         {
           "episode": 8,
           "seed": 50,
-          "expected_saved": 169.774577,
-          "baseline": 169.774577,
+          "expected_saved": 162.650537,
+          "baseline": 162.650537,
           "difference": 0.0
         },
         {
           "episode": 9,
           "seed": 51,
-          "expected_saved": 195.80324,
-          "baseline": 195.80324,
+          "expected_saved": 185.936105,
+          "baseline": 185.936105,
           "difference": 0.0
         }
       ]
@@ -3425,357 +2578,115 @@ wrote: outputs\suwon_grid_k1\hospital_placement_result.json
       ],
       "total_cost": 1.0,
       "expected_saved": {
-        "mean": 185.5805378,
-        "standard_deviation": 11.253393846371582,
-        "ci95_low": 178.6056120315544,
-        "ci95_high": 192.55546356844562,
+        "mean": 177.193084,
+        "standard_deviation": 10.148572357978377,
+        "ci95_low": 170.9029336845535,
+        "ci95_high": 183.4832343154465,
         "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
         "values": [
-          187.763897,
-          187.185998,
-          202.274878,
-          194.3976,
-          167.501286,
-          185.101382,
-          176.631091,
-          189.365271,
-          169.774577,
-          195.809398
+          180.019399,
+          178.063178,
+          191.559349,
+          185.815244,
+          160.672944,
+          176.015544,
+          169.676553,
+          181.521987,
+          162.650537,
+          185.936105
         ]
       },
       "incremental_expected_saved": {
-        "mean": -0.0022065999999995255,
-        "standard_deviation": 0.00923055948948001,
-        "ci95_low": -0.00792776004462935,
-        "ci95_high": 0.003514560044630298,
+        "mean": 0.0,
+        "standard_deviation": 0.0,
+        "ci95_low": 0.0,
+        "ci95_high": 0.0,
         "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
         "values": [
-          0.005601999999981899,
           0.0,
           0.0,
-          -0.0241709999999955,
-          0.0019350000000031287,
           0.0,
-          0.0009530000000097516,
-          -0.012542999999993754,
           0.0,
-          0.00615799999999922
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
         ]
       },
-      "expected_saved_mean": 185.5805378,
-      "incremental_expected_saved_mean": -0.0022065999999995255,
+      "expected_saved_mean": 177.193084,
+      "incremental_expected_saved_mean": 0.0,
       "episodes": [
         {
           "episode": 0,
           "seed": 42,
-          "expected_saved": 187.763897,
-          "baseline": 187.758295,
-          "difference": 0.005601999999981899
+          "expected_saved": 180.019399,
+          "baseline": 180.019399,
+          "difference": 0.0
         },
         {
           "episode": 1,
           "seed": 43,
-          "expected_saved": 187.185998,
-          "baseline": 187.185998,
+          "expected_saved": 178.063178,
+          "baseline": 178.063178,
           "difference": 0.0
         },
         {
           "episode": 2,
           "seed": 44,
-          "expected_saved": 202.274878,
-          "baseline": 202.274878,
+          "expected_saved": 191.559349,
+          "baseline": 191.559349,
           "difference": 0.0
         },
         {
           "episode": 3,
           "seed": 45,
-          "expected_saved": 194.3976,
-          "baseline": 194.421771,
-          "difference": -0.0241709999999955
-        },
-        {
-          "episode": 4,
-          "seed": 46,
-          "expected_saved": 167.501286,
-          "baseline": 167.499351,
-          "difference": 0.0019350000000031287
-        },
-        {
-          "episode": 5,
-          "seed": 47,
-          "expected_saved": 185.101382,
-          "baseline": 185.101382,
-          "difference": 0.0
-        },
-        {
-          "episode": 6,
-          "seed": 48,
-          "expected_saved": 176.631091,
-          "baseline": 176.630138,
-          "difference": 0.0009530000000097516
-        },
-        {
-          "episode": 7,
-          "seed": 49,
-          "expected_saved": 189.365271,
-          "baseline": 189.377814,
-          "difference": -0.012542999999993754
-        },
-        {
-          "episode": 8,
-          "seed": 50,
-          "expected_saved": 169.774577,
-          "baseline": 169.774577,
-          "difference": 0.0
-        },
-        {
-          "episode": 9,
-          "seed": 51,
-          "expected_saved": 195.809398,
-          "baseline": 195.80324,
-          "difference": 0.00615799999999922
-        }
-      ]
-    },
-    {
-      "candidate_ids": [
-        "C12"
-      ],
-      "candidate_names": [
-        "경기도 수원시 권선구 당수동 격자 6-0"
-      ],
-      "total_cost": 1.0,
-      "expected_saved": {
-        "mean": 185.5802202,
-        "standard_deviation": 11.253497120376752,
-        "ci95_low": 178.60523042166284,
-        "ci95_high": 192.5552099783372,
-        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
-        "values": [
-          187.758744,
-          187.185998,
-          202.274878,
-          194.397122,
-          167.499394,
-          185.101382,
-          176.630159,
-          189.376244,
-          169.774577,
-          195.803704
-        ]
-      },
-      "incremental_expected_saved": {
-        "mean": -0.0025241999999963127,
-        "standard_deviation": 0.007794167560146078,
-        "ci95_low": -0.007355075103187882,
-        "ci95_high": 0.0023066751031952564,
-        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
-        "values": [
-          0.00044900000000325235,
-          0.0,
-          0.0,
-          -0.0246490000000108,
-          4.3000000005122274e-05,
-          0.0,
-          2.1000000003823516e-05,
-          -0.0015699999999867487,
-          0.0,
-          0.0004640000000222244
-        ]
-      },
-      "expected_saved_mean": 185.5802202,
-      "incremental_expected_saved_mean": -0.0025241999999963127,
-      "episodes": [
-        {
-          "episode": 0,
-          "seed": 42,
-          "expected_saved": 187.758744,
-          "baseline": 187.758295,
-          "difference": 0.00044900000000325235
-        },
-        {
-          "episode": 1,
-          "seed": 43,
-          "expected_saved": 187.185998,
-          "baseline": 187.185998,
-          "difference": 0.0
-        },
-        {
-          "episode": 2,
-          "seed": 44,
-          "expected_saved": 202.274878,
-          "baseline": 202.274878,
-          "difference": 0.0
-        },
-        {
-          "episode": 3,
-          "seed": 45,
-          "expected_saved": 194.397122,
-          "baseline": 194.421771,
-          "difference": -0.0246490000000108
-        },
-        {
-          "episode": 4,
-          "seed": 46,
-          "expected_saved": 167.499394,
-          "baseline": 167.499351,
-          "difference": 4.3000000005122274e-05
-        },
-        {
-          "episode": 5,
-          "seed": 47,
-          "expected_saved": 185.101382,
-          "baseline": 185.101382,
-          "difference": 0.0
-        },
-        {
-          "episode": 6,
-          "seed": 48,
-          "expected_saved": 176.630159,
-          "baseline": 176.630138,
-          "difference": 2.1000000003823516e-05
-        },
-        {
-          "episode": 7,
-          "seed": 49,
-          "expected_saved": 189.376244,
-          "baseline": 189.377814,
-          "difference": -0.0015699999999867487
-        },
-        {
-          "episode": 8,
-          "seed": 50,
-          "expected_saved": 169.774577,
-          "baseline": 169.774577,
-          "difference": 0.0
-        },
-        {
-          "episode": 9,
-          "seed": 51,
-          "expected_saved": 195.803704,
-          "baseline": 195.80324,
-          "difference": 0.0004640000000222244
-        }
-      ]
-    },
-    {
-      "candidate_ids": [
-        "C15"
-      ],
-      "candidate_names": [
-        "경기도 수원시 영통구 하동 격자 6-11"
-      ],
-      "total_cost": 1.0,
-      "expected_saved": {
-        "mean": 185.5763072,
-        "standard_deviation": 11.265231470547725,
-        "ci95_low": 178.594044396076,
-        "ci95_high": 192.55857000392402,
-        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
-        "values": [
-          187.780706,
-          187.185998,
-          202.274878,
-          194.421771,
-          167.43736,
-          185.10201,
-          176.630138,
-          189.368711,
-          169.774577,
-          195.786923
-        ]
-      },
-      "incremental_expected_saved": {
-        "mean": -0.006437199999996324,
-        "standard_deviation": 0.02180791152463737,
-        "ci95_low": -0.019953883600137026,
-        "ci95_high": 0.007079483600144377,
-        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
-        "values": [
-          0.022411000000005288,
-          0.0,
-          0.0,
-          0.0,
-          -0.0619909999999777,
-          0.0006280000000060681,
-          0.0,
-          -0.009103000000010297,
-          0.0,
-          -0.016316999999986592
-        ]
-      },
-      "expected_saved_mean": 185.5763072,
-      "incremental_expected_saved_mean": -0.006437199999996324,
-      "episodes": [
-        {
-          "episode": 0,
-          "seed": 42,
-          "expected_saved": 187.780706,
-          "baseline": 187.758295,
-          "difference": 0.022411000000005288
-        },
-        {
-          "episode": 1,
-          "seed": 43,
-          "expected_saved": 187.185998,
-          "baseline": 187.185998,
-          "difference": 0.0
-        },
-        {
-          "episode": 2,
-          "seed": 44,
-          "expected_saved": 202.274878,
-          "baseline": 202.274878,
-          "difference": 0.0
-        },
-        {
-          "episode": 3,
-          "seed": 45,
-          "expected_saved": 194.421771,
-          "baseline": 194.421771,
+          "expected_saved": 185.815244,
+          "baseline": 185.815244,
           "difference": 0.0
         },
         {
           "episode": 4,
           "seed": 46,
-          "expected_saved": 167.43736,
-          "baseline": 167.499351,
-          "difference": -0.0619909999999777
+          "expected_saved": 160.672944,
+          "baseline": 160.672944,
+          "difference": 0.0
         },
         {
           "episode": 5,
           "seed": 47,
-          "expected_saved": 185.10201,
-          "baseline": 185.101382,
-          "difference": 0.0006280000000060681
+          "expected_saved": 176.015544,
+          "baseline": 176.015544,
+          "difference": 0.0
         },
         {
           "episode": 6,
           "seed": 48,
-          "expected_saved": 176.630138,
-          "baseline": 176.630138,
+          "expected_saved": 169.676553,
+          "baseline": 169.676553,
           "difference": 0.0
         },
         {
           "episode": 7,
           "seed": 49,
-          "expected_saved": 189.368711,
-          "baseline": 189.377814,
-          "difference": -0.009103000000010297
+          "expected_saved": 181.521987,
+          "baseline": 181.521987,
+          "difference": 0.0
         },
         {
           "episode": 8,
           "seed": 50,
-          "expected_saved": 169.774577,
-          "baseline": 169.774577,
+          "expected_saved": 162.650537,
+          "baseline": 162.650537,
           "difference": 0.0
         },
         {
           "episode": 9,
           "seed": 51,
-          "expected_saved": 195.786923,
-          "baseline": 195.80324,
-          "difference": -0.016316999999986592
+          "expected_saved": 185.936105,
+          "baseline": 185.936105,
+          "difference": 0.0
         }
       ]
     },
@@ -3788,32 +2699,31 @@ wrote: outputs\suwon_grid_k1\hospital_placement_result.json
       ],
       "total_cost": 1.0,
       "expected_saved": {
-        "mean": 185.5716381,
-        "standard_deviation": 11.248112359338434,
-        "ci95_low": 178.59998583113205,
-        "ci95_high": 192.54329036886796,
+        "mean": 177.193084,
+        "standard_deviation": 10.148572357978377,
+        "ci95_low": 170.9029336845535,
+        "ci95_high": 183.4832343154465,
         "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
         "values": [
-          187.712489,
-          187.185998,
-          202.274878,
-          194.421771,
-          167.499351,
-          185.101382,
-          176.630138,
-          189.377814,
-          169.774577,
-          195.737983
+          180.019399,
+          178.063178,
+          191.559349,
+          185.815244,
+          160.672944,
+          176.015544,
+          169.676553,
+          181.521987,
+          162.650537,
+          185.936105
         ]
       },
       "incremental_expected_saved": {
-        "mean": -0.011106299999997304,
-        "standard_deviation": 0.023858766588445064,
-        "ci95_low": -0.02589411673803237,
-        "ci95_high": 0.003681516738037762,
+        "mean": 0.0,
+        "standard_deviation": 0.0,
+        "ci95_low": 0.0,
+        "ci95_high": 0.0,
         "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
         "values": [
-          -0.0458059999999989,
           0.0,
           0.0,
           0.0,
@@ -3822,81 +2732,1171 @@ wrote: outputs\suwon_grid_k1\hospital_placement_result.json
           0.0,
           0.0,
           0.0,
-          -0.06525699999997414
+          0.0,
+          0.0
         ]
       },
-      "expected_saved_mean": 185.5716381,
-      "incremental_expected_saved_mean": -0.011106299999997304,
+      "expected_saved_mean": 177.193084,
+      "incremental_expected_saved_mean": 0.0,
       "episodes": [
         {
           "episode": 0,
           "seed": 42,
-          "expected_saved": 187.712489,
-          "baseline": 187.758295,
-          "difference": -0.0458059999999989
+          "expected_saved": 180.019399,
+          "baseline": 180.019399,
+          "difference": 0.0
         },
         {
           "episode": 1,
           "seed": 43,
-          "expected_saved": 187.185998,
-          "baseline": 187.185998,
+          "expected_saved": 178.063178,
+          "baseline": 178.063178,
           "difference": 0.0
         },
         {
           "episode": 2,
           "seed": 44,
-          "expected_saved": 202.274878,
-          "baseline": 202.274878,
+          "expected_saved": 191.559349,
+          "baseline": 191.559349,
           "difference": 0.0
         },
         {
           "episode": 3,
           "seed": 45,
-          "expected_saved": 194.421771,
-          "baseline": 194.421771,
+          "expected_saved": 185.815244,
+          "baseline": 185.815244,
           "difference": 0.0
         },
         {
           "episode": 4,
           "seed": 46,
-          "expected_saved": 167.499351,
-          "baseline": 167.499351,
+          "expected_saved": 160.672944,
+          "baseline": 160.672944,
           "difference": 0.0
         },
         {
           "episode": 5,
           "seed": 47,
-          "expected_saved": 185.101382,
-          "baseline": 185.101382,
+          "expected_saved": 176.015544,
+          "baseline": 176.015544,
           "difference": 0.0
         },
         {
           "episode": 6,
           "seed": 48,
-          "expected_saved": 176.630138,
-          "baseline": 176.630138,
+          "expected_saved": 169.676553,
+          "baseline": 169.676553,
           "difference": 0.0
         },
         {
           "episode": 7,
           "seed": 49,
-          "expected_saved": 189.377814,
-          "baseline": 189.377814,
+          "expected_saved": 181.521987,
+          "baseline": 181.521987,
           "difference": 0.0
         },
         {
           "episode": 8,
           "seed": 50,
-          "expected_saved": 169.774577,
-          "baseline": 169.774577,
+          "expected_saved": 162.650537,
+          "baseline": 162.650537,
           "difference": 0.0
         },
         {
           "episode": 9,
           "seed": 51,
-          "expected_saved": 195.737983,
-          "baseline": 195.80324,
-          "difference": -0.06525699999997414
+          "expected_saved": 185.936105,
+          "baseline": 185.936105,
+          "difference": 0.0
+        }
+      ]
+    },
+    {
+      "candidate_ids": [
+        "C22"
+      ],
+      "candidate_names": [
+        "경기도 수원시 영통구 이의동 격자 8-8"
+      ],
+      "total_cost": 1.0,
+      "expected_saved": {
+        "mean": 177.193084,
+        "standard_deviation": 10.148572357978377,
+        "ci95_low": 170.9029336845535,
+        "ci95_high": 183.4832343154465,
+        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
+        "values": [
+          180.019399,
+          178.063178,
+          191.559349,
+          185.815244,
+          160.672944,
+          176.015544,
+          169.676553,
+          181.521987,
+          162.650537,
+          185.936105
+        ]
+      },
+      "incremental_expected_saved": {
+        "mean": 0.0,
+        "standard_deviation": 0.0,
+        "ci95_low": 0.0,
+        "ci95_high": 0.0,
+        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "expected_saved_mean": 177.193084,
+      "incremental_expected_saved_mean": 0.0,
+      "episodes": [
+        {
+          "episode": 0,
+          "seed": 42,
+          "expected_saved": 180.019399,
+          "baseline": 180.019399,
+          "difference": 0.0
+        },
+        {
+          "episode": 1,
+          "seed": 43,
+          "expected_saved": 178.063178,
+          "baseline": 178.063178,
+          "difference": 0.0
+        },
+        {
+          "episode": 2,
+          "seed": 44,
+          "expected_saved": 191.559349,
+          "baseline": 191.559349,
+          "difference": 0.0
+        },
+        {
+          "episode": 3,
+          "seed": 45,
+          "expected_saved": 185.815244,
+          "baseline": 185.815244,
+          "difference": 0.0
+        },
+        {
+          "episode": 4,
+          "seed": 46,
+          "expected_saved": 160.672944,
+          "baseline": 160.672944,
+          "difference": 0.0
+        },
+        {
+          "episode": 5,
+          "seed": 47,
+          "expected_saved": 176.015544,
+          "baseline": 176.015544,
+          "difference": 0.0
+        },
+        {
+          "episode": 6,
+          "seed": 48,
+          "expected_saved": 169.676553,
+          "baseline": 169.676553,
+          "difference": 0.0
+        },
+        {
+          "episode": 7,
+          "seed": 49,
+          "expected_saved": 181.521987,
+          "baseline": 181.521987,
+          "difference": 0.0
+        },
+        {
+          "episode": 8,
+          "seed": 50,
+          "expected_saved": 162.650537,
+          "baseline": 162.650537,
+          "difference": 0.0
+        },
+        {
+          "episode": 9,
+          "seed": 51,
+          "expected_saved": 185.936105,
+          "baseline": 185.936105,
+          "difference": 0.0
+        }
+      ]
+    },
+    {
+      "candidate_ids": [
+        "C23"
+      ],
+      "candidate_names": [
+        "경기도 수원시 영통구 이의동 격자 8-9"
+      ],
+      "total_cost": 1.0,
+      "expected_saved": {
+        "mean": 177.193084,
+        "standard_deviation": 10.148572357978377,
+        "ci95_low": 170.9029336845535,
+        "ci95_high": 183.4832343154465,
+        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
+        "values": [
+          180.019399,
+          178.063178,
+          191.559349,
+          185.815244,
+          160.672944,
+          176.015544,
+          169.676553,
+          181.521987,
+          162.650537,
+          185.936105
+        ]
+      },
+      "incremental_expected_saved": {
+        "mean": 0.0,
+        "standard_deviation": 0.0,
+        "ci95_low": 0.0,
+        "ci95_high": 0.0,
+        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "expected_saved_mean": 177.193084,
+      "incremental_expected_saved_mean": 0.0,
+      "episodes": [
+        {
+          "episode": 0,
+          "seed": 42,
+          "expected_saved": 180.019399,
+          "baseline": 180.019399,
+          "difference": 0.0
+        },
+        {
+          "episode": 1,
+          "seed": 43,
+          "expected_saved": 178.063178,
+          "baseline": 178.063178,
+          "difference": 0.0
+        },
+        {
+          "episode": 2,
+          "seed": 44,
+          "expected_saved": 191.559349,
+          "baseline": 191.559349,
+          "difference": 0.0
+        },
+        {
+          "episode": 3,
+          "seed": 45,
+          "expected_saved": 185.815244,
+          "baseline": 185.815244,
+          "difference": 0.0
+        },
+        {
+          "episode": 4,
+          "seed": 46,
+          "expected_saved": 160.672944,
+          "baseline": 160.672944,
+          "difference": 0.0
+        },
+        {
+          "episode": 5,
+          "seed": 47,
+          "expected_saved": 176.015544,
+          "baseline": 176.015544,
+          "difference": 0.0
+        },
+        {
+          "episode": 6,
+          "seed": 48,
+          "expected_saved": 169.676553,
+          "baseline": 169.676553,
+          "difference": 0.0
+        },
+        {
+          "episode": 7,
+          "seed": 49,
+          "expected_saved": 181.521987,
+          "baseline": 181.521987,
+          "difference": 0.0
+        },
+        {
+          "episode": 8,
+          "seed": 50,
+          "expected_saved": 162.650537,
+          "baseline": 162.650537,
+          "difference": 0.0
+        },
+        {
+          "episode": 9,
+          "seed": 51,
+          "expected_saved": 185.936105,
+          "baseline": 185.936105,
+          "difference": 0.0
+        }
+      ]
+    },
+    {
+      "candidate_ids": [
+        "C24"
+      ],
+      "candidate_names": [
+        "경기도 수원시 영통구 이의동 격자 8-10"
+      ],
+      "total_cost": 1.0,
+      "expected_saved": {
+        "mean": 177.193084,
+        "standard_deviation": 10.148572357978377,
+        "ci95_low": 170.9029336845535,
+        "ci95_high": 183.4832343154465,
+        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
+        "values": [
+          180.019399,
+          178.063178,
+          191.559349,
+          185.815244,
+          160.672944,
+          176.015544,
+          169.676553,
+          181.521987,
+          162.650537,
+          185.936105
+        ]
+      },
+      "incremental_expected_saved": {
+        "mean": 0.0,
+        "standard_deviation": 0.0,
+        "ci95_low": 0.0,
+        "ci95_high": 0.0,
+        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "expected_saved_mean": 177.193084,
+      "incremental_expected_saved_mean": 0.0,
+      "episodes": [
+        {
+          "episode": 0,
+          "seed": 42,
+          "expected_saved": 180.019399,
+          "baseline": 180.019399,
+          "difference": 0.0
+        },
+        {
+          "episode": 1,
+          "seed": 43,
+          "expected_saved": 178.063178,
+          "baseline": 178.063178,
+          "difference": 0.0
+        },
+        {
+          "episode": 2,
+          "seed": 44,
+          "expected_saved": 191.559349,
+          "baseline": 191.559349,
+          "difference": 0.0
+        },
+        {
+          "episode": 3,
+          "seed": 45,
+          "expected_saved": 185.815244,
+          "baseline": 185.815244,
+          "difference": 0.0
+        },
+        {
+          "episode": 4,
+          "seed": 46,
+          "expected_saved": 160.672944,
+          "baseline": 160.672944,
+          "difference": 0.0
+        },
+        {
+          "episode": 5,
+          "seed": 47,
+          "expected_saved": 176.015544,
+          "baseline": 176.015544,
+          "difference": 0.0
+        },
+        {
+          "episode": 6,
+          "seed": 48,
+          "expected_saved": 169.676553,
+          "baseline": 169.676553,
+          "difference": 0.0
+        },
+        {
+          "episode": 7,
+          "seed": 49,
+          "expected_saved": 181.521987,
+          "baseline": 181.521987,
+          "difference": 0.0
+        },
+        {
+          "episode": 8,
+          "seed": 50,
+          "expected_saved": 162.650537,
+          "baseline": 162.650537,
+          "difference": 0.0
+        },
+        {
+          "episode": 9,
+          "seed": 51,
+          "expected_saved": 185.936105,
+          "baseline": 185.936105,
+          "difference": 0.0
+        }
+      ]
+    },
+    {
+      "candidate_ids": [
+        "C25"
+      ],
+      "candidate_names": [
+        "경기도 수원시 장안구 율전동 격자 9-2"
+      ],
+      "total_cost": 1.0,
+      "expected_saved": {
+        "mean": 177.193084,
+        "standard_deviation": 10.148572357978377,
+        "ci95_low": 170.9029336845535,
+        "ci95_high": 183.4832343154465,
+        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
+        "values": [
+          180.019399,
+          178.063178,
+          191.559349,
+          185.815244,
+          160.672944,
+          176.015544,
+          169.676553,
+          181.521987,
+          162.650537,
+          185.936105
+        ]
+      },
+      "incremental_expected_saved": {
+        "mean": 0.0,
+        "standard_deviation": 0.0,
+        "ci95_low": 0.0,
+        "ci95_high": 0.0,
+        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "expected_saved_mean": 177.193084,
+      "incremental_expected_saved_mean": 0.0,
+      "episodes": [
+        {
+          "episode": 0,
+          "seed": 42,
+          "expected_saved": 180.019399,
+          "baseline": 180.019399,
+          "difference": 0.0
+        },
+        {
+          "episode": 1,
+          "seed": 43,
+          "expected_saved": 178.063178,
+          "baseline": 178.063178,
+          "difference": 0.0
+        },
+        {
+          "episode": 2,
+          "seed": 44,
+          "expected_saved": 191.559349,
+          "baseline": 191.559349,
+          "difference": 0.0
+        },
+        {
+          "episode": 3,
+          "seed": 45,
+          "expected_saved": 185.815244,
+          "baseline": 185.815244,
+          "difference": 0.0
+        },
+        {
+          "episode": 4,
+          "seed": 46,
+          "expected_saved": 160.672944,
+          "baseline": 160.672944,
+          "difference": 0.0
+        },
+        {
+          "episode": 5,
+          "seed": 47,
+          "expected_saved": 176.015544,
+          "baseline": 176.015544,
+          "difference": 0.0
+        },
+        {
+          "episode": 6,
+          "seed": 48,
+          "expected_saved": 169.676553,
+          "baseline": 169.676553,
+          "difference": 0.0
+        },
+        {
+          "episode": 7,
+          "seed": 49,
+          "expected_saved": 181.521987,
+          "baseline": 181.521987,
+          "difference": 0.0
+        },
+        {
+          "episode": 8,
+          "seed": 50,
+          "expected_saved": 162.650537,
+          "baseline": 162.650537,
+          "difference": 0.0
+        },
+        {
+          "episode": 9,
+          "seed": 51,
+          "expected_saved": 185.936105,
+          "baseline": 185.936105,
+          "difference": 0.0
+        }
+      ]
+    },
+    {
+      "candidate_ids": [
+        "C27"
+      ],
+      "candidate_names": [
+        "경기도 수원시 영통구 이의동 격자 9-8"
+      ],
+      "total_cost": 1.0,
+      "expected_saved": {
+        "mean": 177.193084,
+        "standard_deviation": 10.148572357978377,
+        "ci95_low": 170.9029336845535,
+        "ci95_high": 183.4832343154465,
+        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
+        "values": [
+          180.019399,
+          178.063178,
+          191.559349,
+          185.815244,
+          160.672944,
+          176.015544,
+          169.676553,
+          181.521987,
+          162.650537,
+          185.936105
+        ]
+      },
+      "incremental_expected_saved": {
+        "mean": 0.0,
+        "standard_deviation": 0.0,
+        "ci95_low": 0.0,
+        "ci95_high": 0.0,
+        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "expected_saved_mean": 177.193084,
+      "incremental_expected_saved_mean": 0.0,
+      "episodes": [
+        {
+          "episode": 0,
+          "seed": 42,
+          "expected_saved": 180.019399,
+          "baseline": 180.019399,
+          "difference": 0.0
+        },
+        {
+          "episode": 1,
+          "seed": 43,
+          "expected_saved": 178.063178,
+          "baseline": 178.063178,
+          "difference": 0.0
+        },
+        {
+          "episode": 2,
+          "seed": 44,
+          "expected_saved": 191.559349,
+          "baseline": 191.559349,
+          "difference": 0.0
+        },
+        {
+          "episode": 3,
+          "seed": 45,
+          "expected_saved": 185.815244,
+          "baseline": 185.815244,
+          "difference": 0.0
+        },
+        {
+          "episode": 4,
+          "seed": 46,
+          "expected_saved": 160.672944,
+          "baseline": 160.672944,
+          "difference": 0.0
+        },
+        {
+          "episode": 5,
+          "seed": 47,
+          "expected_saved": 176.015544,
+          "baseline": 176.015544,
+          "difference": 0.0
+        },
+        {
+          "episode": 6,
+          "seed": 48,
+          "expected_saved": 169.676553,
+          "baseline": 169.676553,
+          "difference": 0.0
+        },
+        {
+          "episode": 7,
+          "seed": 49,
+          "expected_saved": 181.521987,
+          "baseline": 181.521987,
+          "difference": 0.0
+        },
+        {
+          "episode": 8,
+          "seed": 50,
+          "expected_saved": 162.650537,
+          "baseline": 162.650537,
+          "difference": 0.0
+        },
+        {
+          "episode": 9,
+          "seed": 51,
+          "expected_saved": 185.936105,
+          "baseline": 185.936105,
+          "difference": 0.0
+        }
+      ]
+    },
+    {
+      "candidate_ids": [
+        "C28"
+      ],
+      "candidate_names": [
+        "경기도 수원시 영통구 이의동 격자 9-9"
+      ],
+      "total_cost": 1.0,
+      "expected_saved": {
+        "mean": 177.193084,
+        "standard_deviation": 10.148572357978377,
+        "ci95_low": 170.9029336845535,
+        "ci95_high": 183.4832343154465,
+        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
+        "values": [
+          180.019399,
+          178.063178,
+          191.559349,
+          185.815244,
+          160.672944,
+          176.015544,
+          169.676553,
+          181.521987,
+          162.650537,
+          185.936105
+        ]
+      },
+      "incremental_expected_saved": {
+        "mean": 0.0,
+        "standard_deviation": 0.0,
+        "ci95_low": 0.0,
+        "ci95_high": 0.0,
+        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "expected_saved_mean": 177.193084,
+      "incremental_expected_saved_mean": 0.0,
+      "episodes": [
+        {
+          "episode": 0,
+          "seed": 42,
+          "expected_saved": 180.019399,
+          "baseline": 180.019399,
+          "difference": 0.0
+        },
+        {
+          "episode": 1,
+          "seed": 43,
+          "expected_saved": 178.063178,
+          "baseline": 178.063178,
+          "difference": 0.0
+        },
+        {
+          "episode": 2,
+          "seed": 44,
+          "expected_saved": 191.559349,
+          "baseline": 191.559349,
+          "difference": 0.0
+        },
+        {
+          "episode": 3,
+          "seed": 45,
+          "expected_saved": 185.815244,
+          "baseline": 185.815244,
+          "difference": 0.0
+        },
+        {
+          "episode": 4,
+          "seed": 46,
+          "expected_saved": 160.672944,
+          "baseline": 160.672944,
+          "difference": 0.0
+        },
+        {
+          "episode": 5,
+          "seed": 47,
+          "expected_saved": 176.015544,
+          "baseline": 176.015544,
+          "difference": 0.0
+        },
+        {
+          "episode": 6,
+          "seed": 48,
+          "expected_saved": 169.676553,
+          "baseline": 169.676553,
+          "difference": 0.0
+        },
+        {
+          "episode": 7,
+          "seed": 49,
+          "expected_saved": 181.521987,
+          "baseline": 181.521987,
+          "difference": 0.0
+        },
+        {
+          "episode": 8,
+          "seed": 50,
+          "expected_saved": 162.650537,
+          "baseline": 162.650537,
+          "difference": 0.0
+        },
+        {
+          "episode": 9,
+          "seed": 51,
+          "expected_saved": 185.936105,
+          "baseline": 185.936105,
+          "difference": 0.0
+        }
+      ]
+    },
+    {
+      "candidate_ids": [
+        "C29"
+      ],
+      "candidate_names": [
+        "경기도 수원시 장안구 이목동 격자 10-3"
+      ],
+      "total_cost": 1.0,
+      "expected_saved": {
+        "mean": 177.193084,
+        "standard_deviation": 10.148572357978377,
+        "ci95_low": 170.9029336845535,
+        "ci95_high": 183.4832343154465,
+        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
+        "values": [
+          180.019399,
+          178.063178,
+          191.559349,
+          185.815244,
+          160.672944,
+          176.015544,
+          169.676553,
+          181.521987,
+          162.650537,
+          185.936105
+        ]
+      },
+      "incremental_expected_saved": {
+        "mean": 0.0,
+        "standard_deviation": 0.0,
+        "ci95_low": 0.0,
+        "ci95_high": 0.0,
+        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "expected_saved_mean": 177.193084,
+      "incremental_expected_saved_mean": 0.0,
+      "episodes": [
+        {
+          "episode": 0,
+          "seed": 42,
+          "expected_saved": 180.019399,
+          "baseline": 180.019399,
+          "difference": 0.0
+        },
+        {
+          "episode": 1,
+          "seed": 43,
+          "expected_saved": 178.063178,
+          "baseline": 178.063178,
+          "difference": 0.0
+        },
+        {
+          "episode": 2,
+          "seed": 44,
+          "expected_saved": 191.559349,
+          "baseline": 191.559349,
+          "difference": 0.0
+        },
+        {
+          "episode": 3,
+          "seed": 45,
+          "expected_saved": 185.815244,
+          "baseline": 185.815244,
+          "difference": 0.0
+        },
+        {
+          "episode": 4,
+          "seed": 46,
+          "expected_saved": 160.672944,
+          "baseline": 160.672944,
+          "difference": 0.0
+        },
+        {
+          "episode": 5,
+          "seed": 47,
+          "expected_saved": 176.015544,
+          "baseline": 176.015544,
+          "difference": 0.0
+        },
+        {
+          "episode": 6,
+          "seed": 48,
+          "expected_saved": 169.676553,
+          "baseline": 169.676553,
+          "difference": 0.0
+        },
+        {
+          "episode": 7,
+          "seed": 49,
+          "expected_saved": 181.521987,
+          "baseline": 181.521987,
+          "difference": 0.0
+        },
+        {
+          "episode": 8,
+          "seed": 50,
+          "expected_saved": 162.650537,
+          "baseline": 162.650537,
+          "difference": 0.0
+        },
+        {
+          "episode": 9,
+          "seed": 51,
+          "expected_saved": 185.936105,
+          "baseline": 185.936105,
+          "difference": 0.0
+        }
+      ]
+    },
+    {
+      "candidate_ids": [
+        "C30"
+      ],
+      "candidate_names": [
+        "경기도 수원시 장안구 파장동 격자 10-4"
+      ],
+      "total_cost": 1.0,
+      "expected_saved": {
+        "mean": 177.193084,
+        "standard_deviation": 10.148572357978377,
+        "ci95_low": 170.9029336845535,
+        "ci95_high": 183.4832343154465,
+        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
+        "values": [
+          180.019399,
+          178.063178,
+          191.559349,
+          185.815244,
+          160.672944,
+          176.015544,
+          169.676553,
+          181.521987,
+          162.650537,
+          185.936105
+        ]
+      },
+      "incremental_expected_saved": {
+        "mean": 0.0,
+        "standard_deviation": 0.0,
+        "ci95_low": 0.0,
+        "ci95_high": 0.0,
+        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "expected_saved_mean": 177.193084,
+      "incremental_expected_saved_mean": 0.0,
+      "episodes": [
+        {
+          "episode": 0,
+          "seed": 42,
+          "expected_saved": 180.019399,
+          "baseline": 180.019399,
+          "difference": 0.0
+        },
+        {
+          "episode": 1,
+          "seed": 43,
+          "expected_saved": 178.063178,
+          "baseline": 178.063178,
+          "difference": 0.0
+        },
+        {
+          "episode": 2,
+          "seed": 44,
+          "expected_saved": 191.559349,
+          "baseline": 191.559349,
+          "difference": 0.0
+        },
+        {
+          "episode": 3,
+          "seed": 45,
+          "expected_saved": 185.815244,
+          "baseline": 185.815244,
+          "difference": 0.0
+        },
+        {
+          "episode": 4,
+          "seed": 46,
+          "expected_saved": 160.672944,
+          "baseline": 160.672944,
+          "difference": 0.0
+        },
+        {
+          "episode": 5,
+          "seed": 47,
+          "expected_saved": 176.015544,
+          "baseline": 176.015544,
+          "difference": 0.0
+        },
+        {
+          "episode": 6,
+          "seed": 48,
+          "expected_saved": 169.676553,
+          "baseline": 169.676553,
+          "difference": 0.0
+        },
+        {
+          "episode": 7,
+          "seed": 49,
+          "expected_saved": 181.521987,
+          "baseline": 181.521987,
+          "difference": 0.0
+        },
+        {
+          "episode": 8,
+          "seed": 50,
+          "expected_saved": 162.650537,
+          "baseline": 162.650537,
+          "difference": 0.0
+        },
+        {
+          "episode": 9,
+          "seed": 51,
+          "expected_saved": 185.936105,
+          "baseline": 185.936105,
+          "difference": 0.0
+        }
+      ]
+    },
+    {
+      "candidate_ids": [
+        "C31"
+      ],
+      "candidate_names": [
+        "경기도 수원시 장안구 하광교동 격자 10-7"
+      ],
+      "total_cost": 1.0,
+      "expected_saved": {
+        "mean": 177.193084,
+        "standard_deviation": 10.148572357978377,
+        "ci95_low": 170.9029336845535,
+        "ci95_high": 183.4832343154465,
+        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
+        "values": [
+          180.019399,
+          178.063178,
+          191.559349,
+          185.815244,
+          160.672944,
+          176.015544,
+          169.676553,
+          181.521987,
+          162.650537,
+          185.936105
+        ]
+      },
+      "incremental_expected_saved": {
+        "mean": 0.0,
+        "standard_deviation": 0.0,
+        "ci95_low": 0.0,
+        "ci95_high": 0.0,
+        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "expected_saved_mean": 177.193084,
+      "incremental_expected_saved_mean": 0.0,
+      "episodes": [
+        {
+          "episode": 0,
+          "seed": 42,
+          "expected_saved": 180.019399,
+          "baseline": 180.019399,
+          "difference": 0.0
+        },
+        {
+          "episode": 1,
+          "seed": 43,
+          "expected_saved": 178.063178,
+          "baseline": 178.063178,
+          "difference": 0.0
+        },
+        {
+          "episode": 2,
+          "seed": 44,
+          "expected_saved": 191.559349,
+          "baseline": 191.559349,
+          "difference": 0.0
+        },
+        {
+          "episode": 3,
+          "seed": 45,
+          "expected_saved": 185.815244,
+          "baseline": 185.815244,
+          "difference": 0.0
+        },
+        {
+          "episode": 4,
+          "seed": 46,
+          "expected_saved": 160.672944,
+          "baseline": 160.672944,
+          "difference": 0.0
+        },
+        {
+          "episode": 5,
+          "seed": 47,
+          "expected_saved": 176.015544,
+          "baseline": 176.015544,
+          "difference": 0.0
+        },
+        {
+          "episode": 6,
+          "seed": 48,
+          "expected_saved": 169.676553,
+          "baseline": 169.676553,
+          "difference": 0.0
+        },
+        {
+          "episode": 7,
+          "seed": 49,
+          "expected_saved": 181.521987,
+          "baseline": 181.521987,
+          "difference": 0.0
+        },
+        {
+          "episode": 8,
+          "seed": 50,
+          "expected_saved": 162.650537,
+          "baseline": 162.650537,
+          "difference": 0.0
+        },
+        {
+          "episode": 9,
+          "seed": 51,
+          "expected_saved": 185.936105,
+          "baseline": 185.936105,
+          "difference": 0.0
         }
       ]
     }

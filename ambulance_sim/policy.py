@@ -44,6 +44,10 @@ class GreedySurvivalPolicy:
         value = arrived * success
         remainder = arrived * (1 - success)
         used = visited | {hospital_id}
+        # An admitted patient's outcome is final (engine rule): no downstream value
+        # from a later transfer.  Only a refusal (no bed / no capability) continues.
+        if patient.profile.name in hospital.capabilities and hospital.has_open_bed():
+            return value
         if remainder <= sim.mass_epsilon or transfers >= sim.scenario.max_transfers:
             return value
         next_candidates = [
