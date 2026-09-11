@@ -313,7 +313,7 @@
     ],
     "generated_by": {
       "script": "scripts/build_municipal_standby_inputs.py",
-      "generated_at": "2026-09-11T10:53:33+09:00",
+      "generated_at": "2026-09-11T11:04:59+09:00",
       "processed_dir": "data/processed/jeonju_20260911/52110",
       "horizon_days": 1,
       "arrival_cutoff_minutes": 1440,

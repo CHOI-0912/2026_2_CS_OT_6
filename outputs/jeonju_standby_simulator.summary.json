@@ -1,0 +1,422 @@
+{
+  "generated_by": "scripts/build_folium_municipal_simulator.py",
+  "mode": "standby",
+  "municipality_code": "52110",
+  "municipality_name": "전주시",
+  "standby_manifest": "C:\\Users\\choi-\\Desktop\\2-2 수행\\오대위T수행\\6\\data\\jeonju_real\\52110_jeonju\\standby.json",
+  "scenario_file": "C:\\Users\\choi-\\Desktop\\2-2 수행\\오대위T수행\\6\\data\\jeonju_real\\52110_jeonju\\scenario_standby.json",
+  "processed_csv_folder": "C:\\Users\\choi-\\Desktop\\2-2 수행\\오대위T수행\\6\\data\\processed\\jeonju_20260911\\52110",
+  "results_file": "C:\\Users\\choi-\\Desktop\\2-2 수행\\오대위T수행\\6\\outputs\\jeonju_standby_test\\standby_placement_result.json",
+  "results_file_requested": "C:\\Users\\choi-\\Desktop\\2-2 수행\\오대위T수행\\6\\outputs\\jeonju_standby_test\\standby_placement_result.json",
+  "policy": "scheduled standby posts + centralized greedy expected-survival",
+  "schedule": {
+    "free_hours": [
+      0,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "home_hours": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  "schedule_rule": "07~24시 자유 배치 / 01~06시 원소속 복귀(최하위 우선순위)",
+  "seed": 42,
+  "coordinate_order": "network.positions are [longitude, latitude] in WGS84",
+  "model_parameters": {
+    "path": "data/processed/calibration/model_parameters_calibrated.json",
+    "status": "calibrated",
+    "generated_at": "2026-09-11T10:25:00+09:00"
+  },
+  "caveats": [
+    "행정동 점은 행정복지센터 대표좌표이며 실제 신고 좌표가 아닙니다.",
+    "지도 위 구급차 이동선은 재생용 직선 보간이며, 소요시간만 카카오 자동차 경로 실측값입니다.",
+    "대기지는 1km 격자 칸의 중심점이며, 실제로 구급차가 주차·대기할 수 있는지는 검증되지 않았습니다.",
+    "1km 격자는 분석용 사각격자이며 행정경계가 아닙니다.",
+    "배정은 탐욕 순차 해이며 전역 최적이 아닙니다.",
+    "재생 화면은 시나리오별 단일 에피소드(고정 시드)이며, 결과표의 평균/CI는 다중 에피소드 결과입니다."
+  ],
+  "grid_km": 1.0,
+  "grid_cell_count": 132,
+  "scenarios": [
+    {
+      "key": "baseline",
+      "label": "기준안: 전원 원소속 대기",
+      "seed": 42,
+      "is_best": false,
+      "assignment": {},
+      "moved_ambulances": [],
+      "patients": 91,
+      "expected_saved": 79.411061,
+      "expected_lost": 11.588939,
+      "expected_saved_per_patient": 0.8726490261727536,
+      "response": {
+        "mean_minutes": 7.30884424254532,
+        "p90_minutes": 12.033333333333303,
+        "reached_patients": 91,
+        "unreached_patients": 0,
+        "response_rate": 1.0
+      },
+      "events": {
+        "patient_arrival": 91,
+        "arrive_scene": 91,
+        "scene_complete": 91,
+        "arrive_hospital": 273,
+        "transfer_ready": 182,
+        "shift_change": 3,
+        "restock_complete": 91,
+        "reposition_complete": 91,
+        "hospital_release": 273
+      },
+      "frame_count": 1188,
+      "log_entry_count": 1459
+    },
+    {
+      "key": "best",
+      "label": "최적 배정: 3대 이동",
+      "seed": 42,
+      "is_best": true,
+      "assignment": {
+        "A05-1": "P096",
+        "A10-1": "P095",
+        "A09-1": "P063"
+      },
+      "moved_ambulances": [
+        "A05-1",
+        "A10-1",
+        "A09-1"
+      ],
+      "patients": 91,
+      "expected_saved": 79.574665,
+      "expected_lost": 11.425335,
+      "expected_saved_per_patient": 0.8744468696266614,
+      "response": {
+        "mean_minutes": 6.9698332535343255,
+        "p90_minutes": 10.316666666666606,
+        "reached_patients": 91,
+        "unreached_patients": 0,
+        "response_rate": 1.0
+      },
+      "events": {
+        "patient_arrival": 91,
+        "arrive_scene": 91,
+        "scene_complete": 91,
+        "arrive_hospital": 273,
+        "transfer_ready": 182,
+        "shift_change": 3,
+        "restock_complete": 91,
+        "reposition_complete": 96,
+        "hospital_release": 273
+      },
+      "frame_count": 1193,
+      "log_entry_count": 1464
+    }
+  ],
+  "provenance": {
+    "hospital_source": {
+      "registry": [
+        "hira_hospital_information_service_2026_06"
+      ],
+      "capacity": {
+        "field": "emergency_room_beds",
+        "source": [
+          "https://opendata.hira.or.kr/op/opc/selectOpenData.do?sno=11925"
+        ],
+        "snapshot_period": [
+          "2026-06"
+        ],
+        "semantics": [
+          "HIRA static facility snapshot; not real-time availability"
+        ]
+      },
+      "evaluation": {
+        "source": [
+          "https://www.e-gen.or.kr/nemc/business_medical_institution_evaluation.do?tabId=9"
+        ],
+        "year": [
+          "2024"
+        ]
+      },
+      "treatment_success_basis": "success_by_category: 중위 종별인 지역응급의료센터(경기 33개소, 최다 종별)를 기준으로 삼아 '관측 국가 결과 = S(관측 평균 병원전 시간) x 성공확률'을 풀어 산출했다. cardiac 0.086(질병관리청 2023 급성심장정지 생존율, S11)/S(30분)=0.30410 -> 0.2828; stroke 0.424(Seo 2021 국내 전국자료 비상급종합병원 자택퇴원율, S15)/S(26분)=0.91302 -> 0.4644; trauma 0.434(=1-지역사회기반 중증외상조사 2021 치명률 56.6%, S16)/S(28분)=1.0 -> 0.4340; minor 0.98은 가정(NEDIS 중증상병해당환자 원내사망률 6.9%(S19)보다 비중증 사망률이 낮아야 한다는 상한 논리). 종별 배수는 권역 x1.10, 지역센터 x1.00, 지역기관 x0.75(minor는 각각 x1.00/x1.00/x0.95)이며, 응급의료에 관한 법률 시행규칙 별표 5의2(권역: 심혈관조영실·혈관조영실·응급전용 수술실·ECMO 24시간 의무, S17)와 별표 7(지역센터: 조영실·전용 수술실 의무 없음, S16b)의 법정 역량 격차를 반영한 가정이다. 국내 전국자료 비교연구는 상급/비상급 간 결과 차이가 유의하지 않았으므로(Seo 2021 3개월 생존 83.0% 대 81.9%; Choi 2022 원내사망 1.4% 대 1.6%, S15/S14b) 배수를 크게 벌리지 않았다. capabilities_by_category: 법정 지정기준상 심혈관·뇌혈관 중재와 응급전용 수술실은 권역응급의료센터만의 의무이지만, 종별로 진료 가능 유형을 하드 게이팅하면 신설 후보(지역응급의료기관 가정)가 중증환자를 구조적으로 치료할 수 없게 되어 정책 비교 자체가 성립하지 않는다. 따라서 역량 격차는 success_by_category로만 표현하고 네 유형 모두 진료 가능으로 두었다(하드 게이팅은 민감도 시나리오로 분리 권고). treatment_minutes: 백승민 등 2020(S19) NEDIS 중증상병해당환자 응급실 재실시간 상위 5% 절삭 평균 3.4시간 = 204분(무절삭 평균 5.8시간, 상위 0.5% 절삭 5.5시간, 응급의료기관 평가 기준 6시간 이하). transfer_delay_minutes: 전원 준비 시간에 대한 공식 통계를 찾지 못해 임시값 5.0분을 가정으로 유지. success_when_unavailable_by_profile: 병상이 모두 점유된 상태의 수용(복도 진료·안정화 후 전원)을 반영해 지역응급의료센터 성공확률의 50%(minor는 90%)로 설정한 가정이며, 재실 6시간 초과군의 원내사망률 15.0% 대 6시간 이내군 12.8%(S19)라는 방향성만 차용했다",
+      "official_identifiers": "scenario_standby.json hospitals.<id>.official_identifiers",
+      "dataset_details": "see provenance.sources"
+    },
+    "demand_source": {
+      "method": "observed_municipal_dispatches",
+      "basis": "observed 2025 municipal 119 dispatch counts from 경기데이터드림 '구급활동 현황' (Sheet query, one row per dispatch, assigned to municipalities by 출동소방서 name because the source SIGUN_CD mislabels 남양주소방서 rows as 41630); annual_dispatches / 365 -> daily_calls; file data/processed/calibration/municipal_daily_calls_2025.csv. Cross-check: NFA 2025 yearbook reports 799,302 Gyeonggi dispatches for 2024 (1.5% lower). Within a municipality the daily total is still allocated to administrative dongs by resident-population share because the source has no incident coordinates. | 52110 전주시: observed 2024 dispatches 38,183 from the NFA 2025 119구급서비스 통계연보 appendix (전주완산·전주덕진소방서 안전센터 9개소 합산, data/processed/calibration/municipal_daily_calls_jeonju_2024.csv), 365 days.",
+      "year": 2025,
+      "provincial_annual_dispatches": 811214,
+      "provincial_population_reference": "MOIS resident population 2026-08 (sum of the 31 municipalities in municipality_summary.csv)",
+      "provincial_population": 618908,
+      "municipal_population": 618908,
+      "daily_calls_model_input": 104.3251,
+      "observed_municipal_calls": true,
+      "allocation_within_municipality": "resident population share of each administrative dong in demand_population.csv; hourly multipliers from the model parameters",
+      "coordinate_source": [
+        "kakao_administrative_office_representative_proxy"
+      ],
+      "coordinate_caveat": "administrative-office representative points; not incident coordinates"
+    },
+    "candidate_source": {
+      "datasets": [
+        "population-weighted 1 km grid standby post; Kakao coord2regioncode membership"
+      ],
+      "land_feasibility_status": [
+        "requires_review_standby_post_unverified"
+      ],
+      "grid_post_count": 92,
+      "existing_base_post_count": 10,
+      "interpretation": "1 km grid cells with residents that are at least the configured distance from every existing 119 안전센터, plus the existing 119 안전센터 themselves; a grid cell is a parking spot whose real usability as a standby place is not verified",
+      "fleet_assumption": "the existing fleet is repositioned only; no ambulance, station or vehicle is added"
+    },
+    "road_time_source": {
+      "provider": "Kakao Mobility Directions API",
+      "extracted_at": "2026-09-11T01:53:32.533299+00:00",
+      "routing_profile": "RECOMMEND",
+      "unit": "minutes",
+      "pair_set": "standby",
+      "required_pair_count": 6010,
+      "file": "road_times.csv"
+    },
+    "coordinate_order": "network.positions are [longitude, latitude] in WGS84",
+    "model_parameters": {
+      "path": "data/processed/calibration/model_parameters_calibrated.json",
+      "status": "calibrated",
+      "generated_at": "2026-09-11T10:25:00+09:00"
+    },
+    "sources": [
+      {
+        "id": "S1",
+        "title": "소방청 본부별 구급활동정보 (2023-12-31 기준, nfa_headquarters_ambulance_activity_20231231.csv)",
+        "url": "https://www.data.go.kr/data/15080046/fileData.do",
+        "used_for": "demand: 2023 Gyeonggi annual dispatch total (846,564) and transport total (476,344)"
+      },
+      {
+        "id": "S2",
+        "title": "행정안전부 주민등록 인구 및 세대현황 전체 읍면동 (2026-08)",
+        "url": "https://jumin.mois.go.kr/statMonth.do",
+        "used_for": "demand: municipal and administrative-dong population shares"
+      },
+      {
+        "id": "S3",
+        "title": "경기도 응급의료기관 현황 (기준일 2025-09-17)",
+        "url": "https://www.data.go.kr/data/15011313/fileData.do",
+        "used_for": "hospital: existing emergency institution registry, category, coordinates"
+      },
+      {
+        "id": "S4",
+        "title": "건강보험심사평가원 전국 병의원 및 약국 현황 2026.6",
+        "url": "https://opendata.hira.or.kr/op/opc/selectOpenData.do?sno=11925",
+        "used_for": "hospital: static emergency-room bed capacity (not real-time availability)"
+      },
+      {
+        "id": "S5",
+        "title": "국립중앙의료원 중앙응급의료센터 2024년도 응급의료기관 평가",
+        "url": "https://www.e-gen.or.kr/nemc/business_medical_institution_evaluation.do?tabId=9",
+        "used_for": "hospital: E-Gen institution code and evaluation grade preserved as official identifiers"
+      },
+      {
+        "id": "S6",
+        "title": "보건복지부 전국 지역보건의료기관 현황 (2025-12-31)",
+        "url": "https://www.data.go.kr/data/3072692/fileData.do",
+        "used_for": "candidate: existing public-health facilities used as planning-review candidate sites"
+      },
+      {
+        "id": "S7",
+        "title": "Kakao Mobility Directions API (RECOMMEND)",
+        "url": "https://developers.kakaomobility.com/docs/navi-api/directions/",
+        "used_for": "road_time: directional car-route minutes between local nodes"
+      },
+      {
+        "id": "S7b",
+        "title": "소방청 집계 119구급대 구급활동 평균 소요시간 69분 (2022, 2019년 대비 19분 증가) 보도",
+        "url": "https://www.medifonews.com/mobile/article.html?no=176343",
+        "used_for": "ambulance.restock_minutes: 2019 baseline total activity time 50 minutes used to derive the 16.7-minute turnaround"
+      },
+      {
+        "id": "S8",
+        "title": "소방청 2023년 119구급차 이용현황 분석 (대한민국 정책브리핑, 2024)",
+        "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148925840",
+        "used_for": "profiles: 2023 transported patients 2,017,004; four severe categories 424,453 (심혈관 211,879 / 뇌혈관 165,585 / 심정지 33,608)"
+      },
+      {
+        "id": "S9",
+        "title": "소방청 119구급서비스 주요 통계 보도자료 (환자 발생유형 질병 70% / 질병외 28% / 기타 2%, 교통사고 8.4%, 4대 중증 20.1%)",
+        "url": "https://go.seoul.co.kr/news/prnewsView.php?id=279757&section=b_sec_1&page=846",
+        "used_for": "profiles: cross-check of the severe/non-severe split and the patient-type mapping"
+      },
+      {
+        "id": "S10",
+        "title": "e-나라지표 구급활동 현황 (소방청 119구급과, 2025년 119구급서비스 통계연보 기준)",
+        "url": "https://www.index.go.kr/unity/potal/main/EachDtlPageDetail.do?idx_cd=1634",
+        "used_for": "profiles/demand: national 2024 dispatch 3,324,287 / transport 1,790,794 / patients 1,807,486 used to validate the 2023 totals"
+      },
+      {
+        "id": "S11",
+        "title": "질병관리청 급성심장정지 환자의 생존율 및 뇌기능회복률 추이, 2013-2023 (PHWR 2024;17(50))",
+        "url": "https://www.phwr.org/journal/view.html?doi=10.56786%2FPHWR.2024.17.50.3",
+        "used_for": "hospital.success_by_category.cardiac: 2023 survival to discharge 8.6% (2013 4.8%), good neurological outcome 5.6%"
+      },
+      {
+        "id": "S12",
+        "title": "Saver JL, et al. Time to Treatment With Endovascular Thrombectomy and Outcomes From Ischemic Stroke: A Meta-analysis (HERMES). JAMA. 2016;316(12):1279-1288",
+        "url": "https://jamanetwork.com/journals/jama/fullarticle/2556124",
+        "used_for": "profiles.stroke.decay_rate: OR 0.81 per 1-hour reperfusion delay (ARD -5.2%), benefit no longer significant beyond 7h18m"
+      },
+      {
+        "id": "S13",
+        "title": "Jang Y, et al. Association of transport time interval with neurologic outcome in out-of-hospital cardiac arrest patients without ROSC on scene. Clin Exp Emerg Med. 2022;9(2):93-100 (Korean nationwide, n=83,470)",
+        "url": "https://www.ceemjournal.org/journal/view.php?doi=10.15441%2Fceem.21.074",
+        "used_for": "profiles.cardiac.decay_rate: aOR 0.98 per 1-minute transport-time increase; TTI quartiles <=4 / 5-7 / 8-11 / >=12 minutes"
+      },
+      {
+        "id": "S14",
+        "title": "Chen CH, Shin SD, Sun JT, et al. Association between prehospital time and outcome of trauma patients in 4 Asian countries (PATOS). PLoS Med. 2020;17(10):e1003360 (Korea n=16,476)",
+        "url": "https://journals.plos.org/plosmedicine/article?id=10.1371%2Fjournal.pmed.1003360",
+        "used_for": "profiles.trauma: aOR 1.06 per 10-minute total prehospital delay for poor functional outcome, aOR 1.03 for 30-day mortality, poor outcome threshold >=50 minutes"
+      },
+      {
+        "id": "S14b",
+        "title": "Choi Y, Jeong J, Lee SW, et al. A Propensity Score-Matched Comparison of In-Hospital Mortality between Dedicated Regional Trauma Centers and Emergency Medical Centers in the Republic of Korea. Emerg Med Int. 2022;2022:5749993",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9683976/",
+        "used_for": "hospital.success_by_category: in-hospital mortality 1.4% (regional trauma centers) vs 1.6% (emergency medical centers), OR 0.984, not significant"
+      },
+      {
+        "id": "S15",
+        "title": "Seo KD, Kang MJ, Lee JK, Suh SH, Lee KY. Mechanical thrombectomy reduces the gap in treatment outcomes of ischemic stroke between hospital levels of care: analysis of a Korean nationwide data. Ann Transl Med. 2021;9(15):1227",
+        "url": "https://atm.amegroups.org/article/view/74375/html",
+        "used_for": "hospital.success_by_category.stroke: home-discharge rate 41.4% (tertiary) vs 42.4% (non-tertiary), 3-month mortality 17.0% vs 18.1%"
+      },
+      {
+        "id": "S16",
+        "title": "질병관리청 2021년 지역사회기반 중증외상 발생현황 (PHWR 2024;17(46))",
+        "url": "https://www.phwr.org/journal/view.html?doi=10.56786%2FPHWR.2024.17.46.1",
+        "used_for": "hospital.success_by_category.trauma: 2021 severe trauma 8,052 patients, 15.7 per 100,000, case fatality 56.6%, severe disability 26.0%"
+      },
+      {
+        "id": "S16b",
+        "title": "응급의료에 관한 법률 시행규칙 별표 7, 지역응급의료센터의 지정기준 (개정 2020-12-16)",
+        "url": "https://law.go.kr/flDownload.do?flSeq=125462183",
+        "used_for": "hospital.capabilities/candidate.capacity_beds: 응급환자진료구역 20병상 이상, 전담전문의 2명 포함 전담의사 4명, 조영실·응급전용 수술실 요건 없음"
+      },
+      {
+        "id": "S17",
+        "title": "응급의료에 관한 법률 시행규칙 별표 5의2, 권역응급의료센터의 지정기준 (개정 2017-12-01)",
+        "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=37169560",
+        "used_for": "hospital.capabilities_by_category: 혈관조영실·심혈관조영실 각 1실 이상, 응급전용 수술실, ECMO·CRRT·뇌압감시 24시간, 응급전용 중환자실 20병상, 응급의학전문의 5명 이상"
+      },
+      {
+        "id": "S18",
+        "title": "Huang LH, Ho YN, Tsai MT, Wu WT, Cheng FJ. Response Time Threshold for Predicting Outcomes of Patients with Out-of-Hospital Cardiac Arrest. Emerg Med Int. 2021;2021:5564885 (n=6,742)",
+        "url": "https://onlinelibrary.wiley.com/doi/10.1155/2021/5564885",
+        "used_for": "profiles.cardiac: adjusted OR 1.217 per minute shorter EMS response time for survival to discharge; optimal response-time threshold 6.2 minutes"
+      },
+      {
+        "id": "S19",
+        "title": "백승민 등. 중증상병코드환자의 응급실 재실시간 평가지표 분석 및 적합성에 대한 고찰. 대한응급의학회지. 2020;31(5):518 (NEDIS)",
+        "url": "https://www.jksem.org/upload/pdf/jksem-31-5-518.pdf",
+        "used_for": "hospital.treatment_minutes: ED length of stay 5.8h (mean), 5.3h / 4.0h / 3.4h (top 1% / 3% / 5% trimmed); in-hospital mortality 6.9%; LOS<=6h 12.8% vs >6h 15.0% among ICU admissions"
+      },
+      {
+        "id": "S20",
+        "title": "Emberson J, et al. Effect of treatment delay, age, and stroke severity on the effects of intravenous thrombolysis with alteplase for acute ischaemic stroke. Lancet. 2014;384(9958):1929-1935 (n=6,756)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/25106063/",
+        "used_for": "profiles.stroke: absolute increase in good outcome 10.1% when treated <3h vs 5.0% at 3-4.5h; benefit within 4.5h"
+      },
+      {
+        "id": "S21",
+        "title": "COVID-19 팬데믹 기간 구급 시스템의 스트레스 및 회복 (한국디지털콘텐츠학회 논문지) - 2019년 월평균 현장 체류시간 7.26분",
+        "url": "http://journal.dcs.or.kr/xml/48251/48251.pdf",
+        "used_for": "profiles.scene_minutes: 2019 national monthly mean on-scene time 7.26 minutes (peaked at 13.8 minutes during the Omicron wave)"
+      },
+      {
+        "id": "S22",
+        "title": "Newgard CD, et al. Emergency Medical Services Intervals and Survival in Trauma: Assessment of the 'Golden Hour' in a North American Prospective Cohort. Ann Emerg Med. 2010;55(3):235-246 (n=3,656)",
+        "url": "https://www.annemergmed.com/article/S0196-0644(09)01284-0/fulltext",
+        "used_for": "profiles.trauma.golden_minutes: no association between EMS intervals and mortality among injured patients with field physiologic abnormality"
+      },
+      {
+        "id": "S23",
+        "title": "지역별 119구급대 반응시간 충족 현황과 관련 요인: 85개 시·군·구를 중심으로 (KCI)",
+        "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003146023",
+        "used_for": "response-time anchor: 2022 median call-to-scene interval 10 minutes across 85 municipalities (range 7-17 minutes)"
+      },
+      {
+        "id": "S24",
+        "title": "대전세종연구원 대전 119구급활동 빅데이터 분석 (2020-2023, 약 31.8만 건) - 시간대별 출동 보도",
+        "url": "https://www.khan.co.kr/article/202609011034001/",
+        "used_for": "hourly_demand_multipliers: 09시 하루 평균 12.5건(최다), 04시 4.8건(최소); 08시부터 급증하여 낮 시간 높은 수준 유지"
+      },
+      {
+        "id": "S25",
+        "title": "소방청 구급정보서비스 OpenAPI (시도본부·출동소방서·출동안전센터·신고년월 단위 구급정보)",
+        "url": "https://www.data.go.kr/data/15099423/openapi.do",
+        "used_for": "demand (not yet downloaded): candidate source for municipality/fire-station level dispatch counts"
+      },
+      {
+        "id": "S26",
+        "title": "소방청 구급통계서비스 OpenAPI / 소방청 119구급서비스 통계연보 / 경상남도 119구급활동 실적(소방서별) 예시",
+        "url": "https://www.data.go.kr/data/15099428/openapi.do",
+        "used_for": "demand (not yet downloaded): additional candidate sources; provincial equivalents are published per 시·도 (e.g. https://www.data.go.kr/data/15045361/fileData.do for 경상남도) and https://www.data.go.kr/data/15139158/fileData.do for the national yearbook PDF"
+      },
+      {
+        "id": "S27",
+        "title": "질병관리청 2023년 급성심장정지 발생 33,586건 (인구 10만 명당 65.7명, 70세 이상 53.4%) 보도",
+        "url": "https://www.safetynews.co.kr/news/articleView.html?idxno=234203",
+        "used_for": "profiles.cardiac: cross-check that the 소방청 심정지 이송 33,608 matches the KDCA OHCA incidence 33,586"
+      },
+      {
+        "id": "S28",
+        "title": "Larsen MP, Eisenberg MS, Cummins RO, Hallstrom AP. Predicting survival from out-of-hospital cardiac arrest: a graphic model. Ann Emerg Med. 1993;22(11):1652-1658 (n=1,667)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/8214853/",
+        "used_for": "profiles.cardiac (contrast only, not adopted): survival = 67% - 2.3%/min CPR - 1.1%/min defibrillation - 2.1%/min ACLS, i.e. 5.5 percentage points per minute"
+      },
+      {
+        "id": "S29",
+        "title": "Brown JB, et al. Not all prehospital time is equal: Influence of scene time on mortality. J Trauma Acute Care Surg. 2016;81(1):93-100",
+        "url": "https://journals.lww.com/jtrauma/abstract/2016/07000/not_all_prehospital_time_is_equal__influence_of.15.aspx",
+        "used_for": "profiles.trauma.scene_minutes: prolonged scene time OR 1.21 unadjusted, 1.06 after adjustment (not significant)"
+      },
+      {
+        "id": "S30",
+        "title": "법제처 찾기쉬운 생활법령정보 - 응급의료기관 등 알아보기 (권역/지역응급의료센터/지역응급의료기관의 지정 주체와 역할)",
+        "url": "https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=906&ccfNo=2&cciNo=1&cnpClsNo=1",
+        "used_for": "hospital: 권역은 중증응급환자 중심 진료, 지역응급의료센터는 시·도지사가 종합병원 중 지정, 지역응급의료기관은 시장·군수·구청장이 지정하는 기초 응급의료 기관"
+      },
+      {
+        "id": "S31",
+        "title": "대한뇌졸중학회 뇌졸중 팩트시트 2024 (한국뇌졸중등록사업 68개 센터 허혈성 뇌졸중 153,324건, 2010-2022) 보도",
+        "url": "https://zdnet.co.kr/view/?no=20240425171259",
+        "used_for": "hospital.success_by_category.stroke and limitations: 재개통치료 시행률 16.3%, 4.5시간 이내 도착 환자 약 42% 대 이후 10.7%, 골든타임 내 방문 26%"
+      }
+    ],
+    "generated_by": {
+      "script": "scripts/build_municipal_standby_inputs.py",
+      "generated_at": "2026-09-11T11:04:59+09:00",
+      "processed_dir": "data/processed/jeonju_20260911/52110",
+      "horizon_days": 1,
+      "arrival_cutoff_minutes": 1440,
+      "cooldown_minutes": 360.0,
+      "episode_rule": "patients arrive only before the cut-off; the run continues through the cool-down so they can be resolved"
+    }
+  }
+}

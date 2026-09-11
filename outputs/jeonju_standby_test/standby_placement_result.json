@@ -1,7 +1,6 @@
-wrote: outputs\jeonju_standby_test\standby_placement_result.json
 {
   "municipality_code": "52110",
-  "municipality_name": "ÀüÁÖ½Ã",
+  "municipality_name": "ì „ì£¼ì‹œ",
   "objective": "local expected survivors",
   "cross_municipality_resources_allowed": false,
   "search": "greedy forward selection over (ambulance, post) moves with paired episode seeds",
@@ -82,7 +81,7 @@ wrote: outputs\jeonju_standby_test\standby_placement_result.json
       "step": 1,
       "ambulance_id": "A05-1",
       "post_id": "P096",
-      "post_name": "¼­½Å119¾ÈÀü¼¾ÅÍ",
+      "post_name": "ì„œì‹ 119ì•ˆì „ì„¼í„°",
       "post_location": "52110::ambulance_base::004",
       "home_base": "52110::ambulance_base::005",
       "evaluated_moves": 252,
@@ -117,7 +116,7 @@ wrote: outputs\jeonju_standby_test\standby_placement_result.json
       "step": 2,
       "ambulance_id": "A10-1",
       "post_id": "P095",
-      "post_name": "±³µ¿119¾ÈÀü¼¾ÅÍ",
+      "post_name": "êµë™119ì•ˆì „ì„¼í„°",
       "post_location": "52110::ambulance_base::003",
       "home_base": "52110::ambulance_base::010",
       "evaluated_moves": 220,
@@ -153,7 +152,7 @@ wrote: outputs\jeonju_standby_test\standby_placement_result.json
       "step": 3,
       "ambulance_id": "A09-1",
       "post_id": "P063",
-      "post_name": "ÀüºÏÆ¯º°ÀÚÄ¡µµ ÀüÁÖ½Ã ´öÁø±¸ ¼ÛÃµµ¿1°¡ °İÀÚ 7-6",
+      "post_name": "ì „ë¶íŠ¹ë³„ìì¹˜ë„ ì „ì£¼ì‹œ ë•ì§„êµ¬ ì†¡ì²œë™1ê°€ ê²©ì 7-6",
       "post_location": "52110::standby::GRID-1KM-52110-007-006",
       "home_base": "52110::ambulance_base::009",
       "evaluated_moves": 190,
@@ -212,13 +211,13 @@ wrote: outputs\jeonju_standby_test\standby_placement_result.json
           "2024"
         ]
       },
-      "treatment_success_basis": "success_by_category: ÁßÀ§ Á¾º°ÀÎ Áö¿ªÀÀ±ŞÀÇ·á¼¾ÅÍ(°æ±â 33°³¼Ò, ÃÖ´Ù Á¾º°)¸¦ ±âÁØÀ¸·Î »ï¾Æ '°üÃø ±¹°¡ °á°ú = S(°üÃø Æò±Õ º´¿øÀü ½Ã°£) x ¼º°øÈ®·ü'À» Ç®¾î »êÃâÇß´Ù. cardiac 0.086(Áúº´°ü¸®Ã» 2023 ±Ş¼º½ÉÀåÁ¤Áö »ıÁ¸À², S11)/S(30ºĞ)=0.30410 -> 0.2828; stroke 0.424(Seo 2021 ±¹³» Àü±¹ÀÚ·á ºñ»ó±ŞÁ¾ÇÕº´¿ø ÀÚÅÃÅğ¿øÀ², S15)/S(26ºĞ)=0.91302 -> 0.4644; trauma 0.434(=1-Áö¿ª»çÈ¸±â¹İ ÁßÁõ¿Ü»óÁ¶»ç 2021 Ä¡¸í·ü 56.6%, S16)/S(28ºĞ)=1.0 -> 0.4340; minor 0.98Àº °¡Á¤(NEDIS ÁßÁõ»óº´ÇØ´çÈ¯ÀÚ ¿ø³»»ç¸Á·ü 6.9%(S19)º¸´Ù ºñÁßÁõ »ç¸Á·üÀÌ ³·¾Æ¾ß ÇÑ´Ù´Â »óÇÑ ³í¸®). Á¾º° ¹è¼ö´Â ±Ç¿ª x1.10, Áö¿ª¼¾ÅÍ x1.00, Áö¿ª±â°ü x0.75(minor´Â °¢°¢ x1.00/x1.00/x0.95)ÀÌ¸ç, ÀÀ±ŞÀÇ·á¿¡ °üÇÑ ¹ı·ü ½ÃÇà±ÔÄ¢ º°Ç¥ 5ÀÇ2(±Ç¿ª: ½ÉÇ÷°üÁ¶¿µ½Ç¡¤Ç÷°üÁ¶¿µ½Ç¡¤ÀÀ±ŞÀü¿ë ¼ö¼ú½Ç¡¤ECMO 24½Ã°£ ÀÇ¹«, S17)¿Í º°Ç¥ 7(Áö¿ª¼¾ÅÍ: Á¶¿µ½Ç¡¤Àü¿ë ¼ö¼ú½Ç ÀÇ¹« ¾øÀ½, S16b)ÀÇ ¹ıÁ¤ ¿ª·® °İÂ÷¸¦ ¹İ¿µÇÑ °¡Á¤ÀÌ´Ù. ±¹³» Àü±¹ÀÚ·á ºñ±³¿¬±¸´Â »ó±Ş/ºñ»ó±Ş °£ °á°ú Â÷ÀÌ°¡ À¯ÀÇÇÏÁö ¾Ê¾ÒÀ¸¹Ç·Î(Seo 2021 3°³¿ù »ıÁ¸ 83.0% ´ë 81.9%; Choi 2022 ¿ø³»»ç¸Á 1.4% ´ë 1.6%, S15/S14b) ¹è¼ö¸¦ Å©°Ô ¹ú¸®Áö ¾Ê¾Ò´Ù. capabilities_by_category: ¹ıÁ¤ ÁöÁ¤±âÁØ»ó ½ÉÇ÷°ü¡¤³úÇ÷°ü ÁßÀç¿Í ÀÀ±ŞÀü¿ë ¼ö¼ú½ÇÀº ±Ç¿ªÀÀ±ŞÀÇ·á¼¾ÅÍ¸¸ÀÇ ÀÇ¹«ÀÌÁö¸¸, Á¾º°·Î Áø·á °¡´É À¯ÇüÀ» ÇÏµå °ÔÀÌÆÃÇÏ¸é ½Å¼³ ÈÄº¸(Áö¿ªÀÀ±ŞÀÇ·á±â°ü °¡Á¤)°¡ ÁßÁõÈ¯ÀÚ¸¦ ±¸Á¶ÀûÀ¸·Î Ä¡·áÇÒ ¼ö ¾ø°Ô µÇ¾î Á¤Ã¥ ºñ±³ ÀÚÃ¼°¡ ¼º¸³ÇÏÁö ¾Ê´Â´Ù. µû¶ó¼­ ¿ª·® °İÂ÷´Â success_by_category·Î¸¸ Ç¥ÇöÇÏ°í ³× À¯Çü ¸ğµÎ Áø·á °¡´ÉÀ¸·Î µÎ¾ú´Ù(ÇÏµå °ÔÀÌÆÃÀº ¹Î°¨µµ ½Ã³ª¸®¿À·Î ºĞ¸® ±Ç°í). treatment_minutes: ¹é½Â¹Î µî 2020(S19) NEDIS ÁßÁõ»óº´ÇØ´çÈ¯ÀÚ ÀÀ±Ş½Ç Àç½Ç½Ã°£ »óÀ§ 5% Àı»è Æò±Õ 3.4½Ã°£ = 204ºĞ(¹«Àı»è Æò±Õ 5.8½Ã°£, »óÀ§ 0.5% Àı»è 5.5½Ã°£, ÀÀ±ŞÀÇ·á±â°ü Æò°¡ ±âÁØ 6½Ã°£ ÀÌÇÏ). transfer_delay_minutes: Àü¿ø ÁØºñ ½Ã°£¿¡ ´ëÇÑ °ø½Ä Åë°è¸¦ Ã£Áö ¸øÇØ ÀÓ½Ã°ª 5.0ºĞÀ» °¡Á¤À¸·Î À¯Áö. success_when_unavailable_by_profile: º´»óÀÌ ¸ğµÎ Á¡À¯µÈ »óÅÂÀÇ ¼ö¿ë(º¹µµ Áø·á¡¤¾ÈÁ¤È­ ÈÄ Àü¿ø)À» ¹İ¿µÇØ Áö¿ªÀÀ±ŞÀÇ·á¼¾ÅÍ ¼º°øÈ®·üÀÇ 50%(minor´Â 90%)·Î ¼³Á¤ÇÑ °¡Á¤ÀÌ¸ç, Àç½Ç 6½Ã°£ ÃÊ°ú±ºÀÇ ¿ø³»»ç¸Á·ü 15.0% ´ë 6½Ã°£ ÀÌ³»±º 12.8%(S19)¶ó´Â ¹æÇâ¼º¸¸ Â÷¿ëÇß´Ù",
+      "treatment_success_basis": "success_by_category: ì¤‘ìœ„ ì¢…ë³„ì¸ ì§€ì—­ì‘ê¸‰ì˜ë£Œì„¼í„°(ê²½ê¸° 33ê°œì†Œ, ìµœë‹¤ ì¢…ë³„)ë¥¼ ê¸°ì¤€ìœ¼ë¡œ ì‚¼ì•„ 'ê´€ì¸¡ êµ­ê°€ ê²°ê³¼ = S(ê´€ì¸¡ í‰ê·  ë³‘ì›ì „ ì‹œê°„) x ì„±ê³µí™•ë¥ 'ì„ í’€ì–´ ì‚°ì¶œí–ˆë‹¤. cardiac 0.086(ì§ˆë³‘ê´€ë¦¬ì²­ 2023 ê¸‰ì„±ì‹¬ì¥ì •ì§€ ìƒì¡´ìœ¨, S11)/S(30ë¶„)=0.30410 -> 0.2828; stroke 0.424(Seo 2021 êµ­ë‚´ ì „êµ­ìë£Œ ë¹„ìƒê¸‰ì¢…í•©ë³‘ì› ìíƒí‡´ì›ìœ¨, S15)/S(26ë¶„)=0.91302 -> 0.4644; trauma 0.434(=1-ì§€ì—­ì‚¬íšŒê¸°ë°˜ ì¤‘ì¦ì™¸ìƒì¡°ì‚¬ 2021 ì¹˜ëª…ë¥  56.6%, S16)/S(28ë¶„)=1.0 -> 0.4340; minor 0.98ì€ ê°€ì •(NEDIS ì¤‘ì¦ìƒë³‘í•´ë‹¹í™˜ì ì›ë‚´ì‚¬ë§ë¥  6.9%(S19)ë³´ë‹¤ ë¹„ì¤‘ì¦ ì‚¬ë§ë¥ ì´ ë‚®ì•„ì•¼ í•œë‹¤ëŠ” ìƒí•œ ë…¼ë¦¬). ì¢…ë³„ ë°°ìˆ˜ëŠ” ê¶Œì—­ x1.10, ì§€ì—­ì„¼í„° x1.00, ì§€ì—­ê¸°ê´€ x0.75(minorëŠ” ê°ê° x1.00/x1.00/x0.95)ì´ë©°, ì‘ê¸‰ì˜ë£Œì— ê´€í•œ ë²•ë¥  ì‹œí–‰ê·œì¹™ ë³„í‘œ 5ì˜2(ê¶Œì—­: ì‹¬í˜ˆê´€ì¡°ì˜ì‹¤Â·í˜ˆê´€ì¡°ì˜ì‹¤Â·ì‘ê¸‰ì „ìš© ìˆ˜ìˆ ì‹¤Â·ECMO 24ì‹œê°„ ì˜ë¬´, S17)ì™€ ë³„í‘œ 7(ì§€ì—­ì„¼í„°: ì¡°ì˜ì‹¤Â·ì „ìš© ìˆ˜ìˆ ì‹¤ ì˜ë¬´ ì—†ìŒ, S16b)ì˜ ë²•ì • ì—­ëŸ‰ ê²©ì°¨ë¥¼ ë°˜ì˜í•œ ê°€ì •ì´ë‹¤. êµ­ë‚´ ì „êµ­ìë£Œ ë¹„êµì—°êµ¬ëŠ” ìƒê¸‰/ë¹„ìƒê¸‰ ê°„ ê²°ê³¼ ì°¨ì´ê°€ ìœ ì˜í•˜ì§€ ì•Šì•˜ìœ¼ë¯€ë¡œ(Seo 2021 3ê°œì›” ìƒì¡´ 83.0% ëŒ€ 81.9%; Choi 2022 ì›ë‚´ì‚¬ë§ 1.4% ëŒ€ 1.6%, S15/S14b) ë°°ìˆ˜ë¥¼ í¬ê²Œ ë²Œë¦¬ì§€ ì•Šì•˜ë‹¤. capabilities_by_category: ë²•ì • ì§€ì •ê¸°ì¤€ìƒ ì‹¬í˜ˆê´€Â·ë‡Œí˜ˆê´€ ì¤‘ì¬ì™€ ì‘ê¸‰ì „ìš© ìˆ˜ìˆ ì‹¤ì€ ê¶Œì—­ì‘ê¸‰ì˜ë£Œì„¼í„°ë§Œì˜ ì˜ë¬´ì´ì§€ë§Œ, ì¢…ë³„ë¡œ ì§„ë£Œ ê°€ëŠ¥ ìœ í˜•ì„ í•˜ë“œ ê²Œì´íŒ…í•˜ë©´ ì‹ ì„¤ í›„ë³´(ì§€ì—­ì‘ê¸‰ì˜ë£Œê¸°ê´€ ê°€ì •)ê°€ ì¤‘ì¦í™˜ìë¥¼ êµ¬ì¡°ì ìœ¼ë¡œ ì¹˜ë£Œí•  ìˆ˜ ì—†ê²Œ ë˜ì–´ ì •ì±… ë¹„êµ ìì²´ê°€ ì„±ë¦½í•˜ì§€ ì•ŠëŠ”ë‹¤. ë”°ë¼ì„œ ì—­ëŸ‰ ê²©ì°¨ëŠ” success_by_categoryë¡œë§Œ í‘œí˜„í•˜ê³  ë„¤ ìœ í˜• ëª¨ë‘ ì§„ë£Œ ê°€ëŠ¥ìœ¼ë¡œ ë‘ì—ˆë‹¤(í•˜ë“œ ê²Œì´íŒ…ì€ ë¯¼ê°ë„ ì‹œë‚˜ë¦¬ì˜¤ë¡œ ë¶„ë¦¬ ê¶Œê³ ). treatment_minutes: ë°±ìŠ¹ë¯¼ ë“± 2020(S19) NEDIS ì¤‘ì¦ìƒë³‘í•´ë‹¹í™˜ì ì‘ê¸‰ì‹¤ ì¬ì‹¤ì‹œê°„ ìƒìœ„ 5% ì ˆì‚­ í‰ê·  3.4ì‹œê°„ = 204ë¶„(ë¬´ì ˆì‚­ í‰ê·  5.8ì‹œê°„, ìƒìœ„ 0.5% ì ˆì‚­ 5.5ì‹œê°„, ì‘ê¸‰ì˜ë£Œê¸°ê´€ í‰ê°€ ê¸°ì¤€ 6ì‹œê°„ ì´í•˜). transfer_delay_minutes: ì „ì› ì¤€ë¹„ ì‹œê°„ì— ëŒ€í•œ ê³µì‹ í†µê³„ë¥¼ ì°¾ì§€ ëª»í•´ ì„ì‹œê°’ 5.0ë¶„ì„ ê°€ì •ìœ¼ë¡œ ìœ ì§€. success_when_unavailable_by_profile: ë³‘ìƒì´ ëª¨ë‘ ì ìœ ëœ ìƒíƒœì˜ ìˆ˜ìš©(ë³µë„ ì§„ë£ŒÂ·ì•ˆì •í™” í›„ ì „ì›)ì„ ë°˜ì˜í•´ ì§€ì—­ì‘ê¸‰ì˜ë£Œì„¼í„° ì„±ê³µí™•ë¥ ì˜ 50%(minorëŠ” 90%)ë¡œ ì„¤ì •í•œ ê°€ì •ì´ë©°, ì¬ì‹¤ 6ì‹œê°„ ì´ˆê³¼êµ°ì˜ ì›ë‚´ì‚¬ë§ë¥  15.0% ëŒ€ 6ì‹œê°„ ì´ë‚´êµ° 12.8%(S19)ë¼ëŠ” ë°©í–¥ì„±ë§Œ ì°¨ìš©í–ˆë‹¤",
       "official_identifiers": "scenario_standby.json hospitals.<id>.official_identifiers",
       "dataset_details": "see provenance.sources"
     },
     "demand_source": {
       "method": "observed_municipal_dispatches",
-      "basis": "observed 2025 municipal 119 dispatch counts from °æ±âµ¥ÀÌÅÍµå¸² '±¸±ŞÈ°µ¿ ÇöÈ²' (Sheet query, one row per dispatch, assigned to municipalities by Ãâµ¿¼Ò¹æ¼­ name because the source SIGUN_CD mislabels ³²¾çÁÖ¼Ò¹æ¼­ rows as 41630); annual_dispatches / 365 -> daily_calls; file data/processed/calibration/municipal_daily_calls_2025.csv. Cross-check: NFA 2025 yearbook reports 799,302 Gyeonggi dispatches for 2024 (1.5% lower). Within a municipality the daily total is still allocated to administrative dongs by resident-population share because the source has no incident coordinates. | 52110 ÀüÁÖ½Ã: observed 2024 dispatches 38,183 from the NFA 2025 119±¸±Ş¼­ºñ½º Åë°è¿¬º¸ appendix (ÀüÁÖ¿Ï»ê¡¤ÀüÁÖ´öÁø¼Ò¹æ¼­ ¾ÈÀü¼¾ÅÍ 9°³¼Ò ÇÕ»ê, data/processed/calibration/municipal_daily_calls_jeonju_2024.csv), 365 days.",
+      "basis": "observed 2025 municipal 119 dispatch counts from ê²½ê¸°ë°ì´í„°ë“œë¦¼ 'êµ¬ê¸‰í™œë™ í˜„í™©' (Sheet query, one row per dispatch, assigned to municipalities by ì¶œë™ì†Œë°©ì„œ name because the source SIGUN_CD mislabels ë‚¨ì–‘ì£¼ì†Œë°©ì„œ rows as 41630); annual_dispatches / 365 -> daily_calls; file data/processed/calibration/municipal_daily_calls_2025.csv. Cross-check: NFA 2025 yearbook reports 799,302 Gyeonggi dispatches for 2024 (1.5% lower). Within a municipality the daily total is still allocated to administrative dongs by resident-population share because the source has no incident coordinates. | 52110 ì „ì£¼ì‹œ: observed 2024 dispatches 38,183 from the NFA 2025 119êµ¬ê¸‰ì„œë¹„ìŠ¤ í†µê³„ì—°ë³´ appendix (ì „ì£¼ì™„ì‚°Â·ì „ì£¼ë•ì§„ì†Œë°©ì„œ ì•ˆì „ì„¼í„° 9ê°œì†Œ í•©ì‚°, data/processed/calibration/municipal_daily_calls_jeonju_2024.csv), 365 days.",
       "year": 2025,
       "provincial_annual_dispatches": 811214,
       "provincial_population_reference": "MOIS resident population 2026-08 (sum of the 31 municipalities in municipality_summary.csv)",
@@ -241,7 +240,7 @@ wrote: outputs\jeonju_standby_test\standby_placement_result.json
       ],
       "grid_post_count": 92,
       "existing_base_post_count": 10,
-      "interpretation": "1 km grid cells with residents that are at least the configured distance from every existing 119 ¾ÈÀü¼¾ÅÍ, plus the existing 119 ¾ÈÀü¼¾ÅÍ themselves; a grid cell is a parking spot whose real usability as a standby place is not verified",
+      "interpretation": "1 km grid cells with residents that are at least the configured distance from every existing 119 ì•ˆì „ì„¼í„°, plus the existing 119 ì•ˆì „ì„¼í„° themselves; a grid cell is a parking spot whose real usability as a standby place is not verified",
       "fleet_assumption": "the existing fleet is repositioned only; no ambulance, station or vehicle is added"
     },
     "road_time_source": {
@@ -262,37 +261,37 @@ wrote: outputs\jeonju_standby_test\standby_placement_result.json
     "sources": [
       {
         "id": "S1",
-        "title": "¼Ò¹æÃ» º»ºÎº° ±¸±ŞÈ°µ¿Á¤º¸ (2023-12-31 ±âÁØ, nfa_headquarters_ambulance_activity_20231231.csv)",
+        "title": "ì†Œë°©ì²­ ë³¸ë¶€ë³„ êµ¬ê¸‰í™œë™ì •ë³´ (2023-12-31 ê¸°ì¤€, nfa_headquarters_ambulance_activity_20231231.csv)",
         "url": "https://www.data.go.kr/data/15080046/fileData.do",
         "used_for": "demand: 2023 Gyeonggi annual dispatch total (846,564) and transport total (476,344)"
       },
       {
         "id": "S2",
-        "title": "ÇàÁ¤¾ÈÀüºÎ ÁÖ¹Îµî·Ï ÀÎ±¸ ¹× ¼¼´ëÇöÈ² ÀüÃ¼ À¾¸éµ¿ (2026-08)",
+        "title": "í–‰ì •ì•ˆì „ë¶€ ì£¼ë¯¼ë“±ë¡ ì¸êµ¬ ë° ì„¸ëŒ€í˜„í™© ì „ì²´ ìë©´ë™ (2026-08)",
         "url": "https://jumin.mois.go.kr/statMonth.do",
         "used_for": "demand: municipal and administrative-dong population shares"
       },
       {
         "id": "S3",
-        "title": "°æ±âµµ ÀÀ±ŞÀÇ·á±â°ü ÇöÈ² (±âÁØÀÏ 2025-09-17)",
+        "title": "ê²½ê¸°ë„ ì‘ê¸‰ì˜ë£Œê¸°ê´€ í˜„í™© (ê¸°ì¤€ì¼ 2025-09-17)",
         "url": "https://www.data.go.kr/data/15011313/fileData.do",
         "used_for": "hospital: existing emergency institution registry, category, coordinates"
       },
       {
         "id": "S4",
-        "title": "°Ç°­º¸Çè½É»çÆò°¡¿ø Àü±¹ º´ÀÇ¿ø ¹× ¾à±¹ ÇöÈ² 2026.6",
+        "title": "ê±´ê°•ë³´í—˜ì‹¬ì‚¬í‰ê°€ì› ì „êµ­ ë³‘ì˜ì› ë° ì•½êµ­ í˜„í™© 2026.6",
         "url": "https://opendata.hira.or.kr/op/opc/selectOpenData.do?sno=11925",
         "used_for": "hospital: static emergency-room bed capacity (not real-time availability)"
       },
       {
         "id": "S5",
-        "title": "±¹¸³Áß¾ÓÀÇ·á¿ø Áß¾ÓÀÀ±ŞÀÇ·á¼¾ÅÍ 2024³âµµ ÀÀ±ŞÀÇ·á±â°ü Æò°¡",
+        "title": "êµ­ë¦½ì¤‘ì•™ì˜ë£Œì› ì¤‘ì•™ì‘ê¸‰ì˜ë£Œì„¼í„° 2024ë…„ë„ ì‘ê¸‰ì˜ë£Œê¸°ê´€ í‰ê°€",
         "url": "https://www.e-gen.or.kr/nemc/business_medical_institution_evaluation.do?tabId=9",
         "used_for": "hospital: E-Gen institution code and evaluation grade preserved as official identifiers"
       },
       {
         "id": "S6",
-        "title": "º¸°Çº¹ÁöºÎ Àü±¹ Áö¿ªº¸°ÇÀÇ·á±â°ü ÇöÈ² (2025-12-31)",
+        "title": "ë³´ê±´ë³µì§€ë¶€ ì „êµ­ ì§€ì—­ë³´ê±´ì˜ë£Œê¸°ê´€ í˜„í™© (2025-12-31)",
         "url": "https://www.data.go.kr/data/3072692/fileData.do",
         "used_for": "candidate: existing public-health facilities used as planning-review candidate sites"
       },
@@ -304,31 +303,31 @@ wrote: outputs\jeonju_standby_test\standby_placement_result.json
       },
       {
         "id": "S7b",
-        "title": "¼Ò¹æÃ» Áı°è 119±¸±Ş´ë ±¸±ŞÈ°µ¿ Æò±Õ ¼Ò¿ä½Ã°£ 69ºĞ (2022, 2019³â ´ëºñ 19ºĞ Áõ°¡) º¸µµ",
+        "title": "ì†Œë°©ì²­ ì§‘ê³„ 119êµ¬ê¸‰ëŒ€ êµ¬ê¸‰í™œë™ í‰ê·  ì†Œìš”ì‹œê°„ 69ë¶„ (2022, 2019ë…„ ëŒ€ë¹„ 19ë¶„ ì¦ê°€) ë³´ë„",
         "url": "https://www.medifonews.com/mobile/article.html?no=176343",
         "used_for": "ambulance.restock_minutes: 2019 baseline total activity time 50 minutes used to derive the 16.7-minute turnaround"
       },
       {
         "id": "S8",
-        "title": "¼Ò¹æÃ» 2023³â 119±¸±ŞÂ÷ ÀÌ¿ëÇöÈ² ºĞ¼® (´ëÇÑ¹Î±¹ Á¤Ã¥ºê¸®ÇÎ, 2024)",
+        "title": "ì†Œë°©ì²­ 2023ë…„ 119êµ¬ê¸‰ì°¨ ì´ìš©í˜„í™© ë¶„ì„ (ëŒ€í•œë¯¼êµ­ ì •ì±…ë¸Œë¦¬í•‘, 2024)",
         "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148925840",
-        "used_for": "profiles: 2023 transported patients 2,017,004; four severe categories 424,453 (½ÉÇ÷°ü 211,879 / ³úÇ÷°ü 165,585 / ½ÉÁ¤Áö 33,608)"
+        "used_for": "profiles: 2023 transported patients 2,017,004; four severe categories 424,453 (ì‹¬í˜ˆê´€ 211,879 / ë‡Œí˜ˆê´€ 165,585 / ì‹¬ì •ì§€ 33,608)"
       },
       {
         "id": "S9",
-        "title": "¼Ò¹æÃ» 119±¸±Ş¼­ºñ½º ÁÖ¿ä Åë°è º¸µµÀÚ·á (È¯ÀÚ ¹ß»ıÀ¯Çü Áúº´ 70% / Áúº´¿Ü 28% / ±âÅ¸ 2%, ±³Åë»ç°í 8.4%, 4´ë ÁßÁõ 20.1%)",
+        "title": "ì†Œë°©ì²­ 119êµ¬ê¸‰ì„œë¹„ìŠ¤ ì£¼ìš” í†µê³„ ë³´ë„ìë£Œ (í™˜ì ë°œìƒìœ í˜• ì§ˆë³‘ 70% / ì§ˆë³‘ì™¸ 28% / ê¸°íƒ€ 2%, êµí†µì‚¬ê³  8.4%, 4ëŒ€ ì¤‘ì¦ 20.1%)",
         "url": "https://go.seoul.co.kr/news/prnewsView.php?id=279757&section=b_sec_1&page=846",
         "used_for": "profiles: cross-check of the severe/non-severe split and the patient-type mapping"
       },
       {
         "id": "S10",
-        "title": "e-³ª¶óÁöÇ¥ ±¸±ŞÈ°µ¿ ÇöÈ² (¼Ò¹æÃ» 119±¸±Ş°ú, 2025³â 119±¸±Ş¼­ºñ½º Åë°è¿¬º¸ ±âÁØ)",
+        "title": "e-ë‚˜ë¼ì§€í‘œ êµ¬ê¸‰í™œë™ í˜„í™© (ì†Œë°©ì²­ 119êµ¬ê¸‰ê³¼, 2025ë…„ 119êµ¬ê¸‰ì„œë¹„ìŠ¤ í†µê³„ì—°ë³´ ê¸°ì¤€)",
         "url": "https://www.index.go.kr/unity/potal/main/EachDtlPageDetail.do?idx_cd=1634",
         "used_for": "profiles/demand: national 2024 dispatch 3,324,287 / transport 1,790,794 / patients 1,807,486 used to validate the 2023 totals"
       },
       {
         "id": "S11",
-        "title": "Áúº´°ü¸®Ã» ±Ş¼º½ÉÀåÁ¤Áö È¯ÀÚÀÇ »ıÁ¸À² ¹× ³ú±â´ÉÈ¸º¹·ü ÃßÀÌ, 2013-2023 (PHWR 2024;17(50))",
+        "title": "ì§ˆë³‘ê´€ë¦¬ì²­ ê¸‰ì„±ì‹¬ì¥ì •ì§€ í™˜ìì˜ ìƒì¡´ìœ¨ ë° ë‡Œê¸°ëŠ¥íšŒë³µë¥  ì¶”ì´, 2013-2023 (PHWR 2024;17(50))",
         "url": "https://www.phwr.org/journal/view.html?doi=10.56786%2FPHWR.2024.17.50.3",
         "used_for": "hospital.success_by_category.cardiac: 2023 survival to discharge 8.6% (2013 4.8%), good neurological outcome 5.6%"
       },
@@ -364,21 +363,21 @@ wrote: outputs\jeonju_standby_test\standby_placement_result.json
       },
       {
         "id": "S16",
-        "title": "Áúº´°ü¸®Ã» 2021³â Áö¿ª»çÈ¸±â¹İ ÁßÁõ¿Ü»ó ¹ß»ıÇöÈ² (PHWR 2024;17(46))",
+        "title": "ì§ˆë³‘ê´€ë¦¬ì²­ 2021ë…„ ì§€ì—­ì‚¬íšŒê¸°ë°˜ ì¤‘ì¦ì™¸ìƒ ë°œìƒí˜„í™© (PHWR 2024;17(46))",
         "url": "https://www.phwr.org/journal/view.html?doi=10.56786%2FPHWR.2024.17.46.1",
         "used_for": "hospital.success_by_category.trauma: 2021 severe trauma 8,052 patients, 15.7 per 100,000, case fatality 56.6%, severe disability 26.0%"
       },
       {
         "id": "S16b",
-        "title": "ÀÀ±ŞÀÇ·á¿¡ °üÇÑ ¹ı·ü ½ÃÇà±ÔÄ¢ º°Ç¥ 7, Áö¿ªÀÀ±ŞÀÇ·á¼¾ÅÍÀÇ ÁöÁ¤±âÁØ (°³Á¤ 2020-12-16)",
+        "title": "ì‘ê¸‰ì˜ë£Œì— ê´€í•œ ë²•ë¥  ì‹œí–‰ê·œì¹™ ë³„í‘œ 7, ì§€ì—­ì‘ê¸‰ì˜ë£Œì„¼í„°ì˜ ì§€ì •ê¸°ì¤€ (ê°œì • 2020-12-16)",
         "url": "https://law.go.kr/flDownload.do?flSeq=125462183",
-        "used_for": "hospital.capabilities/candidate.capacity_beds: ÀÀ±ŞÈ¯ÀÚÁø·á±¸¿ª 20º´»ó ÀÌ»ó, Àü´ãÀü¹®ÀÇ 2¸í Æ÷ÇÔ Àü´ãÀÇ»ç 4¸í, Á¶¿µ½Ç¡¤ÀÀ±ŞÀü¿ë ¼ö¼ú½Ç ¿ä°Ç ¾øÀ½"
+        "used_for": "hospital.capabilities/candidate.capacity_beds: ì‘ê¸‰í™˜ìì§„ë£Œêµ¬ì—­ 20ë³‘ìƒ ì´ìƒ, ì „ë‹´ì „ë¬¸ì˜ 2ëª… í¬í•¨ ì „ë‹´ì˜ì‚¬ 4ëª…, ì¡°ì˜ì‹¤Â·ì‘ê¸‰ì „ìš© ìˆ˜ìˆ ì‹¤ ìš”ê±´ ì—†ìŒ"
       },
       {
         "id": "S17",
-        "title": "ÀÀ±ŞÀÇ·á¿¡ °üÇÑ ¹ı·ü ½ÃÇà±ÔÄ¢ º°Ç¥ 5ÀÇ2, ±Ç¿ªÀÀ±ŞÀÇ·á¼¾ÅÍÀÇ ÁöÁ¤±âÁØ (°³Á¤ 2017-12-01)",
+        "title": "ì‘ê¸‰ì˜ë£Œì— ê´€í•œ ë²•ë¥  ì‹œí–‰ê·œì¹™ ë³„í‘œ 5ì˜2, ê¶Œì—­ì‘ê¸‰ì˜ë£Œì„¼í„°ì˜ ì§€ì •ê¸°ì¤€ (ê°œì • 2017-12-01)",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=37169560",
-        "used_for": "hospital.capabilities_by_category: Ç÷°üÁ¶¿µ½Ç¡¤½ÉÇ÷°üÁ¶¿µ½Ç °¢ 1½Ç ÀÌ»ó, ÀÀ±ŞÀü¿ë ¼ö¼ú½Ç, ECMO¡¤CRRT¡¤³ú¾Ğ°¨½Ã 24½Ã°£, ÀÀ±ŞÀü¿ë ÁßÈ¯ÀÚ½Ç 20º´»ó, ÀÀ±ŞÀÇÇĞÀü¹®ÀÇ 5¸í ÀÌ»ó"
+        "used_for": "hospital.capabilities_by_category: í˜ˆê´€ì¡°ì˜ì‹¤Â·ì‹¬í˜ˆê´€ì¡°ì˜ì‹¤ ê° 1ì‹¤ ì´ìƒ, ì‘ê¸‰ì „ìš© ìˆ˜ìˆ ì‹¤, ECMOÂ·CRRTÂ·ë‡Œì••ê°ì‹œ 24ì‹œê°„, ì‘ê¸‰ì „ìš© ì¤‘í™˜ìì‹¤ 20ë³‘ìƒ, ì‘ê¸‰ì˜í•™ì „ë¬¸ì˜ 5ëª… ì´ìƒ"
       },
       {
         "id": "S18",
@@ -388,7 +387,7 @@ wrote: outputs\jeonju_standby_test\standby_placement_result.json
       },
       {
         "id": "S19",
-        "title": "¹é½Â¹Î µî. ÁßÁõ»óº´ÄÚµåÈ¯ÀÚÀÇ ÀÀ±Ş½Ç Àç½Ç½Ã°£ Æò°¡ÁöÇ¥ ºĞ¼® ¹× ÀûÇÕ¼º¿¡ ´ëÇÑ °íÂû. ´ëÇÑÀÀ±ŞÀÇÇĞÈ¸Áö. 2020;31(5):518 (NEDIS)",
+        "title": "ë°±ìŠ¹ë¯¼ ë“±. ì¤‘ì¦ìƒë³‘ì½”ë“œí™˜ìì˜ ì‘ê¸‰ì‹¤ ì¬ì‹¤ì‹œê°„ í‰ê°€ì§€í‘œ ë¶„ì„ ë° ì í•©ì„±ì— ëŒ€í•œ ê³ ì°°. ëŒ€í•œì‘ê¸‰ì˜í•™íšŒì§€. 2020;31(5):518 (NEDIS)",
         "url": "https://www.jksem.org/upload/pdf/jksem-31-5-518.pdf",
         "used_for": "hospital.treatment_minutes: ED length of stay 5.8h (mean), 5.3h / 4.0h / 3.4h (top 1% / 3% / 5% trimmed); in-hospital mortality 6.9%; LOS<=6h 12.8% vs >6h 15.0% among ICU admissions"
       },
@@ -400,7 +399,7 @@ wrote: outputs\jeonju_standby_test\standby_placement_result.json
       },
       {
         "id": "S21",
-        "title": "COVID-19 ÆÒµ¥¹Í ±â°£ ±¸±Ş ½Ã½ºÅÛÀÇ ½ºÆ®·¹½º ¹× È¸º¹ (ÇÑ±¹µğÁöÅĞÄÜÅÙÃ÷ÇĞÈ¸ ³í¹®Áö) - 2019³â ¿ùÆò±Õ ÇöÀå Ã¼·ù½Ã°£ 7.26ºĞ",
+        "title": "COVID-19 íŒ¬ë°ë¯¹ ê¸°ê°„ êµ¬ê¸‰ ì‹œìŠ¤í…œì˜ ìŠ¤íŠ¸ë ˆìŠ¤ ë° íšŒë³µ (í•œêµ­ë””ì§€í„¸ì½˜í…ì¸ í•™íšŒ ë…¼ë¬¸ì§€) - 2019ë…„ ì›”í‰ê·  í˜„ì¥ ì²´ë¥˜ì‹œê°„ 7.26ë¶„",
         "url": "http://journal.dcs.or.kr/xml/48251/48251.pdf",
         "used_for": "profiles.scene_minutes: 2019 national monthly mean on-scene time 7.26 minutes (peaked at 13.8 minutes during the Omicron wave)"
       },
@@ -412,33 +411,33 @@ wrote: outputs\jeonju_standby_test\standby_placement_result.json
       },
       {
         "id": "S23",
-        "title": "Áö¿ªº° 119±¸±Ş´ë ¹İÀÀ½Ã°£ ÃæÁ· ÇöÈ²°ú °ü·Ã ¿äÀÎ: 85°³ ½Ã¡¤±º¡¤±¸¸¦ Áß½ÉÀ¸·Î (KCI)",
+        "title": "ì§€ì—­ë³„ 119êµ¬ê¸‰ëŒ€ ë°˜ì‘ì‹œê°„ ì¶©ì¡± í˜„í™©ê³¼ ê´€ë ¨ ìš”ì¸: 85ê°œ ì‹œÂ·êµ°Â·êµ¬ë¥¼ ì¤‘ì‹¬ìœ¼ë¡œ (KCI)",
         "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003146023",
         "used_for": "response-time anchor: 2022 median call-to-scene interval 10 minutes across 85 municipalities (range 7-17 minutes)"
       },
       {
         "id": "S24",
-        "title": "´ëÀü¼¼Á¾¿¬±¸¿ø ´ëÀü 119±¸±ŞÈ°µ¿ ºòµ¥ÀÌÅÍ ºĞ¼® (2020-2023, ¾à 31.8¸¸ °Ç) - ½Ã°£´ëº° Ãâµ¿ º¸µµ",
+        "title": "ëŒ€ì „ì„¸ì¢…ì—°êµ¬ì› ëŒ€ì „ 119êµ¬ê¸‰í™œë™ ë¹…ë°ì´í„° ë¶„ì„ (2020-2023, ì•½ 31.8ë§Œ ê±´) - ì‹œê°„ëŒ€ë³„ ì¶œë™ ë³´ë„",
         "url": "https://www.khan.co.kr/article/202609011034001/",
-        "used_for": "hourly_demand_multipliers: 09½Ã ÇÏ·ç Æò±Õ 12.5°Ç(ÃÖ´Ù), 04½Ã 4.8°Ç(ÃÖ¼Ò); 08½ÃºÎÅÍ ±ŞÁõÇÏ¿© ³· ½Ã°£ ³ôÀº ¼öÁØ À¯Áö"
+        "used_for": "hourly_demand_multipliers: 09ì‹œ í•˜ë£¨ í‰ê·  12.5ê±´(ìµœë‹¤), 04ì‹œ 4.8ê±´(ìµœì†Œ); 08ì‹œë¶€í„° ê¸‰ì¦í•˜ì—¬ ë‚® ì‹œê°„ ë†’ì€ ìˆ˜ì¤€ ìœ ì§€"
       },
       {
         "id": "S25",
-        "title": "¼Ò¹æÃ» ±¸±ŞÁ¤º¸¼­ºñ½º OpenAPI (½Ãµµº»ºÎ¡¤Ãâµ¿¼Ò¹æ¼­¡¤Ãâµ¿¾ÈÀü¼¾ÅÍ¡¤½Å°í³â¿ù ´ÜÀ§ ±¸±ŞÁ¤º¸)",
+        "title": "ì†Œë°©ì²­ êµ¬ê¸‰ì •ë³´ì„œë¹„ìŠ¤ OpenAPI (ì‹œë„ë³¸ë¶€Â·ì¶œë™ì†Œë°©ì„œÂ·ì¶œë™ì•ˆì „ì„¼í„°Â·ì‹ ê³ ë…„ì›” ë‹¨ìœ„ êµ¬ê¸‰ì •ë³´)",
         "url": "https://www.data.go.kr/data/15099423/openapi.do",
         "used_for": "demand (not yet downloaded): candidate source for municipality/fire-station level dispatch counts"
       },
       {
         "id": "S26",
-        "title": "¼Ò¹æÃ» ±¸±ŞÅë°è¼­ºñ½º OpenAPI / ¼Ò¹æÃ» 119±¸±Ş¼­ºñ½º Åë°è¿¬º¸ / °æ»ó³²µµ 119±¸±ŞÈ°µ¿ ½ÇÀû(¼Ò¹æ¼­º°) ¿¹½Ã",
+        "title": "ì†Œë°©ì²­ êµ¬ê¸‰í†µê³„ì„œë¹„ìŠ¤ OpenAPI / ì†Œë°©ì²­ 119êµ¬ê¸‰ì„œë¹„ìŠ¤ í†µê³„ì—°ë³´ / ê²½ìƒë‚¨ë„ 119êµ¬ê¸‰í™œë™ ì‹¤ì (ì†Œë°©ì„œë³„) ì˜ˆì‹œ",
         "url": "https://www.data.go.kr/data/15099428/openapi.do",
-        "used_for": "demand (not yet downloaded): additional candidate sources; provincial equivalents are published per ½Ã¡¤µµ (e.g. https://www.data.go.kr/data/15045361/fileData.do for °æ»ó³²µµ) and https://www.data.go.kr/data/15139158/fileData.do for the national yearbook PDF"
+        "used_for": "demand (not yet downloaded): additional candidate sources; provincial equivalents are published per ì‹œÂ·ë„ (e.g. https://www.data.go.kr/data/15045361/fileData.do for ê²½ìƒë‚¨ë„) and https://www.data.go.kr/data/15139158/fileData.do for the national yearbook PDF"
       },
       {
         "id": "S27",
-        "title": "Áúº´°ü¸®Ã» 2023³â ±Ş¼º½ÉÀåÁ¤Áö ¹ß»ı 33,586°Ç (ÀÎ±¸ 10¸¸ ¸í´ç 65.7¸í, 70¼¼ ÀÌ»ó 53.4%) º¸µµ",
+        "title": "ì§ˆë³‘ê´€ë¦¬ì²­ 2023ë…„ ê¸‰ì„±ì‹¬ì¥ì •ì§€ ë°œìƒ 33,586ê±´ (ì¸êµ¬ 10ë§Œ ëª…ë‹¹ 65.7ëª…, 70ì„¸ ì´ìƒ 53.4%) ë³´ë„",
         "url": "https://www.safetynews.co.kr/news/articleView.html?idxno=234203",
-        "used_for": "profiles.cardiac: cross-check that the ¼Ò¹æÃ» ½ÉÁ¤Áö ÀÌ¼Û 33,608 matches the KDCA OHCA incidence 33,586"
+        "used_for": "profiles.cardiac: cross-check that the ì†Œë°©ì²­ ì‹¬ì •ì§€ ì´ì†¡ 33,608 matches the KDCA OHCA incidence 33,586"
       },
       {
         "id": "S28",
@@ -454,15 +453,15 @@ wrote: outputs\jeonju_standby_test\standby_placement_result.json
       },
       {
         "id": "S30",
-        "title": "¹ıÁ¦Ã³ Ã£±â½¬¿î »ıÈ°¹ı·ÉÁ¤º¸ - ÀÀ±ŞÀÇ·á±â°ü µî ¾Ë¾Æº¸±â (±Ç¿ª/Áö¿ªÀÀ±ŞÀÇ·á¼¾ÅÍ/Áö¿ªÀÀ±ŞÀÇ·á±â°üÀÇ ÁöÁ¤ ÁÖÃ¼¿Í ¿ªÇÒ)",
+        "title": "ë²•ì œì²˜ ì°¾ê¸°ì‰¬ìš´ ìƒí™œë²•ë ¹ì •ë³´ - ì‘ê¸‰ì˜ë£Œê¸°ê´€ ë“± ì•Œì•„ë³´ê¸° (ê¶Œì—­/ì§€ì—­ì‘ê¸‰ì˜ë£Œì„¼í„°/ì§€ì—­ì‘ê¸‰ì˜ë£Œê¸°ê´€ì˜ ì§€ì • ì£¼ì²´ì™€ ì—­í• )",
         "url": "https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=906&ccfNo=2&cciNo=1&cnpClsNo=1",
-        "used_for": "hospital: ±Ç¿ªÀº ÁßÁõÀÀ±ŞÈ¯ÀÚ Áß½É Áø·á, Áö¿ªÀÀ±ŞÀÇ·á¼¾ÅÍ´Â ½Ã¡¤µµÁö»ç°¡ Á¾ÇÕº´¿ø Áß ÁöÁ¤, Áö¿ªÀÀ±ŞÀÇ·á±â°üÀº ½ÃÀå¡¤±º¼ö¡¤±¸Ã»ÀåÀÌ ÁöÁ¤ÇÏ´Â ±âÃÊ ÀÀ±ŞÀÇ·á ±â°ü"
+        "used_for": "hospital: ê¶Œì—­ì€ ì¤‘ì¦ì‘ê¸‰í™˜ì ì¤‘ì‹¬ ì§„ë£Œ, ì§€ì—­ì‘ê¸‰ì˜ë£Œì„¼í„°ëŠ” ì‹œÂ·ë„ì§€ì‚¬ê°€ ì¢…í•©ë³‘ì› ì¤‘ ì§€ì •, ì§€ì—­ì‘ê¸‰ì˜ë£Œê¸°ê´€ì€ ì‹œì¥Â·êµ°ìˆ˜Â·êµ¬ì²­ì¥ì´ ì§€ì •í•˜ëŠ” ê¸°ì´ˆ ì‘ê¸‰ì˜ë£Œ ê¸°ê´€"
       },
       {
         "id": "S31",
-        "title": "´ëÇÑ³úÁ¹ÁßÇĞÈ¸ ³úÁ¹Áß ÆÑÆ®½ÃÆ® 2024 (ÇÑ±¹³úÁ¹Áßµî·Ï»ç¾÷ 68°³ ¼¾ÅÍ ÇãÇ÷¼º ³úÁ¹Áß 153,324°Ç, 2010-2022) º¸µµ",
+        "title": "ëŒ€í•œë‡Œì¡¸ì¤‘í•™íšŒ ë‡Œì¡¸ì¤‘ íŒ©íŠ¸ì‹œíŠ¸ 2024 (í•œêµ­ë‡Œì¡¸ì¤‘ë“±ë¡ì‚¬ì—… 68ê°œ ì„¼í„° í—ˆí˜ˆì„± ë‡Œì¡¸ì¤‘ 153,324ê±´, 2010-2022) ë³´ë„",
         "url": "https://zdnet.co.kr/view/?no=20240425171259",
-        "used_for": "hospital.success_by_category.stroke and limitations: Àç°³ÅëÄ¡·á ½ÃÇà·ü 16.3%, 4.5½Ã°£ ÀÌ³» µµÂø È¯ÀÚ ¾à 42% ´ë ÀÌÈÄ 10.7%, °ñµçÅ¸ÀÓ ³» ¹æ¹® 26%"
+        "used_for": "hospital.success_by_category.stroke and limitations: ì¬ê°œí†µì¹˜ë£Œ ì‹œí–‰ë¥  16.3%, 4.5ì‹œê°„ ì´ë‚´ ë„ì°© í™˜ì ì•½ 42% ëŒ€ ì´í›„ 10.7%, ê³¨ë“ íƒ€ì„ ë‚´ ë°©ë¬¸ 26%"
       }
     ],
     "generated_by": {
