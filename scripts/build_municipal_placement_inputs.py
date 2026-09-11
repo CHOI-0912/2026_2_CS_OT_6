@@ -318,14 +318,12 @@ def build_municipality(
     candidate_parameters = parameters["candidate"]
     candidate_category = candidate_parameters["category_assumption"]
     candidate_capabilities = list(hospital_parameters["capabilities_by_category"][candidate_category])
-    candidate_success = _uniform(
-        {name: hospital_parameters["success_by_category"][candidate_category][name] for name in candidate_capabilities},
-        f"{code}: candidate success_by_category[{candidate_category}]",
-    )
-    candidate_unavailable = _uniform(
-        {name: hospital_parameters["success_when_unavailable_by_profile"][name] for name in candidate_capabilities},
-        f"{code}: candidate success_when_unavailable_by_profile",
-    )
+    # Per-profile success travels with the candidate; the scalar fallbacks stay 0 so an
+    # uncovered profile can never silently succeed (same convention as existing hospitals).
+    candidate_success_by_profile = {name: hospital_parameters["success_by_category"][candidate_category][name] for name in candidate_capabilities}
+    candidate_unavailable_by_profile = {name: hospital_parameters["success_when_unavailable_by_profile"][name] for name in candidate_capabilities}
+    candidate_success = 0.0
+    candidate_unavailable = 0.0
     candidate_rows = read_rows(folder / "candidate_sites.csv")
     if not candidate_rows:
         raise ValueError(f"{code}: candidate_sites.csv is empty")
@@ -346,6 +344,8 @@ def build_municipality(
             "capacity": candidate_parameters["capacity_beds"],
             "success_when_available": candidate_success,
             "success_when_unavailable": candidate_unavailable,
+            "success_by_profile": candidate_success_by_profile,
+            "unavailable_success_by_profile": candidate_unavailable_by_profile,
             "treatment_minutes": candidate_parameters["treatment_minutes"],
             "cost": candidate_parameters["cost"],
             "category_assumption": candidate_category,

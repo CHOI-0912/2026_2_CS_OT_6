@@ -37,6 +37,9 @@ class CandidateHospital:
     treatment_minutes: float = 45.0
     transfer_delay_minutes: float = 5.0
     cost: float = 0.0
+    # Optional per-profile success, stored as sorted pairs so the frozen dataclass stays hashable.
+    success_by_profile: tuple[tuple[str, float], ...] = ()
+    unavailable_success_by_profile: tuple[tuple[str, float], ...] = ()
 
     def activate(self) -> Hospital:
         return Hospital(
@@ -48,6 +51,8 @@ class CandidateHospital:
             capacity=self.capacity,
             treatment_minutes=self.treatment_minutes,
             transfer_delay_minutes=self.transfer_delay_minutes,
+            success_by_profile=dict(self.success_by_profile),
+            unavailable_success_by_profile=dict(self.unavailable_success_by_profile),
         )
 
 
@@ -66,6 +71,22 @@ def _required(record: dict[str, Any], key: str, source: Path) -> Any:
     if key not in record:
         raise ValueError(f"{source}: missing required field {key!r}")
     return record[key]
+
+
+def _profile_pairs(raw: Any, capabilities: list[str], source: Path, index: int, key: str) -> tuple[tuple[str, float], ...]:
+    if raw is None:
+        return ()
+    if not isinstance(raw, dict):
+        raise ValueError(f"{source}: candidate_hospitals[{index}].{key} must be an object")
+    pairs = []
+    for name, value in raw.items():
+        if name not in capabilities:
+            raise ValueError(f"{source}: candidate_hospitals[{index}].{key} names profile {name!r} outside capabilities")
+        value = float(value)
+        if not 0 <= value <= 1:
+            raise ValueError(f"{source}: candidate_hospitals[{index}].{key}[{name}] must be within 0..1")
+        pairs.append((str(name), value))
+    return tuple(sorted(pairs))
 
 
 def load_municipal_placement_problem(path: str | Path) -> MunicipalPlacementProblem:
@@ -108,6 +129,8 @@ def load_municipal_placement_problem(path: str | Path) -> MunicipalPlacementProb
             treatment_minutes=float(raw.get("treatment_minutes", 45.0)),
             transfer_delay_minutes=float(raw.get("transfer_delay_minutes", 5.0)),
             cost=float(raw.get("cost", 0.0)),
+            success_by_profile=_profile_pairs(raw.get("success_by_profile"), capabilities, manifest_path, index, "success_by_profile"),
+            unavailable_success_by_profile=_profile_pairs(raw.get("unavailable_success_by_profile"), capabilities, manifest_path, index, "unavailable_success_by_profile"),
         ))
     problem = MunicipalPlacementProblem(
         municipality_code=code,

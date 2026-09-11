@@ -126,7 +126,8 @@ def test_generated_inputs_load_through_placement_loader(tmp_path: Path) -> None:
     assert scenario.network.positions[HOSPITAL] == (126.996, 37.292)
     assert scenario.hourly_profile_probabilities[23] == {"cardiac": 0.4, "minor": 0.6}
     assert [candidate.source_id for candidate in problem.candidates] == ["MOHW-1", "MOHW-2"]
-    assert problem.candidates[0].success_when_available == 0.78
+    assert dict(problem.candidates[0].success_by_profile)["cardiac"] == 0.78
+    assert problem.candidates[0].success_when_available == 0.0
     assert problem.provenance["road_time_source"]["extracted_at"] == "2026-09-10T04:15:43+00:00"
     assert problem.provenance["demand_source"]["daily_calls_model_input"] == pytest.approx(25.0)
     raw = json.loads(placement_path.read_text(encoding="utf-8"))
