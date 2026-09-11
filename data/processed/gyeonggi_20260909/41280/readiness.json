@@ -1,0 +1,22 @@
+{
+  "municipality_code": "41280",
+  "municipality_name": "고양시",
+  "existing_emergency_hospital_count": 7,
+  "demand_point_count": 44,
+  "ambulance_base_row_count": 15,
+  "ambulance_count": 19,
+  "ready_for_simulation": false,
+  "blocking_inputs": [
+    "actual directional road travel-time matrix",
+    "municipal 119 demand-rate calibration (population-proportional estimate in use)",
+    "patient-type treatment success calibration"
+  ],
+  "ambulance_base_rows_with_coordinates": 15,
+  "demand_points_with_coordinates": 44,
+  "existing_hospitals_with_coordinates": 7,
+  "candidate_site_count": 5,
+  "candidate_sites_with_coordinates": 5,
+  "advisory_inputs": [
+    "candidate-site land feasibility review"
+  ]
+}

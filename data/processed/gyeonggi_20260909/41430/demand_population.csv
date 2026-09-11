@@ -1,0 +1,7 @@
+﻿administrative_code,administrative_name,municipality_code,population,households,latitude,longitude,coordinate_source,matched_address,kakao_place_id,geocoding_status,demand_rate_status,coordinate_reference_url,coordinate_basis
+4143051000,경기도 의왕시 고천동,41430,17819,7574,37.34578921802311,126.97689572341604,kakao_administrative_office_representative_proxy,경기 의왕시 사천로 11,8195773,verified_municipality_match,pending_119_activity_api,,
+4143052000,경기도 의왕시 부곡동,41430,28524,12532,37.3187032531483,126.956782917178,official_municipal_office_address_geocoded_by_kakao,경기 의왕시 부곡시장길 75,,verified_municipality_match_official_address,pending_119_activity_api,https://www.uiwang.go.kr/bugok/index,administrative-office representative; not incident coordinate
+4143053000,경기도 의왕시 오전동,41430,32517,12485,37.35359818023316,126.97157942847183,kakao_administrative_office_representative_proxy,경기 의왕시 찬우물길 11,8489036,verified_municipality_match,pending_119_activity_api,,
+4143054000,경기도 의왕시 내손1동,41430,19470,8325,37.3782799932732,126.975576043804,kakao_administrative_office_representative_proxy,경기 의왕시 갈미로 71,10185640,verified_municipality_match,pending_119_activity_api,,
+4143055000,경기도 의왕시 내손2동,41430,30744,12061,37.387626488385,126.981494569301,kakao_administrative_office_representative_proxy,경기 의왕시 복지로 109,8190187,verified_municipality_match,pending_119_activity_api,,
+4143056000,경기도 의왕시 청계동,41430,37466,16092,37.388575744253,126.995975458455,kakao_administrative_office_representative_proxy,경기 의왕시 안양판교로 232,10844780,verified_municipality_match,pending_119_activity_api,,

@@ -1,0 +1,14 @@
+﻿source_province,fire_station,safety_center,regional_unit,ambulance_count,base_name,address,latitude,longitude,coordinate_source,matched_address,kakao_place_id,municipality_assignment,geocoding_status,routing_status
+경기,성남소방서,단대119안전센터,,2,단대119안전센터,경기도 성남시 수정구 논골로 11번길 7-2,37.4549326832781,127.159564701399,kakao_local_address_search,경기 성남시 수정구 논골로11번길 7-2,,address_exact,verified_municipality_match,pending_kakao_api
+경기,성남소방서,상대원119안전센터,,1,상대원119안전센터,경기도 성남시 중원구 둔촌대로 469,37.4321495024829,127.16900455194,kakao_local_address_search,경기 성남시 중원구 둔촌대로 469,,address_exact,verified_municipality_match,pending_kakao_api
+경기,성남소방서,하대원119안전센터,,2,하대원119안전센터,경기도 성남시 중원구 마지로 64,37.4278988951821,127.137191870161,kakao_local_address_search,경기 성남시 중원구 마지로 64,,address_exact,verified_municipality_match,pending_kakao_api
+경기,성남소방서,신흥119안전센터,,2,신흥119안전센터,경기도 성남시 수정구 시민로 151,37.4415522509298,127.143268476109,kakao_local_address_search,경기 성남시 수정구 시민로 151,,address_exact,verified_municipality_match,pending_kakao_api
+경기,성남소방서,위례119안전센터,,1,위례119안전센터,경기도 성남시 수정구 헌릉로 1003,37.4619276808052,127.143625302207,kakao_local_address_search,경기 성남시 수정구 헌릉로 1003,,address_exact,verified_municipality_match,pending_kakao_api
+경기,성남소방서,태평119안전센터,,1,태평119안전센터,경기도 성남시 수정구 성남대로 1312,37.446859239286,127.127189319997,kakao_local_address_search,경기 성남시 수정구 성남대로 1312,,address_exact,verified_municipality_match,pending_kakao_api
+경기,성남소방서,고등119안전센터,,1,고등119안전센터,경기도 성남시 수정구 대왕판교로 931,37.4234033033183,127.101559043343,kakao_local_address_search,경기 성남시 수정구 대왕판교로 931,,address_exact,verified_municipality_match,pending_kakao_api
+경기,분당소방서,구미119안전센터,,1,구미119안전센터,경기도 성남시 분당구 돌마로 138,37.3518938889055,127.116516045543,kakao_local_address_search,경기 성남시 분당구 돌마로 138,,address_exact,verified_municipality_match,pending_kakao_api
+경기,분당소방서,서현119안전센터,,2,서현119안전센터,경기도 성남시 분당구 양현로 14,37.386039707594,127.119485991125,kakao_local_address_search,경기 성남시 분당구 양현로 14,,address_exact,verified_municipality_match,pending_kakao_api
+경기,분당소방서,수내119안전센터,,2,수내119안전센터,경기도 성남시 분당구 백현로 241,37.3673527932452,127.122594697553,kakao_local_address_search,경기 성남시 분당구 백현로 241,,address_exact,verified_municipality_match,pending_kakao_api
+경기,분당소방서,야탑119안전센터,,1,야탑119안전센터,경기도 성남시 분당구 양현로 485,37.4164671416142,127.135949085891,kakao_local_address_search,경기 성남시 분당구 양현로 485,,address_exact,verified_municipality_match,pending_kakao_api
+경기,분당소방서,판교119안전센터,,1,판교119안전센터,경기도 성남시 분당구 대왕판교로644번길 62,37.3995424240373,127.113729043462,kakao_local_address_search,경기 성남시 분당구 대왕판교로644번길 62,,address_exact,verified_municipality_match,pending_kakao_api
+경기,분당소방서,서판교119안전센터,,1,서판교119안전센터,경기도 성남시 분당구 운중로 88,37.3912781032156,127.072643544601,kakao_local_address_search,경기 성남시 분당구 운중로 88,,address_exact,verified_municipality_match,pending_kakao_api

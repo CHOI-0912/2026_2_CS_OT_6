@@ -1,0 +1,828 @@
+{
+  "municipality_code": "41110",
+  "status": "complete",
+  "generated_at": "2026-09-10T13:46:59.757521+00:00",
+  "generated_by": "scripts/build_grid_candidates.py",
+  "candidate_definition": "grid cells with no existing care facility: inside the municipality, population outside the top 30% of cells, and at least 2 km from every existing emergency hospital and public-health facility",
+  "parameters": {
+    "grid_km": 1.0,
+    "exclude_top_population_share": 0.3,
+    "min_distance_km": 2.0
+  },
+  "grid": {
+    "grid_km": 1.0,
+    "rows": 11,
+    "columns": 14,
+    "latitude_step_degrees": 0.008983111749910169,
+    "longitude_step_degrees": 0.011289000249908504,
+    "center_latitude_for_longitude_step": 37.27477097053224,
+    "envelope": {
+      "min_latitude": 37.22652361467171,
+      "max_latitude": 37.31930631849591,
+      "min_longitude": 126.94102950200975,
+      "max_longitude": 127.09184120117412
+    },
+    "envelope_basis": "demand_population.csv representative points plus one cell margin"
+  },
+  "counts": {
+    "total_cells": 154,
+    "inside_municipality": 108,
+    "population_positive": 108,
+    "after_top_population_exclusion": 74,
+    "after_distance_filter": 33
+  },
+  "top_population_exclusion": {
+    "rank_cutoff": 33,
+    "cutoff_population": 11224.666666666666,
+    "tie_expanded": true,
+    "excluded_cells": 34
+  },
+  "separation_reference": {
+    "emergency_hospitals": 7,
+    "public_health_facilities": 4,
+    "public_health_reference_file": "candidate_sites_public_health_reference.csv"
+  },
+  "population_allocation_note": "cell_population_estimate is an estimate: the 행정동 resident population divided evenly among the grid cells whose centre falls in that 행정동 (uniform within-동 allocation).",
+  "haversine_note": "Haversine great-circle distance is used here ONLY as a site-eligibility rule (minimum separation from existing facilities), never as a travel time.",
+  "administrative_membership_source": "Kakao Local coord2regioncode (region_type H = 행정동, B = 법정동)",
+  "municipality_administrative_prefixes": [
+    "41111",
+    "41113",
+    "41115",
+    "41117"
+  ],
+  "municipality_membership_rule": "a cell is inside the municipality when its 행정동 code starts with one of the 시군구 prefixes staged in demand_population.csv (수원시 uses the 자치구 codes 41111/41113/41115/41117, not 41110); a cell inside those prefixes whose 행정동 code is missing from demand_population.csv stops the run",
+  "new_region_code_calls": 154,
+  "region_code_cache": {
+    "126.946674,37.231015": {
+      "administrative_code": "4159325000",
+      "administrative_name": "경기도 화성시 효행구 봉담읍",
+      "legal_address_name": "경기도 화성시 효행구 봉담읍 수영리"
+    },
+    "126.946674,37.239998": {
+      "administrative_code": "4159331000",
+      "administrative_name": "경기도 화성시 효행구 매송면",
+      "legal_address_name": "경기도 화성시 효행구 매송면 천천리"
+    },
+    "126.946674,37.248981": {
+      "administrative_code": "4159331000",
+      "administrative_name": "경기도 화성시 효행구 매송면",
+      "legal_address_name": "경기도 화성시 효행구 매송면 천천리"
+    },
+    "126.946674,37.257965": {
+      "administrative_code": "4111366400",
+      "administrative_name": "경기도 수원시 권선구 호매실동",
+      "legal_address_name": "경기도 수원시 권선구 호매실동"
+    },
+    "126.946674,37.266948": {
+      "administrative_code": "4111366400",
+      "administrative_name": "경기도 수원시 권선구 호매실동",
+      "legal_address_name": "경기도 수원시 권선구 호매실동"
+    },
+    "126.946674,37.275931": {
+      "administrative_code": "4111366200",
+      "administrative_name": "경기도 수원시 권선구 금곡동",
+      "legal_address_name": "경기도 수원시 권선구 금곡동"
+    },
+    "126.946674,37.284914": {
+      "administrative_code": "4111370000",
+      "administrative_name": "경기도 수원시 권선구 입북동",
+      "legal_address_name": "경기도 수원시 권선구 당수동"
+    },
+    "126.946674,37.293897": {
+      "administrative_code": "4111370000",
+      "administrative_name": "경기도 수원시 권선구 입북동",
+      "legal_address_name": "경기도 수원시 권선구 당수동"
+    },
+    "126.946674,37.302880": {
+      "administrative_code": "4143052000",
+      "administrative_name": "경기도 의왕시 부곡동",
+      "legal_address_name": "경기도 의왕시 초평동"
+    },
+    "126.946674,37.311863": {
+      "administrative_code": "4143052000",
+      "administrative_name": "경기도 의왕시 부곡동",
+      "legal_address_name": "경기도 의왕시 월암동"
+    },
+    "126.946674,37.320846": {
+      "administrative_code": "4143052000",
+      "administrative_name": "경기도 의왕시 부곡동",
+      "legal_address_name": "경기도 의왕시 삼동"
+    },
+    "126.957963,37.231015": {
+      "administrative_code": "4159325000",
+      "administrative_name": "경기도 화성시 효행구 봉담읍",
+      "legal_address_name": "경기도 화성시 효행구 봉담읍 수영리"
+    },
+    "126.957963,37.239998": {
+      "administrative_code": "4111355000",
+      "administrative_name": "경기도 수원시 권선구 평동",
+      "legal_address_name": "경기도 수원시 권선구 오목천동"
+    },
+    "126.957963,37.248981": {
+      "administrative_code": "4111355000",
+      "administrative_name": "경기도 수원시 권선구 평동",
+      "legal_address_name": "경기도 수원시 권선구 오목천동"
+    },
+    "126.957963,37.257965": {
+      "administrative_code": "4111366400",
+      "administrative_name": "경기도 수원시 권선구 호매실동",
+      "legal_address_name": "경기도 수원시 권선구 호매실동"
+    },
+    "126.957963,37.266948": {
+      "administrative_code": "4111366400",
+      "administrative_name": "경기도 수원시 권선구 호매실동",
+      "legal_address_name": "경기도 수원시 권선구 호매실동"
+    },
+    "126.957963,37.275931": {
+      "administrative_code": "4111366200",
+      "administrative_name": "경기도 수원시 권선구 금곡동",
+      "legal_address_name": "경기도 수원시 권선구 금곡동"
+    },
+    "126.957963,37.284914": {
+      "administrative_code": "4111370000",
+      "administrative_name": "경기도 수원시 권선구 입북동",
+      "legal_address_name": "경기도 수원시 권선구 입북동"
+    },
+    "126.957963,37.293897": {
+      "administrative_code": "4111370000",
+      "administrative_name": "경기도 수원시 권선구 입북동",
+      "legal_address_name": "경기도 수원시 권선구 입북동"
+    },
+    "126.957963,37.302880": {
+      "administrative_code": "4143052000",
+      "administrative_name": "경기도 의왕시 부곡동",
+      "legal_address_name": "경기도 의왕시 월암동"
+    },
+    "126.957963,37.311863": {
+      "administrative_code": "4143052000",
+      "administrative_name": "경기도 의왕시 부곡동",
+      "legal_address_name": "경기도 의왕시 월암동"
+    },
+    "126.957963,37.320846": {
+      "administrative_code": "4143052000",
+      "administrative_name": "경기도 의왕시 부곡동",
+      "legal_address_name": "경기도 의왕시 삼동"
+    },
+    "126.969252,37.231015": {
+      "administrative_code": "4159325000",
+      "administrative_name": "경기도 화성시 효행구 봉담읍",
+      "legal_address_name": "경기도 화성시 효행구 봉담읍 수영리"
+    },
+    "126.969252,37.239998": {
+      "administrative_code": "4111355000",
+      "administrative_name": "경기도 수원시 권선구 평동",
+      "legal_address_name": "경기도 수원시 권선구 오목천동"
+    },
+    "126.969252,37.248981": {
+      "administrative_code": "4111355000",
+      "administrative_name": "경기도 수원시 권선구 평동",
+      "legal_address_name": "경기도 수원시 권선구 오목천동"
+    },
+    "126.969252,37.257965": {
+      "administrative_code": "4111356000",
+      "administrative_name": "경기도 수원시 권선구 서둔동",
+      "legal_address_name": "경기도 수원시 권선구 탑동"
+    },
+    "126.969252,37.266948": {
+      "administrative_code": "4111356000",
+      "administrative_name": "경기도 수원시 권선구 서둔동",
+      "legal_address_name": "경기도 수원시 권선구 탑동"
+    },
+    "126.969252,37.275931": {
+      "administrative_code": "4111365000",
+      "administrative_name": "경기도 수원시 권선구 구운동",
+      "legal_address_name": "경기도 수원시 권선구 구운동"
+    },
+    "126.969252,37.284914": {
+      "administrative_code": "4111365000",
+      "administrative_name": "경기도 수원시 권선구 구운동",
+      "legal_address_name": "경기도 수원시 권선구 구운동"
+    },
+    "126.969252,37.293897": {
+      "administrative_code": "4111156600",
+      "administrative_name": "경기도 수원시 장안구 율천동",
+      "legal_address_name": "경기도 수원시 장안구 율전동"
+    },
+    "126.969252,37.302880": {
+      "administrative_code": "4111156600",
+      "administrative_name": "경기도 수원시 장안구 율천동",
+      "legal_address_name": "경기도 수원시 장안구 율전동"
+    },
+    "126.969252,37.311863": {
+      "administrative_code": "4111156600",
+      "administrative_name": "경기도 수원시 장안구 율천동",
+      "legal_address_name": "경기도 수원시 장안구 율전동"
+    },
+    "126.969252,37.320846": {
+      "administrative_code": "4143052000",
+      "administrative_name": "경기도 의왕시 부곡동",
+      "legal_address_name": "경기도 의왕시 삼동"
+    },
+    "126.980541,37.231015": {
+      "administrative_code": "4159351000",
+      "administrative_name": "경기도 화성시 효행구 기배동",
+      "legal_address_name": "경기도 화성시 효행구 기안동"
+    },
+    "126.980541,37.239998": {
+      "administrative_code": "4111355000",
+      "administrative_name": "경기도 수원시 권선구 평동",
+      "legal_address_name": "경기도 수원시 권선구 고색동"
+    },
+    "126.980541,37.248981": {
+      "administrative_code": "4111355000",
+      "administrative_name": "경기도 수원시 권선구 평동",
+      "legal_address_name": "경기도 수원시 권선구 고색동"
+    },
+    "126.980541,37.257965": {
+      "administrative_code": "4111355000",
+      "administrative_name": "경기도 수원시 권선구 평동",
+      "legal_address_name": "경기도 수원시 권선구 고색동"
+    },
+    "126.980541,37.266948": {
+      "administrative_code": "4111356000",
+      "administrative_name": "경기도 수원시 권선구 서둔동",
+      "legal_address_name": "경기도 수원시 권선구 탑동"
+    },
+    "126.980541,37.275931": {
+      "administrative_code": "4111356000",
+      "administrative_name": "경기도 수원시 권선구 서둔동",
+      "legal_address_name": "경기도 수원시 권선구 서둔동"
+    },
+    "126.980541,37.284914": {
+      "administrative_code": "4111569000",
+      "administrative_name": "경기도 수원시 팔달구 화서2동",
+      "legal_address_name": "경기도 수원시 팔달구 화서동"
+    },
+    "126.980541,37.293897": {
+      "administrative_code": "4111156600",
+      "administrative_name": "경기도 수원시 장안구 율천동",
+      "legal_address_name": "경기도 수원시 장안구 천천동"
+    },
+    "126.980541,37.302880": {
+      "administrative_code": "4111157300",
+      "administrative_name": "경기도 수원시 장안구 정자3동",
+      "legal_address_name": "경기도 수원시 장안구 천천동"
+    },
+    "126.980541,37.311863": {
+      "administrative_code": "4111156000",
+      "administrative_name": "경기도 수원시 장안구 파장동",
+      "legal_address_name": "경기도 수원시 장안구 이목동"
+    },
+    "126.980541,37.320846": {
+      "administrative_code": "4111156000",
+      "administrative_name": "경기도 수원시 장안구 파장동",
+      "legal_address_name": "경기도 수원시 장안구 이목동"
+    },
+    "126.991830,37.231015": {
+      "administrative_code": "4159351000",
+      "administrative_name": "경기도 화성시 효행구 기배동",
+      "legal_address_name": "경기도 화성시 효행구 기안동"
+    },
+    "126.991830,37.239998": {
+      "administrative_code": "4111355000",
+      "administrative_name": "경기도 수원시 권선구 평동",
+      "legal_address_name": "경기도 수원시 권선구 평리동"
+    },
+    "126.991830,37.248981": {
+      "administrative_code": "4111355000",
+      "administrative_name": "경기도 수원시 권선구 평동",
+      "legal_address_name": "경기도 수원시 권선구 고색동"
+    },
+    "126.991830,37.257965": {
+      "administrative_code": "4111355000",
+      "administrative_name": "경기도 수원시 권선구 평동",
+      "legal_address_name": "경기도 수원시 권선구 평동"
+    },
+    "126.991830,37.266948": {
+      "administrative_code": "4111356000",
+      "administrative_name": "경기도 수원시 권선구 서둔동",
+      "legal_address_name": "경기도 수원시 권선구 서둔동"
+    },
+    "126.991830,37.275931": {
+      "administrative_code": "4111356000",
+      "administrative_name": "경기도 수원시 권선구 서둔동",
+      "legal_address_name": "경기도 수원시 권선구 서둔동"
+    },
+    "126.991830,37.284914": {
+      "administrative_code": "4111569000",
+      "administrative_name": "경기도 수원시 팔달구 화서2동",
+      "legal_address_name": "경기도 수원시 팔달구 화서동"
+    },
+    "126.991830,37.293897": {
+      "administrative_code": "4111157300",
+      "administrative_name": "경기도 수원시 장안구 정자3동",
+      "legal_address_name": "경기도 수원시 장안구 정자동"
+    },
+    "126.991830,37.302880": {
+      "administrative_code": "4111157100",
+      "administrative_name": "경기도 수원시 장안구 정자1동",
+      "legal_address_name": "경기도 수원시 장안구 정자동"
+    },
+    "126.991830,37.311863": {
+      "administrative_code": "4111156000",
+      "administrative_name": "경기도 수원시 장안구 파장동",
+      "legal_address_name": "경기도 수원시 장안구 파장동"
+    },
+    "126.991830,37.320846": {
+      "administrative_code": "4111156000",
+      "administrative_name": "경기도 수원시 장안구 파장동",
+      "legal_address_name": "경기도 수원시 장안구 파장동"
+    },
+    "127.003119,37.231015": {
+      "administrative_code": "4111369000",
+      "administrative_name": "경기도 수원시 권선구 곡선동",
+      "legal_address_name": "경기도 수원시 권선구 대황교동"
+    },
+    "127.003119,37.239998": {
+      "administrative_code": "4111353000",
+      "administrative_name": "경기도 수원시 권선구 세류2동",
+      "legal_address_name": "경기도 수원시 권선구 장지동"
+    },
+    "127.003119,37.248981": {
+      "administrative_code": "4111353000",
+      "administrative_name": "경기도 수원시 권선구 세류2동",
+      "legal_address_name": "경기도 수원시 권선구 세류동"
+    },
+    "127.003119,37.257965": {
+      "administrative_code": "4111352000",
+      "administrative_name": "경기도 수원시 권선구 세류1동",
+      "legal_address_name": "경기도 수원시 권선구 세류동"
+    },
+    "127.003119,37.266948": {
+      "administrative_code": "4111566000",
+      "administrative_name": "경기도 수원시 팔달구 매산동",
+      "legal_address_name": "경기도 수원시 팔달구 매산로1가"
+    },
+    "127.003119,37.275931": {
+      "administrative_code": "4111567000",
+      "administrative_name": "경기도 수원시 팔달구 고등동",
+      "legal_address_name": "경기도 수원시 팔달구 고등동"
+    },
+    "127.003119,37.284914": {
+      "administrative_code": "4111569000",
+      "administrative_name": "경기도 수원시 팔달구 화서2동",
+      "legal_address_name": "경기도 수원시 팔달구 화서동"
+    },
+    "127.003119,37.293897": {
+      "administrative_code": "4111157200",
+      "administrative_name": "경기도 수원시 장안구 정자2동",
+      "legal_address_name": "경기도 수원시 장안구 정자동"
+    },
+    "127.003119,37.302880": {
+      "administrative_code": "4111159100",
+      "administrative_name": "경기도 수원시 장안구 송죽동",
+      "legal_address_name": "경기도 수원시 장안구 송죽동"
+    },
+    "127.003119,37.311863": {
+      "administrative_code": "4111159100",
+      "administrative_name": "경기도 수원시 장안구 송죽동",
+      "legal_address_name": "경기도 수원시 장안구 송죽동"
+    },
+    "127.003119,37.320846": {
+      "administrative_code": "4111156000",
+      "administrative_name": "경기도 수원시 장안구 파장동",
+      "legal_address_name": "경기도 수원시 장안구 파장동"
+    },
+    "127.014408,37.231015": {
+      "administrative_code": "4111369000",
+      "administrative_name": "경기도 수원시 권선구 곡선동",
+      "legal_address_name": "경기도 수원시 권선구 대황교동"
+    },
+    "127.014408,37.239998": {
+      "administrative_code": "4111353000",
+      "administrative_name": "경기도 수원시 권선구 세류2동",
+      "legal_address_name": "경기도 수원시 권선구 장지동"
+    },
+    "127.014408,37.248981": {
+      "administrative_code": "4111353000",
+      "administrative_name": "경기도 수원시 권선구 세류2동",
+      "legal_address_name": "경기도 수원시 권선구 세류동"
+    },
+    "127.014408,37.257965": {
+      "administrative_code": "4111354000",
+      "administrative_name": "경기도 수원시 권선구 세류3동",
+      "legal_address_name": "경기도 수원시 권선구 세류동"
+    },
+    "127.014408,37.266948": {
+      "administrative_code": "4111565000",
+      "administrative_name": "경기도 수원시 팔달구 매교동",
+      "legal_address_name": "경기도 수원시 팔달구 매교동"
+    },
+    "127.014408,37.275931": {
+      "administrative_code": "4111574000",
+      "administrative_name": "경기도 수원시 팔달구 행궁동",
+      "legal_address_name": "경기도 수원시 팔달구 팔달로3가"
+    },
+    "127.014408,37.284914": {
+      "administrative_code": "4111574000",
+      "administrative_name": "경기도 수원시 팔달구 행궁동",
+      "legal_address_name": "경기도 수원시 팔달구 신풍동"
+    },
+    "127.014408,37.293897": {
+      "administrative_code": "4111158000",
+      "administrative_name": "경기도 수원시 장안구 영화동",
+      "legal_address_name": "경기도 수원시 장안구 영화동"
+    },
+    "127.014408,37.302880": {
+      "administrative_code": "4111159700",
+      "administrative_name": "경기도 수원시 장안구 조원1동",
+      "legal_address_name": "경기도 수원시 장안구 조원동"
+    },
+    "127.014408,37.311863": {
+      "administrative_code": "4111159800",
+      "administrative_name": "경기도 수원시 장안구 조원2동",
+      "legal_address_name": "경기도 수원시 장안구 조원동"
+    },
+    "127.014408,37.320846": {
+      "administrative_code": "4111160000",
+      "administrative_name": "경기도 수원시 장안구 연무동",
+      "legal_address_name": "경기도 수원시 장안구 상광교동"
+    },
+    "127.025697,37.231015": {
+      "administrative_code": "4111369000",
+      "administrative_name": "경기도 수원시 권선구 곡선동",
+      "legal_address_name": "경기도 수원시 권선구 곡반정동"
+    },
+    "127.025697,37.239998": {
+      "administrative_code": "4111368000",
+      "administrative_name": "경기도 수원시 권선구 권선2동",
+      "legal_address_name": "경기도 수원시 권선구 권선동"
+    },
+    "127.025697,37.248981": {
+      "administrative_code": "4111368000",
+      "administrative_name": "경기도 수원시 권선구 권선2동",
+      "legal_address_name": "경기도 수원시 권선구 권선동"
+    },
+    "127.025697,37.257965": {
+      "administrative_code": "4111367000",
+      "administrative_name": "경기도 수원시 권선구 권선1동",
+      "legal_address_name": "경기도 수원시 권선구 권선동"
+    },
+    "127.025697,37.266948": {
+      "administrative_code": "4111573000",
+      "administrative_name": "경기도 수원시 팔달구 인계동",
+      "legal_address_name": "경기도 수원시 팔달구 인계동"
+    },
+    "127.025697,37.275931": {
+      "administrative_code": "4111573000",
+      "administrative_name": "경기도 수원시 팔달구 인계동",
+      "legal_address_name": "경기도 수원시 팔달구 인계동"
+    },
+    "127.025697,37.284914": {
+      "administrative_code": "4111570000",
+      "administrative_name": "경기도 수원시 팔달구 지동",
+      "legal_address_name": "경기도 수원시 팔달구 지동"
+    },
+    "127.025697,37.293897": {
+      "administrative_code": "4111160000",
+      "administrative_name": "경기도 수원시 장안구 연무동",
+      "legal_address_name": "경기도 수원시 장안구 연무동"
+    },
+    "127.025697,37.302880": {
+      "administrative_code": "4111160000",
+      "administrative_name": "경기도 수원시 장안구 연무동",
+      "legal_address_name": "경기도 수원시 장안구 하광교동"
+    },
+    "127.025697,37.311863": {
+      "administrative_code": "4111160000",
+      "administrative_name": "경기도 수원시 장안구 연무동",
+      "legal_address_name": "경기도 수원시 장안구 하광교동"
+    },
+    "127.025697,37.320846": {
+      "administrative_code": "4111160000",
+      "administrative_name": "경기도 수원시 장안구 연무동",
+      "legal_address_name": "경기도 수원시 장안구 하광교동"
+    },
+    "127.036986,37.231015": {
+      "administrative_code": "4159551000",
+      "administrative_name": "경기도 화성시 병점구 진안동",
+      "legal_address_name": "경기도 화성시 병점구 반정동"
+    },
+    "127.036986,37.239998": {
+      "administrative_code": "4111759600",
+      "administrative_name": "경기도 수원시 영통구 망포2동",
+      "legal_address_name": "경기도 수원시 영통구 망포동"
+    },
+    "127.036986,37.248981": {
+      "administrative_code": "4111369000",
+      "administrative_name": "경기도 수원시 권선구 곡선동",
+      "legal_address_name": "경기도 수원시 권선구 권선동"
+    },
+    "127.036986,37.257965": {
+      "administrative_code": "4111573000",
+      "administrative_name": "경기도 수원시 팔달구 인계동",
+      "legal_address_name": "경기도 수원시 팔달구 인계동"
+    },
+    "127.036986,37.266948": {
+      "administrative_code": "4111751000",
+      "administrative_name": "경기도 수원시 영통구 매탄1동",
+      "legal_address_name": "경기도 수원시 영통구 매탄동"
+    },
+    "127.036986,37.275931": {
+      "administrative_code": "4111573000",
+      "administrative_name": "경기도 수원시 팔달구 인계동",
+      "legal_address_name": "경기도 수원시 팔달구 인계동"
+    },
+    "127.036986,37.284914": {
+      "administrative_code": "4111571000",
+      "administrative_name": "경기도 수원시 팔달구 우만1동",
+      "legal_address_name": "경기도 수원시 팔달구 우만동"
+    },
+    "127.036986,37.293897": {
+      "administrative_code": "4111760000",
+      "administrative_name": "경기도 수원시 영통구 광교1동",
+      "legal_address_name": "경기도 수원시 영통구 이의동"
+    },
+    "127.036986,37.302880": {
+      "administrative_code": "4111760000",
+      "administrative_name": "경기도 수원시 영통구 광교1동",
+      "legal_address_name": "경기도 수원시 영통구 이의동"
+    },
+    "127.036986,37.311863": {
+      "administrative_code": "4111760000",
+      "administrative_name": "경기도 수원시 영통구 광교1동",
+      "legal_address_name": "경기도 수원시 영통구 이의동"
+    },
+    "127.036986,37.320846": {
+      "administrative_code": "4111160000",
+      "administrative_name": "경기도 수원시 장안구 연무동",
+      "legal_address_name": "경기도 수원시 장안구 하광교동"
+    },
+    "127.048275,37.231015": {
+      "administrative_code": "4159554000",
+      "administrative_name": "경기도 화성시 병점구 반월동",
+      "legal_address_name": "경기도 화성시 병점구 반월동"
+    },
+    "127.048275,37.239998": {
+      "administrative_code": "4111759600",
+      "administrative_name": "경기도 수원시 영통구 망포2동",
+      "legal_address_name": "경기도 수원시 영통구 망포동"
+    },
+    "127.048275,37.248981": {
+      "administrative_code": "4111753000",
+      "administrative_name": "경기도 수원시 영통구 매탄3동",
+      "legal_address_name": "경기도 수원시 영통구 매탄동"
+    },
+    "127.048275,37.257965": {
+      "administrative_code": "4111753000",
+      "administrative_name": "경기도 수원시 영통구 매탄3동",
+      "legal_address_name": "경기도 수원시 영통구 매탄동"
+    },
+    "127.048275,37.266948": {
+      "administrative_code": "4111754000",
+      "administrative_name": "경기도 수원시 영통구 매탄4동",
+      "legal_address_name": "경기도 수원시 영통구 매탄동"
+    },
+    "127.048275,37.275931": {
+      "administrative_code": "4111755000",
+      "administrative_name": "경기도 수원시 영통구 원천동",
+      "legal_address_name": "경기도 수원시 영통구 원천동"
+    },
+    "127.048275,37.284914": {
+      "administrative_code": "4111755000",
+      "administrative_name": "경기도 수원시 영통구 원천동",
+      "legal_address_name": "경기도 수원시 영통구 원천동"
+    },
+    "127.048275,37.293897": {
+      "administrative_code": "4111760000",
+      "administrative_name": "경기도 수원시 영통구 광교1동",
+      "legal_address_name": "경기도 수원시 영통구 이의동"
+    },
+    "127.048275,37.302880": {
+      "administrative_code": "4111760000",
+      "administrative_name": "경기도 수원시 영통구 광교1동",
+      "legal_address_name": "경기도 수원시 영통구 이의동"
+    },
+    "127.048275,37.311863": {
+      "administrative_code": "4111760000",
+      "administrative_name": "경기도 수원시 영통구 광교1동",
+      "legal_address_name": "경기도 수원시 영통구 이의동"
+    },
+    "127.048275,37.320846": {
+      "administrative_code": "4146559000",
+      "administrative_name": "경기도 용인시 수지구 성복동",
+      "legal_address_name": "경기도 용인시 수지구 성복동"
+    },
+    "127.059564,37.231015": {
+      "administrative_code": "4159554000",
+      "administrative_name": "경기도 화성시 병점구 반월동",
+      "legal_address_name": "경기도 화성시 병점구 반월동"
+    },
+    "127.059564,37.239998": {
+      "administrative_code": "4111759300",
+      "administrative_name": "경기도 수원시 영통구 망포1동",
+      "legal_address_name": "경기도 수원시 영통구 망포동"
+    },
+    "127.059564,37.248981": {
+      "administrative_code": "4111758000",
+      "administrative_name": "경기도 수원시 영통구 영통2동",
+      "legal_address_name": "경기도 수원시 영통구 영통동"
+    },
+    "127.059564,37.257965": {
+      "administrative_code": "4111753000",
+      "administrative_name": "경기도 수원시 영통구 매탄3동",
+      "legal_address_name": "경기도 수원시 영통구 매탄동"
+    },
+    "127.059564,37.266948": {
+      "administrative_code": "4111755000",
+      "administrative_name": "경기도 수원시 영통구 원천동",
+      "legal_address_name": "경기도 수원시 영통구 원천동"
+    },
+    "127.059564,37.275931": {
+      "administrative_code": "4111755000",
+      "administrative_name": "경기도 수원시 영통구 원천동",
+      "legal_address_name": "경기도 수원시 영통구 원천동"
+    },
+    "127.059564,37.284914": {
+      "administrative_code": "4111761000",
+      "administrative_name": "경기도 수원시 영통구 광교2동",
+      "legal_address_name": "경기도 수원시 영통구 하동"
+    },
+    "127.059564,37.293897": {
+      "administrative_code": "4111760000",
+      "administrative_name": "경기도 수원시 영통구 광교1동",
+      "legal_address_name": "경기도 수원시 영통구 이의동"
+    },
+    "127.059564,37.302880": {
+      "administrative_code": "4111760000",
+      "administrative_name": "경기도 수원시 영통구 광교1동",
+      "legal_address_name": "경기도 수원시 영통구 이의동"
+    },
+    "127.059564,37.311863": {
+      "administrative_code": "4146559000",
+      "administrative_name": "경기도 용인시 수지구 성복동",
+      "legal_address_name": "경기도 용인시 수지구 성복동"
+    },
+    "127.059564,37.320846": {
+      "administrative_code": "4146559000",
+      "administrative_name": "경기도 용인시 수지구 성복동",
+      "legal_address_name": "경기도 용인시 수지구 성복동"
+    },
+    "127.070853,37.231015": {
+      "administrative_code": "4146355000",
+      "administrative_name": "경기도 용인시 기흥구 서농동",
+      "legal_address_name": "경기도 용인시 기흥구 농서동"
+    },
+    "127.070853,37.239998": {
+      "administrative_code": "4146355000",
+      "administrative_name": "경기도 용인시 기흥구 서농동",
+      "legal_address_name": "경기도 용인시 기흥구 서천동"
+    },
+    "127.070853,37.248981": {
+      "administrative_code": "4111758500",
+      "administrative_name": "경기도 수원시 영통구 영통3동",
+      "legal_address_name": "경기도 수원시 영통구 영통동"
+    },
+    "127.070853,37.257965": {
+      "administrative_code": "4111757000",
+      "administrative_name": "경기도 수원시 영통구 영통1동",
+      "legal_address_name": "경기도 수원시 영통구 영통동"
+    },
+    "127.070853,37.266948": {
+      "administrative_code": "4146351600",
+      "administrative_name": "경기도 용인시 기흥구 영덕1동",
+      "legal_address_name": "경기도 용인시 기흥구 영덕동"
+    },
+    "127.070853,37.275931": {
+      "administrative_code": "4146351600",
+      "administrative_name": "경기도 용인시 기흥구 영덕1동",
+      "legal_address_name": "경기도 용인시 기흥구 영덕동"
+    },
+    "127.070853,37.284914": {
+      "administrative_code": "4111761000",
+      "administrative_name": "경기도 수원시 영통구 광교2동",
+      "legal_address_name": "경기도 수원시 영통구 하동"
+    },
+    "127.070853,37.293897": {
+      "administrative_code": "4111761000",
+      "administrative_name": "경기도 수원시 영통구 광교2동",
+      "legal_address_name": "경기도 수원시 영통구 하동"
+    },
+    "127.070853,37.302880": {
+      "administrative_code": "4146558500",
+      "administrative_name": "경기도 용인시 수지구 상현3동",
+      "legal_address_name": "경기도 용인시 수지구 상현동"
+    },
+    "127.070853,37.311863": {
+      "administrative_code": "4146559000",
+      "administrative_name": "경기도 용인시 수지구 성복동",
+      "legal_address_name": "경기도 용인시 수지구 성복동"
+    },
+    "127.070853,37.320846": {
+      "administrative_code": "4146559000",
+      "administrative_name": "경기도 용인시 수지구 성복동",
+      "legal_address_name": "경기도 용인시 수지구 성복동"
+    },
+    "127.082142,37.231015": {
+      "administrative_code": "4146355000",
+      "administrative_name": "경기도 용인시 기흥구 서농동",
+      "legal_address_name": "경기도 용인시 기흥구 농서동"
+    },
+    "127.082142,37.239998": {
+      "administrative_code": "4146351700",
+      "administrative_name": "경기도 용인시 기흥구 영덕2동",
+      "legal_address_name": "경기도 용인시 기흥구 하갈동"
+    },
+    "127.082142,37.248981": {
+      "administrative_code": "4146351700",
+      "administrative_name": "경기도 용인시 기흥구 영덕2동",
+      "legal_address_name": "경기도 용인시 기흥구 하갈동"
+    },
+    "127.082142,37.257965": {
+      "administrative_code": "4111757000",
+      "administrative_name": "경기도 수원시 영통구 영통1동",
+      "legal_address_name": "경기도 수원시 영통구 영통동"
+    },
+    "127.082142,37.266948": {
+      "administrative_code": "4111757000",
+      "administrative_name": "경기도 수원시 영통구 영통1동",
+      "legal_address_name": "경기도 수원시 영통구 영통동"
+    },
+    "127.082142,37.275931": {
+      "administrative_code": "4146351600",
+      "administrative_name": "경기도 용인시 기흥구 영덕1동",
+      "legal_address_name": "경기도 용인시 기흥구 영덕동"
+    },
+    "127.082142,37.284914": {
+      "administrative_code": "4146351600",
+      "administrative_name": "경기도 용인시 기흥구 영덕1동",
+      "legal_address_name": "경기도 용인시 기흥구 영덕동"
+    },
+    "127.082142,37.293897": {
+      "administrative_code": "4111761000",
+      "administrative_name": "경기도 수원시 영통구 광교2동",
+      "legal_address_name": "경기도 수원시 영통구 하동"
+    },
+    "127.082142,37.302880": {
+      "administrative_code": "4146557000",
+      "administrative_name": "경기도 용인시 수지구 상현1동",
+      "legal_address_name": "경기도 용인시 수지구 상현동"
+    },
+    "127.082142,37.311863": {
+      "administrative_code": "4146559000",
+      "administrative_name": "경기도 용인시 수지구 성복동",
+      "legal_address_name": "경기도 용인시 수지구 성복동"
+    },
+    "127.082142,37.320846": {
+      "administrative_code": "4146553000",
+      "administrative_name": "경기도 용인시 수지구 신봉동",
+      "legal_address_name": "경기도 용인시 수지구 신봉동"
+    },
+    "127.093431,37.231015": {
+      "administrative_code": "4146354000",
+      "administrative_name": "경기도 용인시 기흥구 기흥동",
+      "legal_address_name": "경기도 용인시 기흥구 고매동"
+    },
+    "127.093431,37.239998": {
+      "administrative_code": "4146351700",
+      "administrative_name": "경기도 용인시 기흥구 영덕2동",
+      "legal_address_name": "경기도 용인시 기흥구 하갈동"
+    },
+    "127.093431,37.248981": {
+      "administrative_code": "4146351700",
+      "administrative_name": "경기도 용인시 기흥구 영덕2동",
+      "legal_address_name": "경기도 용인시 기흥구 하갈동"
+    },
+    "127.093431,37.257965": {
+      "administrative_code": "4146351700",
+      "administrative_name": "경기도 용인시 기흥구 영덕2동",
+      "legal_address_name": "경기도 용인시 기흥구 하갈동"
+    },
+    "127.093431,37.266948": {
+      "administrative_code": "4146351700",
+      "administrative_name": "경기도 용인시 기흥구 영덕2동",
+      "legal_address_name": "경기도 용인시 기흥구 영덕동"
+    },
+    "127.093431,37.275931": {
+      "administrative_code": "4146351600",
+      "administrative_name": "경기도 용인시 기흥구 영덕1동",
+      "legal_address_name": "경기도 용인시 기흥구 영덕동"
+    },
+    "127.093431,37.284914": {
+      "administrative_code": "4146351000",
+      "administrative_name": "경기도 용인시 기흥구 신갈동",
+      "legal_address_name": "경기도 용인시 기흥구 신갈동"
+    },
+    "127.093431,37.293897": {
+      "administrative_code": "4146359000",
+      "administrative_name": "경기도 용인시 기흥구 보정동",
+      "legal_address_name": "경기도 용인시 기흥구 보정동"
+    },
+    "127.093431,37.302880": {
+      "administrative_code": "4146359000",
+      "administrative_name": "경기도 용인시 기흥구 보정동",
+      "legal_address_name": "경기도 용인시 기흥구 보정동"
+    },
+    "127.093431,37.311863": {
+      "administrative_code": "4146359000",
+      "administrative_name": "경기도 용인시 기흥구 보정동",
+      "legal_address_name": "경기도 용인시 수지구 상현동"
+    },
+    "127.093431,37.320846": {
+      "administrative_code": "4146552000",
+      "administrative_name": "경기도 용인시 수지구 풍덕천2동",
+      "legal_address_name": "경기도 용인시 수지구 풍덕천동"
+    }
+  }
+}

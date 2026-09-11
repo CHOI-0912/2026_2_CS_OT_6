@@ -1,0 +1,32 @@
+municipality_code,municipality_name,annual_dispatches,daily_calls,source_url,source_year,mapping_note
+41110,수원시,76784,210.3671,https://data.gg.go.kr/portal/data/service/selectServicePage.do?infId=SE00GA6F273B8PIJ9N8412495661&infSeq=1,2025,수원남부소방서 + 수원소방서 합산(2개 소방서)
+41130,성남시,58814,161.1342,https://data.gg.go.kr/portal/data/service/selectServicePage.do?infId=SE00GA6F273B8PIJ9N8412495661&infSeq=1,2025,분당소방서 + 성남소방서 합산(2개 소방서)
+41150,의정부시,30812,84.4164,https://data.gg.go.kr/portal/data/service/selectServicePage.do?infId=SE00GA6F273B8PIJ9N8412495661&infSeq=1,2025,의정부소방서 단독 관할
+41170,안양시,31628,86.6521,https://data.gg.go.kr/portal/data/service/selectServicePage.do?infId=SE00GA6F273B8PIJ9N8412495661&infSeq=1,2025,안양소방서 단독 관할
+41190,부천시,48099,131.7781,https://data.gg.go.kr/portal/data/service/selectServicePage.do?infId=SE00GA6F273B8PIJ9N8412495661&infSeq=1,2025,부천소방서 단독 관할
+41210,광명시,15539,42.5726,https://data.gg.go.kr/portal/data/service/selectServicePage.do?infId=SE00GA6F273B8PIJ9N8412495661&infSeq=1,2025,광명소방서 단독 관할
+41220,평택시,38759,106.189,https://data.gg.go.kr/portal/data/service/selectServicePage.do?infId=SE00GA6F273B8PIJ9N8412495661&infSeq=1,2025,송탄소방서 + 평택소방서 합산(2개 소방서)
+41250,동두천시,8369,22.9288,https://data.gg.go.kr/portal/data/service/selectServicePage.do?infId=SE00GA6F273B8PIJ9N8412495661&infSeq=1,2025,동두천소방서 단독 관할
+41270,안산시,42276,115.8247,https://data.gg.go.kr/portal/data/service/selectServicePage.do?infId=SE00GA6F273B8PIJ9N8412495661&infSeq=1,2025,안산소방서 단독 관할
+41280,고양시,55282,151.4575,https://data.gg.go.kr/portal/data/service/selectServicePage.do?infId=SE00GA6F273B8PIJ9N8412495661&infSeq=1,2025,고양소방서 + 일산소방서 합산(2개 소방서)
+41290,과천시,3992,10.937,https://data.gg.go.kr/portal/data/service/selectServicePage.do?infId=SE00GA6F273B8PIJ9N8412495661&infSeq=1,2025,과천소방서 단독 관할
+41310,구리시,11883,32.5562,https://data.gg.go.kr/portal/data/service/selectServicePage.do?infId=SE00GA6F273B8PIJ9N8412495661&infSeq=1,2025,구리소방서 단독 관할
+41360,남양주시,37876,103.7699,https://data.gg.go.kr/portal/data/service/selectServicePage.do?infId=SE00GA6F273B8PIJ9N8412495661&infSeq=1,2025,남양주소방서 단독 관할
+41370,오산시,16198,44.3781,https://data.gg.go.kr/portal/data/service/selectServicePage.do?infId=SE00GA6F273B8PIJ9N8412495661&infSeq=1,2025,오산소방서 단독 관할
+41390,시흥시,27238,74.6247,https://data.gg.go.kr/portal/data/service/selectServicePage.do?infId=SE00GA6F273B8PIJ9N8412495661&infSeq=1,2025,시흥소방서 단독 관할
+41410,군포시,13979,38.2986,https://data.gg.go.kr/portal/data/service/selectServicePage.do?infId=SE00GA6F273B8PIJ9N8412495661&infSeq=1,2025,군포소방서 단독 관할
+41430,의왕시,9835,26.9452,https://data.gg.go.kr/portal/data/service/selectServicePage.do?infId=SE00GA6F273B8PIJ9N8412495661&infSeq=1,2025,의왕소방서 단독 관할
+41450,하남시,15497,42.4575,https://data.gg.go.kr/portal/data/service/selectServicePage.do?infId=SE00GA6F273B8PIJ9N8412495661&infSeq=1,2025,하남소방서 단독 관할
+41460,용인시,52328,143.3644,https://data.gg.go.kr/portal/data/service/selectServicePage.do?infId=SE00GA6F273B8PIJ9N8412495661&infSeq=1,2025,용인서부소방서 + 용인소방서 합산(2개 소방서)
+41480,파주시,28738,78.7342,https://data.gg.go.kr/portal/data/service/selectServicePage.do?infId=SE00GA6F273B8PIJ9N8412495661&infSeq=1,2025,파주소방서 단독 관할
+41500,이천시,15104,41.3808,https://data.gg.go.kr/portal/data/service/selectServicePage.do?infId=SE00GA6F273B8PIJ9N8412495661&infSeq=1,2025,이천소방서 단독 관할
+41550,안성시,14534,39.8192,https://data.gg.go.kr/portal/data/service/selectServicePage.do?infId=SE00GA6F273B8PIJ9N8412495661&infSeq=1,2025,안성소방서 단독 관할
+41570,김포시,27338,74.8986,https://data.gg.go.kr/portal/data/service/selectServicePage.do?infId=SE00GA6F273B8PIJ9N8412495661&infSeq=1,2025,김포소방서 단독 관할
+41590,화성시,45000,123.2877,https://data.gg.go.kr/portal/data/service/selectServicePage.do?infId=SE00GA6F273B8PIJ9N8412495661&infSeq=1,2025,화성소방서 단독 관할
+41610,광주시,22213,60.8575,https://data.gg.go.kr/portal/data/service/selectServicePage.do?infId=SE00GA6F273B8PIJ9N8412495661&infSeq=1,2025,광주소방서 단독 관할
+41630,양주시,16605,45.4932,https://data.gg.go.kr/portal/data/service/selectServicePage.do?infId=SE00GA6F273B8PIJ9N8412495661&infSeq=1,2025,양주소방서 단독 관할
+41650,포천시,13732,37.6219,https://data.gg.go.kr/portal/data/service/selectServicePage.do?infId=SE00GA6F273B8PIJ9N8412495661&infSeq=1,2025,포천소방서 단독 관할
+41670,여주시,10193,27.926,https://data.gg.go.kr/portal/data/service/selectServicePage.do?infId=SE00GA6F273B8PIJ9N8412495661&infSeq=1,2025,여주소방서 단독 관할
+41800,연천군,4411,12.0849,https://data.gg.go.kr/portal/data/service/selectServicePage.do?infId=SE00GA6F273B8PIJ9N8412495661&infSeq=1,2025,연천소방서 단독 관할
+41820,가평군,7268,19.9123,https://data.gg.go.kr/portal/data/service/selectServicePage.do?infId=SE00GA6F273B8PIJ9N8412495661&infSeq=1,2025,가평소방서 단독 관할
+41830,양평군,10890,29.8356,https://data.gg.go.kr/portal/data/service/selectServicePage.do?infId=SE00GA6F273B8PIJ9N8412495661&infSeq=1,2025,양평소방서 단독 관할

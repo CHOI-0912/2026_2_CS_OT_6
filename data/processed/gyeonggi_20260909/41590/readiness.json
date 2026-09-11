@@ -1,0 +1,22 @@
+{
+  "municipality_code": "41590",
+  "municipality_name": "화성시",
+  "existing_emergency_hospital_count": 3,
+  "demand_point_count": 29,
+  "ambulance_base_row_count": 11,
+  "ambulance_count": 15,
+  "ready_for_simulation": false,
+  "blocking_inputs": [
+    "actual directional road travel-time matrix",
+    "municipal 119 demand-rate calibration (population-proportional estimate in use)",
+    "patient-type treatment success calibration"
+  ],
+  "ambulance_base_rows_with_coordinates": 11,
+  "demand_points_with_coordinates": 29,
+  "existing_hospitals_with_coordinates": 3,
+  "candidate_site_count": 24,
+  "candidate_sites_with_coordinates": 24,
+  "advisory_inputs": [
+    "candidate-site land feasibility review"
+  ]
+}

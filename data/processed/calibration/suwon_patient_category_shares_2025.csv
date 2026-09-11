@@ -1,0 +1,789 @@
+category_type,category_value,dispatches,share_of_all_rows_pct,share_of_recorded_rows_pct
+patnt_symptms_type,<미기재>,25308,32.96,
+patnt_symptms_type,기타통증,8392,10.9294,16.3027
+patnt_symptms_type,기타,6608,8.606,12.8371
+patnt_symptms_type,복통,5740,7.4755,11.1508
+patnt_symptms_type,두통,3129,4.0751,6.0786
+patnt_symptms_type,어지러움,2869,3.7365,5.5735
+patnt_symptms_type,열상,2538,3.3054,4.9305
+patnt_symptms_type,요통,2520,3.2819,4.8955
+patnt_symptms_type,호흡곤란,2434,3.1699,4.7284
+patnt_symptms_type,의식장애,2099,2.7336,4.0776
+patnt_symptms_type,찰과상,1888,2.4588,3.6677
+patnt_symptms_type,고열,1793,2.3351,3.4832
+patnt_symptms_type,심정지,1667,2.171,3.2384
+patnt_symptms_type,전신쇠약,1574,2.0499,3.0577
+patnt_symptms_type,흉통,1194,1.555,2.3195
+patnt_symptms_type,실신,1089,1.4183,2.1155
+patnt_symptms_type,정신장애,795,1.0354,1.5444
+patnt_symptms_type,그 밖의출혈,726,0.9455,1.4104
+patnt_symptms_type,타박상,654,0.8517,1.2705
+patnt_symptms_type,경련/발작,566,0.7371,1.0995
+patnt_symptms_type,비출혈,472,0.6147,0.9169
+patnt_symptms_type,심계항진,348,0.4532,0.676
+patnt_symptms_type,오심,247,0.3217,0.4798
+patnt_symptms_type,설사,230,0.2995,0.4468
+patnt_symptms_type,구토,219,0.2852,0.4254
+patnt_symptms_type,배뇨장애,216,0.2813,0.4196
+patnt_symptms_type,골절,173,0.2253,0.3361
+patnt_symptms_type,토혈,172,0.224,0.3341
+patnt_symptms_type,마비,167,0.2175,0.3244
+patnt_symptms_type,가슴불편감,136,0.1771,0.2642
+patnt_symptms_type,염좌,117,0.1524,0.2273
+patnt_symptms_type,화상,101,0.1315,0.1962
+patnt_symptms_type,질출혈,90,0.1172,0.1748
+patnt_symptms_type,기타이물질,78,0.1016,0.1515
+patnt_symptms_type,탈구,75,0.0977,0.1457
+patnt_symptms_type,기침,72,0.0938,0.1399
+patnt_symptms_type,객혈,58,0.0755,0.1127
+patnt_symptms_type,혈변,56,0.0729,0.1088
+patnt_symptms_type,변비,55,0.0716,0.1068
+patnt_symptms_type,기도이물,31,0.0404,0.0602
+patnt_symptms_type,분만진통,28,0.0365,0.0544
+patnt_symptms_type,절단,22,0.0287,0.0427
+patnt_symptms_type,저체온증,17,0.0221,0.033
+patnt_symptms_type,그밖의통증기타,11,0.0143,0.0214
+patnt_symptms_type,압궤손상,8,0.0104,0.0155
+patnt_symptms_type,호흡정지,2,0.0026,0.0039
+model_type_proposal,minor,37782,49.2056,73.3973
+model_type_proposal,<미기재>,25308,32.96,
+model_type_proposal,trauma,6428,8.3715,12.4874
+model_type_proposal,cardiac,4434,5.7746,8.6137
+model_type_proposal,stroke,2832,3.6883,5.5016
+relif_occurplc_type_base,집,34673,45.1565,59.4744
+relif_occurplc_type_base,<미기재>,18485,24.074,
+relif_occurplc_type_base,도로외교통지역,6983,9.0943,11.9779
+relif_occurplc_type_base,도로,4616,6.0117,7.9178
+relif_occurplc_type_base,상업시설,4181,5.4451,7.1716
+relif_occurplc_type_base,집단거주시설,2214,2.8834,3.7977
+relif_occurplc_type_base,오락/문화시설,1662,2.1645,2.8508
+relif_occurplc_type_base,의료관련시설,1576,2.0525,2.7033
+relif_occurplc_type_base,학교/교육시설,876,1.1409,1.5026
+relif_occurplc_type_base,기타,707,0.9208,1.2127
+relif_occurplc_type_base,운동시설,468,0.6095,0.8028
+relif_occurplc_type_base,공장/산업/건설시설,169,0.2201,0.2899
+relif_occurplc_type_base,바다/강/산/논밭,165,0.2149,0.283
+relif_occurplc_type_base,일차산업장,9,0.0117,0.0154
+relif_occurplc_type_raw,집,34646,45.1214,59.4261
+relif_occurplc_type_raw,<미기재>,18483,24.0714,
+relif_occurplc_type_raw,도로외교통지역,6934,9.0305,11.8934
+relif_occurplc_type_raw,도로,4602,5.9934,7.8935
+relif_occurplc_type_raw,상업시설,4101,5.341,7.0342
+relif_occurplc_type_raw,집단거주시설,2146,2.7949,3.6809
+relif_occurplc_type_raw,오락/문화시설,1597,2.0799,2.7392
+relif_occurplc_type_raw,의료관련시설,1509,1.9653,2.5883
+relif_occurplc_type_raw,학교/교육시설,850,1.107,1.458
+relif_occurplc_type_raw,운동시설,459,0.5978,0.7873
+relif_occurplc_type_raw,공장/산업/건설시설,167,0.2175,0.2864
+relif_occurplc_type_raw,바다/강/산/논밭,154,0.2006,0.2641
+relif_occurplc_type_raw,기타,39,0.0508,0.0669
+relif_occurplc_type_raw,기타(교회),33,0.043,0.0566
+relif_occurplc_type_raw,기타(지구대),28,0.0365,0.048
+relif_occurplc_type_raw,기타(경찰서),27,0.0352,0.0463
+relif_occurplc_type_raw,기타(매산지구대),21,0.0273,0.036
+relif_occurplc_type_raw,기타(성당),15,0.0195,0.0257
+relif_occurplc_type_raw,기타(종교시설),14,0.0182,0.024
+relif_occurplc_type_raw,집단거주시설(요양원),12,0.0156,0.0206
+relif_occurplc_type_raw,기타(공원),10,0.013,0.0172
+relif_occurplc_type_raw,기타(장례식장),10,0.013,0.0172
+relif_occurplc_type_raw,기타(미상),9,0.0117,0.0154
+relif_occurplc_type_raw,기타(서호지구대),9,0.0117,0.0154
+relif_occurplc_type_raw,기타(수원역),9,0.0117,0.0154
+relif_occurplc_type_raw,일차산업장,9,0.0117,0.0154
+relif_occurplc_type_raw,기타(남부경찰서),8,0.0104,0.0137
+relif_occurplc_type_raw,기타(요양원),8,0.0104,0.0137
+relif_occurplc_type_raw,기타(장안문지구대),8,0.0104,0.0137
+relif_occurplc_type_raw,기타(수원남부경찰서),7,0.0091,0.012
+relif_occurplc_type_raw,도로외교통지역(인도),7,0.0091,0.012
+relif_occurplc_type_raw,기타(장안경찰서),6,0.0078,0.0103
+relif_occurplc_type_raw,기타(지하철역),6,0.0078,0.0103
+relif_occurplc_type_raw,오락/문화시설(매산지구대),6,0.0078,0.0103
+relif_occurplc_type_raw,기타(법원),5,0.0065,0.0086
+relif_occurplc_type_raw,기타(실버타운),5,0.0065,0.0086
+relif_occurplc_type_raw,기타(영통지구대),5,0.0065,0.0086
+relif_occurplc_type_raw,기타(주간보호센터),5,0.0065,0.0086
+relif_occurplc_type_raw,의료관련시설(요양원),5,0.0065,0.0086
+relif_occurplc_type_raw,기타(단지 내),4,0.0052,0.0069
+relif_occurplc_type_raw,기타(산남지구대),4,0.0052,0.0069
+relif_occurplc_type_raw,기타(성균관대역),4,0.0052,0.0069
+relif_occurplc_type_raw,기타(율천파출소),4,0.0052,0.0069
+relif_occurplc_type_raw,기타(인계지구대),4,0.0052,0.0069
+relif_occurplc_type_raw,기타(차안),4,0.0052,0.0069
+relif_occurplc_type_raw,기타(행궁파출소),4,0.0052,0.0069
+relif_occurplc_type_raw,기타(화서문지구대),4,0.0052,0.0069
+relif_occurplc_type_raw,기타(회사),4,0.0052,0.0069
+relif_occurplc_type_raw,도로외교통지역(수원역),4,0.0052,0.0069
+relif_occurplc_type_raw,바다/강/산/논밭(광교산),4,0.0052,0.0069
+relif_occurplc_type_raw,기타(경기도청),3,0.0039,0.0051
+relif_occurplc_type_raw,기타(고물상),3,0.0039,0.0051
+relif_occurplc_type_raw,기타(관리사무소),3,0.0039,0.0051
+relif_occurplc_type_raw,기타(광교지구대),3,0.0039,0.0051
+relif_occurplc_type_raw,기타(광교호수공원),3,0.0039,0.0051
+relif_occurplc_type_raw,기타(권선파출소),3,0.0039,0.0051
+relif_occurplc_type_raw,기타(놀이터),3,0.0039,0.0051
+relif_occurplc_type_raw,기타(매산119안전센터),3,0.0039,0.0051
+relif_occurplc_type_raw,기타(버스 안),3,0.0039,0.0051
+relif_occurplc_type_raw,기타(버스안),3,0.0039,0.0051
+relif_occurplc_type_raw,기타(세류지구대),3,0.0039,0.0051
+relif_occurplc_type_raw,기타(수원남부경찰서 ),3,0.0039,0.0051
+relif_occurplc_type_raw,기타(은행),3,0.0039,0.0051
+relif_occurplc_type_raw,기타(장안지구대),3,0.0039,0.0051
+relif_occurplc_type_raw,기타(절),3,0.0039,0.0051
+relif_occurplc_type_raw,기타(정자119안전센터),3,0.0039,0.0051
+relif_occurplc_type_raw,기타(주차장),3,0.0039,0.0051
+relif_occurplc_type_raw,기타(중부경찰서),3,0.0039,0.0051
+relif_occurplc_type_raw,기타(차 안),3,0.0039,0.0051
+relif_occurplc_type_raw,기타(파출소),3,0.0039,0.0051
+relif_occurplc_type_raw,도로외교통지역(골목),3,0.0039,0.0051
+relif_occurplc_type_raw,오락/문화시설(공원),3,0.0039,0.0051
+relif_occurplc_type_raw,오락/문화시설(창룡문지구대),3,0.0039,0.0051
+relif_occurplc_type_raw,오락/문화시설(행궁파출소),3,0.0039,0.0051
+relif_occurplc_type_raw,의료관련시설(한의원),3,0.0039,0.0051
+relif_occurplc_type_raw,집단거주시설(고시원),3,0.0039,0.0051
+relif_occurplc_type_raw,집단거주시설(영통종합요양센터),3,0.0039,0.0051
+relif_occurplc_type_raw,기타(경비실),2,0.0026,0.0034
+relif_occurplc_type_raw,기타(고등파출소),2,0.0026,0.0034
+relif_occurplc_type_raw,기타(곡선지구대),2,0.0026,0.0034
+relif_occurplc_type_raw,기타(골목길),2,0.0026,0.0034
+relif_occurplc_type_raw,기타(공원 내),2,0.0026,0.0034
+relif_occurplc_type_raw,기타(공중화장실),2,0.0026,0.0034
+relif_occurplc_type_raw,기타(관공서),2,0.0026,0.0034
+relif_occurplc_type_raw,기타(기차 내),2,0.0026,0.0034
+relif_occurplc_type_raw,기타(남부경찰서 1층 형사과),2,0.0026,0.0034
+relif_occurplc_type_raw,기타(노송지구대),2,0.0026,0.0034
+relif_occurplc_type_raw,기타(노인정),2,0.0026,0.0034
+relif_occurplc_type_raw,기타(동부파출소),2,0.0026,0.0034
+relif_occurplc_type_raw,기타(버스내),2,0.0026,0.0034
+relif_occurplc_type_raw,기타(북수원온천),2,0.0026,0.0034
+relif_occurplc_type_raw,기타(사무실),2,0.0026,0.0034
+relif_occurplc_type_raw,기타(사우나),2,0.0026,0.0034
+relif_occurplc_type_raw,기타(수원남부소방서),2,0.0026,0.0034
+relif_occurplc_type_raw,기타(수원서부경찰서),2,0.0026,0.0034
+relif_occurplc_type_raw,기타(수원중부경찰서),2,0.0026,0.0034
+relif_occurplc_type_raw,기타(연무지구대),2,0.0026,0.0034
+relif_occurplc_type_raw,기타(연화장),2,0.0026,0.0034
+relif_occurplc_type_raw,기타(원천119안전센터),2,0.0026,0.0034
+relif_occurplc_type_raw,기타(인도),2,0.0026,0.0034
+relif_occurplc_type_raw,기타(장안구청),2,0.0026,0.0034
+relif_occurplc_type_raw,기타(지식산업센터),2,0.0026,0.0034
+relif_occurplc_type_raw,기타(지하철 내),2,0.0026,0.0034
+relif_occurplc_type_raw,기타(지하철 역사),2,0.0026,0.0034
+relif_occurplc_type_raw,기타(팔달경찰서),2,0.0026,0.0034
+relif_occurplc_type_raw,기타(호텔),2,0.0026,0.0034
+relif_occurplc_type_raw,도로외교통지역( ),2,0.0026,0.0034
+relif_occurplc_type_raw,도로외교통지역(버스정류장),2,0.0026,0.0034
+relif_occurplc_type_raw,도로외교통지역(아파트 지하주차장),2,0.0026,0.0034
+relif_occurplc_type_raw,상업시설(미용실),2,0.0026,0.0034
+relif_occurplc_type_raw,상업시설(백두산사우나),2,0.0026,0.0034
+relif_occurplc_type_raw,상업시설(사무실),2,0.0026,0.0034
+relif_occurplc_type_raw,상업시설(스타벅스),2,0.0026,0.0034
+relif_occurplc_type_raw,상업시설(식당),2,0.0026,0.0034
+relif_occurplc_type_raw,상업시설(회사),2,0.0026,0.0034
+relif_occurplc_type_raw,오락/문화시설(권선파출소),2,0.0026,0.0034
+relif_occurplc_type_raw,오락/문화시설(매탄지구대),2,0.0026,0.0034
+relif_occurplc_type_raw,오락/문화시설(서호지구대),2,0.0026,0.0034
+relif_occurplc_type_raw,오락/문화시설(수원서부경찰서),2,0.0026,0.0034
+relif_occurplc_type_raw,오락/문화시설(수원역),2,0.0026,0.0034
+relif_occurplc_type_raw,오락/문화시설(영통지구대),2,0.0026,0.0034
+relif_occurplc_type_raw,오락/문화시설(화서문지구대),2,0.0026,0.0034
+relif_occurplc_type_raw,의료관련시설(빈센트병원),2,0.0026,0.0034
+relif_occurplc_type_raw,의료관련시설(성빈센트병원 ),2,0.0026,0.0034
+relif_occurplc_type_raw,의료관련시설(수병원),2,0.0026,0.0034
+relif_occurplc_type_raw,의료관련시설(수원의료원),2,0.0026,0.0034
+relif_occurplc_type_raw,의료관련시설(이춘택병원),2,0.0026,0.0034
+relif_occurplc_type_raw,집(놀이터),2,0.0026,0.0034
+relif_occurplc_type_raw,집단거주시설(봄빛요양원),2,0.0026,0.0034
+relif_occurplc_type_raw,(경기도 수원시 팔달구 매산로3가 갓매산로26번길 23-0 ),1,0.0013,0.0017
+relif_occurplc_type_raw,(미상),1,0.0013,0.0017
+relif_occurplc_type_raw,공장/산업/건설시설(공사장),1,0.0013,0.0017
+relif_occurplc_type_raw,공장/산업/건설시설(회사경비실),1,0.0013,0.0017
+relif_occurplc_type_raw,기타( 주야간 보호센터),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(106동 13층),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(112),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(119상황실),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(202번 버스 안),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(2층역무실),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(66번 버스내),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(88번 버스 안),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(92번 버스 내),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(92번버스안),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(GPS),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(cu 앞),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(가정법원),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(강원산야초건강원 /),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(거래처 사무실),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(건강원),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(건강체험센터),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(건물 옥상),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(건물 화장실내),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(건물내 지하),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(검찰청),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(경기중소기업성장지원센터 창고),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(경로당),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(경비실 ),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(경위도값),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(경찰서 내),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(경찰서 당직실),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(경찰서 형사과),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(계단),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(고가도로 밑),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(고등 성당),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(고색역),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(공원 내 휴게실),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(공항버스),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(관광버스내),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(광교저수지),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(교구청),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(교회 4층),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(교회 주차장),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(구급차안),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(구민회관),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(구청),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(국세청),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(군부대),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(권선경찰서),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(금호주야간보호센터),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(기도원),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(기흥세무서 4층),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(꿈터),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(남부119안전센터),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(남부경찰서 형사과),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(남부경찰청 통합당직실),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(낭부경찰서),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(노인보호센터),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(노인복지관),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(노인복지센터),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(노인복지회관),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(다리 밑),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(더사랑교회),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(더편한노인주간보호센터),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(도서관 주차장 차량 안),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(도의회),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(도청 주차장),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(동말놀이터),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(만석공원 제2공영주차장 ),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(만석공원),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(매교파출소),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(매산지구대 ),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(매탄지구대),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(모텔),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(물향기공원 내),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(미상 ),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(미용실 뒤 화장실),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(버스 내부),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(버스내 ),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(버스정류장 ),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(버스정류장),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(버스차고지),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(번화가),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(병무청),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(병문청 주차차단기 앞),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(병원앞도로),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(보훈교육연구원),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(복지관 ),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(복지관),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(봉구비어 수원광교점 앞 계단 ),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(블루핸즈 신영통현대서비스점),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(비닐하우스),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(사무실내),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(사찰),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(산샘어린이공원),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(산책로 돌다리),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(산책로),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(삼환아파트@ 15동 3-4라인),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(상가1층),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(상가앞 인도),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(상현역 역무실),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(상현역),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(생활도로),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(서둔동 상상캠퍼스),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(서부지구대),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(서비스센터 입구),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(서회복지센터),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(성군관대역),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(성균관대 역),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(성균관대),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(성균관대약),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(성우특장),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(세류동 성당),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(세류역 상행선),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(세무사사무실),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(세한교회),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(센트라우스아파트 단지 내),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(수목원),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(수성교회),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(수원 장안 경찰서),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(수원경찰서),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(수원고용복지센터),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(수원남부경찰서 정문),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(수원남부경찰서 주차장),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(수원남부소방서 남부119안전센터 앞),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(수원성교회),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(수원성빈센트병원),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(수원소방서),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(수원시청),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(수원역 1호선 상행선방향),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(수원역 2층 역무실),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(수원역 광장),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(수원역 기차 매표소),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(수원역 대합실),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(수원역 센트럴타운 아파트 경비실),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(수원역 지하1층 화장실),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(수원역 지하2층 인천방향),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(수원역 지하철도),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(수원역 플랫폼),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(수원역 환승센터 ),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(수원역 환승센터 지하1층),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(수원역사내 ),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(수원은혜교회),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(수원제일교회 정문 앞),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(수원지방법원),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(수원출입국관리사무소),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(스타벅스 앞),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(스타필드 주차장),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(스파클럽백두산사우나),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(승강기실 지하),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(시내버스 안),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(시장),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(시장길),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(시청),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(신고자 자택),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(신봉파출소),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(실로암교회),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(실버타윤),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(아주대 장례식장),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(아파트 1층 입구),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(아파트 단지 내),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(아파트 사무실),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(아파트 앞 놀이터),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(아파트 옆 하천),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(안전센터),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(야외주차장),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(어린이집),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(여기산공원 내),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(연구소),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(연화장 지하화장실),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(열발전소),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(영통 지구대),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(영통경찰서 내 유치장),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(영통경찰서),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(영통지구대 ),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(오목천역),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(오피스텔 옥상),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(와이파이값),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(외국인 보호소),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(외부 주차장),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(요양시설),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(우체국),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(우체국안),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(운행),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(유천파출소),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(유천파츨소),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(유치장),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(율전약수터),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(은행ATM),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(은혜와 진리교회),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(음식점앞),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(이마트 주차장 지하 1층 출구),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(이의119안전센터),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(인계파밀리에 103동 1층),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(인재개발원),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(일월저수지),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(자동차 안),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(자동차안),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(장안경찰서 형사과),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(장안공원),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(장안구보건소),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(장애인종합복지관),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(재활센터),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(정나눔터),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(정보공인중개사 앞),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(정신재활센터),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(정자 경찰서 ),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(제10전투비행단),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(조리원),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(주간보호센터 ),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(주간요양센터),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(주민센터),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(주차장내),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(중앙침례교회 버스앞),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(중앙침례교회),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(중흥에스클래스 게이트 2번 왼쪽 계단),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(지동성당),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(지역난방공사),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(지하 주차장),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(지하주차장 ),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(지하주차장),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(지하철 승강장 5-1),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(지하철 역무실),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(지하철),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(지하철역 플랫폼),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(직업재활센터),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(직장),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(집앞 주차장 내),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(차 내부),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(차),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(차량 내),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(차량내),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(차량수리),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(차량안),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(창고),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(창룡문지구대),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(천변 산책로),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(철도경찰사무실),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(초등학교 앞 인도),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(출입국외국인청),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(컨벤션센터 행사장 내),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(태안지구대),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(태장파출소),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(택시 안),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(택시),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(택시안),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(파장 파출소),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(파장119안전센터),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(파장센터),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(파출소내),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(팔달노인복지관),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(팔달문로 경찰서 형사과),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(편의점 앞 인도),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(평생학습관),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(평안교회),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(폐차장),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(하천 길),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(한미연합교회 앞),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(한전전우회 ),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(행궁파출소 ),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(행정복지센터),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(현아할인마트 잎),1,0.0013,0.0017
+relif_occurplc_type_raw,"기타(호매실, 고색, 서둔 119안전센터)",1,0.0013,0.0017
+relif_occurplc_type_raw,기타(호수공원 인도),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(홈플러스 입구),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(화목교회),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(화서동교회),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(화서역),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(횡단보도),1,0.0013,0.0017
+relif_occurplc_type_raw,기타(휴게소),1,0.0013,0.0017
+relif_occurplc_type_raw,도로(202번 시내버스),1,0.0013,0.0017
+relif_occurplc_type_raw,도로(92-1버스 안),1,0.0013,0.0017
+relif_occurplc_type_raw,도로(경기도 수원시 팔달구 우만동 중부대로143번길 39-0 ),1,0.0013,0.0017
+relif_occurplc_type_raw,도로(고등동 행정복지센터 부근),1,0.0013,0.0017
+relif_occurplc_type_raw,도로(도로상),1,0.0013,0.0017
+relif_occurplc_type_raw,도로(버스 안),1,0.0013,0.0017
+relif_occurplc_type_raw,도로(버스),1,0.0013,0.0017
+relif_occurplc_type_raw,도로(버스안),1,0.0013,0.0017
+relif_occurplc_type_raw,도로(상가 앞),1,0.0013,0.0017
+relif_occurplc_type_raw,도로(선일초등학교 버스정류장 앞),1,0.0013,0.0017
+relif_occurplc_type_raw,도로(집앞),1,0.0013,0.0017
+relif_occurplc_type_raw,도로(차 안),1,0.0013,0.0017
+relif_occurplc_type_raw,도로(차량안),1,0.0013,0.0017
+relif_occurplc_type_raw,도로(최강병원앞 황단보도),1,0.0013,0.0017
+relif_occurplc_type_raw,도로외교통지역(gps값),1,0.0013,0.0017
+relif_occurplc_type_raw,도로외교통지역(경기도 수원시 팔달구 인계동  수원 xi 모텔 앞 ),1,0.0013,0.0017
+relif_occurplc_type_raw,도로외교통지역(남문 다이소 앞),1,0.0013,0.0017
+relif_occurplc_type_raw,도로외교통지역(노보텔 호텔 앞),1,0.0013,0.0017
+relif_occurplc_type_raw,도로외교통지역(도로 옆 공원),1,0.0013,0.0017
+relif_occurplc_type_raw,도로외교통지역(도룡마을 버스정류장),1,0.0013,0.0017
+relif_occurplc_type_raw,도로외교통지역(매산지구대 옆),1,0.0013,0.0017
+relif_occurplc_type_raw,도로외교통지역(백성병원 정문 앞),1,0.0013,0.0017
+relif_occurplc_type_raw,도로외교통지역(버스정류장 주변),1,0.0013,0.0017
+relif_occurplc_type_raw,도로외교통지역(생활도로),1,0.0013,0.0017
+relif_occurplc_type_raw,도로외교통지역(성균관대역 대합실),1,0.0013,0.0017
+relif_occurplc_type_raw,도로외교통지역(세류초 인근),1,0.0013,0.0017
+relif_occurplc_type_raw,도로외교통지역(수원센트럴아이파크 113동 앞 하천),1,0.0013,0.0017
+relif_occurplc_type_raw,도로외교통지역(수원시청역사 내),1,0.0013,0.0017
+relif_occurplc_type_raw,도로외교통지역(수원역사 앞),1,0.0013,0.0017
+relif_occurplc_type_raw,도로외교통지역(시장내 길),1,0.0013,0.0017
+relif_occurplc_type_raw,도로외교통지역(신곡초등학교 후문),1,0.0013,0.0017
+relif_occurplc_type_raw,도로외교통지역(아파트 단지내),1,0.0013,0.0017
+relif_occurplc_type_raw,도로외교통지역(아파트단지 내),1,0.0013,0.0017
+relif_occurplc_type_raw,도로외교통지역(유성관광호텔 앞),1,0.0013,0.0017
+relif_occurplc_type_raw,도로외교통지역(주차장),1,0.0013,0.0017
+relif_occurplc_type_raw,도로외교통지역(지하철 역사),1,0.0013,0.0017
+relif_occurplc_type_raw,도로외교통지역(진리의성령교회 앞 인도),1,0.0013,0.0017
+relif_occurplc_type_raw,도로외교통지역(차 안),1,0.0013,0.0017
+relif_occurplc_type_raw,도로외교통지역(택시 승강장),1,0.0013,0.0017
+relif_occurplc_type_raw,도로외교통지역(포차의 달인앞 ),1,0.0013,0.0017
+relif_occurplc_type_raw,도로외교통지역(허리우드건물 1층 대기),1,0.0013,0.0017
+relif_occurplc_type_raw,도로외교통지역(화서동 175-6 새시대약국앞),1,0.0013,0.0017
+relif_occurplc_type_raw,도로외교통지역(횡단보도앞),1,0.0013,0.0017
+relif_occurplc_type_raw,바다/강/산/논밭(광교산 ),1,0.0013,0.0017
+relif_occurplc_type_raw,바다/강/산/논밭(광교산 노루목 인근),1,0.0013,0.0017
+relif_occurplc_type_raw,바다/강/산/논밭(광교호수공원 산책로),1,0.0013,0.0017
+relif_occurplc_type_raw,바다/강/산/논밭(농막),1,0.0013,0.0017
+relif_occurplc_type_raw,바다/강/산/논밭(팔달산 산책로),1,0.0013,0.0017
+relif_occurplc_type_raw,바다/강/산/논밭(팔달산),1,0.0013,0.0017
+relif_occurplc_type_raw,바다/강/산/논밭(하천 옆),1,0.0013,0.0017
+relif_occurplc_type_raw,상업시설(골프장),1,0.0013,0.0017
+relif_occurplc_type_raw,상업시설(광교 롯데아울렛 지하 2층 화물용승강기),1,0.0013,0.0017
+relif_occurplc_type_raw,상업시설(굿데이카페),1,0.0013,0.0017
+relif_occurplc_type_raw,상업시설(기아 오토큐),1,0.0013,0.0017
+relif_occurplc_type_raw,상업시설(낙지한마리수제비),1,0.0013,0.0017
+relif_occurplc_type_raw,상업시설(농협),1,0.0013,0.0017
+relif_occurplc_type_raw,상업시설(농협은행),1,0.0013,0.0017
+relif_occurplc_type_raw,상업시설(뉴M모텔),1,0.0013,0.0017
+relif_occurplc_type_raw,상업시설(대한빌딩 엘레베이터),1,0.0013,0.0017
+relif_occurplc_type_raw,상업시설(더리터커피),1,0.0013,0.0017
+relif_occurplc_type_raw,상업시설(도이치오토월드),1,0.0013,0.0017
+relif_occurplc_type_raw,상업시설(두레모텔 206호),1,0.0013,0.0017
+relif_occurplc_type_raw,상업시설(디지털엠파이어2),1,0.0013,0.0017
+relif_occurplc_type_raw,상업시설(라마다호텔 ),1,0.0013,0.0017
+relif_occurplc_type_raw,상업시설(린스7080),1,0.0013,0.0017
+relif_occurplc_type_raw,상업시설(마트),1,0.0013,0.0017
+relif_occurplc_type_raw,상업시설(메가박스 ),1,0.0013,0.0017
+relif_occurplc_type_raw,상업시설(모카노래방),1,0.0013,0.0017
+relif_occurplc_type_raw,상업시설(목욕탕),1,0.0013,0.0017
+relif_occurplc_type_raw,상업시설(바우네 나주곰탕),1,0.0013,0.0017
+relif_occurplc_type_raw,상업시설(사딸라룸포차 건물1층 ),1,0.0013,0.0017
+relif_occurplc_type_raw,상업시설(서울제빵소),1,0.0013,0.0017
+relif_occurplc_type_raw,상업시설(성모퍼스트내과),1,0.0013,0.0017
+relif_occurplc_type_raw,상업시설(세탁소),1,0.0013,0.0017
+relif_occurplc_type_raw,상업시설(송담추어탕),1,0.0013,0.0017
+relif_occurplc_type_raw,상업시설(수원역 ),1,0.0013,0.0017
+relif_occurplc_type_raw,상업시설(수원역),1,0.0013,0.0017
+relif_occurplc_type_raw,상업시설(스위스모텔),1,0.0013,0.0017
+relif_occurplc_type_raw,상업시설(스파렉스사우나),1,0.0013,0.0017
+relif_occurplc_type_raw,상업시설(신협 앞),1,0.0013,0.0017
+relif_occurplc_type_raw,상업시설(아리랑노래방),1,0.0013,0.0017
+relif_occurplc_type_raw,상업시설(아웃백),1,0.0013,0.0017
+relif_occurplc_type_raw,상업시설(약국),1,0.0013,0.0017
+relif_occurplc_type_raw,상업시설(엄마밥상),1,0.0013,0.0017
+relif_occurplc_type_raw,상업시설(여관),1,0.0013,0.0017
+relif_occurplc_type_raw,상업시설(연예인7080),1,0.0013,0.0017
+relif_occurplc_type_raw,상업시설(옥이포차),1,0.0013,0.0017
+relif_occurplc_type_raw,상업시설(온수골온천 여탕),1,0.0013,0.0017
+relif_occurplc_type_raw,상업시설(온수골온천5층),1,0.0013,0.0017
+relif_occurplc_type_raw,상업시설(요양원),1,0.0013,0.0017
+relif_occurplc_type_raw,상업시설(유성호텔 본관 4층),1,0.0013,0.0017
+relif_occurplc_type_raw,상업시설(음식점),1,0.0013,0.0017
+relif_occurplc_type_raw,상업시설(이너프 카페),1,0.0013,0.0017
+relif_occurplc_type_raw,상업시설(이안서가),1,0.0013,0.0017
+relif_occurplc_type_raw,상업시설(자매전집),1,0.0013,0.0017
+relif_occurplc_type_raw,상업시설(좋은친구들),1,0.0013,0.0017
+relif_occurplc_type_raw,상업시설(중국집),1,0.0013,0.0017
+relif_occurplc_type_raw,상업시설(중식당),1,0.0013,0.0017
+relif_occurplc_type_raw,상업시설(지하1층 다이소),1,0.0013,0.0017
+relif_occurplc_type_raw,상업시설(진미통닭 앞),1,0.0013,0.0017
+relif_occurplc_type_raw,상업시설(찜질방 ),1,0.0013,0.0017
+relif_occurplc_type_raw,상업시설(차공업소),1,0.0013,0.0017
+relif_occurplc_type_raw,상업시설(축제노래연습장),1,0.0013,0.0017
+relif_occurplc_type_raw,상업시설(캠핑장),1,0.0013,0.0017
+relif_occurplc_type_raw,상업시설(코리안바베큐 내부),1,0.0013,0.0017
+relif_occurplc_type_raw,상업시설(킹노래연습장),1,0.0013,0.0017
+relif_occurplc_type_raw,상업시설(타임빌라스 1층 화장실),1,0.0013,0.0017
+relif_occurplc_type_raw,상업시설(태영생막창),1,0.0013,0.0017
+relif_occurplc_type_raw,상업시설(테마모텔),1,0.0013,0.0017
+relif_occurplc_type_raw,상업시설(토기장이오리삼겹살전문점),1,0.0013,0.0017
+relif_occurplc_type_raw,상업시설(한신우동),1,0.0013,0.0017
+relif_occurplc_type_raw,상업시설(항아리보쌈),1,0.0013,0.0017
+relif_occurplc_type_raw,상업시설(행운식당),1,0.0013,0.0017
+relif_occurplc_type_raw,상업시설(현대 보석 불가마 사우나),1,0.0013,0.0017
+relif_occurplc_type_raw,상업시설(홍익스포츠 스파),1,0.0013,0.0017
+relif_occurplc_type_raw,상업시설(홍익스포츠사우나 ),1,0.0013,0.0017
+relif_occurplc_type_raw,상업시설(화홍문갈비),1,0.0013,0.0017
+relif_occurplc_type_raw,상업시설(효행요양원),1,0.0013,0.0017
+relif_occurplc_type_raw,오락/문화시설(고순대 제1지구대),1,0.0013,0.0017
+relif_occurplc_type_raw,오락/문화시설(공원 화장실),1,0.0013,0.0017
+relif_occurplc_type_raw,오락/문화시설(광교복합체육센터),1,0.0013,0.0017
+relif_occurplc_type_raw,오락/문화시설(광교호수공원),1,0.0013,0.0017
+relif_occurplc_type_raw,오락/문화시설(권선119안전센터),1,0.0013,0.0017
+relif_occurplc_type_raw,오락/문화시설(노인복지관),1,0.0013,0.0017
+relif_occurplc_type_raw,오락/문화시설(노인정),1,0.0013,0.0017
+relif_occurplc_type_raw,오락/문화시설(놀이터),1,0.0013,0.0017
+relif_occurplc_type_raw,오락/문화시설(누림센터2층),1,0.0013,0.0017
+relif_occurplc_type_raw,오락/문화시설(동부파출소 ),1,0.0013,0.0017
+relif_occurplc_type_raw,오락/문화시설(만석공원둘레길),1,0.0013,0.0017
+relif_occurplc_type_raw,오락/문화시설(목욕탕),1,0.0013,0.0017
+relif_occurplc_type_raw,오락/문화시설(바운스슈퍼파크),1,0.0013,0.0017
+relif_occurplc_type_raw,오락/문화시설(사랑방주간보호센터),1,0.0013,0.0017
+relif_occurplc_type_raw,오락/문화시설(서광교회),1,0.0013,0.0017
+relif_occurplc_type_raw,오락/문화시설(서부경찰서),1,0.0013,0.0017
+relif_occurplc_type_raw,오락/문화시설(성당),1,0.0013,0.0017
+relif_occurplc_type_raw,오락/문화시설(세류지구대),1,0.0013,0.0017
+relif_occurplc_type_raw,오락/문화시설(수원 미디어센터 ),1,0.0013,0.0017
+relif_occurplc_type_raw,오락/문화시설(수원남부경찰서),1,0.0013,0.0017
+relif_occurplc_type_raw,오락/문화시설(순종교회),1,0.0013,0.0017
+relif_occurplc_type_raw,오락/문화시설(연무지구대 ),1,0.0013,0.0017
+relif_occurplc_type_raw,오락/문화시설(연무지구대),1,0.0013,0.0017
+relif_occurplc_type_raw,오락/문화시설(운동장),1,0.0013,0.0017
+relif_occurplc_type_raw,오락/문화시설(유천 파출소),1,0.0013,0.0017
+relif_occurplc_type_raw,오락/문화시설(유천파출소),1,0.0013,0.0017
+relif_occurplc_type_raw,오락/문화시설(인계 경찰서 ),1,0.0013,0.0017
+relif_occurplc_type_raw,오락/문화시설(장안공원 남자화장실),1,0.0013,0.0017
+relif_occurplc_type_raw,오락/문화시설(주간보호센터),1,0.0013,0.0017
+relif_occurplc_type_raw,오락/문화시설(팔달경찰서),1,0.0013,0.0017
+relif_occurplc_type_raw,오락/문화시설(팔달복지관),1,0.0013,0.0017
+relif_occurplc_type_raw,오락/문화시설(한국자산관리공사),1,0.0013,0.0017
+relif_occurplc_type_raw,오락/문화시설(행궁파출소 ),1,0.0013,0.0017
+relif_occurplc_type_raw,오락/문화시설(호매실지구대),1,0.0013,0.0017
+relif_occurplc_type_raw,오락/문화시설(홈런야구장),1,0.0013,0.0017
+relif_occurplc_type_raw,오락/문화시설(화서문지구대 ),1,0.0013,0.0017
+relif_occurplc_type_raw,운동시설(그래비티),1,0.0013,0.0017
+relif_occurplc_type_raw,운동시설(수원월드컵경기장),1,0.0013,0.0017
+relif_occurplc_type_raw,운동시설(스포츠아일랜드),1,0.0013,0.0017
+relif_occurplc_type_raw,운동시설(운동장),1,0.0013,0.0017
+relif_occurplc_type_raw,운동시설(월드컵경기장 풋살장),1,0.0013,0.0017
+relif_occurplc_type_raw,운동시설(장안공원),1,0.0013,0.0017
+relif_occurplc_type_raw,운동시설(족구장),1,0.0013,0.0017
+relif_occurplc_type_raw,운동시설(축구장),1,0.0013,0.0017
+relif_occurplc_type_raw,운동시설(풋살장),1,0.0013,0.0017
+relif_occurplc_type_raw,의료관련시설(365힐링의원),1,0.0013,0.0017
+relif_occurplc_type_raw,의료관련시설(4층 헌혈의집),1,0.0013,0.0017
+relif_occurplc_type_raw,의료관련시설(김찬병원 ),1,0.0013,0.0017
+relif_occurplc_type_raw,의료관련시설(동수원 응급실 ),1,0.0013,0.0017
+relif_occurplc_type_raw,의료관련시설(동수원병원 앞),1,0.0013,0.0017
+relif_occurplc_type_raw,의료관련시설(동수원병원 응급실 앞),1,0.0013,0.0017
+relif_occurplc_type_raw,의료관련시설(동수원병원),1,0.0013,0.0017
+relif_occurplc_type_raw,의료관련시설(동수원응급실),1,0.0013,0.0017
+relif_occurplc_type_raw,의료관련시설(바로준내과 2층 투석실),1,0.0013,0.0017
+relif_occurplc_type_raw,의료관련시설(백병원),1,0.0013,0.0017
+relif_occurplc_type_raw,의료관련시설(베스트소아과),1,0.0013,0.0017
+relif_occurplc_type_raw,의료관련시설(베스트손내과 ),1,0.0013,0.0017
+relif_occurplc_type_raw,의료관련시설(보훈원요양센터),1,0.0013,0.0017
+relif_occurplc_type_raw,의료관련시설(빈센트 병원 ),1,0.0013,0.0017
+relif_occurplc_type_raw,의료관련시설(빈센트 병원 앞),1,0.0013,0.0017
+relif_occurplc_type_raw,의료관련시설(빈센트),1,0.0013,0.0017
+relif_occurplc_type_raw,의료관련시설(빈센트병원 ),1,0.0013,0.0017
+relif_occurplc_type_raw,의료관련시설(빈센트병원 앞),1,0.0013,0.0017
+relif_occurplc_type_raw,의료관련시설(삼성메디칼의원),1,0.0013,0.0017
+relif_occurplc_type_raw,의료관련시설(삼성안과),1,0.0013,0.0017
+relif_occurplc_type_raw,의료관련시설(성모척관병원 3층),1,0.0013,0.0017
+relif_occurplc_type_raw,의료관련시설(성빈센트병원),1,0.0013,0.0017
+relif_occurplc_type_raw,의료관련시설(수병원 ),1,0.0013,0.0017
+relif_occurplc_type_raw,의료관련시설(수병원 1층),1,0.0013,0.0017
+relif_occurplc_type_raw,의료관련시설(수병원 3층 입원실),1,0.0013,0.0017
+relif_occurplc_type_raw,의료관련시설(수원성빈센트병원),1,0.0013,0.0017
+relif_occurplc_type_raw,의료관련시설(수원의료원 ),1,0.0013,0.0017
+relif_occurplc_type_raw,의료관련시설(수원제일산무인과),1,0.0013,0.0017
+relif_occurplc_type_raw,의료관련시설(아주대병원 앞),1,0.0013,0.0017
+relif_occurplc_type_raw,의료관련시설(연세가정의원),1,0.0013,0.0017
+relif_occurplc_type_raw,의료관련시설(연세모아요양병원),1,0.0013,0.0017
+relif_occurplc_type_raw,의료관련시설(연세비엠정형외과),1,0.0013,0.0017
+relif_occurplc_type_raw,의료관련시설(요양병원),1,0.0013,0.0017
+relif_occurplc_type_raw,의료관련시설(윌내과),1,0.0013,0.0017
+relif_occurplc_type_raw,의료관련시설(윌스기념병원 ),1,0.0013,0.0017
+relif_occurplc_type_raw,의료관련시설(윌스기념병원),1,0.0013,0.0017
+relif_occurplc_type_raw,의료관련시설(이춘택병원 ),1,0.0013,0.0017
+relif_occurplc_type_raw,의료관련시설(이한한방병원),1,0.0013,0.0017
+relif_occurplc_type_raw,의료관련시설(인내과),1,0.0013,0.0017
+relif_occurplc_type_raw,의료관련시설(정형외과 진료실),1,0.0013,0.0017
+relif_occurplc_type_raw,의료관련시설(참사랑의원),1,0.0013,0.0017
+relif_occurplc_type_raw,의료관련시설(치과),1,0.0013,0.0017
+relif_occurplc_type_raw,의료관련시설(푸른연세신경외과 ),1,0.0013,0.0017
+relif_occurplc_type_raw,의료관련시설(하나병원),1,0.0013,0.0017
+relif_occurplc_type_raw,의료관련시설(하나의원 옥상),1,0.0013,0.0017
+relif_occurplc_type_raw,의료관련시설(하모니정신건강의학과의원),1,0.0013,0.0017
+relif_occurplc_type_raw,의료관련시설(한결내과의원),1,0.0013,0.0017
+relif_occurplc_type_raw,의료관련시설(한상길내과의원 ),1,0.0013,0.0017
+relif_occurplc_type_raw,의료관련시설(효요양병원),1,0.0013,0.0017
+relif_occurplc_type_raw,집( 유당마을 실버타운),1,0.0013,0.0017
+relif_occurplc_type_raw,집(102동 앞),1,0.0013,0.0017
+relif_occurplc_type_raw,집(1163813),1,0.0013,0.0017
+relif_occurplc_type_raw,집(206호),1,0.0013,0.0017
+relif_occurplc_type_raw,집(건우빌라 302호),1,0.0013,0.0017
+relif_occurplc_type_raw,집(경기도 수원시 영통구 이의동 1351),1,0.0013,0.0017
+relif_occurplc_type_raw,집(경찰공동대응),1,0.0013,0.0017
+relif_occurplc_type_raw,집(네오빌 401호),1,0.0013,0.0017
+relif_occurplc_type_raw,집(대한대우107동 601호),1,0.0013,0.0017
+relif_occurplc_type_raw,집(망포역 아이파크 101동 1층),1,0.0013,0.0017
+relif_occurplc_type_raw,집(매교역 sk뷰 137동 1층 로비),1,0.0013,0.0017
+relif_occurplc_type_raw,집(모),1,0.0013,0.0017
+relif_occurplc_type_raw,집(문 앞 계단),1,0.0013,0.0017
+relif_occurplc_type_raw,집(서그내마을SK아파트 107동 806호),1,0.0013,0.0017
+relif_occurplc_type_raw,집(센트럴빌 305호),1,0.0013,0.0017
+relif_occurplc_type_raw,집(수원센트럴 127동 1101호),1,0.0013,0.0017
+relif_occurplc_type_raw,집(신동아아파트 113동1405호),1,0.0013,0.0017
+relif_occurplc_type_raw,집(실외기 부분),1,0.0013,0.0017
+relif_occurplc_type_raw,집(아파트 내 지하주차장),1,0.0013,0.0017
+relif_occurplc_type_raw,집(아파트 단지 내 놀이터),1,0.0013,0.0017
+relif_occurplc_type_raw,집(아파트 단지내),1,0.0013,0.0017
+relif_occurplc_type_raw,집(아파트 주차장),1,0.0013,0.0017
+relif_occurplc_type_raw,집(이안@ 107동 604호),1,0.0013,0.0017
+relif_occurplc_type_raw,집(지하3층 주차장),1,0.0013,0.0017
+relif_occurplc_type_raw,집(현대@ 104-101),1,0.0013,0.0017
+relif_occurplc_type_raw,집단거주시설(vip실버케어요양원),1,0.0013,0.0017
+relif_occurplc_type_raw,집단거주시설(가람실버요양원 ),1,0.0013,0.0017
+relif_occurplc_type_raw,집단거주시설(경로당),1,0.0013,0.0017
+relif_occurplc_type_raw,집단거주시설(골든네스트요양원),1,0.0013,0.0017
+relif_occurplc_type_raw,집단거주시설(꿈터),1,0.0013,0.0017
+relif_occurplc_type_raw,집단거주시설(노블카운티너싱홈),1,0.0013,0.0017
+relif_occurplc_type_raw,집단거주시설(늘봄실버밸리),1,0.0013,0.0017
+relif_occurplc_type_raw,집단거주시설(다시서기),1,0.0013,0.0017
+relif_occurplc_type_raw,집단거주시설(다온요양원 3층),1,0.0013,0.0017
+relif_occurplc_type_raw,집단거주시설(동수원실버빌),1,0.0013,0.0017
+relif_occurplc_type_raw,집단거주시설(두손노인전문요양원),1,0.0013,0.0017
+relif_occurplc_type_raw,집단거주시설(두손요양원),1,0.0013,0.0017
+relif_occurplc_type_raw,집단거주시설(라온팰리스요양원),1,0.0013,0.0017
+relif_occurplc_type_raw,집단거주시설(마실주간보호센터),1,0.0013,0.0017
+relif_occurplc_type_raw,집단거주시설(모텔),1,0.0013,0.0017
+relif_occurplc_type_raw,집단거주시설(미래노인요양원 4층),1,0.0013,0.0017
+relif_occurplc_type_raw,집단거주시설(미래요양원),1,0.0013,0.0017
+relif_occurplc_type_raw,집단거주시설(민들레요양원),1,0.0013,0.0017
+relif_occurplc_type_raw,집단거주시설(보훈요양원),1,0.0013,0.0017
+relif_occurplc_type_raw,집단거주시설(봄날요양원),1,0.0013,0.0017
+relif_occurplc_type_raw,집단거주시설(봄빛요양센터),1,0.0013,0.0017
+relif_occurplc_type_raw,집단거주시설(북문고시원),1,0.0013,0.0017
+relif_occurplc_type_raw,집단거주시설(산후조리원),1,0.0013,0.0017
+relif_occurplc_type_raw,집단거주시설(새미래요양원),1,0.0013,0.0017
+relif_occurplc_type_raw,집단거주시설(샤워실),1,0.0013,0.0017
+relif_occurplc_type_raw,집단거주시설(세진브론즈빌),1,0.0013,0.0017
+relif_occurplc_type_raw,집단거주시설(수원vip실버케어요양원),1,0.0013,0.0017
+relif_occurplc_type_raw,집단거주시설(수원어르신간호센터),1,0.0013,0.0017
+relif_occurplc_type_raw,집단거주시설(스텔라실버요양원),1,0.0013,0.0017
+relif_occurplc_type_raw,집단거주시설(실버타운),1,0.0013,0.0017
+relif_occurplc_type_raw,집단거주시설(아노가 요양원 3층 ),1,0.0013,0.0017
+relif_occurplc_type_raw,집단거주시설(어린이집),1,0.0013,0.0017
+relif_occurplc_type_raw,집단거주시설(영통요양원),1,0.0013,0.0017
+relif_occurplc_type_raw,집단거주시설(요앙원),1,0.0013,0.0017
+relif_occurplc_type_raw,집단거주시설(은진레지던스 고시원),1,0.0013,0.0017
+relif_occurplc_type_raw,집단거주시설(재활플러스요양원),1,0.0013,0.0017
+relif_occurplc_type_raw,집단거주시설(지하주차장),1,0.0013,0.0017
+relif_occurplc_type_raw,집단거주시설(채움요양원 2층),1,0.0013,0.0017
+relif_occurplc_type_raw,집단거주시설(청담요양원),1,0.0013,0.0017
+relif_occurplc_type_raw,집단거주시설(청솔 고시원),1,0.0013,0.0017
+relif_occurplc_type_raw,집단거주시설(청운고시텔),1,0.0013,0.0017
+relif_occurplc_type_raw,집단거주시설(팔달고시원),1,0.0013,0.0017
+relif_occurplc_type_raw,집단거주시설(하나재활요양원3층),1,0.0013,0.0017
+relif_occurplc_type_raw,집단거주시설(해피하우스요양원),1,0.0013,0.0017
+relif_occurplc_type_raw,집단거주시설(행궁요양원),1,0.0013,0.0017
+relif_occurplc_type_raw,집단거주시설(행복꽃요양원),1,0.0013,0.0017
+relif_occurplc_type_raw,집단거주시설(행복한요양원),1,0.0013,0.0017
+relif_occurplc_type_raw,집단거주시설(힘찬요양원),1,0.0013,0.0017
+relif_occurplc_type_raw,학교/교육시설(mbc아카데미학원),1,0.0013,0.0017
+relif_occurplc_type_raw,학교/교육시설(경기대 ),1,0.0013,0.0017
+relif_occurplc_type_raw,학교/교육시설(경기대),1,0.0013,0.0017
+relif_occurplc_type_raw,학교/교육시설(경희대 외국어대학관),1,0.0013,0.0017
+relif_occurplc_type_raw,학교/교육시설(교육청),1,0.0013,0.0017
+relif_occurplc_type_raw,학교/교육시설(기숙사),1,0.0013,0.0017
+relif_occurplc_type_raw,학교/교육시설(능실중학교 체육관),1,0.0013,0.0017
+relif_occurplc_type_raw,학교/교육시설(능실중학교),1,0.0013,0.0017
+relif_occurplc_type_raw,학교/교육시설(동성중학교),1,0.0013,0.0017
+relif_occurplc_type_raw,학교/교육시설(망포고등학교),1,0.0013,0.0017
+relif_occurplc_type_raw,학교/교육시설(망포초등학교),1,0.0013,0.0017
+relif_occurplc_type_raw,학교/교육시설(매산초등학교),1,0.0013,0.0017
+relif_occurplc_type_raw,학교/교육시설(보건실),1,0.0013,0.0017
+relif_occurplc_type_raw,학교/교육시설(송원초등학교),1,0.0013,0.0017
+relif_occurplc_type_raw,학교/교육시설(수원여고),1,0.0013,0.0017
+relif_occurplc_type_raw,학교/교육시설(아주대 산학협력원),1,0.0013,0.0017
+relif_occurplc_type_raw,학교/교육시설(아주대학교 화장실),1,0.0013,0.0017
+relif_occurplc_type_raw,학교/교육시설(운동장),1,0.0013,0.0017
+relif_occurplc_type_raw,학교/교육시설(운동학원),1,0.0013,0.0017
+relif_occurplc_type_raw,학교/교육시설(유신고),1,0.0013,0.0017
+relif_occurplc_type_raw,학교/교육시설(유신고등학교 운동장),1,0.0013,0.0017
+relif_occurplc_type_raw,학교/교육시설(유치원),1,0.0013,0.0017
+relif_occurplc_type_raw,학교/교육시설(인계지구대 ),1,0.0013,0.0017
+relif_occurplc_type_raw,학교/교육시설(장애인시설),1,0.0013,0.0017
+relif_occurplc_type_raw,학교/교육시설(조원중),1,0.0013,0.0017
+relif_occurplc_type_raw,학교/교육시설(창룡도서관),1,0.0013,0.0017
+patnt_age_band_10y,<미기재>,22838,29.7432,
+patnt_age_band_10y,60-69세,8940,11.6431,16.5721
+patnt_age_band_10y,70-79세,7724,10.0594,14.318
+patnt_age_band_10y,50-59세,7512,9.7833,13.925
+patnt_age_band_10y,80-89세,7178,9.3483,13.3059
+patnt_age_band_10y,20-29세,5316,6.9233,9.8543
+patnt_age_band_10y,40-49세,5251,6.8387,9.7338
+patnt_age_band_10y,30-39세,5171,6.7345,9.5855
+patnt_age_band_10y,10-19세,2798,3.644,5.1867
+patnt_age_band_10y,0-9세,2224,2.8964,4.1226
+patnt_age_band_10y,90-99세,1770,2.3052,3.2811
+patnt_age_band_10y,100세 이상,59,0.0768,0.1094
+patnt_age_band_10y,이상치(0세 미만 또는 120세 초과),3,0.0039,0.0056

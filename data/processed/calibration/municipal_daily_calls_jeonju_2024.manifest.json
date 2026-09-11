@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-09-11T10:17:09+09:00",
+  "generator": "data/raw/jeonju_sources_20260911/extract_jeonju_dispatch_counts.py",
+  "source_title": "2025년도 119구급서비스 통계연보(최종), 소방청, 작성기준일 2024-12-31",
+  "source_landing_url": "https://www.nfa.go.kr/nfa/releaseinformation/statisticalinformation/main/?boardId=bbs_0000000000000019&mode=view&cntId=71",
+  "source_file_url": "https://www.nfa.go.kr/board/file/bbs_0000000000000019/71/FILE_000000000024779/202506271741134568",
+  "source_year": "2024",
+  "days_in_year": 366,
+  "input_path": "data/raw/municipal_dispatch_counts_20260910/nfa_119_ems_service_statistical_yearbook_2025.pdf",
+  "input_sha256": "16bf9facd94fef47477e475ac69b1777a3dffca72f53bc0051a22fdedc5aaa3e",
+  "input_rows": 9,
+  "output_csv": "municipal_daily_calls_jeonju_2024.csv",
+  "municipality_count": 1,
+  "annual_dispatches_total": 38183,
+  "annual_transports_total": 20504,
+  "station_count": 2,
+  "dispatches_by_station": {
+    "전주완산소방서": 20615,
+    "전주덕진소방서": 17568
+  },
+  "province_total_2024": {
+    "출동건수": 151304,
+    "이송건수": 78765,
+    "이송인원": 79661
+  },
+  "jeonju_share_of_province": 0.252359,
+  "notes": [
+    "daily_calls = annual_dispatches / 366 (2024년은 윤년)",
+    "전주시 행은 연보에 따로 없고, 관할이 전주시와 정확히 일치하는 두 소방서의 안전센터 행을 합산한 값이다.",
+    "annual_dispatches는 구급 출동건수이며 이송건수·이송인원이 아니다.",
+    "연보는 2024년 기준이고 구급차 배치 자료는 2025-06-30 기준이므로 기준일이 서로 다르다."
+  ]
+}

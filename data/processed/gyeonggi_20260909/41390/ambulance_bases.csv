@@ -1,0 +1,7 @@
+﻿source_province,fire_station,safety_center,regional_unit,ambulance_count,base_name,address,latitude,longitude,coordinate_source,matched_address,kakao_place_id,municipality_assignment,geocoding_status,routing_status
+경기,시흥소방서,군서119안전센터,,2,군서119안전센터,,37.3496428711182,126.739403588781,kakao_local_keyword_search,경기 시흥시 정왕신길로 206,1421938573,fire_station_address_inferred,verified_municipality_match,pending_kakao_api
+경기,시흥소방서,연성119안전센터,,1,연성119안전센터,경기도 시흥시 새재로 29,37.381903084479,126.802937551443,kakao_local_address_search,경기 시흥시 새재로 29,,address_exact,verified_municipality_match,pending_kakao_api
+경기,시흥소방서,목감119안전센터,,1,목감119안전센터,경기도 시흥시 목감우회로 15,37.3813946011407,126.857742562004,kakao_local_address_search,경기 시흥시 목감우회로 15,,address_exact,verified_municipality_match,pending_kakao_api
+경기,시흥소방서,은행119안전센터,,2,은행119안전센터,경기도 시흥시 대은로 4,37.4393655399614,126.793289026629,kakao_local_address_search,경기 시흥시 대은로 4,,address_exact,verified_municipality_match,pending_kakao_api
+경기,시흥소방서,정왕119안전센터,,1,정왕119안전센터,경기도 공단1대로259번길 1,37.3355707834922,126.729716964601,kakao_local_address_search,경기 시흥시 공단1대로259번길 1,,fire_station_address_inferred,verified_municipality_match,pending_kakao_api
+경기,시흥소방서,배곧119안전센터,,2,배곧119안전센터,,37.368580064445,126.732297045582,kakao_local_keyword_search,경기 시흥시 서울대학로278번길 80,1404123849,fire_station_address_inferred,verified_municipality_match,pending_kakao_api

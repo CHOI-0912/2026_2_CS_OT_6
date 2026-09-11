@@ -1,0 +1,7 @@
+﻿administrative_code,administrative_name,municipality_code,population,households,latitude,longitude,coordinate_source,matched_address,kakao_place_id,geocoding_status,demand_rate_status,coordinate_reference_url,coordinate_basis
+4182025000,경기도 가평군 가평읍,41820,21115,10698,37.825351112279954,127.51655569048546,kakao_administrative_office_representative_proxy,경기 가평군 가평읍 가화로 62,1766473204,verified_municipality_match,pending_119_activity_api,,
+4182031000,경기도 가평군 설악면,41820,10024,5654,37.675801858870656,127.49471198044586,kakao_administrative_office_representative_proxy,경기 가평군 설악면 한서로 8,7948959,verified_municipality_match,pending_119_activity_api,,
+4182032500,경기도 가평군 청평면,41820,13080,7318,37.7404626327391,127.424141651951,kakao_administrative_office_representative_proxy,경기 가평군 청평면 은고개로 19,8097127,verified_municipality_match,pending_119_activity_api,,
+4182033000,경기도 가평군 상면,41820,5380,3174,37.8047151753628,127.356786438655,kakao_administrative_office_representative_proxy,경기 가평군 상면 청군로 1105,10518191,verified_municipality_match,pending_119_activity_api,,
+4182034500,경기도 가평군 조종면,41820,8980,4361,37.8175158053324,127.353241002494,kakao_administrative_office_representative_proxy,경기 가평군 조종면 조종내길 71,27224342,verified_municipality_match,pending_119_activity_api,,
+4182035000,경기도 가평군 북면,41820,3467,2120,37.888127504218446,127.54927550046729,kakao_administrative_office_representative_proxy,경기 가평군 북면 가화로 1030-39,10449738,verified_municipality_match,pending_119_activity_api,,

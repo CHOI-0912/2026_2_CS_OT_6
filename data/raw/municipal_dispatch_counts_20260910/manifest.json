@@ -1,0 +1,550 @@
+{
+  "manifest_version": 1,
+  "created_at": "2026-09-10T23:06:24+09:00",
+  "purpose": "경기도 시·군별 119 구급 출동건수 원자료와 교차검증 자료",
+  "datasets": [
+    {
+      "id": "gg_ambulance_activity_counts_by_station",
+      "title": "경기데이터드림 구급활동 현황 (Sheet, 시군코드 필터 전수 수집)",
+      "publisher": "경기도소방재난본부 / 경기데이터드림(경기도)",
+      "landing_url": "https://data.gg.go.kr/portal/data/service/selectServicePage.do?infId=SE00GA6F273B8PIJ9N8412495661&infSeq=1",
+      "source_url": "https://data.gg.go.kr/portal/data/sheet/searchSheetData.do",
+      "request_method": "POST",
+      "request_params": {
+        "infId": "SE00GA6F273B8PIJ9N8412495661",
+        "infSeq": "1",
+        "SIGUN_CD": "<31개 시군코드 각각>",
+        "CSRFToken": "<랜딩 페이지에서 추출>"
+      },
+      "open_api_key_used": false,
+      "login_required": false,
+      "downloaded_at": "2026-09-10T23:06:24+09:00",
+      "path": "gg_ambulance_activity_counts_by_station_2025.csv",
+      "format": "CSV",
+      "encoding": "UTF-8",
+      "sha256": "53ecfe7a048c75e81c15882909a18ed74bd28a1c208467b5965472bdaf933669",
+      "row_count_excluding_header": 220,
+      "raw_record_grain": "구급 출동 1건 = 1행",
+      "raw_row_total": 811214,
+      "years": [
+        "2025"
+      ],
+      "columns_in_source": [
+        "번호",
+        "집계년도",
+        "시군명",
+        "출동소방서",
+        "출동안전센터",
+        "환자연령",
+        "환자성별",
+        "외국인여부",
+        "국적",
+        "구급처종명",
+        "환자증상1"
+      ],
+      "notes": [
+        "원본 응답은 시·군별 JSON이며 31개 합계 811214행이다. 저장소 용량 때문에 원본 JSON은 보관하지 않고 (집계년도, 시군, 출동소방서, 출동안전센터) 건수로 집계해 저장했다.",
+        "검증용으로 시·군별 응답 바이트 수와 응답 본문 SHA-256을 per_sigun에 기록했다. 같은 스크립트를 재실행하면 동일한 집계가 나온다.",
+        "dispatch_rows = 해당 안전센터의 구급활동 행 수(= 출동건수). rows_with_patient_sex = 환자성별 값이 있는 행 수로, 환자 접촉/이송이 있었던 건의 하한 추정치다.",
+        "Sheet 탭은 최신 1개년만 제공한다. 수집 시점의 집계년도는 ['2025']이다.",
+        "원본 시군코드 오류: SIGUN_CD=41360(남양주시)로 조회하면 0행이고, SIGUN_CD=41630(양주시)에 남양주소방서 행이 함께 들어 있다. 따라서 시군코드가 아니라 출동소방서명을 기준으로 시·군에 배정해야 한다."
+      ],
+      "sigun_code_anomaly": {
+        "empty_sigun_codes": [
+          "41360"
+        ],
+        "description": "41360(남양주시) 응답이 0행이며 남양주소방서 행이 41630(양주시) 응답에 포함되어 있다. 후처리는 gout_firesttn_nm 기준 매핑을 사용한다."
+      },
+      "per_sigun": [
+        {
+          "sigun_code": "41110",
+          "sigun_name": "수원시",
+          "row_count": 76784,
+          "rows_with_patient_sex": 54128,
+          "sigun_name_values_in_rows": [
+            "수원시"
+          ],
+          "years_in_rows": [
+            "2025"
+          ],
+          "response_bytes": 20432188,
+          "response_sha256": "55632721b8e07a65c270882aee2991c9aa23b24e107b72d2df4aa9e03124f7fe",
+          "elapsed_seconds": 3.42
+        },
+        {
+          "sigun_code": "41130",
+          "sigun_name": "성남시",
+          "row_count": 58814,
+          "rows_with_patient_sex": 43281,
+          "sigun_name_values_in_rows": [
+            "성남시"
+          ],
+          "years_in_rows": [
+            "2025"
+          ],
+          "response_bytes": 15512422,
+          "response_sha256": "a220735d1edef8250bdfa8a3df2beca0cc56d8fd2e76a0278ae6391383942a6a",
+          "elapsed_seconds": 2.0
+        },
+        {
+          "sigun_code": "41150",
+          "sigun_name": "의정부시",
+          "row_count": 30812,
+          "rows_with_patient_sex": 24175,
+          "sigun_name_values_in_rows": [
+            "의정부시"
+          ],
+          "years_in_rows": [
+            "2025"
+          ],
+          "response_bytes": 8293981,
+          "response_sha256": "f92d9fd3b0e8c837e9e6ed69adf25d0b6407c3d4e6826e84594e8e5fc87b3da6",
+          "elapsed_seconds": 1.56
+        },
+        {
+          "sigun_code": "41170",
+          "sigun_name": "안양시",
+          "row_count": 31628,
+          "rows_with_patient_sex": 22708,
+          "sigun_name_values_in_rows": [
+            "안양시"
+          ],
+          "years_in_rows": [
+            "2025"
+          ],
+          "response_bytes": 8323454,
+          "response_sha256": "dfc18ad7e5fb8bf6881e04add963cea9eadb16a7df94046174ff2f8c756444ec",
+          "elapsed_seconds": 1.24
+        },
+        {
+          "sigun_code": "41190",
+          "sigun_name": "부천시",
+          "row_count": 48099,
+          "rows_with_patient_sex": 35860,
+          "sigun_name_values_in_rows": [
+            "부천시"
+          ],
+          "years_in_rows": [
+            "2025"
+          ],
+          "response_bytes": 12646862,
+          "response_sha256": "c6baa3de48392a43857529294960ba94f62b68a32dca77e9419abfb3b74341c3",
+          "elapsed_seconds": 1.55
+        },
+        {
+          "sigun_code": "41210",
+          "sigun_name": "광명시",
+          "row_count": 15539,
+          "rows_with_patient_sex": 11203,
+          "sigun_name_values_in_rows": [
+            "광명시"
+          ],
+          "years_in_rows": [
+            "2025"
+          ],
+          "response_bytes": 4071192,
+          "response_sha256": "331a0762586972d3605864e439eb9c4bc201d7a166d907b2edc4e4d8971e65f0",
+          "elapsed_seconds": 0.64
+        },
+        {
+          "sigun_code": "41220",
+          "sigun_name": "평택시",
+          "row_count": 38759,
+          "rows_with_patient_sex": 27186,
+          "sigun_name_values_in_rows": [
+            "평택시"
+          ],
+          "years_in_rows": [
+            "2025"
+          ],
+          "response_bytes": 10129124,
+          "response_sha256": "3b06be7477b6c76b50684a2287b02ea111ec7af4316b9a0e8a752467c1d09799",
+          "elapsed_seconds": 1.24
+        },
+        {
+          "sigun_code": "41250",
+          "sigun_name": "동두천시",
+          "row_count": 8369,
+          "rows_with_patient_sex": 6780,
+          "sigun_name_values_in_rows": [
+            "동두천시"
+          ],
+          "years_in_rows": [
+            "2025"
+          ],
+          "response_bytes": 2260728,
+          "response_sha256": "136360fb6753cab7a37796d800a541fd927b5ef664a3e64f38e2f94bae53c1e8",
+          "elapsed_seconds": 0.58
+        },
+        {
+          "sigun_code": "41270",
+          "sigun_name": "안산시",
+          "row_count": 42276,
+          "rows_with_patient_sex": 30992,
+          "sigun_name_values_in_rows": [
+            "안산시"
+          ],
+          "years_in_rows": [
+            "2025"
+          ],
+          "response_bytes": 11189351,
+          "response_sha256": "7f8d9fb6c61d261ef01b48e35c706eed13093b4f9c733d1ab1dc280086278c33",
+          "elapsed_seconds": 1.5
+        },
+        {
+          "sigun_code": "41280",
+          "sigun_name": "고양시",
+          "row_count": 55282,
+          "rows_with_patient_sex": 42488,
+          "sigun_name_values_in_rows": [
+            "고양시"
+          ],
+          "years_in_rows": [
+            "2025"
+          ],
+          "response_bytes": 14531902,
+          "response_sha256": "9409d870ed693fe68d27bc8e2e1ab549a45e379af13af85758027fa7f6f0c8ef",
+          "elapsed_seconds": 1.68
+        },
+        {
+          "sigun_code": "41290",
+          "sigun_name": "과천시",
+          "row_count": 3992,
+          "rows_with_patient_sex": 2796,
+          "sigun_name_values_in_rows": [
+            "과천시"
+          ],
+          "years_in_rows": [
+            "2025"
+          ],
+          "response_bytes": 1053765,
+          "response_sha256": "5a5b3f5cabee12296d45e829a0b957adf2cec8efb3e6838e34968c009ecff690",
+          "elapsed_seconds": 0.31
+        },
+        {
+          "sigun_code": "41310",
+          "sigun_name": "구리시",
+          "row_count": 11883,
+          "rows_with_patient_sex": 9211,
+          "sigun_name_values_in_rows": [
+            "구리시"
+          ],
+          "years_in_rows": [
+            "2025"
+          ],
+          "response_bytes": 3138156,
+          "response_sha256": "10c3d5d1bcd40e4525058d6bc68567573b76d20c0d7f5d0fbd45aa213b7c8af0",
+          "elapsed_seconds": 0.43
+        },
+        {
+          "sigun_code": "41360",
+          "sigun_name": "남양주시",
+          "row_count": 0,
+          "rows_with_patient_sex": 0,
+          "sigun_name_values_in_rows": [],
+          "years_in_rows": [],
+          "response_bytes": 60,
+          "response_sha256": "5f8004a9ca22b586938f2a9f222f966c58905b5ceb420e2ed53d5a5db615ffae",
+          "elapsed_seconds": 0.11
+        },
+        {
+          "sigun_code": "41370",
+          "sigun_name": "오산시",
+          "row_count": 16198,
+          "rows_with_patient_sex": 11133,
+          "sigun_name_values_in_rows": [
+            "오산시"
+          ],
+          "years_in_rows": [
+            "2025"
+          ],
+          "response_bytes": 4230907,
+          "response_sha256": "a3576e7e7be70147f7f69d091cddad21fca1a2a2c540693c6156855d682e9733",
+          "elapsed_seconds": 0.48
+        },
+        {
+          "sigun_code": "41390",
+          "sigun_name": "시흥시",
+          "row_count": 27238,
+          "rows_with_patient_sex": 17576,
+          "sigun_name_values_in_rows": [
+            "시흥시"
+          ],
+          "years_in_rows": [
+            "2025"
+          ],
+          "response_bytes": 7131531,
+          "response_sha256": "e7789b2d04fddce28e0bed667a9e348465dfcaf783c3e6e118b3865f342f6db3",
+          "elapsed_seconds": 0.65
+        },
+        {
+          "sigun_code": "41410",
+          "sigun_name": "군포시",
+          "row_count": 13979,
+          "rows_with_patient_sex": 10585,
+          "sigun_name_values_in_rows": [
+            "군포시"
+          ],
+          "years_in_rows": [
+            "2025"
+          ],
+          "response_bytes": 3683233,
+          "response_sha256": "92f7251e1e2b4fdbeda1c61f78bb710c9b1b59ef9809336dfbb0ae6f497f4a26",
+          "elapsed_seconds": 0.4
+        },
+        {
+          "sigun_code": "41430",
+          "sigun_name": "의왕시",
+          "row_count": 9835,
+          "rows_with_patient_sex": 6919,
+          "sigun_name_values_in_rows": [
+            "의왕시"
+          ],
+          "years_in_rows": [
+            "2025"
+          ],
+          "response_bytes": 2583470,
+          "response_sha256": "5a50c4d42dccd74a6d11c349d45ff398de3538425e352809c5b4f851e03d5926",
+          "elapsed_seconds": 0.42
+        },
+        {
+          "sigun_code": "41450",
+          "sigun_name": "하남시",
+          "row_count": 15497,
+          "rows_with_patient_sex": 11887,
+          "sigun_name_values_in_rows": [
+            "하남시"
+          ],
+          "years_in_rows": [
+            "2025"
+          ],
+          "response_bytes": 4073726,
+          "response_sha256": "d694eabcc590ea9c8d3e8fe1c4575af7da1a140934ca44cef452fcd68abe35e1",
+          "elapsed_seconds": 0.53
+        },
+        {
+          "sigun_code": "41460",
+          "sigun_name": "용인시",
+          "row_count": 52328,
+          "rows_with_patient_sex": 37651,
+          "sigun_name_values_in_rows": [
+            "용인시"
+          ],
+          "years_in_rows": [
+            "2025"
+          ],
+          "response_bytes": 13931440,
+          "response_sha256": "ce4012358b99a296121b03714e29d3d7f7fbd059da263bfc420531caf02681db",
+          "elapsed_seconds": 1.63
+        },
+        {
+          "sigun_code": "41480",
+          "sigun_name": "파주시",
+          "row_count": 28738,
+          "rows_with_patient_sex": 21975,
+          "sigun_name_values_in_rows": [
+            "파주시"
+          ],
+          "years_in_rows": [
+            "2025"
+          ],
+          "response_bytes": 7578182,
+          "response_sha256": "27021ea28a9032edd195ad2212fbbbdea1b8b2525b1520613703e03e6acdda0a",
+          "elapsed_seconds": 0.92
+        },
+        {
+          "sigun_code": "41500",
+          "sigun_name": "이천시",
+          "row_count": 15104,
+          "rows_with_patient_sex": 10964,
+          "sigun_name_values_in_rows": [
+            "이천시"
+          ],
+          "years_in_rows": [
+            "2025"
+          ],
+          "response_bytes": 3984258,
+          "response_sha256": "d7b1d8b2d7a5f0f61ed0314ec23b2d332a4f2976f5c3c4b1ee89f8872252da57",
+          "elapsed_seconds": 0.51
+        },
+        {
+          "sigun_code": "41550",
+          "sigun_name": "안성시",
+          "row_count": 14534,
+          "rows_with_patient_sex": 10290,
+          "sigun_name_values_in_rows": [
+            "안성시"
+          ],
+          "years_in_rows": [
+            "2025"
+          ],
+          "response_bytes": 3806561,
+          "response_sha256": "76fad8f1fb86c8a8b334d38375a55aa3c3a146f90d5026fbe35f7c21755d31a1",
+          "elapsed_seconds": 0.44
+        },
+        {
+          "sigun_code": "41570",
+          "sigun_name": "김포시",
+          "row_count": 27338,
+          "rows_with_patient_sex": 19122,
+          "sigun_name_values_in_rows": [
+            "김포시"
+          ],
+          "years_in_rows": [
+            "2025"
+          ],
+          "response_bytes": 7136867,
+          "response_sha256": "becc0f8b1041c5f5cd9638ff7bf796a8b2f21fa66b191cfce920e533b9d0bba7",
+          "elapsed_seconds": 0.76
+        },
+        {
+          "sigun_code": "41590",
+          "sigun_name": "화성시",
+          "row_count": 45000,
+          "rows_with_patient_sex": 32421,
+          "sigun_name_values_in_rows": [
+            "화성시"
+          ],
+          "years_in_rows": [
+            "2025"
+          ],
+          "response_bytes": 11849990,
+          "response_sha256": "afa7b00b7e4fff0a8be0c7530905e91cbd0d0ff5820d10c8271f65034b5c5135",
+          "elapsed_seconds": 1.16
+        },
+        {
+          "sigun_code": "41610",
+          "sigun_name": "광주시",
+          "row_count": 22213,
+          "rows_with_patient_sex": 16179,
+          "sigun_name_values_in_rows": [
+            "광주시"
+          ],
+          "years_in_rows": [
+            "2025"
+          ],
+          "response_bytes": 5851319,
+          "response_sha256": "8cd431776f1c1eb80a0b3d9c9bb793e2135aad7e149e9263535068fe095c252e",
+          "elapsed_seconds": 0.64
+        },
+        {
+          "sigun_code": "41630",
+          "sigun_name": "양주시",
+          "row_count": 54481,
+          "rows_with_patient_sex": 40708,
+          "sigun_name_values_in_rows": [
+            "양주시"
+          ],
+          "years_in_rows": [
+            "2025"
+          ],
+          "response_bytes": 14421316,
+          "response_sha256": "cc6e65fb74d04b7c55d0424e1a583a59ff936e2d423ba19d405ac60bc30316df",
+          "elapsed_seconds": 1.24
+        },
+        {
+          "sigun_code": "41650",
+          "sigun_name": "포천시",
+          "row_count": 13732,
+          "rows_with_patient_sex": 10152,
+          "sigun_name_values_in_rows": [
+            "포천시"
+          ],
+          "years_in_rows": [
+            "2025"
+          ],
+          "response_bytes": 3616929,
+          "response_sha256": "adc2d30cfa9e0631916b6234326cba57204a574925e213e4e576bd1436af746e",
+          "elapsed_seconds": 0.44
+        },
+        {
+          "sigun_code": "41670",
+          "sigun_name": "여주시",
+          "row_count": 10193,
+          "rows_with_patient_sex": 7203,
+          "sigun_name_values_in_rows": [
+            "여주시"
+          ],
+          "years_in_rows": [
+            "2025"
+          ],
+          "response_bytes": 2670016,
+          "response_sha256": "9eab5d306f174c4713832344cecb229d1e8f2c51ec9f5e2ea836c93f4b450179",
+          "elapsed_seconds": 0.45
+        },
+        {
+          "sigun_code": "41800",
+          "sigun_name": "연천군",
+          "row_count": 4411,
+          "rows_with_patient_sex": 3555,
+          "sigun_name_values_in_rows": [
+            "연천군"
+          ],
+          "years_in_rows": [
+            "2025"
+          ],
+          "response_bytes": 1163096,
+          "response_sha256": "462f1e2124d0a6dab86b3de181642caa6e8277dc6bd160e8b648febd39e8733a",
+          "elapsed_seconds": 0.31
+        },
+        {
+          "sigun_code": "41820",
+          "sigun_name": "가평군",
+          "row_count": 7268,
+          "rows_with_patient_sex": 5519,
+          "sigun_name_values_in_rows": [
+            "가평군"
+          ],
+          "years_in_rows": [
+            "2025"
+          ],
+          "response_bytes": 1906762,
+          "response_sha256": "0bc6bcf2d98a460feefc79b0cf7116c04b910c9dc7f0f7b60561e4424035b253",
+          "elapsed_seconds": 0.39
+        },
+        {
+          "sigun_code": "41830",
+          "sigun_name": "양평군",
+          "row_count": 10890,
+          "rows_with_patient_sex": 7647,
+          "sigun_name_values_in_rows": [
+            "양평군"
+          ],
+          "years_in_rows": [
+            "2025"
+          ],
+          "response_bytes": 2851887,
+          "response_sha256": "aeac91add06095cc21ad86fbceb6b3f86853a96748370f03f1c4c8ddd0b26326",
+          "elapsed_seconds": 0.49
+        }
+      ]
+    },
+    {
+      "id": "nfa_ems_service_statistical_yearbook",
+      "title": "소방청 2025년도 119구급서비스 통계연보(최종) (2024.12.31. 기준)",
+      "publisher": "소방청",
+      "landing_url": "https://www.nfa.go.kr/nfa/releaseinformation/statisticalinformation/main/?boardId=bbs_0000000000000019&mode=view&cntId=71",
+      "source_url": "https://www.nfa.go.kr/board/file/bbs_0000000000000019/71/FILE_000000000024779/202506271741134568",
+      "request_method": "GET",
+      "open_api_key_used": false,
+      "login_required": false,
+      "downloaded_at": "2026-09-10T23:06:53+09:00",
+      "path": "nfa_119_ems_service_statistical_yearbook_2025.pdf",
+      "format": "PDF",
+      "encoding": null,
+      "size_bytes": 6070842,
+      "sha256": "16bf9facd94fef47477e475ac69b1777a3dffca72f53bc0051a22fdedc5aaa3e",
+      "row_count_excluding_header": null,
+      "gyeonggi_province_row": {
+        "page": 81,
+        "dispatches": 799302,
+        "transports": 429715,
+        "transported_patients": 433768
+      },
+      "notes": [
+        "이 자료는 시·도(본부) 단위이며 시·군 단위가 아니다. 경기데이터드림 시·군별 집계의 총량 교차검증용으로만 사용한다.",
+        "PyMuPDF로 '시․도별 현황' 표의 경기 행만 추출했다. 나머지 표는 수동 확인이 필요하다."
+      ]
+    }
+  ]
+}

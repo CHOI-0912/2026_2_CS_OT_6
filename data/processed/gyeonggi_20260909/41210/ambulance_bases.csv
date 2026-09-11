@@ -1,0 +1,5 @@
+﻿source_province,fire_station,safety_center,regional_unit,ambulance_count,base_name,address,latitude,longitude,coordinate_source,matched_address,kakao_place_id,municipality_assignment,geocoding_status,routing_status
+경기,광명소방서,광북119안전센터,,1,광북119안전센터,,37.484367988596865,126.85985579181042,kakao_local_keyword_search,경기 광명시 광이로 67,1376519247,fire_station_address_inferred,verified_municipality_match,pending_kakao_api
+경기,광명소방서,광남119안전센터,,1,광남119안전센터,경기도 광명시 목감로 34,37.4714777854294,126.845605135979,kakao_local_address_search,경기 광명시 목감로 34,,address_exact,verified_municipality_match,pending_kakao_api
+경기,광명소방서,소하119안전센터,,2,소하119안전센터,경기도 광명시 금하로 472,37.4487143385419,126.885131305413,kakao_local_address_search,경기 광명시 금하로 472,,address_exact,verified_municipality_match,pending_kakao_api
+경기,광명소방서,하안119안전센터,,1,하안119안전센터,경기도 광명시 범안로 1025,37.4615077485066,126.877094070067,kakao_local_address_search,경기 광명시 범안로 1025,,address_exact,verified_municipality_match,pending_kakao_api

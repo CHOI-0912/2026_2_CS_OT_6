@@ -1,0 +1,7 @@
+﻿source_province,fire_station,safety_center,regional_unit,ambulance_count,base_name,address,latitude,longitude,coordinate_source,matched_address,kakao_place_id,municipality_assignment,geocoding_status,routing_status
+경기,안양소방서,만안119안전센터,,2,만안119안전센터,,37.3903220063815,126.925582654387,kakao_local_keyword_search,경기 안양시 만안구 현충로 55,1403609330,fire_station_address_inferred,verified_municipality_match,pending_kakao_api
+경기,안양소방서,부림119안전센터,,2,부림119안전센터,경기도 안양시 동안구 관평로212번길 32,37.3960060808153,126.960786548935,kakao_local_address_search,경기 안양시 동안구 관평로212번길 32,,address_exact,verified_municipality_match,pending_kakao_api
+경기,안양소방서,관양119안전센터,,1,관양119안전센터,경기도 안양시 동안구 동편로13번길 6,37.4066453623605,126.971580863499,kakao_local_address_search,경기 안양시 동안구 동편로13번길 6,,address_exact,verified_municipality_match,pending_kakao_api
+경기,안양소방서,귀인119안전센터,,1,귀인119안전센터,경기도 안양시 동안구 평촌대로 104,37.3817977223212,126.961499873535,kakao_local_address_search,경기 안양시 동안구 평촌대로 104,,address_exact,verified_municipality_match,pending_kakao_api
+경기,안양소방서,박달119안전센터,,1,박달119안전센터,경기도 안양시 만안구 오리로 38,37.4079221793162,126.884777390079,kakao_local_address_search,경기 안양시 만안구 오리로 38,,address_exact,verified_municipality_match,pending_kakao_api
+경기,안양소방서,석수119안전센터,,1,석수119안전센터,경기도 안양시 만안구 석수로 28,37.4089925526693,126.909249197122,kakao_local_address_search,경기 안양시 만안구 석수로 28,,address_exact,verified_municipality_match,pending_kakao_api

@@ -1,0 +1,11 @@
+{
+  "municipality_code": "41280",
+  "pair_set": "resources",
+  "routing_provider": "Kakao Mobility Directions API",
+  "routing_profile": "RECOMMEND",
+  "required_pair_count": 252,
+  "completed_pair_count": 252,
+  "complete": true,
+  "simulation_ready": false,
+  "updated_at": "2026-09-10T01:53:36.860763+00:00"
+}

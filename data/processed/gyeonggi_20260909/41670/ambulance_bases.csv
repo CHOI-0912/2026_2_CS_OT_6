@@ -1,0 +1,7 @@
+﻿source_province,fire_station,safety_center,regional_unit,ambulance_count,base_name,address,latitude,longitude,coordinate_source,matched_address,kakao_place_id,municipality_assignment,geocoding_status,routing_status
+경기,여주소방서,가남119안전센터,,1,가남119안전센터,경기도 여주시 가남읍 일신로 32,37.213433617104,127.543507049653,kakao_local_address_search,경기 여주시 가남읍 일신로 32,,address_exact,verified_municipality_match,pending_kakao_api
+경기,여주소방서,월송119안전센터,,2,월송119안전센터,경기도 여주시 우암로 110,37.2916679914385,127.625804145534,kakao_local_address_search,경기 여주시 우암로 110,,address_exact,verified_municipality_match,pending_kakao_api
+경기,여주소방서,북내119안전센터,,1,북내119안전센터,경기도 여주시 북내면 도예로 440,37.3247161360094,127.677886876649,kakao_local_address_search,경기 여주시 북내면 도예로 440,,address_exact,verified_municipality_match,pending_kakao_api
+경기,여주소방서,금사119안전센터,,1,금사119안전센터,,37.3873530104406,127.53219994026,kakao_local_keyword_search,경기 여주시 금사면 능북로 898,1403300296,fire_station_address_inferred,verified_municipality_match,pending_kakao_api
+경기,여주소방서,가남119안전센터,점동지역대,1,점동지역대,,37.2034180968034,127.66152760584,kakao_local_keyword_search,경기 여주시 점동면 청안로 100,9384875,address_exact,verified_municipality_match,pending_kakao_api
+경기,여주소방서,북내119안전센터,대신지역대,1,대신지역대,,37.3731784502636,127.582628202545,kakao_local_keyword_search,경기 여주시 대신면 율촌2길 3,148252624,address_exact,verified_municipality_match,pending_kakao_api

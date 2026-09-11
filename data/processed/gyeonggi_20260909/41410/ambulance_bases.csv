@@ -1,0 +1,4 @@
+﻿source_province,fire_station,safety_center,regional_unit,ambulance_count,base_name,address,latitude,longitude,coordinate_source,matched_address,kakao_place_id,municipality_assignment,geocoding_status,routing_status
+경기,군포소방서,산본119안전센터,,1,산본119안전센터,경기도 군포시 산본로432번길 1,37.3682736207754,126.927241816294,kakao_local_address_search,경기 군포시 산본로432번길 1,,address_exact,verified_municipality_match,pending_kakao_api
+경기,군포소방서,송정119안전센터,,1,송정119안전센터,경기도 군포시 도마교동 487,37.3166524918836,126.921676267813,kakao_local_address_search,경기 군포시 도마교동 487,,address_exact,verified_municipality_match,pending_kakao_api
+경기,군포소방서,오금119안전센터,,3,오금119안전센터,경기도 군포시 고산로 429,37.3525682799092,126.927119503192,kakao_local_address_search,경기 군포시 고산로 429,,address_exact,verified_municipality_match,pending_kakao_api

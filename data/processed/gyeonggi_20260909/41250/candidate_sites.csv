@@ -1,0 +1,2 @@
+﻿candidate_id,candidate_name,municipality_code,road_address,latitude,longitude,candidate_source,land_feasibility_status,coordinate_source,matched_address,kakao_place_id,geocoding_status,routing_status
+MOHW-20251231-41250-001,동두천시보건소,41250,"경기도 동두천시 중앙로 167 (생연동, 동두천시보건소) 동두천시보건소",37.8966121948147,127.051716984841,https://www.data.go.kr/data/3072692/fileData.do,requires_planning_review_existing_public_health_facility,kakao_local_address_search,경기 동두천시 중앙로 167,,verified_municipality_match,pending_kakao_api

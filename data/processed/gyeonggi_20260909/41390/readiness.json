@@ -1,0 +1,22 @@
+{
+  "municipality_code": "41390",
+  "municipality_name": "시흥시",
+  "existing_emergency_hospital_count": 3,
+  "demand_point_count": 20,
+  "ambulance_base_row_count": 6,
+  "ambulance_count": 9,
+  "ready_for_simulation": false,
+  "blocking_inputs": [
+    "actual directional road travel-time matrix",
+    "municipal 119 demand-rate calibration (population-proportional estimate in use)",
+    "patient-type treatment success calibration"
+  ],
+  "ambulance_base_rows_with_coordinates": 6,
+  "demand_points_with_coordinates": 20,
+  "existing_hospitals_with_coordinates": 3,
+  "candidate_site_count": 6,
+  "candidate_sites_with_coordinates": 6,
+  "advisory_inputs": [
+    "candidate-site land feasibility review"
+  ]
+}

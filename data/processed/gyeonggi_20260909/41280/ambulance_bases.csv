@@ -1,0 +1,16 @@
+﻿source_province,fire_station,safety_center,regional_unit,ambulance_count,base_name,address,latitude,longitude,coordinate_source,matched_address,kakao_place_id,municipality_assignment,geocoding_status,routing_status
+경기북부,고양소방서,능곡119안전센터,,1,능곡119안전센터,경기도 고양시 덕양구 토당로 48,37.6202740111111,126.820728358795,kakao_local_address_search,경기 고양시 덕양구 토당로 48,,address_exact,verified_municipality_match,pending_kakao_api
+경기북부,고양소방서,삼송119안전센터,,2,삼송119안전센터,경기도 고양시 덕양구 오금로 14,37.6630576331297,126.895045059121,kakao_local_address_search,경기 고양시 덕양구 오금로 14,,address_exact,verified_municipality_match,pending_kakao_api
+경기북부,고양소방서,원당119안전센터,,2,원당119안전센터,경기도 고양시 덕양구 고양대로 1342,37.6550890289514,126.833202720242,kakao_local_address_search,경기 고양시 덕양구 고양대로 1342,,address_exact,verified_municipality_match,pending_kakao_api
+경기북부,고양소방서,행신119안전센터,,1,행신119안전센터,경기도 고양시 덕양구 소원로 181번길 52,37.6151702789803,126.843392669852,kakao_local_address_search,경기 고양시 덕양구 소원로181번길 52,,address_exact,verified_municipality_match,pending_kakao_api
+경기북부,고양소방서,화전119안전센터,,1,화전119안전센터,경기도 고양시 덕양구 중앙로 78,37.5964996136002,126.877092734813,kakao_local_address_search,경기 고양시 덕양구 중앙로 78,,address_exact,verified_municipality_match,pending_kakao_api
+경기북부,일산소방서,고봉119안전센터,,1,고봉119안전센터,경기도 고양시 일산동구 성현로 429,37.6993610106387,126.830669626875,kakao_local_address_search,경기 고양시 일산동구 성현로 429,,address_exact,verified_municipality_match,pending_kakao_api
+경기북부,일산소방서,119구조대119안전센터,,1,119구조대119안전센터,,37.6726504907093,126.779727172616,kakao_local_keyword_search,경기 고양시 일산동구 일산로 424,17851875,fire_station_address_inferred,verified_municipality_match,pending_kakao_api
+경기북부,일산소방서,대화119안전센터,,2,대화119안전센터,경기도 고양시 일산서구 중앙로 1630,37.6789966302298,126.7419669518,kakao_local_address_search,경기 고양시 일산서구 중앙로 1630,,address_exact,verified_municipality_match,pending_kakao_api
+경기북부,일산소방서,백석119안전센터,,1,백석119안전센터,경기도 고양시 일산동구 장백로 78,37.6442126042292,126.785013583628,kakao_local_address_search,경기 고양시 일산동구 장백로 78,,address_exact,verified_municipality_match,pending_kakao_api
+경기북부,일산소방서,장항119안전센터,,1,장항119안전센터,경기도 고양시 일산동구 중앙로 1325,37.663282370918,126.769626641595,kakao_local_address_search,경기 고양시 일산동구 중앙로 1325,,address_exact,verified_municipality_match,pending_kakao_api
+경기북부,일산소방서,주엽119안전센터,,1,주엽119안전센터,경기도 고양시 일산서구 주화로 82,37.6702253670299,126.759100503613,kakao_local_address_search,경기 고양시 일산서구 주화로 82,,address_exact,verified_municipality_match,pending_kakao_api
+경기북부,일산소방서,중산119안전센터,,2,중산119안전센터,경기도 고양시 일산동구 중산로 218,37.6913911783842,126.780508150169,kakao_local_address_search,경기 고양시 일산동구 중산로 218,,address_exact,verified_municipality_match,pending_kakao_api
+경기북부,일산소방서,풍동119안전센터,,1,풍동119안전센터,경기도 고양시 일산동구 숲속마을로 10,37.6671795109571,126.80243181213,kakao_local_address_search,경기 고양시 일산동구 숲속마을로 10,,address_exact,verified_municipality_match,pending_kakao_api
+경기북부,일산소방서,문화119안전센터,,1,문화119안전센터,경기도 고양시 일산동구 태극로 7,37.6637848661187,126.750714406113,kakao_local_address_search,경기 고양시 일산동구 태극로 7,,address_exact,verified_municipality_match,pending_kakao_api
+경기북부,고양소방서,삼송119안전센터,고양지역대,1,고양지역대,,37.7037031495512,126.900318290453,kakao_local_keyword_search,경기 고양시 덕양구 벽제관로 33-4,10169130,address_exact,verified_municipality_match,pending_kakao_api

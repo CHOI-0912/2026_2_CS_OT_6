@@ -1,0 +1,4 @@
+<script type='text/javascript'>
+alert('정상적인 접근이 아닙니다.');
+location.href='/portal/mainPage.do';
+</script>

@@ -1,0 +1,19 @@
+{
+  "municipality_code": "52110",
+  "municipality_name": "전주시",
+  "existing_emergency_hospital_count": 5,
+  "demand_point_count": 35,
+  "ambulance_base_row_count": 10,
+  "ambulance_count": 12,
+  "ready_for_simulation": false,
+  "blocking_inputs": [
+    "actual directional road travel-time matrix",
+    "physically feasible new-hospital candidate sites"
+  ],
+  "ambulance_base_rows_with_coordinates": 10,
+  "demand_points_with_coordinates": 35,
+  "existing_hospitals_with_coordinates": 5,
+  "candidate_site_count": 0,
+  "candidate_sites_with_coordinates": 0,
+  "advisory_inputs": []
+}

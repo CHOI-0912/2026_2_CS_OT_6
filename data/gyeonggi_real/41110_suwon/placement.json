@@ -1,0 +1,299 @@
+{
+  "municipality_code": "41110",
+  "municipality_name": "수원시",
+  "scenario": "scenario.json",
+  "provenance": {
+    "hospital_source": {
+      "registry": [
+        "official_gyeonggi_emergency_medical_institutions"
+      ],
+      "capacity": {
+        "field": "emergency_room_beds",
+        "source": [
+          "https://opendata.hira.or.kr/op/opc/selectOpenData.do?sno=11925"
+        ],
+        "snapshot_period": [
+          "2026-06"
+        ],
+        "semantics": [
+          "HIRA static facility snapshot; not real-time availability"
+        ]
+      },
+      "evaluation": {
+        "source": [
+          "https://www.e-gen.or.kr/nemc/business_medical_institution_evaluation.do?tabId=9"
+        ],
+        "year": [
+          "2024"
+        ]
+      },
+      "treatment_success_basis": "temporary category-level coefficients copied from scripts/build_folium_municipal_simulator.py (0.86 for categories containing '센터', 0.78 for 지역응급의료기관, 0.25 when no bed is open, 75-minute bed occupancy, 5-minute transfer delay); not observed hospital outcomes",
+      "official_identifiers": "scenario.json hospitals.<id>.official_identifiers",
+      "dataset_details": "see provenance.sources"
+    },
+    "demand_source": {
+      "method": "population_proportional_provincial_dispatches",
+      "basis": "temporary estimate: official 2023 Gyeonggi headquarters dispatch total (data/raw/nfa_headquarters_ambulance_activity_20260910/nfa_headquarters_ambulance_activity_20231231.csv, 본부구분=경기, 년도=2023) divided by 365.25 and allocated by 2026-08 resident-population share; not observed municipal 119 calls",
+      "year": 2023,
+      "provincial_annual_dispatches": 846564,
+      "provincial_population_reference": "MOIS resident population 2026-08 (sum of the 31 municipalities in municipality_summary.csv)",
+      "provincial_population": 13773918,
+      "municipal_population": 1185677,
+      "daily_calls_model_input": 199.5163420695904,
+      "observed_municipal_calls": false,
+      "allocation_within_municipality": "resident population share of each administrative dong in demand_population.csv; flat hourly rate",
+      "coordinate_source": [
+        "kakao_administrative_office_representative_proxy"
+      ],
+      "coordinate_caveat": "administrative-office representative points; not incident coordinates"
+    },
+    "candidate_source": {
+      "datasets": [
+        "https://www.data.go.kr/data/3072692/fileData.do"
+      ],
+      "land_feasibility_status": [
+        "requires_planning_review_existing_public_health_facility"
+      ],
+      "interpretation": "existing public-health facilities; requires planning review before any site is presented as feasible",
+      "model_assumption": "temporary planning assumption: every new-build candidate is modelled as a 지역응급의료기관 with 20 emergency-room beds, 75-minute bed occupancy and unit cost; not a design or budget figure"
+    },
+    "road_time_source": {
+      "provider": "Kakao Mobility Directions API",
+      "extracted_at": "2026-09-10T04:15:43.150292+00:00",
+      "routing_profile": "RECOMMEND",
+      "unit": "minutes",
+      "pair_set": "simulation",
+      "required_pair_count": 1683,
+      "file": "road_times.csv"
+    },
+    "coordinate_order": "network.positions are [longitude, latitude] in WGS84",
+    "model_parameters": {
+      "path": "data/processed/calibration/model_parameters_provisional.json",
+      "status": "provisional",
+      "generated_at": "2026-09-10T21:08:35+09:00"
+    },
+    "sources": [
+      {
+        "id": "S1",
+        "title": "소방청 본부별 구급활동정보 (2023-12-31 기준, nfa_headquarters_ambulance_activity_20231231.csv)",
+        "url": "https://www.data.go.kr/data/15080046/fileData.do",
+        "used_for": "demand: 2023 Gyeonggi annual dispatch total (846,564)"
+      },
+      {
+        "id": "S2",
+        "title": "행정안전부 주민등록 인구 및 세대현황 전체 읍면동 (2026-08)",
+        "url": "https://jumin.mois.go.kr/statMonth.do",
+        "used_for": "demand: municipal and administrative-dong population shares"
+      },
+      {
+        "id": "S3",
+        "title": "경기도 응급의료기관 현황 (기준일 2025-09-17)",
+        "url": "https://www.data.go.kr/data/15011313/fileData.do",
+        "used_for": "hospital: existing emergency institution registry, category, coordinates"
+      },
+      {
+        "id": "S4",
+        "title": "건강보험심사평가원 전국 병의원 및 약국 현황 2026.6",
+        "url": "https://opendata.hira.or.kr/op/opc/selectOpenData.do?sno=11925",
+        "used_for": "hospital: static emergency-room bed capacity (not real-time availability)"
+      },
+      {
+        "id": "S5",
+        "title": "국립중앙의료원 중앙응급의료센터 2024년도 응급의료기관 평가",
+        "url": "https://www.e-gen.or.kr/nemc/business_medical_institution_evaluation.do?tabId=9",
+        "used_for": "hospital: E-Gen institution code and evaluation grade preserved as official identifiers"
+      },
+      {
+        "id": "S6",
+        "title": "보건복지부 전국 지역보건의료기관 현황 (2025-12-31)",
+        "url": "https://www.data.go.kr/data/3072692/fileData.do",
+        "used_for": "candidate: existing public-health facilities used as planning-review candidate sites"
+      },
+      {
+        "id": "S7",
+        "title": "Kakao Mobility Directions API (RECOMMEND)",
+        "url": "https://developers.kakaomobility.com/docs/navi-api/directions/",
+        "used_for": "road_time: directional car-route minutes between local nodes"
+      },
+      {
+        "id": "S8",
+        "title": "scripts/build_folium_municipal_simulator.py temporary model coefficients",
+        "url": "scripts/build_folium_municipal_simulator.py",
+        "used_for": "profiles, hospital success, candidate and ambulance assumptions; temporary coefficients pending calibration"
+      }
+    ],
+    "generated_by": {
+      "script": "scripts/build_municipal_placement_inputs.py",
+      "generated_at": "2026-09-10T21:46:35+09:00",
+      "processed_dir": "data/processed/gyeonggi_20260909/41110"
+    }
+  },
+  "resource_municipality_codes": {
+    "demand": {
+      "41110::demand::4111156000": "41110",
+      "41110::demand::4111156600": "41110",
+      "41110::demand::4111157100": "41110",
+      "41110::demand::4111157200": "41110",
+      "41110::demand::4111157300": "41110",
+      "41110::demand::4111158000": "41110",
+      "41110::demand::4111159100": "41110",
+      "41110::demand::4111159700": "41110",
+      "41110::demand::4111159800": "41110",
+      "41110::demand::4111160000": "41110",
+      "41110::demand::4111352000": "41110",
+      "41110::demand::4111353000": "41110",
+      "41110::demand::4111354000": "41110",
+      "41110::demand::4111355000": "41110",
+      "41110::demand::4111356000": "41110",
+      "41110::demand::4111365000": "41110",
+      "41110::demand::4111366200": "41110",
+      "41110::demand::4111366400": "41110",
+      "41110::demand::4111367000": "41110",
+      "41110::demand::4111368000": "41110",
+      "41110::demand::4111369000": "41110",
+      "41110::demand::4111370000": "41110",
+      "41110::demand::4111565000": "41110",
+      "41110::demand::4111566000": "41110",
+      "41110::demand::4111567000": "41110",
+      "41110::demand::4111568000": "41110",
+      "41110::demand::4111569000": "41110",
+      "41110::demand::4111570000": "41110",
+      "41110::demand::4111571000": "41110",
+      "41110::demand::4111572000": "41110",
+      "41110::demand::4111573000": "41110",
+      "41110::demand::4111574000": "41110",
+      "41110::demand::4111751000": "41110",
+      "41110::demand::4111752000": "41110",
+      "41110::demand::4111753000": "41110",
+      "41110::demand::4111754000": "41110",
+      "41110::demand::4111755000": "41110",
+      "41110::demand::4111757000": "41110",
+      "41110::demand::4111758000": "41110",
+      "41110::demand::4111758500": "41110",
+      "41110::demand::4111759300": "41110",
+      "41110::demand::4111759600": "41110",
+      "41110::demand::4111760000": "41110",
+      "41110::demand::4111761000": "41110"
+    },
+    "hospitals": {
+      "H01": "41110",
+      "H02": "41110",
+      "H03": "41110",
+      "H04": "41110",
+      "H05": "41110",
+      "H06": "41110",
+      "H07": "41110"
+    },
+    "ambulances": {
+      "A01-1": "41110",
+      "A02-1": "41110",
+      "A02-2": "41110",
+      "A03-1": "41110",
+      "A04-1": "41110",
+      "A04-2": "41110",
+      "A04-3": "41110",
+      "A05-1": "41110",
+      "A06-1": "41110",
+      "A07-1": "41110",
+      "A07-2": "41110",
+      "A07-3": "41110",
+      "A07-4": "41110",
+      "A08-1": "41110",
+      "A08-2": "41110",
+      "A09-1": "41110",
+      "A10-1": "41110",
+      "A10-2": "41110",
+      "A11-1": "41110"
+    }
+  },
+  "candidate_hospitals": [
+    {
+      "id": "C01",
+      "name": "수원시권선구보건소",
+      "municipality_code": "41110",
+      "source_id": "MOHW-20251231-41110-001",
+      "candidate_type": "new_build",
+      "location": "41110::candidate::MOHW-20251231-41110-001",
+      "capabilities": [
+        "cardiac",
+        "stroke",
+        "trauma",
+        "minor"
+      ],
+      "capacity": 20,
+      "success_when_available": 0.78,
+      "success_when_unavailable": 0.25,
+      "treatment_minutes": 75.0,
+      "cost": 1.0,
+      "category_assumption": "지역응급의료기관",
+      "candidate_source": "https://www.data.go.kr/data/3072692/fileData.do",
+      "land_feasibility_status": "requires_planning_review_existing_public_health_facility"
+    },
+    {
+      "id": "C02",
+      "name": "영통구보건소",
+      "municipality_code": "41110",
+      "source_id": "MOHW-20251231-41110-002",
+      "candidate_type": "new_build",
+      "location": "41110::candidate::MOHW-20251231-41110-002",
+      "capabilities": [
+        "cardiac",
+        "stroke",
+        "trauma",
+        "minor"
+      ],
+      "capacity": 20,
+      "success_when_available": 0.78,
+      "success_when_unavailable": 0.25,
+      "treatment_minutes": 75.0,
+      "cost": 1.0,
+      "category_assumption": "지역응급의료기관",
+      "candidate_source": "https://www.data.go.kr/data/3072692/fileData.do",
+      "land_feasibility_status": "requires_planning_review_existing_public_health_facility"
+    },
+    {
+      "id": "C03",
+      "name": "장안구보건소",
+      "municipality_code": "41110",
+      "source_id": "MOHW-20251231-41110-003",
+      "candidate_type": "new_build",
+      "location": "41110::candidate::MOHW-20251231-41110-003",
+      "capabilities": [
+        "cardiac",
+        "stroke",
+        "trauma",
+        "minor"
+      ],
+      "capacity": 20,
+      "success_when_available": 0.78,
+      "success_when_unavailable": 0.25,
+      "treatment_minutes": 75.0,
+      "cost": 1.0,
+      "category_assumption": "지역응급의료기관",
+      "candidate_source": "https://www.data.go.kr/data/3072692/fileData.do",
+      "land_feasibility_status": "requires_planning_review_existing_public_health_facility"
+    },
+    {
+      "id": "C04",
+      "name": "팔달구보건소",
+      "municipality_code": "41110",
+      "source_id": "MOHW-20251231-41110-004",
+      "candidate_type": "new_build",
+      "location": "41110::candidate::MOHW-20251231-41110-004",
+      "capabilities": [
+        "cardiac",
+        "stroke",
+        "trauma",
+        "minor"
+      ],
+      "capacity": 20,
+      "success_when_available": 0.78,
+      "success_when_unavailable": 0.25,
+      "treatment_minutes": 75.0,
+      "cost": 1.0,
+      "category_assumption": "지역응급의료기관",
+      "candidate_source": "https://www.data.go.kr/data/3072692/fileData.do",
+      "land_feasibility_status": "requires_planning_review_existing_public_health_facility"
+    }
+  ]
+}

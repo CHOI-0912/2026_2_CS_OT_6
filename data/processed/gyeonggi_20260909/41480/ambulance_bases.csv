@@ -1,0 +1,10 @@
+﻿source_province,fire_station,safety_center,regional_unit,ambulance_count,base_name,address,latitude,longitude,coordinate_source,matched_address,kakao_place_id,municipality_assignment,geocoding_status,routing_status
+경기북부,파주소방서,광탄119안전센터,,1,광탄119안전센터,경기도 파주시 광탄면 혜음로 1040,37.7757791138266,126.851304160625,kakao_local_address_search,경기 파주시 광탄면 혜음로 1040,,address_exact,verified_municipality_match,pending_kakao_api
+경기북부,파주소방서,교하119안전센터,,1,교하119안전센터,경기도 파주시 청석로 301,37.7290174191164,126.717243414825,kakao_local_address_search,경기 파주시 청석로 301,,address_exact,verified_municipality_match,pending_kakao_api
+경기북부,파주소방서,금촌119안전센터,,2,금촌119안전센터,경기도 파주시 가나무로 136,37.7538985908411,126.780449241473,kakao_local_address_search,경기 파주시 가나무로 136,,address_exact,verified_municipality_match,pending_kakao_api
+경기북부,파주소방서,법원119안전센터,,1,법원119안전센터,경기도 파주시 법원읍 화합로 141,37.8467995768885,126.882419089365,kakao_local_address_search,경기 파주시 법원읍 화합로 141,,address_exact,verified_municipality_match,pending_kakao_api
+경기북부,파주소방서,운정119안전센터,,2,운정119안전센터,경기도 파주시 와석순환로 90,37.7118543560945,126.749750398838,kakao_local_address_search,경기 파주시 와석순환로 90,,address_exact,verified_municipality_match,pending_kakao_api
+경기북부,파주소방서,월롱119안전센터,,1,월롱119안전센터,경기도 파주시 월롱면 엘씨디로 310,37.8152239180462,126.752577134544,kakao_local_address_search,경기 파주시 월롱면 엘씨디로 310,,address_exact,verified_municipality_match,pending_kakao_api
+경기북부,파주소방서,적성119안전센터,,1,적성119안전센터,경기도 파주시 적성면 감악산로 1220,37.9555396819303,126.928374733953,kakao_local_address_search,경기 파주시 적성면 감악산로 1220,,address_exact,verified_municipality_match,pending_kakao_api
+경기북부,파주소방서,탄현119안전센터,,1,탄현119안전센터,경기도 파주시 탄현면 필승로 458,37.7814103774845,126.687323365717,kakao_local_address_search,경기 파주시 탄현면 필승로 458,,address_exact,verified_municipality_match,pending_kakao_api
+경기북부,파주소방서,통일119안전센터,,1,통일119안전센터,경기도 파주시 파주읍 통일로 1564,37.8474853191245,126.789496685703,kakao_local_address_search,경기 파주시 파주읍 통일로 1564,,address_exact,verified_municipality_match,pending_kakao_api

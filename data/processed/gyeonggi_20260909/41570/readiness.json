@@ -1,0 +1,22 @@
+{
+  "municipality_code": "41570",
+  "municipality_name": "김포시",
+  "existing_emergency_hospital_count": 2,
+  "demand_point_count": 14,
+  "ambulance_base_row_count": 10,
+  "ambulance_count": 10,
+  "ready_for_simulation": false,
+  "blocking_inputs": [
+    "actual directional road travel-time matrix",
+    "municipal 119 demand-rate calibration (population-proportional estimate in use)",
+    "patient-type treatment success calibration"
+  ],
+  "ambulance_base_rows_with_coordinates": 10,
+  "demand_points_with_coordinates": 14,
+  "existing_hospitals_with_coordinates": 2,
+  "candidate_site_count": 14,
+  "candidate_sites_with_coordinates": 14,
+  "advisory_inputs": [
+    "candidate-site land feasibility review"
+  ]
+}

@@ -1,0 +1,9 @@
+﻿administrative_code,administrative_name,municipality_code,population,households,latitude,longitude,coordinate_source,matched_address,kakao_place_id,geocoding_status,demand_rate_status,coordinate_reference_url,coordinate_basis
+4131051000,경기도 구리시 갈매동,41310,30406,12592,37.6314431846535,127.117776973122,kakao_administrative_office_representative_proxy,경기 구리시 갈매중앙로 80,1337317863,verified_municipality_match,pending_119_activity_api,,
+4131052000,경기도 구리시 동구동,41310,34705,13672,37.61335069307668,127.14061355935166,kakao_administrative_office_representative_proxy,경기 구리시 동구릉로136번길 57,7833819,verified_municipality_match,pending_119_activity_api,,
+4131053000,경기도 구리시 인창동,41310,26440,11193,37.60448259505854,127.13492429682914,kakao_administrative_office_representative_proxy,경기 구리시 응달말로 46,10758569,verified_municipality_match,pending_119_activity_api,,
+4131054100,경기도 구리시 교문1동,41310,14646,8107,37.60114696276975,127.12778965906385,kakao_administrative_office_representative_proxy,경기 구리시 경춘로 111,8195882,verified_municipality_match,pending_119_activity_api,,
+4131054200,경기도 구리시 교문2동,41310,20403,7907,37.58696819646712,127.13416693036689,kakao_administrative_office_representative_proxy,경기 구리시 장자대로 34,8209476,verified_municipality_match,pending_119_activity_api,,
+4131057000,경기도 구리시 수택1동,41310,16846,8606,37.59616919136259,127.14840915122764,kakao_administrative_office_representative_proxy,경기 구리시 수택천로16번길 78,8446372,verified_municipality_match,pending_119_activity_api,,
+4131058000,경기도 구리시 수택2동,41310,23928,11884,37.5963427803848,127.14206492920691,kakao_administrative_office_representative_proxy,경기 구리시 원수택로 54,10544248,verified_municipality_match,pending_119_activity_api,,
+4131059000,경기도 구리시 수택3동,41310,20760,9564,37.5914842087247,127.138636213187,kakao_administrative_office_representative_proxy,경기 구리시 체육관로 74,7964642,verified_municipality_match,pending_119_activity_api,,

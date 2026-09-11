@@ -1,0 +1,337 @@
+﻿시도,시군구,보건기관명,상위기관명,기관유형,대표 전화번호,주소,홈페이지 주소,정규화시군,후보해석상태
+경기도,수원시 장안구,장안구보건소,,보건소,031-5191-0119,"경기도 수원시 장안구 송원로 101 (조원동, 장안구청, 장안보건소, 장안종합구민회관), 장안보건소 장안구보건소",https://health.suwon.go.kr/,수원시,requires_planning_review_existing_public_health_facility
+경기도,수원시 권선구,수원시권선구보건소,,보건소,031-5191-0318,"경기도 수원시 권선구 호매실로 22-50 (탑동, 권선구보건소) 권선구보건소",https://health.suwon.go.kr/,수원시,requires_planning_review_existing_public_health_facility
+경기도,수원시 팔달구,팔달구보건소,,보건소,031-5191-0521,"경기도 수원시 팔달구 팔달산로 6 (교동, 팔달구 보건소) 팔달구보건소",https://health.suwon.go.kr,수원시,requires_planning_review_existing_public_health_facility
+경기도,수원시 영통구,영통구보건소,,보건소,031-5191-0718,"경기도 수원시 영통구 영통로 396 (영통동, 영통구보건소) 영통구보건소",https://health.suwon.go.kr,수원시,requires_planning_review_existing_public_health_facility
+경기도,성남시 수정구,성남시수정구보건소,,보건소,031-729-3870,"경기도 성남시 수정구 수정로 218 (신흥동, 수정구보건소) 수정구보건소",https://www.seongnam.go.kr/health/,성남시,requires_planning_review_existing_public_health_facility
+경기도,성남시 중원구,성남시중원구보건소,,보건소,031-729-3930,"경기도 성남시 중원구 금상로 137 (상대원동, 노인보건센터, 중원구보건소), 중원구보건소 중원구보건소",https://www.seongnam.go.kr/health,성남시,requires_planning_review_existing_public_health_facility
+경기도,성남시 분당구,성남시분당구보건소,,보건소,031-729-3990,"경기도 성남시 분당구 양현로 306 (야탑동, 분당보건소) 분당구보건소",http://www.seongnam.go.kr/health/,성남시,requires_planning_review_existing_public_health_facility
+경기도,의정부시,의정부시보건소,,보건소,031-870-6010,"경기도 의정부시 범골로 131 (의정부동, 의정부시보건소) 의정부시보건소",https://www.ui4u.go.kr/health/main.do,의정부시,requires_planning_review_existing_public_health_facility
+경기도,안양시 만안구,안양시 만안구보건소,,보건소,031-8045-3472,"경기도 안양시 만안구 문예로 48 (안양동, 만안구보건소) 만안구보건소",https://www.anyang.go.kr/health/index.do,안양시,requires_planning_review_existing_public_health_facility
+경기도,안양시 동안구,안양시 동안구보건소,,보건소,031-8045-4472,"경기도 안양시 동안구 평촌대로253번길 41 (비산동, 동안구보건소) 동안구보건소",https://www.anyang.go.kr/health/index.do,안양시,requires_planning_review_existing_public_health_facility
+경기도,부천시 원미구,부천시보건소,,보건소,032-625-4225,"경기도 부천시 원미구 옥산로10번길 16 (중동, 부천시보건소) 부천시보건소",http://pubhealth.bucheon.go.kr/site/main/index161,부천시,requires_planning_review_existing_public_health_facility
+경기도,부천시 소사구,소사보건소,,보건소,032-625-4252,"경기도 부천시 소사구 경인옛로 73 (소사본동, 소사구청) 1층,2층",pubhealth.bucheon.go.kr,부천시,requires_planning_review_existing_public_health_facility
+경기도,부천시 오정구,부천시 오정보건소,,보건소,032-625-4373,"경기도 부천시 오정구 성오로 172 (오정동, 오정구청) 1,2층 오정보건소",https://pubhealth.bucheon.go.kr,부천시,requires_planning_review_existing_public_health_facility
+경기도,광명시,광명시보건소,,보건소,02-2680-2862,"경기도 광명시 오리로 613 (하안동, 광명시보건소) 광명시보건소",https://www.gm.go.kr/health/index.do,광명시,requires_planning_review_existing_public_health_facility
+경기도,평택시,평택시평택보건소,,보건소,031-8024-5559,경기도 평택시 평택5로 56 (비전동) 평택보건소,https://www.pyeongtaek.go.kr/health/main.do,평택시,requires_planning_review_existing_public_health_facility
+경기도,평택시,평택시송탄보건소,,보건소,031-8024-6615,"경기도 평택시 서정로 295 (서정동, 송탄보건소) .",https://www.pyeongtaek.go.kr/health/main.do,평택시,requires_planning_review_existing_public_health_facility
+경기도,동두천시,동두천시보건소,,보건소,031-860-3372,"경기도 동두천시 중앙로 167 (생연동, 동두천시보건소) 동두천시보건소",https://www.ddc.go.kr/,동두천시,requires_planning_review_existing_public_health_facility
+경기도,안산시 상록구,안산시상록수보건소,,보건소,031-481-5551,"경기도 안산시 상록구 차돌배기로1길 5 (사동, 상록수보건소) 상록수보건소",https://www.ansan.go.kr/snshealth/main/main.do,안산시,requires_planning_review_existing_public_health_facility
+경기도,안산시 단원구,안산시단원보건소,,보건소,031-481-6347,"경기도 안산시 단원구 화랑로 250 (초지동, 단원구청, 단원보건소) 단원보건소",https://www.ansan.go.kr/health/main/main.do,안산시,requires_planning_review_existing_public_health_facility
+경기도,고양시 덕양구,고양시덕양구보건소,,보건소,031-8075-4006,"경기도 고양시 덕양구 원당로33번길 28 (주교동, 덕양구보건소) 주교동 603지번",https://www.goyang.go.kr/health/index.do,고양시,requires_planning_review_existing_public_health_facility
+경기도,고양시 일산동구,일산동구보건소,,보건소,031-8075-4087,경기도 고양시 일산동구 중앙로 1100 (백석동) 일산동구보건소,https://www.goyang.go.kr/health/index.do,고양시,requires_planning_review_existing_public_health_facility
+경기도,고양시 일산서구,일산서구보건소,,보건소,031-8075-4160,"경기도 고양시 일산서구 일중로 54 (일산동, 일산서구보건소) 일산서구보건소",https://www.goyang.go.kr/health/health01/health01_6/health01_6_1.jsp,고양시,requires_planning_review_existing_public_health_facility
+경기도,과천시,과천시보건소,,보건소,02-2150-3801,"경기도 과천시 관문로 69 (중앙동, 과천시청), 과천시 보건소 과천시보건소",https://www.gccity.go.kr/ghc/main.do,과천시,requires_planning_review_existing_public_health_facility
+경기도,구리시,구리시보건소,,보건소,031-550-8967,"경기도 구리시 건원대로34번길 84 (인창동, 구리시 보건소) 구리시 보건소",https://www.guri.go.kr/health/index.do,구리시,requires_planning_review_existing_public_health_facility
+경기도,남양주시,남양주보건소,,보건소,031-590-8888,"경기도 남양주시 경춘로 522 (다산동, 남양주시청제2청사), 보건소 제2청사 ",https://www.nyj.go.kr/health/4267,남양주시,requires_planning_review_existing_public_health_facility
+경기도,남양주시,남양주동부보건소,,보건소,031-590-8040,경기도 남양주시 화도읍 비룡로 59 (화도수동행정복지센터) 별관,해당사항없음,남양주시,requires_planning_review_existing_public_health_facility
+경기도,남양주시,남양주풍양보건소,,보건소,031-590-4771,경기도 남양주시 진접읍 해밀예당1로 30-39 남양주풍양보건소,https://www.nyj.go.kr/health/index.do,남양주시,requires_planning_review_existing_public_health_facility
+경기도,오산시,오산시보건소,,보건소,031-8036-6025,"경기도 오산시 경기동로 59 (오산동, 오산시보건소) 오산시보건소",https://www.osan.go.kr/depart/contents.do?mId=0502070000,오산시,requires_planning_review_existing_public_health_facility
+경기도,시흥시,시흥시보건소,,보건소,031-310-5815,"경기도 시흥시 호현로 55 (대야동, 시흥시보건소대야종합사회복지관) 시흥시보건소",https://www.siheung.go.kr/portal/contents.do?mId=0307010000,시흥시,requires_planning_review_existing_public_health_facility
+경기도,군포시,군포시보건소,,보건소,031-461-5464,"경기도 군포시 군포로 221 (부곡동, 군포시보건소) 군포시보건소",https://www.gunpo.go.kr/health/index.do,군포시,requires_planning_review_existing_public_health_facility
+경기도,의왕시,의왕시보건소,,보건소,031-345-3541,"경기도 의왕시 오봉로 34 (고천동, 의왕시보건소), 본관동 보건소",http://www.uiwang.go.kr/heal/index,의왕시,requires_planning_review_existing_public_health_facility
+경기도,하남시,하남시보건소,,보건소,031-790-6555,"경기도 하남시 대청로 10 (신장동, 하남시청), 보건소 하남시보건소",https://www.hanam.go.kr/health/index.do,하남시,requires_planning_review_existing_public_health_facility
+경기도,용인시 처인구,처인구보건소,,보건소,031-6193-0005,"경기도 용인시 처인구 중부대로 1199 (삼가동, 용인시청), 보건소 처인구 보건소",https://www.yongin.go.kr/health/index.do,용인시,requires_planning_review_existing_public_health_facility
+경기도,용인시 기흥구,기흥구보건소,,보건소,031-6193-0263,"경기도 용인시 기흥구 신갈로58번길 11 (신갈동, 신갈동행정복지센터및기흥구보건소) 기흥구보건소",https://www.yongin.go.kr/health/index.do,용인시,requires_planning_review_existing_public_health_facility
+경기도,용인시 수지구,수지구보건소,,보건소,031-6193-0760,"경기도 용인시 수지구 포은대로 435 (풍덕천동, 수지구청, 보건소), 수지구보건소 수지구보건소",https://www.yongin.go.kr/health/index.do,용인시,requires_planning_review_existing_public_health_facility
+경기도,파주시,파주보건소,,보건소,031-940-4800,"경기도 파주시 후곡로 13 (금촌동, 파주시보건소) 파주보건소",https://clinic.paju.go.kr/clinic/index.do,파주시,requires_planning_review_existing_public_health_facility
+경기도,파주시,운정보건소,,보건소,031-820-7300,경기도 파주시 금바위로 44 (와동동) 운정보건소,https://clinic.paju.go.kr/clinic/index.do,파주시,requires_planning_review_existing_public_health_facility
+경기도,이천시,이천시보건소,,보건소,031-6190-7010,"경기도 이천시 부악로 36 (중리동), 이천시보건소 이천시보건소",https://www.icheon.go.kr/depart/health/main.do?mid=0601000000&token=1726016739899,이천시,requires_planning_review_existing_public_health_facility
+경기도,안성시,안성시보건소,,보건소,031-678-5710,"경기도 안성시 강변로74번길 18 (도기동, 안성시보건소) 안성시보건소",https://www.anseong.go.kr/health/main.do,안성시,requires_planning_review_existing_public_health_facility
+경기도,김포시,김포시보건소,,보건소,031-5186-4005,"경기도 김포시 사우중로 108 (사우동, 김포시 보건소) 단독건물",https://www.gimpo.go.kr/health/index.do,김포시,requires_planning_review_existing_public_health_facility
+경기도,화성시,화성시서부보건소,,보건소,031-5189-2551,경기도 화성시 향남읍 3.1만세로 1055 (화성시보건소) 화성시서부보건소,https://www.hscity.go.kr/health/index.do,화성시,requires_planning_review_existing_public_health_facility
+경기도,화성시,화성시동탄보건소,,보건소,031-5189-4360,"경기도 화성시 노작로 226-9 (석우동, 동탄보건지소) 동탄보건소",https://www.hscity.go.kr/health/index.do,화성시,requires_planning_review_existing_public_health_facility
+경기도,화성시,화성시동부보건소,,보건소,031-5189-4430,"경기도 화성시 병점구 떡전골로 72-3 (병점동) 2,3층(리치프라자)",https://www.hscity.go.kr/health/index.do,화성시,requires_planning_review_existing_public_health_facility
+경기도,광주시,광주시보건소,,보건소,031-760-2110,"경기도 광주시 파발로 194 (경안동, 광주시 보건소) 광주시보건소",https://www.gjcity.go.kr,광주시,requires_planning_review_existing_public_health_facility
+경기도,양주시,양주시보건소,,보건소,031-8082-7106,"경기도 양주시 부흥로 1533 (남방동, 양주시보건소,양주시의회,양주시청) 양주시보건소",https://www.yangju.go.kr/health/index.do,양주시,requires_planning_review_existing_public_health_facility
+경기도,포천시,포천시보건소,,보건소,031-538-3600,"경기도 포천시 포천로 1612 (신읍동, 포천시보건소) 포천시 보건소",https://www.pocheon.go.kr/pbhlth/index.do,포천시,requires_planning_review_existing_public_health_facility
+경기도,여주시,여주시보건소,,보건소,031-887-3601,"경기도 여주시 여흥로160번길 14 (상동, 여주시보건소) .",https://www.yeoju.go.kr/health/index.do,여주시,requires_planning_review_existing_public_health_facility
+경기도,연천군,연천군보건의료원,,보건의료원,031-839-4001,경기도 연천군 전곡읍 은대성로 95 (연천군보건의료원) 연천군보건의료원,www.yeoncheon.go.kr,연천군,requires_planning_review_existing_public_health_facility
+경기도,가평군,가평군보건소,,보건소,031-582-2488,경기도 가평군 가평읍 가화로 155-18 (가평군보건소) 가평군보건소,https://gp.go.kr/health/index.do,가평군,requires_planning_review_existing_public_health_facility
+경기도,양평군,양평군보건소,,보건소,031-770-3524,"경기도 양평군 양평읍 마유산로 17, 양평군보건소 (양평군보건소) .",https://www.yp21.go.kr/health/index.do,양평군,requires_planning_review_existing_public_health_facility
+경기도,성남시 분당구,판교보건지소,성남시분당구보건소,일반보건지소,031-729-4240,"경기도 성남시 분당구 운중로138번길 10 (운중동, 운중동 행정복지센터 ,판교 보건지소) 판교보건지소",,성남시,requires_planning_review_existing_public_health_facility
+경기도,평택시,안중보건지소,평택시평택보건소,일반보건지소,031-8024-8003,"경기도 평택시 안중읍 안현로서9길 24, 주건축물제1동 (낙안빌딩) 주건축물 제1동 2~6층",,평택시,requires_planning_review_existing_public_health_facility
+경기도,평택시,오성보건지소,평택시평택보건소,일반보건지소,031-8024-8806,경기도 평택시 오성면 숙성시장길 23 오성보건진소,,평택시,requires_planning_review_existing_public_health_facility
+경기도,평택시,청북보건지소,평택시평택보건소,일반보건지소,031-8024-8856,경기도 평택시 청북읍 청원로 2 (청북읍사무소) 청북보건지소,,평택시,requires_planning_review_existing_public_health_facility
+경기도,평택시,팽성보건지소,평택시평택보건소,일반보건지소,031-8024-4360,경기도 평택시 팽성읍 팽성남산4길 6 팽성보건지소,,평택시,requires_planning_review_existing_public_health_facility
+경기도,평택시,포승보건지소,평택시평택보건소,일반보건지소,031-8024-8706,경기도 평택시 포승읍 서동대로 1174-16 (포승읍사무소) 포승보건지소,,평택시,requires_planning_review_existing_public_health_facility
+경기도,평택시,현덕보건지소,평택시평택보건소,일반보건지소,031-8024-8907,경기도 평택시 현덕면 인광길 84 (현덕면사무소) 현덕보건지소,,평택시,requires_planning_review_existing_public_health_facility
+경기도,평택시,진위보건지소,평택시송탄보건소,일반보건지소,031-8024-6707,경기도 평택시 진위면 봉남길 61 (진위면사무소) 진위보건지소,,평택시,requires_planning_review_existing_public_health_facility
+경기도,평택시,고덕보건지소,평택시송탄보건소,일반보건지소,031-8024-6838,경기도 평택시 고덕로 283 (고덕동) 고덕보건지소,,평택시,requires_planning_review_existing_public_health_facility
+경기도,평택시,서탄보건지소,평택시송탄보건소,일반보건지소,031-8024-6777,경기도 평택시 서탄면 금암2길 122 서탄보건지소,,평택시,requires_planning_review_existing_public_health_facility
+경기도,안산시 상록구,수암보건지소,안산시상록수보건소,일반보건지소,031-481-5886,경기도 안산시 상록구 원당골1길 23-3 (수암동) 수암보건지소,,안산시,requires_planning_review_existing_public_health_facility
+경기도,안산시 단원구,안산시대부보건지소,안산시단원보건소,일반보건지소,031-481-2560,경기도 안산시 단원구 대부중앙로 77 (대부북동) 대부보건지소,,안산시,requires_planning_review_existing_public_health_facility
+경기도,안산시 단원구,원곡보건지소,안산시단원보건소,일반보건지소,031-481-6830,"경기도 안산시 단원구 부부로 43 (원곡동, 안산시다문화지원본부) 원곡보건지소",,안산시,requires_planning_review_existing_public_health_facility
+경기도,구리시,수택보건지소,구리시보건소,일반보건지소,031-550-2493,"경기도 구리시 체육관로 74 (수택동, 구리시행정복지센터) 1층",,구리시,requires_planning_review_existing_public_health_facility
+경기도,남양주시,조안보건지소,남양주보건소,일반보건지소,031-590-4785,경기도 남양주시 조안면 북한강로 433 (조안보건소) 조안보건지소,,남양주시,requires_planning_review_existing_public_health_facility
+경기도,남양주시,별내보건지소,남양주풍양보건소,일반보건지소,031-590-4693,경기도 남양주시 별내면 청학로 86 (청학보건지소) 별내보건지소,,남양주시,requires_planning_review_existing_public_health_facility
+경기도,시흥시,정왕보건지소,시흥시보건소,일반보건지소,031-310-5901,"경기도 시흥시 정왕대로233번길 19 (정왕동, 정왕보건소) 정왕보건지소",,시흥시,requires_planning_review_existing_public_health_facility
+경기도,군포시,군포시산본보건지소,군포시보건소,일반보건지소,031-390-8991,"경기도 군포시 산본천로 101 (산본동, 군포시 늘푸른 노인복지관), 산본보건지소 산본보건지소",,군포시,requires_planning_review_existing_public_health_facility
+경기도,의왕시,의왕시 청계보건지소,의왕시보건소,일반보건지소,031-345-3671,"경기도 의왕시 덕장로 19 (청계동, 청계종합복지센터) 청계보건지소",,의왕시,requires_planning_review_existing_public_health_facility
+경기도,하남시,하남시미사보건센터,하남시보건소,통합보건지소,031-790-6555,"경기도 하남시 미사강변대로 200 (망월동, 미사보건센터) 미사보건센터",,하남시,requires_planning_review_existing_public_health_facility
+경기도,용인시 처인구,남사보건지소,처인구보건소,일반보건지소,031-6193-0097,경기도 용인시 처인구 남사읍 내기로 22 (남사읍행정복지센터) 남사보건지소,,용인시,requires_planning_review_existing_public_health_facility
+경기도,용인시 처인구,모현보건지소,처인구보건소,일반보건지소,031-6193-0091,경기도 용인시 처인구 모현읍 독점로 31-6 (모현읍행정복지센터) 모현보건지소,,용인시,requires_planning_review_existing_public_health_facility
+경기도,용인시 처인구,백암보건지소,처인구보건소,일반보건지소,031-6193-0107,경기도 용인시 처인구 백암면 백암로 189 (백암면행정복지센터) 백암보건지소,,용인시,requires_planning_review_existing_public_health_facility
+경기도,용인시 처인구,양지보건지소,처인구보건소,일반보건지소,031-6193-0110,경기도 용인시 처인구 양지면 양지로105번길 5 (양지면행정복지센터) 양지보건지소,,용인시,requires_planning_review_existing_public_health_facility
+경기도,용인시 처인구,원삼보건지소,처인구보건소,일반보건지소,031-6193-0104,경기도 용인시 처인구 원삼면 원양로 64 (원삼면행정복지센터) 원삼보건지소,,용인시,requires_planning_review_existing_public_health_facility
+경기도,용인시 처인구,이동보건지소,처인구보건소,일반보건지소,031-6193-0100,경기도 용인시 처인구 이동읍 경기동로 673 (이동읍행정복지센터) 이동보건지소,,용인시,requires_planning_review_existing_public_health_facility
+경기도,파주시,문산보건지소,파주보건소,일반보건지소,031-940-5604,"경기도 파주시 문산읍 통일로 1680, 문산읍행정복지센터 (문산읍행정복지센터) 문산읍행정복지센터 5층",,파주시,requires_planning_review_existing_public_health_facility
+경기도,파주시,월롱보건지소,파주보건소,일반보건지소,031-940-8334,경기도 파주시 월롱면 엘지로 17 (월롱면 행정복지센터) 월롱보건지소,,파주시,requires_planning_review_existing_public_health_facility
+경기도,파주시,적성보건지소,파주보건소,일반보건지소,031-940-8340,경기도 파주시 적성면 청송로 1013 (적성면 행정복지센터) 적성보건지소,,파주시,requires_planning_review_existing_public_health_facility
+경기도,파주시,탄현보건지소,파주보건소,일반보건지소,031-940-8335,경기도 파주시 탄현면 방촌로649번길 24-7 (탄현면 행정복지센터) 탄현보건지소,,파주시,requires_planning_review_existing_public_health_facility
+경기도,파주시,파평보건지소,파주보건소,일반보건지소,031-940-8339,경기도 파주시 파평면 청송로 189-22 파평보건지소,,파주시,requires_planning_review_existing_public_health_facility
+경기도,이천시,대월보건지소,이천시보건소,일반보건지소,031-6190-7029,경기도 이천시 대월면 대평로178번길 49-10 (대월보건지소) 대월보건지소,,이천시,requires_planning_review_existing_public_health_facility
+경기도,이천시,모가보건지소,이천시보건소,일반보건지소,031-6190-7038,경기도 이천시 모가면 대월로63번길 54 모가보건지소,,이천시,requires_planning_review_existing_public_health_facility
+경기도,이천시,부발보건지소,이천시보건소,일반보건지소,031-6190-7230,경기도 이천시 부발읍 무촌로 117 (부발보건지소) 부발보건지소,,이천시,requires_planning_review_existing_public_health_facility
+경기도,이천시,이천시남부통합보건지소,이천시보건소,통합보건지소,031-6190-7290,경기도 이천시 설성면 진상미로180번길 25 (남부통합보건지소) 남부통합보건지소,,이천시,requires_planning_review_existing_public_health_facility
+경기도,이천시,이천시백사보건지소,이천시보건소,일반보건지소,031-6190-7017,경기도 이천시 백사면 원적로 1030 (백사면 보건지소) 백사보건지소,,이천시,requires_planning_review_existing_public_health_facility
+경기도,이천시,호법보건지소,이천시보건소,일반보건지소,031-6190-7028,"경기도 이천시 호법면 이섭대천로527번길 27, A동 (호법면사무소) 호법보건지소",,이천시,requires_planning_review_existing_public_health_facility
+경기도,안성시,금광보건지소,안성시보건소,일반보건지소,031-678-5775,"경기도 안성시 금광면 금광오산로 228, 금광보건지소 (금광면사무소) 금광보건지소",,안성시,requires_planning_review_existing_public_health_facility
+경기도,안성시,미양보건지소,안성시보건소,일반보건지소,031-678-5785,경기도 안성시 미양면 양지길 29 (미양면사무소) 미양보건지소,,안성시,requires_planning_review_existing_public_health_facility
+경기도,안성시,삼죽보건지소,안성시보건소,일반보건지소,031-678-5813,경기도 안성시 삼죽면 삼죽로 112 (삼죽면사무소) 삼죽보건지소,,안성시,requires_planning_review_existing_public_health_facility
+경기도,안성시,서운보건지소,안성시보건소,일반보건지소,031-678-5781,경기도 안성시 서운면 서운중앙길 23 (서운면사무소) 서운보건지소,,안성시,requires_planning_review_existing_public_health_facility
+경기도,안성시,고삼보건지소,안성시보건소,일반보건지소,031-678-5816,경기도 안성시 고삼면 고삼호수로 21 (고삼면사무소) 고삼보건지소,,안성시,requires_planning_review_existing_public_health_facility
+경기도,안성시,죽산보건지소,안성시보건소,일반보건지소,031-678-5805,경기도 안성시 죽산면 죽산초교길 61 (죽산면사무소) 죽산보건지소,,안성시,requires_planning_review_existing_public_health_facility
+경기도,안성시,양성보건지소,안성시보건소,일반보건지소,031-678-5792,경기도 안성시 양성면 읍내길 21 (양성면사무소) 양성보건지소,,안성시,requires_planning_review_existing_public_health_facility
+경기도,안성시,원곡보건지소,안성시보건소,일반보건지소,031-678-0000,경기도 안성시 원곡면 가천중앙1길 82 원곡보건지소,,안성시,requires_planning_review_existing_public_health_facility
+경기도,안성시,일죽보건지소,안성시보건소,일반보건지소,031-678-5801,경기도 안성시 일죽면 금일로 433 (일죽면행정복지센터) 일죽보건지소,,안성시,requires_planning_review_existing_public_health_facility
+경기도,김포시,고촌읍보건지소,김포시보건소,일반보건지소,031-5186-4230,경기도 김포시 고촌읍 수기로 63 1층,,김포시,requires_planning_review_existing_public_health_facility
+경기도,김포시,대곶면보건지소,김포시보건소,일반보건지소,031-5186-4235,경기도 김포시 대곶면 율생중앙로 7-2 1층,,김포시,requires_planning_review_existing_public_health_facility
+경기도,김포시,양촌읍보건지소,김포시보건소,일반보건지소,031-5186-4115,"경기도 김포시 양촌읍 양곡1로 68, 상가 (휴먼시아1단지아파트) 1층",,김포시,requires_planning_review_existing_public_health_facility
+경기도,김포시,월곶면보건지소,김포시보건소,일반보건지소,031-5186-4231,경기도 김포시 월곶면 군하로 263 (월곶면행정복지센터) 청사 내 1층 건물,,김포시,requires_planning_review_existing_public_health_facility
+경기도,김포시,통진읍보건지소,김포시보건소,일반보건지소,031-5186-4219,경기도 김포시 통진읍 김포대로 2250 24-12,,김포시,requires_planning_review_existing_public_health_facility
+경기도,김포시,하성면보건지소,김포시보건소,일반보건지소,031-5186-4233,경기도 김포시 하성면 애기봉로 845 (하성면행정복지센터) 1층,,김포시,requires_planning_review_existing_public_health_facility
+경기도,화성시,매송보건지소,화성시서부보건소,일반보건지소,031-5189-2883,경기도 화성시 매송면 매송로 43 (매송면 행정복지센터) 매송보건지소,,화성시,requires_planning_review_existing_public_health_facility
+경기도,화성시,남양보건지소,화성시서부보건소,일반보건지소,031-5189-2885,경기도 화성시 남양읍 남양시장로 25-2 (남양보건지소) 남양보건지소,,화성시,requires_planning_review_existing_public_health_facility
+경기도,화성시,마도보건지소,화성시서부보건소,일반보건지소,031-5189-2886,"경기도 화성시 마도면 마도북로 389, 가동 (마도면 행정복지센터) 마도보건지소",,화성시,requires_planning_review_existing_public_health_facility
+경기도,화성시,비봉보건지소,화성시서부보건소,일반보건지소,031-5189-2884,"경기도 화성시 비봉면 비봉로71번길 1, 본관동 (비봉면 행정복지센터) 비봉보건지소",,화성시,requires_planning_review_existing_public_health_facility
+경기도,화성시,서신보건지소,화성시서부보건소,일반보건지소,031-5189-2888,"경기도 화성시 서신면 궁평항로 1702, 가동 (서신면 행정복지센터) 서신보건지소",,화성시,requires_planning_review_existing_public_health_facility
+경기도,화성시,양감보건지소,화성시서부보건소,일반보건지소,031-5189-2587,"경기도 화성시 양감면 초록로 7, 면사무소 (양감면 행정복지센터) 양감보건지소",,화성시,requires_planning_review_existing_public_health_facility
+경기도,화성시,우정보건지소,화성시서부보건소,일반보건지소,031-5189-2891,경기도 화성시 우정읍 쌍봉로 109-14 (우정읍 행정복지센터) 우정보거닞소,,화성시,requires_planning_review_existing_public_health_facility
+경기도,화성시,장안보건지소,화성시서부보건소,일반보건지소,031-5189-2890,경기도 화성시 장안면 포승장안로 1219 (장안보건지소) 장안보건지소,,화성시,requires_planning_review_existing_public_health_facility
+경기도,화성시,정남보건지소,화성시동부보건소,일반보건지소,031-5189-4470,경기도 화성시 효행구 정남면 서봉로 998 (정남면 행정복지센터) 정남보건지소,,화성시,requires_planning_review_existing_public_health_facility
+경기도,화성시,팔탄보건지소,화성시서부보건소,일반보건지소,031-5189-2889,경기도 화성시 팔탄면 구장길 14 (팔탄면 행정복지센터) 팔탄보건지소,,화성시,requires_planning_review_existing_public_health_facility
+경기도,광주시,퇴촌남종통합보건지소,광주시보건소,통합보건지소,031-760-2561,경기도 광주시 퇴촌면 산수로 1347 퇴촌.남종통합보건지소,,광주시,requires_planning_review_existing_public_health_facility
+경기도,광주시,도척보건지소,광주시보건소,일반보건지소,031-760-2560,경기도 광주시 도척면 노곡로 20 (도척면행정복지센터) 도척보건지소,,광주시,requires_planning_review_existing_public_health_facility
+경기도,광주시,광주시보건소초월보건지소,광주시보건소,일반보건지소,031-760-8710,경기도 광주시 초월읍 경충대로 1009-40 (초월보건지소) 동부건강센터,,광주시,requires_planning_review_existing_public_health_facility
+경기도,양주시,은남통합보건지소,양주시보건소,통합보건지소,031-8082-7181,경기도 양주시 남면 화합로610번길 161-13 (은남통합보건지소) 은남통합보건지소,,양주시,requires_planning_review_existing_public_health_facility
+경기도,양주시,장흥보건지소,양주시보건소,일반보건지소,031-8082-7192,경기도 양주시 장흥면 권율로 7 (장흥면 행정복지센터) 장흥보건지소,,양주시,requires_planning_review_existing_public_health_facility
+경기도,포천시,관인보건지소,포천시보건소,일반보건지소,031-538-4684,경기도 포천시 관인면 관인로 14 (관인면사무소) 관인보건지소,,포천시,requires_planning_review_existing_public_health_facility
+경기도,포천시,신북보건지소,포천시보건소,일반보건지소,031-538-4394,경기도 포천시 신북면 호국로 2065 (신북면사무소) 신북보건지소,,포천시,requires_planning_review_existing_public_health_facility
+경기도,포천시,영북보건지소,포천시보건소,일반보건지소,031-538-4644,경기도 포천시 영북면 영북로 166 (영북면사무소) 영북보건지소,,포천시,requires_planning_review_existing_public_health_facility
+경기도,포천시,영중보건지소,포천시보건소,일반보건지소,031-538-4494,"경기도 포천시 영중면 양문로 151 (영중면사무소,영중시립도서관) 영중보건지소",,포천시,requires_planning_review_existing_public_health_facility
+경기도,포천시,이동보건지소,포천시보건소,일반보건지소,031-538-4584,경기도 포천시 이동면 화동로 2070-44 이동보건지소,,포천시,requires_planning_review_existing_public_health_facility
+경기도,포천시,창수보건지소,포천시보건소,일반보건지소,031-538-4444,경기도 포천시 창수면 메치골로 178 (창수면사무소) 창수보건지소,,포천시,requires_planning_review_existing_public_health_facility
+경기도,포천시,화현보건지소,포천시보건소,일반보건지소,031-538-4744,"경기도 포천시 화현면 달인동로1길 53, 1동 (화현보건지소) 1층",,포천시,requires_planning_review_existing_public_health_facility
+경기도,여주시,강천보건지소,여주시보건소,일반보건지소,031-887-3649,경기도 여주시 강천면 강문로 586 (강천면보건소) .,,여주시,requires_planning_review_existing_public_health_facility
+경기도,여주시,금사보건지소,여주시보건소,일반보건지소,031-887-3645,경기도 여주시 금사면 이포로 27 (금사면행정복지센터) 금사보건지소,,여주시,requires_planning_review_existing_public_health_facility
+경기도,여주시,대신보건지소,여주시보건소,일반보건지소,031-887-3647,경기도 여주시 대신면 율촌1길 47 (대신면보건지소) .,,여주시,requires_planning_review_existing_public_health_facility
+경기도,여주시,북내보건지소,여주시보건소,일반보건지소,031-887-3648,경기도 여주시 북내면 당우2길 10 (북내보건지소) .,,여주시,requires_planning_review_existing_public_health_facility
+경기도,여주시,산북보건지소,여주시보건소,일반보건지소,031-887-3646,경기도 여주시 산북면 상품로 93 (산북면행정복지센터) .,,여주시,requires_planning_review_existing_public_health_facility
+경기도,여주시,점동보건지소,여주시보건소,일반보건지소,031-887-3641,경기도 여주시 점동면 청안2길 20 (점동면 행정복지센터) 1층,,여주시,requires_planning_review_existing_public_health_facility
+경기도,여주시,흥천보건지소,여주시보건소,일반보건지소,031-887-3644,경기도 여주시 흥천면 효자로 131-12 (흥천보건지소) .,,여주시,requires_planning_review_existing_public_health_facility
+경기도,연천군,백학보건지소,연천군보건의료원,일반보건지소,031-835-5010,경기도 연천군 백학면 두일로 157 (백학보건지소) 백학보건지소,,연천군,requires_planning_review_existing_public_health_facility
+경기도,연천군,군남보건지소,연천군보건의료원,일반보건지소,031-833-8205,경기도 연천군 군남면 군남로 417 (군남면사무소) 군남보건지소,,연천군,requires_planning_review_existing_public_health_facility
+경기도,연천군,신서보건지소,연천군보건의료원,일반보건지소,031-834-8032,경기도 연천군 신서면 도대로3번길 63 (신서보건지소) 신서보건지소,,연천군,requires_planning_review_existing_public_health_facility
+경기도,연천군,연천보건지소,연천군보건의료원,일반보건지소,031-834-2013,경기도 연천군 연천읍 신망로15번길 30 (연천보건지소) 연천보건지소,,연천군,requires_planning_review_existing_public_health_facility
+경기도,연천군,왕산보건지소,연천군보건의료원,일반보건지소,031-833-7179,"경기도 연천군 왕징면 왕산로 44, 라동 (왕징면사무소, 주민자치센터, 보건진료소) 왕산보건지소",,연천군,requires_planning_review_existing_public_health_facility
+경기도,연천군,장남보건지소,연천군보건의료원,일반보건지소,031-835-5502,"경기도 연천군 장남면 장백로 244, 제2호 장남면 보건지소 (장남면사무소, 보건지소, 주민자치센터) 장남보건지소",,연천군,requires_planning_review_existing_public_health_facility
+경기도,연천군,청산보건지소,연천군보건의료원,일반보건지소,031-835-3465,경기도 연천군 청산면 아우라지길 22 (청산보건지소) 청산보건지소,,연천군,requires_planning_review_existing_public_health_facility
+경기도,가평군,북면보건지소,가평군보건소,일반보건지소,031-580-4293,"경기도 가평군 북면 화악산로 23, 1층 보건소, 2층 다가구주택 (북면 보건소) 1층 북면 보건지소",,가평군,requires_planning_review_existing_public_health_facility
+경기도,가평군,상면보건지소,가평군보건소,일반보건지소,031-585-2046,"경기도 가평군 상면 청군로 1099, F동 (상면보건지소) 상면보건지소",,가평군,requires_planning_review_existing_public_health_facility
+경기도,가평군,설악보건지소,가평군보건소,일반보건지소,031-580-4142,"경기도 가평군 설악면 한서로 6, 7동 (설악면보건지소) 설악면 보건지소",,가평군,requires_planning_review_existing_public_health_facility
+경기도,가평군,청평보건지소,가평군보건소,일반보건지소,031-580-4142,"경기도 가평군 청평면 은고개로 21, 청평면보건지소 (청평면보건지소) 청평면 보건지소",,가평군,requires_planning_review_existing_public_health_facility
+경기도,가평군,조종면보건지소,가평군보건소,일반보건지소,031-580-4240,"경기도 가평군 조종면 조종내길 75, F동 (조종면 보건소) 조종면 보건지소",,가평군,requires_planning_review_existing_public_health_facility
+경기도,양평군,단월보건지소,양평군보건소,일반보건지소,031-770-3554,"경기도 양평군 단월면 보룡길 53-4, 단월보건지소 (단월보건지소) .",,양평군,requires_planning_review_existing_public_health_facility
+경기도,양평군,서종보건지소,양평군보건소,일반보건지소,031-770-3553,"경기도 양평군 서종면 북한강로 777, 서종보건소 (서종면사무소, 서종보건소) .",,양평군,requires_planning_review_existing_public_health_facility
+경기도,양평군,양동보건지소,양평군보건소,일반보건지소,031-770-3556,경기도 양평군 양동면 학둔지아래길 22 (양동면 보건지소) .,,양평군,requires_planning_review_existing_public_health_facility
+경기도,양평군,강하보건지소,양평군보건소,일반보건지소,031-770-3551,"경기도 양평군 강하면 운심길 44, 강하보건지소 (강하보건지소, 운심1리마을회관) .",,양평군,requires_planning_review_existing_public_health_facility
+경기도,양평군,개군보건지소,양평군보건소,일반보건지소,031-770-3559,경기도 양평군 개군면 하자포길33번길 6 (개군보건지소) .,,양평군,requires_planning_review_existing_public_health_facility
+경기도,양평군,국수보건지소,양평군보건소,일반보건지소,031-770-3552,경기도 양평군 양서면 복개길5번길 21 (양서면국수출장소) 국수보건지소,,양평군,requires_planning_review_existing_public_health_facility
+경기도,양평군,지평보건지소,양평군보건소,일반보건지소,031-770-3557,"경기도 양평군 지평면 지평의병로116번길 7-1, 지평보건지소 (지평보건지소) .",,양평군,requires_planning_review_existing_public_health_facility
+경기도,양평군,청운보건지소,양평군보건소,일반보건지소,031-770-3555,"경기도 양평군 청운면 용두로164번길 7, 청운보건지소 (청운보건지소) .",,양평군,requires_planning_review_existing_public_health_facility
+경기도,양평군,옥천보건지소,양평군보건소,일반보건지소,031-770-3560,"경기도 양평군 옥천면 옥천체육공원길 34, 옥천보건지소 (옥천보건지소) .",,양평군,requires_planning_review_existing_public_health_facility
+경기도,경기도,중부(시흥시)건강생활지원센터,경기도 시흥시보건소,건강생활지원센터,031-310-0722,경기도 시흥시 목감우회로 23,,시흥시,requires_planning_review_existing_public_health_facility
+경기도,고양시 덕양구,고양건강생활지원센터,경기도 고양시 덕양구보건소,건강생활지원센터,031-8075-4825,"경기도 고양시 덕양구 혜음로 19-11, 고양동종합복지회관 3층",,고양시,requires_planning_review_existing_public_health_facility
+경기도,고양시 덕양구,덕양건강생활지원센터,경기도 고양시 덕양구보건소,건강생활지원센터,031-8075-4823,"경기도 고양시 덕양구 은빛로 72, 내일꿈제작소 B동 2층",,고양시,requires_planning_review_existing_public_health_facility
+경기도,과천시,과천시건강생활지원센터,경기도 과천시보건소,건강생활지원센터,02-2150-3671,"경기도 과천시 과천대로7가길 20, 프리즘스퀘어1 B동 지하1층",,과천시,requires_planning_review_existing_public_health_facility
+경기도,광명시,광명건강생활지원센터,경기도 광명시보건소,건강생활지원센터,02-2680-2798,"경기도 광명시 오리로 1018, 3층",,광명시,requires_planning_review_existing_public_health_facility
+경기도,광명시,소하건강생활지원센터,경기도 광명시보건소,건강생활지원센터,02-2680-7990,"경기도 광명시 소하로 196, 2층",,광명시,requires_planning_review_existing_public_health_facility
+경기도,광명시,철산건강생활지원센터,경기도 광명시보건소,건강생활지원센터,02-2680-5020,"경기도 광명시 시청로 102 (철산동), 4~5층",,광명시,requires_planning_review_existing_public_health_facility
+경기도,광주시,오포건강생활지원센터,경기도 광주시보건소,건강생활지원센터,031-760-2456,경기도 광주시 오포로 884-1 (고산동),,광주시,requires_planning_review_existing_public_health_facility
+경기도,구리시,갈매건강생활지원센터,경기도 구리시보건소,건강생활지원센터,031-550-2561,"경기도 구리시 갈매중앙로80, 3층",,구리시,requires_planning_review_existing_public_health_facility
+경기도,군포시,송정건강생활지원센터,경기도 군포시 보건소,건강생활지원센터,031-389-4942,경기도 군포시 송부로 93,,군포시,requires_planning_review_existing_public_health_facility
+경기도,남양주시,다산건강생활지원센터,경기도 남양주시 남양주보건소,건강생활지원센터,031-590-8582,"경기도 남양주시 다산중앙로 7, 다산행정복지센터 2층",,남양주시,requires_planning_review_existing_public_health_facility
+경기도,남양주시,별내건강생활지원센터,경기도 남양주시 남양주풍양보건소,건강생활지원센터,031-590-8190,"경기도 남양주시 별내3로 64-21, 별내행정복지센터 2층 (별내동)",,남양주시,requires_planning_review_existing_public_health_facility
+경기도,남양주시,오남건강생활지원센터,경기도 남양주시 남양주풍양보건소,건강생활지원센터,031-590-8501,"경기도 남양주시 오남읍 진건오남로 806-34, 오남읍사무소 2층",,남양주시,requires_planning_review_existing_public_health_facility
+경기도,남양주시,와부건강생활지원센터,경기도 남양주시 남양주보건소,건강생활지원센터,031-590-2751,경기도 남양주시 와부읍 월문천로 35,,남양주시,requires_planning_review_existing_public_health_facility
+경기도,남양주시,호평건강생활지원센터,경기도 남양주시 남양주보건소,건강생활지원센터,031-590-8089,경기도 남양주시 호평로68번길 21,,남양주시,requires_planning_review_existing_public_health_facility
+경기도,시흥시,배곧건강생활지원센터,경기도 시흥시보건소,건강생활지원센터,031-310-5896,"경기도 시흥시 배곧4로 94-41, 1층",,시흥시,requires_planning_review_existing_public_health_facility
+경기도,시흥시,은계건강생활지원센터,경기도 시흥시보건소,건강생활지원센터,031-310-2722,"경기도 시흥시 수인로3247번길 33, 3층",,시흥시,requires_planning_review_existing_public_health_facility
+경기도,안산시,반월건강생활지원센터,경기도 안산시 상록수보건소,건강생활지원센터,031-481-3792,경기도 안산시 상록구 건건로 119-4,,안산시,requires_planning_review_existing_public_health_facility
+경기도,안산시,안산서부건강생활지원센터,경기도 안산시 단원보건소,건강생활지원센터,031-481-6465,경기도 안산시 단원구 신길중앙로 15,,안산시,requires_planning_review_existing_public_health_facility
+경기도,안성시,공도건강생활지원센터,경기도 안성시보건소,건강생활지원센터,031-678-6801,경기도 안성시 공도읍 공도로 51-11,,안성시,requires_planning_review_existing_public_health_facility
+경기도,양주시,동부(양주시)건강생활지원센터,경기도 양주시보건소,건강생활지원센터,031-8082-4365,경기도 양주시 화합로 1426번길 90,,양주시,requires_planning_review_existing_public_health_facility
+경기도,양주시,서부(양주시)건강생활지원센터,경기도 양주시보건소,건강생활지원센터,031-8082-4379,경기도 양주시 광적면 부흥로 618번길 303,,양주시,requires_planning_review_existing_public_health_facility
+경기도,양평군,용문건강생활지원센터,경기도 양평군보건소,건강생활지원센터,031-770-3778,경기도 양평군 용문면 용문로 393,,양평군,requires_planning_review_existing_public_health_facility
+경기도,여주시,가남건강생활지원센터,경기도 여주시보건소,건강생활지원센터,031-887-3457,경기도 여주시 가남읍 태평중앙1길 20,,여주시,requires_planning_review_existing_public_health_facility
+경기도,오산시,오산시 건강생활지원센터,경기도 오산시보건소,건강생활지원센터,031-8036-6580,"경기도 오산시 문헌공로 45, 1층",,오산시,requires_planning_review_existing_public_health_facility
+경기도,이천시,남부(이천시)건강생활지원센터,경기도 이천시보건소,건강생활지원센터,031-6190-7281,경기도 이천시 장호원읍 서동대로8809번길 30-15,,이천시,requires_planning_review_existing_public_health_facility
+경기도,이천시,마장건강생활지원센터,경기도 이천시보건소,건강생활지원센터,031-6190-7245,경기도 이천시 마장면 중앙로 81,,이천시,requires_planning_review_existing_public_health_facility
+경기도,평택시,포승건강생활지원센터,경기도 평택시보건소,건강생활지원센터,031-8024-8625,경기도 평택시 포승읍 여술로 47,,평택시,requires_planning_review_existing_public_health_facility
+경기도,포천시,소흘건강생활지원센터,경기도 포천시보건소,건강생활지원센터,031-538-3790,경기도 포천시 소흘읍 호국로 567,,포천시,requires_planning_review_existing_public_health_facility
+경기도,하남시,감일건강생활지원센터,경기도 하남시보건소,건강생활지원센터,031-790-6803,"경기도 하남시 감일순환로 181 (감이동), 2층",,하남시,requires_planning_review_existing_public_health_facility
+경기도,평택시,팽성원정진료소,평택시평택보건소,보건진료소,031-8024-4370,"경기도 평택시 팽성읍 팽성북로 29, 보건소 (원정리보건진료소) 팽성원정보건진료소",,평택시,requires_planning_review_existing_public_health_facility
+경기도,평택시,덕목보건진료소,평택시평택보건소,보건진료소,031-8024-4380,경기도 평택시 현덕면 현덕로 387 (덕목리보건진료소) 덕목보건진료소,,평택시,requires_planning_review_existing_public_health_facility
+경기도,평택시,동천보건진료소,평택시송탄보건소,보건진료소,031-8024-4386,경기도 평택시 진위면 동천2길 14 (동천리보건진료소) .,,평택시,requires_planning_review_existing_public_health_facility
+경기도,평택시,두정보건진료소,평택시평택보건소,보건진료소,031-8024-4372,경기도 평택시 팽성읍 두정길 53 (두정리보건진료소) 두정리보건진료소,,평택시,requires_planning_review_existing_public_health_facility
+경기도,평택시,신영보건진료소,평택시평택보건소,보건진료소,031-8024-4376,경기도 평택시 포승읍 중간촌길 18-4 (포승읍신영리보건진료소) 신영리보건진료소,,평택시,requires_planning_review_existing_public_health_facility
+경기도,평택시,어연보건진료소,평택시평택보건소,보건진료소,031-8024-4378,경기도 평택시 청북읍 청원로 427 (어연리보건소) 어연보건진료소,,평택시,requires_planning_review_existing_public_health_facility
+경기도,평택시,은산보건진료소,평택시송탄보건소,보건진료소,031-8024-4384,경기도 평택시 진위면 은산3길 26 은산보건진료소,,평택시,requires_planning_review_existing_public_health_facility
+경기도,평택시,장수보건진료소,평택시평택보건소,보건진료소,031-8024-4382,경기도 평택시 현덕면 장수안길 35 (장수리보건진료소) 장수보건진료소,,평택시,requires_planning_review_existing_public_health_facility
+경기도,평택시,금각보건진료소,평택시송탄보건소,보건진료소,031-8024-4388,경기도 평택시 서탄면 금각1길 6-5 (금각리보건진료소) .,,평택시,requires_planning_review_existing_public_health_facility
+경기도,평택시,문곡보건진료소,평택시송탄보건소,보건진료소,031-8024-4390,경기도 평택시 고덕면 문곡길 5 (문곡리보건진료소) 문곡보건진료소,,평택시,requires_planning_review_existing_public_health_facility
+경기도,평택시,원정보건진료소,평택시평택보건소,보건진료소,031-8024-4374,경기도 평택시 포승읍 포승원정길 23 (포승읍원정리보건진료소) 포승원정보건진료소,,평택시,requires_planning_review_existing_public_health_facility
+경기도,안산시 단원구,남동보건진료소,안산시단원보건소,보건진료소,031-481-2558,"경기도 안산시 단원구 비룰길 7 (대부남동, 남동보건진료소) 대부남동보건진료소",,안산시,requires_planning_review_existing_public_health_facility
+경기도,안산시 단원구,풍도보건진료소,안산시단원보건소,보건진료소,032-858-9290,"경기도 안산시 단원구 풍도2길 4 (풍도동), 보건소동 풍도보건진료소",,안산시,requires_planning_review_existing_public_health_facility
+경기도,남양주시,시우보건진료소,남양주보건소,보건진료소,031-590-4694,경기도 남양주시 수동면 비룡로 729 (수동면사무소) 1층,,남양주시,requires_planning_review_existing_public_health_facility
+경기도,시흥시,과림보건진료소,시흥시보건소,보건진료소,031-310-5884,"경기도 시흥시 금오로 474 (과림동, 과림보건진료소) 과림행복건강센터",,시흥시,requires_planning_review_existing_public_health_facility
+경기도,용인시 처인구,대대보건진료소,처인구보건소,보건진료소,031-6193-0115,경기도 용인시 처인구 양지면 한터로571번길 25 (대대보건진료소) 대대보건지소,,용인시,requires_planning_review_existing_public_health_facility
+경기도,용인시 처인구,백봉보건진료소,처인구보건소,보건진료소,031-6193-0118,경기도 용인시 처인구 백암면 죽양대로797번길 10 백봉보건진료소,,용인시,requires_planning_review_existing_public_health_facility
+경기도,용인시 처인구,아곡보건진료소,처인구보건소,보건진료소,031-6193-0113,경기도 용인시 처인구 남사읍 남산로6번길 8 (아곡1리노인회관) (아곡보건진료소),,용인시,requires_planning_review_existing_public_health_facility
+경기도,용인시 처인구,가창보건진료소,처인구보건소,보건진료소,031-6193-0117,경기도 용인시 처인구 백암면 가창로24번길 25 (가창보건진료소) (가창보건진료소),,용인시,requires_planning_review_existing_public_health_facility
+경기도,용인시 처인구,죽능보건진료소,처인구보건소,보건진료소,031-6193-0114,경기도 용인시 처인구 원삼면 어현로 9 (죽능보건진료소),,용인시,requires_planning_review_existing_public_health_facility
+경기도,용인시 처인구,원암보건진료소,처인구보건소,보건진료소,031-6193-0112,경기도 용인시 처인구 남사읍 천덕산로421번길 8-1 (원암보건진료소) (원암보건진료소),,용인시,requires_planning_review_existing_public_health_facility
+경기도,용인시 처인구,장평보건진료소,처인구보건소,보건진료소,031-6193-0116,경기도 용인시 처인구 백암면 삼백로 599-3 (장평보건진료소) (장평보건진료소),,용인시,requires_planning_review_existing_public_health_facility
+경기도,용인시 기흥구,고매보건진료소,기흥구보건소,보건진료소,031-6193-0277,경기도 용인시 기흥구 동탄기흥로 713-1 (고매동) 고매보건진료소,,용인시,requires_planning_review_existing_public_health_facility
+경기도,용인시 기흥구,기흥읍공세리보건진료소,기흥구보건소,보건진료소,031-286-8377,"경기도 용인시 기흥구 공세로90번길 64 (공세동, 공세보건진료소) .",,용인시,requires_planning_review_existing_public_health_facility
+경기도,파주시,문지보건진료소,파주보건소,보건진료소,031-942-8875,경기도 파주시 탄현면 방촌로955번길 131 (문지보건진료소) 문지보건진료소,,파주시,requires_planning_review_existing_public_health_facility
+경기도,파주시,백연보건진료소,파주보건소,보건진료소,031-940-8259,경기도 파주시 군내면 통일촌길 231 백연보건진료소,,파주시,requires_planning_review_existing_public_health_facility
+경기도,파주시,야당보건진료소,파주보건소,보건진료소,031-942-6457,"경기도 파주시 운정로 18 (상지석동, 야당보건진료소) 야당보건진료소",,파주시,requires_planning_review_existing_public_health_facility
+경기도,파주시,영장보건진료소,파주보건소,보건진료소,031-948-1146,경기도 파주시 광탄면 기산로 9 (영장보건진료소) 영장보건진료소,,파주시,requires_planning_review_existing_public_health_facility
+경기도,파주시,웅담보건진료소,파주보건소,보건진료소,031-958-2364,경기도 파주시 법원읍 곰시길 171 (웅담보건진료소) 웅담보건진료소,,파주시,requires_planning_review_existing_public_health_facility
+경기도,파주시,어유지보건진료소,파주보건소,보건진료소,031-958-4979,경기도 파주시 적성면 어삼로 34 (적성보건진료소) 적성보건진료소,,파주시,requires_planning_review_existing_public_health_facility
+경기도,파주시,두마보건진료소,파주보건소,보건진료소,031-952-8354,경기도 파주시 파평면 파평산로363번길 34 두마보건진료소,,파주시,requires_planning_review_existing_public_health_facility
+경기도,이천시,고백보건진료소,이천시보건소,보건진료소,031-636-7934,경기도 이천시 부발읍 중부대로1997번길 112 고백보건진료소,,이천시,requires_planning_review_existing_public_health_facility
+경기도,이천시,군량보건진료소,이천시보건소,보건진료소,031-632-3694,경기도 이천시 대월면 대월로436번길 114 군량보건진료소,,이천시,requires_planning_review_existing_public_health_facility
+경기도,이천시,단월보건진료소,이천시보건소,보건진료소,031-633-6880,"경기도 이천시 단월로38번길 3 (단월동, 단월보건진료소) 단월보건진료소",,이천시,requires_planning_review_existing_public_health_facility
+경기도,이천시,도암보건진료소,이천시보건소,보건진료소,031-632-7873,경기도 이천시 신둔면 원적로 425 (도암보건진료소) 도암보건진료소,,이천시,requires_planning_review_existing_public_health_facility
+경기도,이천시,마교보건진료소,이천시보건소,보건진료소,031-638-7025,경기도 이천시 신둔면 황무로347번길 7 (마교보건진료소) 마교보건진료소,,이천시,requires_planning_review_existing_public_health_facility
+경기도,이천시,매곡보건진료소,이천시보건소,보건진료소,031-638-9597,경기도 이천시 호법면 이섭대천로100번길 40 (매곡보건진료소) 매곡보건진료소,,이천시,requires_planning_review_existing_public_health_facility
+경기도,이천시,상봉보건진료소,이천시보건소,보건진료소,031-643-6898,경기도 이천시 설성면 설가로301번길 43-17 (상봉보건진료소) 상봉보건진료소,,이천시,requires_planning_review_existing_public_health_facility
+경기도,이천시,어농보건진료소,이천시보건소,보건진료소,031-636-8279,경기도 이천시 모가면 사실로 716 (어농보건진료소) 어농보건진료소,,이천시,requires_planning_review_existing_public_health_facility
+경기도,이천시,우곡보건진료소,이천시보건소,보건진료소,031-632-4637,경기도 이천시 백사면 청백리로 380 (우곡보건진료소) 우곡보건진료소,,이천시,requires_planning_review_existing_public_health_facility
+경기도,이천시,월포보건진료소,이천시보건소,보건진료소,031-643-8314,경기도 이천시 율면 임오산로362번길 70 (월포보건진료소) 월포보건진료소,,이천시,requires_planning_review_existing_public_health_facility
+경기도,이천시,유산보건진료소,이천시보건소,보건진료소,031-636-8898,경기도 이천시 호법면 이섭대천로793번길 23 (유산보건진료소) 유산보건진료소,,이천시,requires_planning_review_existing_public_health_facility
+경기도,이천시,가산보건진료소,이천시보건소,보건진료소,031-636-7300,경기도 이천시 부발읍 황무로2065번길 96 (가산보건진료소) 가산보건진료소,,이천시,requires_planning_review_existing_public_health_facility
+경기도,이천시,표교보건진료소,이천시보건소,보건진료소,031-636-9975,"경기도 이천시 마장면 중부대로638번길 15, 표교보건진료소 (표교보건진료소) 표교보건진료소",,이천시,requires_planning_review_existing_public_health_facility
+경기도,이천시,장북보건진료소,이천시보건소,보건진료소,031-641-0289,경기도 이천시 장호원읍 나래천로509번길 129-4 (장북보건진료소) 장북보건진료소,,이천시,requires_planning_review_existing_public_health_facility
+경기도,이천시,장천보건진료소,이천시보건소,보건진료소,031-641-6530,경기도 이천시 설성면 설성로181번길 9 (장천보건진료소) 장천보건진료소,,이천시,requires_planning_review_existing_public_health_facility
+경기도,안성시,개정보건진료소,안성시보건소,보건진료소,031-673-7988,경기도 안성시 미양면 개정길 1 개정보건진료소,,안성시,requires_planning_review_existing_public_health_facility
+경기도,안성시,건천보건진료소,안성시보건소,보건진료소,031-656-0934,경기도 안성시 공도읍 진건중길 206-9 건천보건진료소,,안성시,requires_planning_review_existing_public_health_facility
+경기도,안성시,금산보건진료소,안성시보건소,보건진료소,031-672-5767,경기도 안성시 일죽면 산전길 24-9 (금산보건진료소) 금산보건진료소,,안성시,requires_planning_review_existing_public_health_facility
+경기도,안성시,노곡보건진료소,안성시보건소,보건진료소,031-673-5860,경기도 안성시 양성면 미리내성지로 14 노곡보건진료소,,안성시,requires_planning_review_existing_public_health_facility
+경기도,안성시,당목보건진료소,안성시보건소,보건진료소,031-672-7843,경기도 안성시 죽산면 당진길 5-13 당목보건진료소,,안성시,requires_planning_review_existing_public_health_facility
+경기도,안성시,동평보건진료소,안성시보건소,보건진료소,031-672-3730,경기도 안성시 보개면 보개원삼로 1031-11 동평보건진료소,,안성시,requires_planning_review_existing_public_health_facility
+경기도,안성시,명목보건진료소,안성시보건소,보건진료소,031-673-5019,경기도 안성시 양성면 속말길 10 명목보건진료소,,안성시,requires_planning_review_existing_public_health_facility
+경기도,안성시,방초보건진료소,안성시보건소,보건진료소,031-672-4635,경기도 안성시 일죽면 사실로 78-10 방초보건진료소,,안성시,requires_planning_review_existing_public_health_facility
+경기도,안성시,복평보건진료소,안성시보건소,보건진료소,031-676-5004,경기도 안성시 보개면 복평길 58 (복평보건진료소) 복평보건진료소,,안성시,requires_planning_review_existing_public_health_facility
+경기도,안성시,산평보건진료소,안성시보건소,보건진료소,031-672-9462,경기도 안성시 서운면 평리길 44 산평보건진료소,,안성시,requires_planning_review_existing_public_health_facility
+경기도,안성시,송정보건진료소,안성시보건소,보건진료소,031-672-9387,경기도 안성시 서운면 안성맞춤대로 133-6 송정보건진료소,,안성시,requires_planning_review_existing_public_health_facility
+경기도,안성시,쌍지보건진료소,안성시보건소,보건진료소,031-672-6516,경기도 안성시 고삼면 쌍지길 4 쌍지보건진료소,,안성시,requires_planning_review_existing_public_health_facility
+경기도,안성시,개산보건진료소,안성시보건소,보건진료소,031-672-3291,경기도 안성시 금광면 금광오산로 16-1 개산보건진료소,,안성시,requires_planning_review_existing_public_health_facility
+경기도,안성시,율곡보건진료소,안성시보건소,보건진료소,031-672-4482,경기도 안성시 삼죽면 품곡길 32 (율곡보건지료소) 율곡보건진료소,,안성시,requires_planning_review_existing_public_health_facility
+경기도,안성시,현곡보건진료소,안성시보건소,보건진료소,031-672--8900,경기도 안성시 금광면 진안로 568-6 현곡보건진료소,,안성시,requires_planning_review_existing_public_health_facility
+경기도,김포시,개곡리보건진료소,김포시보건소,보건진료소,031-5186-4242,경기도 김포시 월곶면 애기봉로 445 (개곡초등학교) 단독건물,,김포시,requires_planning_review_existing_public_health_facility
+경기도,김포시,마조보건진료소,김포시보건소,보건진료소,031-5186-4243,경기도 김포시 하성면 후평로 3 (마조리보건진료소) 단독건물,,김포시,requires_planning_review_existing_public_health_facility
+경기도,김포시,대벽보건진료소,김포시보건소,보건진료소,031-5186-4239,경기도 김포시 대곶면 수남로22번길 7 (보건진료소) 단독건물,,김포시,requires_planning_review_existing_public_health_facility
+경기도,김포시,석탄보건진료소,김포시보건소,보건진료소,031-5186-4244,경기도 김포시 하성면 석평로166번길 10 (석탄보건진료소) 단독건물,,김포시,requires_planning_review_existing_public_health_facility
+경기도,김포시,성동보건진료소,김포시보건소,보건진료소,031-5186-4241,경기도 김포시 월곶면 용강로 112-51 단독건물,,김포시,requires_planning_review_existing_public_health_facility
+경기도,김포시,송마보건진료소,김포시보건소,보건진료소,031-5186-4240,경기도 김포시 양촌읍 김포대로1644번길 55-1 단독건물,,김포시,requires_planning_review_existing_public_health_facility
+경기도,김포시,학운보건진료소,김포시보건소,보건진료소,031-5186-4238,경기도 김포시 양촌읍 첫섬로 11 단독건물,,김포시,requires_planning_review_existing_public_health_facility
+경기도,화성시,기천보건진료소,화성시서부보건소,보건진료소,031-5189-7087,경기도 화성시 팔탄면 아랫사내길 66-8 기천보건진료소,,화성시,requires_planning_review_existing_public_health_facility
+경기도,화성시,매향보건진료소,화성시서부보건소,보건진료소,031-5189-7080,경기도 화성시 우정읍 기아자동차로 221-6 (매향보건진료소) 매향보건진료소,,화성시,requires_planning_review_existing_public_health_facility
+경기도,화성시,문학보건진료소,화성시동부보건소,보건진료소,031-5189-7089,경기도 화성시 효행구 정남면 문학로 84 (문학리 보건진료소) 문학보건지소,,화성시,requires_planning_review_existing_public_health_facility
+경기도,화성시,사창보건진료소,화성시서부보건소,보건진료소,031-5189-7088,경기도 화성시 양감면 사창길 18-18 사창보건진료소,,화성시,requires_planning_review_existing_public_health_facility
+경기도,화성시,서근보건진료소,화성시서부보건소,보건진료소,031-5189-7086,경기도 화성시 팔탄면 대평안길 6 (서근보건진료소) 서근보건진료소,,화성시,requires_planning_review_existing_public_health_facility
+경기도,화성시,신천보건진료소,화성시서부보건소,보건진료소,031-5189-7083,경기도 화성시 송산면 신천길 85 (신천리 보건소) 신천보건진료소,,화성시,requires_planning_review_existing_public_health_facility
+경기도,화성시,유포보건진료소,화성시서부보건소,보건진료소,031-5189-7081,경기도 화성시 비봉면 남이로 241-3 (유포보건진료소) 유포보건진료소,,화성시,requires_planning_review_existing_public_health_facility
+경기도,화성시,자안보건진료소,화성시서부보건소,보건진료소,031-5189-7082,경기도 화성시 비봉면 푸른들판로1125번길 45 자안보건진료소,,화성시,requires_planning_review_existing_public_health_facility
+경기도,화성시,궁평보건진료소,화성시서부보건소,보건진료소,031-5189-7084,경기도 화성시 서신면 궁평항로 1419 (궁평보건지소) 궁평보건진료소,,화성시,requires_planning_review_existing_public_health_facility
+경기도,화성시,제부보건진료소,화성시서부보건소,보건진료소,031-5189-7085,경기도 화성시 서신면 해안길 156-2 (제부리보건진료소) 제부보건진료소,,화성시,requires_planning_review_existing_public_health_facility
+경기도,화성시,정림보건진료소,화성시동부보건소,보건진료소,031-5189-7090,경기도 화성시 효행구 정남면 정남동로 355 (정림보건소) 정림보건진료소,,화성시,requires_planning_review_existing_public_health_facility
+경기도,광주시,관음리보건진료소,광주시보건소,보건진료소,031-760-5658,경기도 광주시 퇴촌면 천진암로 653-8 (관음리보건진료소) 관음리보건진료소,,광주시,requires_planning_review_existing_public_health_facility
+경기도,광주시,검천리보건진료소,광주시보건소,보건진료소,031-760-5660,경기도 광주시 남종면 산수로 2331 (검천리보건진료소) 검천보건진료소,,광주시,requires_planning_review_existing_public_health_facility
+경기도,광주시,만선보건진료소,광주시보건소,보건진료소,031-760-5654,경기도 광주시 곤지암읍 신만로 499 만선생활문화센터,,광주시,requires_planning_review_existing_public_health_facility
+경기도,광주시,무갑리보건진료소,광주시보건소,보건진료소,031-760-5653,경기도 광주시 초월읍 무갑길140번길 14 (무갑리보건진료소) 무갑리보건진료소,,광주시,requires_planning_review_existing_public_health_facility
+경기도,광주시,분원리보건진료소,광주시보건소,보건진료소,031-760-5659,경기도 광주시 남종면 산수로 1613-9 (분원리보건진료소) 분원리보건진료소,,광주시,requires_planning_review_existing_public_health_facility
+경기도,광주시,산성리보건진료소,광주시보건소,보건진료소,031-760-5661,경기도 광주시 남한산성면 남한산성로 732-20 (산성리보건진료소) 산성보건진료소,,광주시,requires_planning_review_existing_public_health_facility
+경기도,광주시,상림리보건진료소,광주시보건소,보건진료소,031-760-5657,경기도 광주시 도척면 상림마을길 5 (상림리보건진료소) 상림보건진료소,,광주시,requires_planning_review_existing_public_health_facility
+경기도,광주시,선동리보건진료소,광주시보건소,보건진료소,031-760-5652,경기도 광주시 초월읍 동막골길 7-16 선동리보건진료소,,광주시,requires_planning_review_existing_public_health_facility
+경기도,광주시,열미리보건진료소,광주시보건소,보건진료소,031-760-5655,경기도 광주시 곤지암읍 광여로 214 (열미리보건진료소) 열미보건진료소,,광주시,requires_planning_review_existing_public_health_facility
+경기도,광주시,유정리보건진료소,광주시보건소,보건진료소,031-760-5656,경기도 광주시 도척면 도척로 773-7 (유정리보건진료소) 유정리보건진료소,,광주시,requires_planning_review_existing_public_health_facility
+경기도,광주시,태전동보건진료소,광주시보건소,보건진료소,031-760-5650,"경기도 광주시 고불로 79 (태전동, 태전동보건진료소) 태전보건진료소",,광주시,requires_planning_review_existing_public_health_facility
+경기도,양주시,매곡보건진료소,양주시보건소,보건진료소,031-8082-4850,경기도 양주시 남면 휴암로443번길 29-4 (매곡보건진료소) 매곡보건진료소,,양주시,requires_planning_review_existing_public_health_facility
+경기도,양주시,봉암보건진료소,양주시보건소,보건진료소,031-863-5340,경기도 양주시 은현면 봉암14길 6 (봉암보건진료소) 봉암보건진료소,,양주시,requires_planning_review_existing_public_health_facility
+경기도,양주시,연곡보건진료소,양주시보건소,보건진료소,031-878-6290,경기도 양주시 백석읍 부흥로419번길 26 연곡보건진료소,,양주시,requires_planning_review_existing_public_health_facility
+경기도,포천시,덕둔보건진료소,포천시보건소,보건진료소,031-535-6274,경기도 포천시 신북면 청신로 896 (덕둔리보건진료소) 덕둔리보건진료소,,포천시,requires_planning_review_existing_public_health_facility
+경기도,포천시,도평보건진료소,포천시보건소,보건진료소,031-535-8827,경기도 포천시 이동면 화동로2433번길 11-14 (도평리보건진료소) .,,포천시,requires_planning_review_existing_public_health_facility
+경기도,포천시,야미보건진료소,포천시보건소,보건진료소,031-536-7465,경기도 포천시 영북면 호국로 3541 (야미리보건진료소) 1층,,포천시,requires_planning_review_existing_public_health_facility
+경기도,포천시,오가보건진료소,포천시보건소,보건진료소,031-533-0376,경기도 포천시 창수면 창동로 15 (오가리보건진료소) 오가리보건진료소,,포천시,requires_planning_review_existing_public_health_facility
+경기도,포천시,이곡보건진료소,포천시보건소,보건진료소,031-544-8006,경기도 포천시 소흘읍 이곡길 10 (이곡리보건진료소) .,,포천시,requires_planning_review_existing_public_health_facility
+경기도,포천시,정교리보건진료소,포천시보건소,보건진료소,031-542-7434,경기도 포천시 가산면 정금로 67-1 (정교리보건진료소) 정교리보건진료소,,포천시,requires_planning_review_existing_public_health_facility
+경기도,포천시,중리보건진료소,포천시보건소,보건진료소,031-533-1860,경기도 포천시 관인면 창동로 853 중리보건진료소,,포천시,requires_planning_review_existing_public_health_facility
+경기도,포천시,지현보건진료소,포천시보건소,보건진료소,031-532-9714,경기도 포천시 화현면 봉화로 920 (지현리보건진료소) 지현리보건진료소,,포천시,requires_planning_review_existing_public_health_facility
+경기도,포천시,길명보건진료소,포천시보건소,보건진료소,031-536-9657,경기도 포천시 일동면 영일로 668-27 길명리보건진료소,,포천시,requires_planning_review_existing_public_health_facility
+경기도,여주시,강천보건진료소,여주시보건소,보건진료소,031-882-0765,경기도 여주시 강천면 강천리길 62-1 (강천보건진료소) .,,여주시,requires_planning_review_existing_public_health_facility
+경기도,여주시,금당보건진료소,여주시보건소,보건진료소,031-882-5771,경기도 여주시 가남읍 금당리길 108 (금당보건진료소) .,,여주시,requires_planning_review_existing_public_health_facility
+경기도,여주시,점동면뇌곡보건진료소,여주시보건소,보건진료소,031-882-7397,경기도 여주시 점동면 성주로 591 (뇌곡보건진료소) .,,여주시,requires_planning_review_existing_public_health_facility
+경기도,여주시,도전보건진료소,여주시보건소,보건진료소,031-885-0225,경기도 여주시 강천면 원심동1길 32 (도전보건진료소) .,,여주시,requires_planning_review_existing_public_health_facility
+경기도,여주시,매류보건진료소,여주시보건소,보건진료소,031-882-4820,경기도 여주시 세종대왕면 양화로 621 (매류보건진료소) .,,여주시,requires_planning_review_existing_public_health_facility
+경기도,여주시,백석보건진료소,여주시보건소,보건진료소,031-882-4694,경기도 여주시 세종대왕면 능서로 495 (백석보건진료소) .,,여주시,requires_planning_review_existing_public_health_facility
+경기도,여주시,삼승보건진료소,여주시보건소,보건진료소,031-882-5618,경기도 여주시 가남읍 삼정길 5 (삼승보건진료소) .,,여주시,requires_planning_review_existing_public_health_facility
+경기도,여주시,상구보건진료소,여주시보건소,보건진료소,031-883-4812,경기도 여주시 대신면 상구2길 3 (상구보건진료소) .,,여주시,requires_planning_review_existing_public_health_facility
+경기도,여주시,송촌보건진료소,여주시보건소,보건진료소,031-882-8510,경기도 여주시 대신면 여양1로 218 (송촌보건진료소) .,,여주시,requires_planning_review_existing_public_health_facility
+경기도,여주시,오산보건진료소,여주시보건소,보건진료소,031-883-0281,경기도 여주시 가남읍 오산1길 5 (오산보건진료소) .,,여주시,requires_planning_review_existing_public_health_facility
+경기도,여주시,장안보건진료소,여주시보건소,보건진료소,031-886-7281,경기도 여주시 점동면 안평로 284-3 (장안보건진료소) .,,여주시,requires_planning_review_existing_public_health_facility
+경기도,여주시,주암보건진료소,여주시보건소,보건진료소,031-882-0986,경기도 여주시 북내면 여양2로 1104 (주암보건진료소) .,,여주시,requires_planning_review_existing_public_health_facility
+경기도,여주시,하호보건진료소,여주시보건소,보건진료소,031-882-9239,경기도 여주시 금사면 금품1로 712 (금사면 하호보건진료소) .,,여주시,requires_planning_review_existing_public_health_facility
+경기도,연천군,늘목리보건진료소,연천군보건의료원,보건진료소,031-832-0894,경기도 연천군 전곡읍 양연로 598 (늘목간파통합마을회관) 늘목리 보건진료소,,연천군,requires_planning_review_existing_public_health_facility
+경기도,연천군,동중리보건진료소,연천군보건의료원,보건진료소,031-832-7345,경기도 연천군 왕징면 왕산로 832-1 (동중리 보건진료소) 동중리보건진료소,,연천군,requires_planning_review_existing_public_health_facility
+경기도,연천군,마전리보건진료소,연천군보건의료원,보건진료소,031-835-7348,경기도 연천군 미산면 청정로 1325 (마전리보건진료소) 마전리보건진료소,,연천군,requires_planning_review_existing_public_health_facility
+경기도,연천군,노곡리보건진료소,연천군보건의료원,보건진료소,031-835-5873,경기도 연천군 백학면 진목로2번길 32 (노곡리보건진료소) 노곡리보건진료소,,연천군,requires_planning_review_existing_public_health_facility
+경기도,연천군,양원리보건진료소,연천군보건의료원,보건진료소,031-832-0895,경기도 연천군 전곡읍 양원로46번길 13-5 (양원리 보건진료소 및 마을회관) 양원리보건진료소,,연천군,requires_planning_review_existing_public_health_facility
+경기도,연천군,횡산리보건진료소,연천군보건의료원,보건진료소,031-834-2011,"경기도 연천군 중면 군중로 902, 주건축물제2동 (횡산리 보건진료소) 횡산리보건진료소",,연천군,requires_planning_review_existing_public_health_facility
+경기도,연천군,고문리보건진료소,연천군보건의료원,보건진료소,031-834-3469,경기도 연천군 연천읍 현문로 427 (고문리보건진료소) 고문리보건진료소,,연천군,requires_planning_review_existing_public_health_facility
+경기도,가평군,개곡리보건진료소,가평군보건소,보건진료소,031-582-1191,경기도 가평군 가평읍 당목가일길 211-80 (개곡보건진료소) 개곡보건진료소,,가평군,requires_planning_review_existing_public_health_facility
+경기도,가평군,도대리보건진료소,가평군보건소,보건진료소,031-582-0388,경기도 가평군 북면 가화로 2370-14 (도대보건진료소) 도대 보건진료소,,가평군,requires_planning_review_existing_public_health_facility
+경기도,가평군,미사리보건진료소,가평군보건소,보건진료소,031-584-4166,경기도 가평군 설악면 미사리로 629 (미사보건진료소) 미사리 보건진료소,,가평군,requires_planning_review_existing_public_health_facility
+경기도,가평군,방일리보건진료소,가평군보건소,보건진료소,031-584-7051,경기도 가평군 설악면 양방가루재길 4-18 (방일보건진료소) 방일리 보건진료소,,가평군,requires_planning_review_existing_public_health_facility
+경기도,가평군,백둔리보건진료소,가평군보건소,보건진료소,031-582-1011,경기도 가평군 북면 백둔로 417-9 (백둔보건진료소) 백둔리 보건진료소,,가평군,requires_planning_review_existing_public_health_facility
+경기도,가평군,산유리보건진료소,가평군보건소,보건진료소,031-582-0294,경기도 가평군 가평읍 호반로 1799-8 (산유보건진료소) 산유리 보건진료소,,가평군,requires_planning_review_existing_public_health_facility
+경기도,가평군,삼회리보건진료소,가평군보건소,보건진료소,031-584-2242,"경기도 가평군 청평면 북한강로2010번길 18, 가동 (삼회보건진료소) 삼회리 보건진료소",,가평군,requires_planning_review_existing_public_health_facility
+경기도,가평군,상천리보건진료소,가평군보건소,보건진료소,031-584-1795,경기도 가평군 청평면 수리재길 293-19 (상천보건진료소) 상천리 보건진료소,,가평군,requires_planning_review_existing_public_health_facility
+경기도,가평군,설곡리보건진료소,가평군보건소,보건진료소,031-584-7771,"경기도 가평군 설악면 봉미산안길7번길 1-6, B동 (설곡보건진료소) 설곡리 보건진료소",,가평군,requires_planning_review_existing_public_health_facility
+경기도,가평군,위곡리보건진료소,가평군보건소,보건진료소,031-584-7205,"경기도 가평군 설악면 한서로 228-16, 위곡리보건진료소 (위곡2리마을회관) 위곡리 보건진료소",,가평군,requires_planning_review_existing_public_health_facility
+경기도,가평군,율길리보건진료소,가평군보건소,보건진료소,031-584-3494,경기도 가평군 상면 청군로 2043-15 (율길보건진료소) 율길리 보건진료소,,가평군,requires_planning_review_existing_public_health_facility
+경기도,가평군,임초리보건진료소,가평군보건소,보건진료소,031-585-1736,경기도 가평군 상면 청군로 699 (임초보건진료소) 임초리 보건진료소,,가평군,requires_planning_review_existing_public_health_facility
+경기도,가평군,태봉리보건진료소,가평군보건소,보건진료소,031-585-1568,경기도 가평군 상면 아랫벌길 11 (태봉리보건소) 태봉리 보건진료소,,가평군,requires_planning_review_existing_public_health_facility
+경기도,가평군,운악리보건진료소,가평군보건소,보건진료소,031-585-1128,경기도 가평군 조종면 현등사길 7-16 (하판보건진료소) 운악리 보건진료소,,가평군,requires_planning_review_existing_public_health_facility
+경기도,가평군,화악리보건진료소,가평군보건소,보건진료소,031-582-3011,경기도 가평군 북면 화악지암길 4 (화악보건진료소) 화악리 보건진료소,,가평군,requires_planning_review_existing_public_health_facility
+경기도,양평군,고송보건진료소,양평군보건소,보건진료소,031-770-3461,경기도 양평군 양동면 아랫고슬길8번길 5 (고송보건진료소) .,,양평군,requires_planning_review_existing_public_health_facility
+경기도,양평군,곡수보건진료소,양평군보건소,보건진료소,031-770-3463,"경기도 양평군 지평면 곡수길 52, 곡수보건진료소 (곡수보건진료소) .",,양평군,requires_planning_review_existing_public_health_facility
+경기도,양평군,금왕보건진료소,양평군보건소,보건진료소,031-770-3460,경기도 양평군 양동면 월리터1길 10 (금왕보건진료소) .,,양평군,requires_planning_review_existing_public_health_facility
+경기도,양평군,노문보건진료소,양평군보건소,보건진료소,031-770-3453,"경기도 양평군 서종면 화서1로 258, 노문보건진료소 (노문보건진료소) .",,양평군,requires_planning_review_existing_public_health_facility
+경기도,양평군,동오보건진료소,양평군보건소,보건진료소,031-770-3452,"경기도 양평군 강하면 동오1길 42, 동오보건진료소 (동오보건진료소) .",,양평군,requires_planning_review_existing_public_health_facility
+경기도,양평군,부안보건진료소,양평군보건소,보건진료소,031-770-3457,"경기도 양평군 단월면 단월로 326, 부안보건진료소 (부안보건진료소) .",,양평군,requires_planning_review_existing_public_health_facility
+경기도,양평군,산음보건진료소,양평군보건소,보건진료소,031-770-3456,"경기도 양평군 단월면 봉미산샘골길 10, 산음보건진료소 (산음보건진료소) .",,양평군,requires_planning_review_existing_public_health_facility
+경기도,양평군,세월보건진료소,양평군보건소,보건진료소,031-770-3451,경기도 양평군 강상면 세월길 139-1 (세월보건진료소) .,,양평군,requires_planning_review_existing_public_health_facility
+경기도,양평군,신론보건진료소,양평군보건소,보건진료소,031-770-3458,경기도 양평군 청운면 신론로 196 (신론보건진료소) .,,양평군,requires_planning_review_existing_public_health_facility
+경기도,양평군,조현보건진료소,양평군보건소,보건진료소,031-770-3465,"경기도 양평군 용문면 청용길 12, 조현보건소 (조현보건소) 조현보건진료소",,양평군,requires_planning_review_existing_public_health_facility
+경기도,양평군,계정보건진료소,양평군보건소,보건진료소,031-770-3459,경기도 양평군 양동면 양서북로 518 (계정보건진료소) .,,양평군,requires_planning_review_existing_public_health_facility
+경기도,양평군,일신보건진료소,양평군보건소,보건진료소,031-770-3464,경기도 양평군 지평면 구둔영화체험길 8 (일신보건진료소) .,,양평군,requires_planning_review_existing_public_health_facility
+경기도,양평군,정배보건진료소,양평군보건소,보건진료소,031-770-3454,경기도 양평군 서종면 중미산로 820 (정배보건진료소) .,,양평군,requires_planning_review_existing_public_health_facility
+경기도,양평군,단석보건진료소,양평군보건소,보건진료소,031-770-3462,경기도 양평군 양동면 거단길 163 (단석보건진료소) .,,양평군,requires_planning_review_existing_public_health_facility
+경기도,양평군,서후보건진료소,양평군보건소,보건진료소,031-770-3455,경기도 양평군 서종면 퉁점길 69-1 서후보건진료소,,양평군,requires_planning_review_existing_public_health_facility
+경기도,양평군,갈운보건진료소,양평군보건소,보건진료소,031-770-3466,경기도 양평군 청운면 경강로 4839 갈운보건진료소,,양평군,requires_planning_review_existing_public_health_facility
+경기도,양평군,삼산보건진료소,양평군보건소,보건진료소,031-770-3467,경기도 양평군 양동면 도소리길 33 (양동삼산보건진료소) .,,양평군,requires_planning_review_existing_public_health_facility

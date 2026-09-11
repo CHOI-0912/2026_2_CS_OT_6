@@ -1,0 +1,12 @@
+﻿source_province,fire_station,safety_center,regional_unit,ambulance_count,base_name,address,latitude,longitude,coordinate_source,matched_address,kakao_place_id,municipality_assignment,geocoding_status,routing_status
+경기,안산소방서,고잔119안전센터,,2,고잔119안전센터,경기도 안산시 단원구 화랑로 407,37.3217355969893,126.832958805798,kakao_local_address_search,경기 안산시 단원구 화랑로 407,,address_exact,verified_municipality_match,pending_kakao_api
+경기,안산소방서,대부119안전센터,,1,대부119안전센터,경기도 안산시 단원구 영전로 375,37.2402702028901,126.617851099938,kakao_local_address_search,경기 안산시 단원구 영전로 375,,address_exact,verified_municipality_match,pending_kakao_api
+경기,안산소방서,반월119안전센터,,1,반월119안전센터,경기도 안산시 상록구 건지미길 48,37.3030077823494,126.905538102688,kakao_local_address_search,경기 안산시 상록구 건지미길 48,,address_exact,verified_municipality_match,pending_kakao_api
+경기,안산소방서,사동119안전센터,,1,사동119안전센터,경기도 안산시 상록구 항가울로 230,37.300852612644,126.843649279599,kakao_local_address_search,경기 안산시 상록구 항가울로 230,,address_exact,verified_municipality_match,pending_kakao_api
+경기,안산소방서,선부119안전센터,,2,선부119안전센터,겅기도 안산시 단원구 선부광장서로 43,37.333947116242,126.804398466661,kakao_local_address_search,경기 안산시 단원구 선부광장서로 43,,fire_station_address_inferred,verified_municipality_match,pending_kakao_api
+경기,안산소방서,성곡119안전센터,,1,성곡119안전센터,경기도 안산시 단원구 장자골로 66,37.3126852956175,126.765526044663,kakao_local_address_search,경기 안산시 단원구 장자골로 66,,address_exact,verified_municipality_match,pending_kakao_api
+경기,안산소방서,신길119안전센터,,1,신길119안전센터,경기도 안산시 단원구 삼일로 50,37.3350487087865,126.783640867463,kakao_local_address_search,경기 안산시 단원구 삼일로 50,,address_exact,verified_municipality_match,pending_kakao_api
+경기,안산소방서,원시119안전센터,,1,원시119안전센터,경기도 안산시 단원구 동산로 31,37.3129658104123,126.793593313585,kakao_local_address_search,경기 안산시 단원구 동산로 31,,address_exact,verified_municipality_match,pending_kakao_api
+경기,안산소방서,월피119안전센터,,1,월피119안전센터,경기도 안산시 상록구 충장로 645,37.335035369418,126.854451438203,kakao_local_address_search,경기 안산시 상록구 충장로 645,,address_exact,verified_municipality_match,pending_kakao_api
+경기,안산소방서,상록수119안전센터,,2,상록수119안전센터,,37.3026459253788,126.859513558875,kakao_local_keyword_search,경기 안산시 상록구 충장로 237,1403856122,fire_station_address_inferred,verified_municipality_match,pending_kakao_api
+경기,안산소방서,수암119안전센터,,1,수암119안전센터,,37.365846658384605,126.87707744291986,kakao_local_keyword_search,경기 안산시 상록구 수암4길 3,1853842763,fire_station_address_inferred,verified_municipality_match,pending_kakao_api

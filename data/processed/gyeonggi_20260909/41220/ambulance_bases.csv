@@ -1,0 +1,13 @@
+﻿source_province,fire_station,safety_center,regional_unit,ambulance_count,base_name,address,latitude,longitude,coordinate_source,matched_address,kakao_place_id,municipality_assignment,geocoding_status,routing_status
+경기,평택소방서,비전119안전센터,,2,비전119안전센터,경기도 평택시 중앙로 273,36.9904544831465,127.112846579541,kakao_local_address_search,경기 평택시 중앙로 273,,address_exact,verified_municipality_match,pending_kakao_api
+경기,평택소방서,안중119안전센터,,1,안중119안전센터,경기도 평택시 안중읍 안현로서7길 28,36.9818397799278,126.92442361996,kakao_local_address_search,경기 평택시 안중읍 안현로서7길 28,,address_exact,verified_municipality_match,pending_kakao_api
+경기,평택소방서,팽성119안전센터,,1,팽성119안전센터,경기도 평택시 팽성읍 팽성송화로 172,36.9621334397638,127.059104967917,kakao_local_address_search,경기 평택시 팽성읍 팽성송화로 172,,address_exact,verified_municipality_match,pending_kakao_api
+경기,평택소방서,포승119안전센터,,1,포승119안전센터,경기도 평택시 포승읍 평택항로 156번길 11,36.9738585510612,126.845441314086,kakao_local_address_search,경기 평택시 포승읍 평택항로156번길 11,,address_exact,verified_municipality_match,pending_kakao_api
+경기,평택소방서,신평119안전센터,,1,신평119안전센터,,36.988610697698,127.090176960775,kakao_local_keyword_search,경기 평택시 평택로 2,1393323808,fire_station_address_inferred,verified_municipality_match,pending_kakao_api
+경기,평택소방서,세교119안전센터,,1,세교119안전센터,경기도 평택시 세교동 603,37.0065909772289,127.086063662441,kakao_local_address_search,경기 평택시 세교동 603,,address_exact,verified_municipality_match,pending_kakao_api
+경기,송탄소방서,고덕119안전센터,,1,고덕119안전센터,경기도 평택시 고덕면 고덕로 335,37.04526759959235,127.02670897006426,kakao_local_keyword_search,경기 평택시 고덕율포1로 46,8756475,address_exact,verified_municipality_match,pending_kakao_api
+경기,송탄소방서,모곡119안전센터,,1,모곡119안전센터,경기도 평택시 산단로64번길 2,37.0368089834677,127.077065708167,kakao_local_address_search,경기 평택시 산단로64번길 2,,address_exact,verified_municipality_match,pending_kakao_api
+경기,송탄소방서,신장119안전센터,,2,신장119안전센터,경기도 평택시 경기대로 1627,37.0896975029585,127.062222203127,kakao_local_address_search,경기 평택시 경기대로 1627,,address_exact,verified_municipality_match,pending_kakao_api
+경기,송탄소방서,진위119안전센터,,1,진위119안전센터,경기도 평택시 진위면 봉남길 30,37.1009275346029,127.087332319574,kakao_local_address_search,경기 평택시 진위면 봉남길 30,,address_exact,verified_municipality_match,pending_kakao_api
+경기,송탄소방서,청북119안전센터,,1,청북119안전센터,경기도 평택시 청북면 현곡산단로 16,37.0337297267315,126.939209985828,kakao_local_address_search,경기 평택시 청북읍 현곡산단로 16,,address_exact,verified_municipality_match,pending_kakao_api
+경기,송탄소방서,서탄119안전센터,,1,서탄119안전센터,경기도 평택시 서탄면 서탄로 241,37.1058403737273,127.03710146001,kakao_local_address_search,경기 평택시 서탄면 서탄로 241,,address_exact,verified_municipality_match,pending_kakao_api

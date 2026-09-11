@@ -1,0 +1,8 @@
+﻿source_province,fire_station,safety_center,regional_unit,ambulance_count,base_name,address,latitude,longitude,coordinate_source,matched_address,kakao_place_id,municipality_assignment,geocoding_status,routing_status
+경기,광주소방서,송정119안전센터,,2,송정119안전센터,경기도 광주시 수하길 36,37.414802257586,127.264400372608,kakao_local_address_search,경기 광주시 수하길 36,,address_exact,verified_municipality_match,pending_kakao_api
+경기,광주소방서,곤지암119안전센터,,1,곤지암119안전센터,경기도 광주시 곤지암읍 광여로 160,37.3486903136681,127.363363745693,kakao_local_address_search,경기 광주시 곤지암읍 광여로 160,,address_exact,verified_municipality_match,pending_kakao_api
+경기,광주소방서,능평119안전센터,,1,능평119안전센터,경기도 광주시 오포읍 대명대길 30,37.3572293057994,127.168762715358,kakao_local_address_search,경기 광주시 대명대길 30,,address_exact,verified_municipality_match,pending_kakao_api
+경기,광주소방서,오포119안전센터,,1,오포119안전센터,경기도 광주시 오포로 910-5,37.3714195780178,127.233545285538,kakao_local_address_search,경기 광주시 오포로 910-5,,address_exact,verified_municipality_match,pending_kakao_api
+경기,광주소방서,초월119안전센터,,1,초월119안전센터,경기도 광주시 초월읍 무들로 112,37.3855769959122,127.299505970502,kakao_local_address_search,경기 광주시 초월읍 무들로 112,,address_exact,verified_municipality_match,pending_kakao_api
+경기,광주소방서,광남119안전센터,,1,광남119안전센터,경기도 광주시 고불로 277,37.3983718389298,127.208836958027,kakao_local_address_search,경기 광주시 고불로 277,,address_exact,verified_municipality_match,pending_kakao_api
+경기,광주소방서,초월119안전센터,퇴촌지역대,1,퇴촌지역대,,37.41479062952925,127.26412041420964,kakao_local_keyword_search,경기 광주시 수하길 36,1379065300,address_exact,verified_municipality_match,pending_kakao_api

@@ -1,0 +1,12 @@
+﻿source_province,fire_station,safety_center,regional_unit,ambulance_count,base_name,address,latitude,longitude,coordinate_source,matched_address,kakao_place_id,municipality_assignment,geocoding_status,routing_status
+경기,화성소방서,향남119안전센터,,2,향남119안전센터,경기도 화성시 향남읍 향남로 399,37.1307996848172,126.92070345408,kakao_local_address_search,경기 화성시 만세구 향남읍 향남로 399,,address_exact,verified_municipality_match,pending_kakao_api
+경기,화성소방서,남양119안전센터,,1,남양119안전센터,경기도 화성시 남양읍 남양시장로 48,37.2086974645712,126.814649559573,kakao_local_address_search,경기 화성시 만세구 남양읍 남양시장로 48,,address_exact,verified_municipality_match,pending_kakao_api
+경기,화성소방서,목동119안전센터,,2,목동119안전센터,경기도 화성시 동탄신리천로 359,37.1837999313775,127.118212354055,kakao_local_address_search,경기 화성시 동탄구 동탄신리천로 359,,address_exact,verified_municipality_match,pending_kakao_api
+경기,화성소방서,반송119안전센터,,2,반송119안전센터,경기도 화성시 동탄반석로 188,37.2054960288597,127.07207713524,kakao_local_address_search,경기 화성시 동탄구 동탄반석로 188,,address_exact,verified_municipality_match,pending_kakao_api
+경기,화성소방서,봉담119안전센터,,1,봉담119안전센터,경기도 화성시 봉담읍 동화새터길 135,37.2150077830769,126.962924351785,kakao_local_address_search,경기 화성시 효행구 봉담읍 동화새터길 135,,address_exact,verified_municipality_match,pending_kakao_api
+경기,화성소방서,장안119안전센터,,1,장안119안전센터,경기도 화성시 장안면 3.1만세로 119,37.0863441364546,126.826121434891,kakao_local_address_search,경기 화성시 만세구 장안면 3.1만세로 119,,address_exact,verified_municipality_match,pending_kakao_api
+경기,화성소방서,정남119안전센터,,1,정남119안전센터,경기도 화성시 정남면 정남동로 514,37.1650968243568,127.00228104725,kakao_local_address_search,경기 화성시 효행구 정남면 정남동로 514,,address_exact,verified_municipality_match,pending_kakao_api
+경기,화성소방서,태안119안전센터,,1,태안119안전센터,경기도 화성시 병점중앙로 148,37.2111933878117,127.038980504207,kakao_local_address_search,경기 화성시 병점구 병점중앙로 148,,address_exact,verified_municipality_match,pending_kakao_api
+경기,화성소방서,팔탄119안전센터,,1,팔탄119안전센터,경기도 화성시 팔탄면 구장길 2,37.1610195872041,126.904984860985,kakao_local_address_search,경기 화성시 만세구 팔탄면 구장길 2,,address_exact,verified_municipality_match,pending_kakao_api
+경기,화성소방서,새솔119안전센터,,2,새솔119안전센터,,37.2845542233804,126.815672082809,kakao_local_keyword_search,경기 화성시 만세구 수노을2로 21,1376817990,fire_station_address_inferred,verified_municipality_match,pending_kakao_api
+경기,화성소방서,남양119안전센터,서신지역대,1,서신지역대,,37.1689632321678,126.698963365894,kakao_local_keyword_search,경기 화성시 만세구 서신면 바다뜰길 36,8367873,address_exact,verified_municipality_match,pending_kakao_api

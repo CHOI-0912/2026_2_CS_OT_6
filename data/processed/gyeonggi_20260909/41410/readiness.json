@@ -1,0 +1,22 @@
+{
+  "municipality_code": "41410",
+  "municipality_name": "군포시",
+  "existing_emergency_hospital_count": 2,
+  "demand_point_count": 12,
+  "ambulance_base_row_count": 3,
+  "ambulance_count": 5,
+  "ready_for_simulation": false,
+  "blocking_inputs": [
+    "actual directional road travel-time matrix",
+    "municipal 119 demand-rate calibration (population-proportional estimate in use)",
+    "patient-type treatment success calibration"
+  ],
+  "ambulance_base_rows_with_coordinates": 3,
+  "demand_points_with_coordinates": 12,
+  "existing_hospitals_with_coordinates": 2,
+  "candidate_site_count": 3,
+  "candidate_sites_with_coordinates": 3,
+  "advisory_inputs": [
+    "candidate-site land feasibility review"
+  ]
+}

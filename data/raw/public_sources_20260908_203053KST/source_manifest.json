@@ -1,0 +1,156 @@
+{
+  "manifest_version": 1,
+  "created_at": "2026-09-08T20:40:00+09:00",
+  "validated_at": "2026-09-09T00:00:00+09:00",
+  "valid_data_root": "data/raw/public_sources_20260908_203053KST",
+  "notes": [
+    "datasets 배열에 기록된 파일만 유효한 공식 원본이다.",
+    "CSV는 내려받은 바이트를 변환하거나 필터링하지 않고 그대로 보존했다.",
+    "실패한 HTML·빈 응답은 _failed_downloads에 격리했으며 원자료로 사용하지 않는다."
+  ],
+  "datasets": [
+    {
+      "id": "gyeonggi_emergency_medical_institutions",
+      "title": "경기도 응급의료기관 현황",
+      "publisher": "경기도",
+      "landing_url": "https://www.data.go.kr/data/15011313/fileData.do",
+      "source_url": "https://data.gg.go.kr/portal/data/sheet/downloadSheetData.do?infId=MB714IBPDSE5OPNIMW0V27143432&infSeq=1&downloadType=C",
+      "request_method": "GET",
+      "reference_date": "2025-09-17",
+      "downloaded_at": "2026-09-08T20:32:49+09:00",
+      "path": "gyeonggi_emergency_medical_institutions_20250917_primary.csv",
+      "format": "CSV",
+      "encoding": "CP949",
+      "size_bytes": 11140,
+      "sha256": "4ba5205d9e1b46d16a199222f01a0c7ef7e44795acbe4c208e0ae1febf6b1915",
+      "row_count_excluding_header": 73,
+      "field_count": 9,
+      "fields": [
+        "시군명",
+        "병원명/센터명",
+        "업무구분명",
+        "대표전화번호",
+        "소재지도로명주소",
+        "소재지지번주소",
+        "소재지우편번호",
+        "위도",
+        "경도"
+      ],
+      "validation": {
+        "municipality_count_with_emergency_institution": 25,
+        "missing_latitude": 0,
+        "missing_longitude": 0,
+        "category_counts": {
+          "권역응급의료센터": 9,
+          "지역응급의료센터": 33,
+          "지역응급의료기관": 31
+        }
+      }
+    },
+    {
+      "id": "nfa_ambulances_by_fire_station_119_center",
+      "title": "소방청 전국 소방서 및 119안전센터별 구급차 정보",
+      "publisher": "소방청",
+      "landing_url": "https://www.data.go.kr/data/15113282/fileData.do?recommendDataYn=Y",
+      "source_url": "https://www.data.go.kr/cmm/cmm/fileDownload.do?atchFileId=FILE_000000003648395&fileDetailSn=1&insertDataPrcus=N",
+      "request_method": "GET",
+      "reference_date": "2025-06-30",
+      "downloaded_at": "2026-09-08T20:31:24+09:00",
+      "path": "nfa_ambulances_by_fire_station_119_center_20250630.csv",
+      "format": "CSV",
+      "encoding": "CP949",
+      "size_bytes": 57124,
+      "sha256": "402216392f638b1031263ed81759032db41da05f6d238c6a094b92d150bd6e27",
+      "row_count_excluding_header": 1460,
+      "field_count": 5,
+      "fields": ["시도", "소방서", "안전센터", "지역대", "수량"],
+      "validation": {
+        "gyeonggi_and_gyeonggi_north_rows": 232,
+        "gyeonggi_and_gyeonggi_north_ambulance_total": 290
+      }
+    },
+    {
+      "id": "mois_resident_population_all_eup_myeon_dong",
+      "title": "행정안전부 주민등록 인구 및 세대현황 전체 읍면동",
+      "publisher": "행정안전부",
+      "landing_url": "https://jumin.mois.go.kr/statMonth.do",
+      "source_url": "https://jumin.mois.go.kr/downloadCsv.do?searchYearMonth=month&xlsStats=3",
+      "request_method": "POST",
+      "request_parameters": {
+        "sltOrgType": "2",
+        "sltOrgLvl1": "4100000000",
+        "sltOrgLvl2": "A",
+        "searchYearStart": "2026",
+        "searchMonthStart": "08",
+        "searchYearEnd": "2026",
+        "searchMonthEnd": "08",
+        "category": "month",
+        "xlsStats": "3"
+      },
+      "reference_date": "2026-08-31",
+      "downloaded_at": "2026-09-08T20:31:28+09:00",
+      "path": "mois_resident_population_all_eup_myeon_dong_202608.csv",
+      "format": "CSV",
+      "encoding": "CP949",
+      "size_bytes": 420710,
+      "sha256": "ec7da56f58c089e4ccbb344b1ced593e9e44bbc0b695c258ea76ede98e26beed",
+      "row_count_excluding_header": 3922,
+      "field_count": 7,
+      "validation": {
+        "gyeonggi_rows_including_province_and_subtotals": 663
+      }
+    },
+    {
+      "id": "mois_legal_dong_codes_full",
+      "title": "법정동 코드 전체자료",
+      "publisher": "행정안전부 행정표준코드관리시스템",
+      "landing_url": "https://www.code.go.kr/stdcode/regCodeL.do",
+      "source_url": "https://www.code.go.kr/etc/codeFullDown.do",
+      "request_method": "POST",
+      "request_parameters": {"codeseId": "법정동코드"},
+      "reference_date": "2026-09-08",
+      "downloaded_at": "2026-09-08T20:35:28+09:00",
+      "path": "mois_code_go_kr_legal_dong_codes_full_20260908.zip",
+      "format": "ZIP",
+      "size_bytes": 413346,
+      "sha256": "7b4b544a6302d26c4f4c89d2c1355beae82e958c786bad8cc8572db0d2e2eb33",
+      "archive_validation": {
+        "row_count_excluding_header": 53387,
+        "field_count": 3,
+        "encoding": "CP949",
+        "delimiter": "tab",
+        "fields": ["법정동코드", "법정동명", "폐지여부"]
+      }
+    },
+    {
+      "id": "nfa_119_safety_centers",
+      "title": "소방청 119안전센터 현황",
+      "publisher": "소방청",
+      "landing_url": "https://www.data.go.kr/data/15065056/fileData.do?recommendDataYn=Y",
+      "source_url": "https://www.data.go.kr/cmm/cmm/fileDownload.do?atchFileId=FILE_000000003648648&fileDetailSn=1&insertDataPrcus=N",
+      "request_method": "GET",
+      "reference_date": "2023-12-31",
+      "downloaded_at": "2026-09-09T00:00:00+09:00",
+      "archive": {
+        "path": "nfa_119_safety_centers_history_through_20231231.zip",
+        "format": "ZIP",
+        "size_bytes": 120923,
+        "sha256": "40446667c447789c35a538d2e1f62150c0fc14b3ab304ace1630bf1f6afa85be",
+        "entry_count": 4
+      },
+      "latest_extracted_file": {
+        "path": "nfa_119_safety_centers_20231231.csv",
+        "archive_entry": "119안전센터 주소(2023.12.31).csv",
+        "format": "CSV",
+        "encoding": "CP949",
+        "size_bytes": 113797,
+        "sha256": "d9525886b6e44ff1d2be8b3e58db66c6c1947b0fe87cf715f878b7074115e2cd",
+        "row_count_excluding_header": 1118,
+        "field_count": 7,
+        "fields": ["순번", "시도본부", "소방서", "119안전센터명", "주소", "전화번호", "팩스번호"],
+        "validation": {"gyeonggi_rows": 199}
+      },
+      "limitation": "주소는 있으나 위도·경도는 없으므로 지오코딩 API가 추가로 필요하다."
+    }
+  ]
+}

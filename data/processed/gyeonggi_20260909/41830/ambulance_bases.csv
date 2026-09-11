@@ -1,0 +1,8 @@
+﻿source_province,fire_station,safety_center,regional_unit,ambulance_count,base_name,address,latitude,longitude,coordinate_source,matched_address,kakao_place_id,municipality_assignment,geocoding_status,routing_status
+경기,양평소방서,강상119안전센터,,1,강상119안전센터,경기도 양평군 강상면 송학길 54,37.4803451220548,127.478213938883,kakao_local_address_search,경기 양평군 강상면 송학길 54,,address_exact,verified_municipality_match,pending_kakao_api
+경기,양평소방서,공흥119안전센터,,2,공흥119안전센터,경기도 양평군 양평읍 경강로 2047,37.5003379879327,127.507338915387,kakao_local_address_search,경기 양평군 양평읍 경강로 2047,,address_exact,verified_municipality_match,pending_kakao_api
+경기,양평소방서,양평수난구조대119안전센터,,1,양평수난구조대119안전센터,,37.5944384768103,127.34862836088,kakao_local_keyword_search,경기 양평군 서종면 북한강로 619,10060184,fire_station_address_inferred,verified_municipality_match,pending_kakao_api
+경기,양평소방서,용문119안전센터,,1,용문119안전센터,경기도 양평군 용문면 연수로 64,37.493025248872,127.590302758126,kakao_local_address_search,경기 양평군 용문면 연수로 64,,address_exact,verified_municipality_match,pending_kakao_api
+경기,양평소방서,양서119안전센터,,1,양서119안전센터,경기도 양평군 양서면 두물머리길 43,37.5402551999523,127.318915650415,kakao_local_address_search,경기 양평군 양서면 두물머리길 43,,address_exact,verified_municipality_match,pending_kakao_api
+경기,양평소방서,용문119안전센터,청운단월지역대,1,청운단월지역대,,37.5385580921247,127.684232366703,kakao_local_keyword_search,경기 양평군 청운면 백동길 1-25,1427422122,address_exact,verified_municipality_match,pending_kakao_api
+경기,양평소방서,용문119안전센터,양동지역대,1,양동지역대,,37.4199933162608,127.765563649657,kakao_local_keyword_search,경기 양평군 양동면 양서북로 80,23457514,address_exact,verified_municipality_match,pending_kakao_api

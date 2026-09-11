@@ -1,0 +1,47 @@
+{
+  "municipality_code": "52110",
+  "status": "complete",
+  "generated_at": "2026-09-11T01:25:05.260424+00:00",
+  "generated_by": "scripts/build_grid_candidates.py --mode standby",
+  "candidate_definition": "grid cells usable as an ambulance standby post: inside the municipality, resident population above zero, and at least 1 km from every existing 119 안전센터; no top-population exclusion, because a standby post is a parking spot and not a building",
+  "parameters": {
+    "mode": "standby",
+    "grid_km": 1.0,
+    "min_distance_km": 1.0
+  },
+  "grid": {
+    "grid_km": 1.0,
+    "rows": 11,
+    "columns": 12,
+    "latitude_step_degrees": 0.008983111749910169,
+    "longitude_step_degrees": 0.01107965524941438,
+    "center_latitude_for_longitude_step": 35.82824205807612,
+    "envelope": {
+      "min_latitude": 35.786564067659995,
+      "max_latitude": 35.88428263332451,
+      "min_longitude": 127.05171185629843,
+      "max_longitude": 127.17812250606042
+    },
+    "envelope_basis": "demand_population.csv representative points plus one cell margin"
+  },
+  "counts": {
+    "total_cells": 132,
+    "inside_municipality": 119,
+    "population_positive": 119,
+    "after_distance_filter": 92
+  },
+  "separation_reference": {
+    "ambulance_bases": 10,
+    "file": "ambulance_bases.csv"
+  },
+  "existing_bases_are_posts": "the 10 existing 119 안전센터 are standby posts as well; they are added by scripts/build_municipal_standby_inputs.py, not listed in this file",
+  "population_allocation_note": "cell_population_estimate is an estimate: the 행정동 resident population divided evenly among the grid cells whose centre falls in that 행정동 (uniform within-동 allocation).",
+  "haversine_note": "Haversine great-circle distance is used here ONLY as a site-eligibility rule (minimum separation from existing facilities), never as a travel time.",
+  "administrative_membership_source": "Kakao Local coord2regioncode (region_type H = 행정동, B = 법정동)",
+  "municipality_administrative_prefixes": [
+    "52111",
+    "52113"
+  ],
+  "new_region_code_calls": 132,
+  "region_code_cache_file": "grid_candidates_manifest.json"
+}

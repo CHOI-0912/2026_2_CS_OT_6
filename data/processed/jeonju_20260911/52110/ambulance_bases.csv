@@ -1,0 +1,11 @@
+﻿source_province,fire_station,safety_center,regional_unit,ambulance_count,base_name,address,latitude,longitude,coordinate_source,matched_address,kakao_place_id,municipality_assignment,geocoding_status,routing_status
+전북,전주완산소방서,효자119안전센터,,2,효자119안전센터,전라북도 전주시 완산구 거마평로 73,35.7989050342988,127.116297274992,kakao_local_address_search,전북특별자치도 전주시 완산구 거마평로 73,,address_exact,verified_municipality_match,pending_kakao_api
+전북,전주완산소방서,서부119안전센터,,1,서부119안전센터,전라북도 전주시 완산구 우전로 228,35.8149018344203,127.102291115183,kakao_local_address_search,전북특별자치도 전주시 완산구 우전로 228,,address_exact,verified_municipality_match,pending_kakao_api
+전북,전주완산소방서,교동119안전센터,,1,교동119안전센터,전라북도 전주시 완산구 경기전길 183,35.8111833439925,127.151742852765,kakao_local_address_search,전북특별자치도 전주시 완산구 경기전길 183,,address_exact,verified_municipality_match,pending_kakao_api
+전북,전주완산소방서,서신119안전센터,,1,서신119안전센터,,35.829103886041,127.127811818598,kakao_local_keyword_search,전북특별자치도 전주시 완산구 전룡로 138,1365233023,official_fire_station_name_inferred,verified_municipality_match,pending_kakao_api
+전북,전주완산소방서,평화119안전센터,,1,평화119안전센터,전라북도 전주시 완산구 평화로 105,35.7862238527524,127.133832078477,kakao_local_address_search,전북특별자치도 전주시 완산구 평화로 105,,address_exact,verified_municipality_match,pending_kakao_api
+전북,전주덕진소방서,금암119안전센터,,2,금암119안전센터,전라북도 전주시 덕진구 백제대로 611,35.8424008651625,127.13665576316,kakao_local_address_search,전북특별자치도 전주시 덕진구 백제대로 611,,address_exact,verified_municipality_match,pending_kakao_api
+전북,전주덕진소방서,아중119안전센터,,1,아중119안전센터,전라북도 전주시 덕진구 진버들4길 16,35.8360069404117,127.163736082076,kakao_local_address_search,전북특별자치도 전주시 덕진구 진버들4길 16,,address_exact,verified_municipality_match,pending_kakao_api
+전북,전주덕진소방서,팔복119안전센터,,1,팔복119안전센터,전라북도 전주시 덕진구 온고을로 430,35.8505840308413,127.08231832469,kakao_local_address_search,전북특별자치도 전주시 덕진구 온고을로 430,,address_exact,verified_municipality_match,pending_kakao_api
+전북,전주덕진소방서,전미119안전센터,,1,전미119안전센터,전라북도 전주시 덕진구 과학로 144,35.8818914792943,127.1287239445,kakao_local_address_search,전북특별자치도 전주시 덕진구 과학로 144,,address_exact,verified_municipality_match,pending_kakao_api
+전북,전주덕진소방서,조촌119안전센터,,1,조촌119안전센터,,35.8638578259397,127.085513015813,kakao_local_keyword_search,전북특별자치도 전주시 덕진구 기린대로 910,1994248934,fire_station_address_inferred,verified_municipality_match,pending_kakao_api

@@ -1,0 +1,13 @@
+﻿administrative_code,administrative_name,municipality_code,population,households,latitude,longitude,coordinate_source,matched_address,kakao_place_id,geocoding_status,demand_rate_status,coordinate_reference_url,coordinate_basis
+4163025000,경기도 양주시 백석읍,41630,25511,12289,37.7950439806818,126.985517110418,kakao_administrative_office_representative_proxy,경기 양주시 백석읍 중앙로223번길 46,2074596383,verified_municipality_match,pending_119_activity_api,,
+4163031000,경기도 양주시 은현면,41630,4892,2809,37.875001147527,127.024564300477,kakao_administrative_office_representative_proxy,경기 양주시 은현면 은현로 66,10674212,verified_municipality_match,pending_119_activity_api,,
+4163032000,경기도 양주시 남면,41630,5793,3359,37.8981269123844,126.97671505489,kakao_administrative_office_representative_proxy,경기 양주시 남면 개나리17길 6,10184251,verified_municipality_match,pending_119_activity_api,,
+4163033000,경기도 양주시 광적면,41630,10327,5594,37.824628521156,126.983684913461,kakao_administrative_office_representative_proxy,경기 양주시 광적면 가래비길 93,8194902,verified_municipality_match,pending_119_activity_api,,
+4163034000,경기도 양주시 장흥면,41630,13599,7223,37.7178722789777,126.941144103763,kakao_administrative_office_representative_proxy,경기 양주시 장흥면 권율로 7,10728975,verified_municipality_match,pending_119_activity_api,,
+4163051000,경기도 양주시 양주1동,41630,4424,2381,37.77620388215918,127.04388486494844,kakao_administrative_office_representative_proxy,경기 양주시 외미로 116,1852279311,verified_municipality_match,pending_119_activity_api,,
+4163052000,경기도 양주시 양주2동,41630,49055,21018,37.7968923459778,127.080386802169,kakao_administrative_office_representative_proxy,경기 양주시 고읍로 77,7997745,verified_municipality_match,pending_119_activity_api,,
+4163053000,경기도 양주시 회천1동,41630,10600,5260,37.84403749728586,127.06608863856695,kakao_administrative_office_representative_proxy,경기 양주시 덕정길 67,10966035,verified_municipality_match,pending_119_activity_api,,
+4163054000,경기도 양주시 회천2동,41630,46821,21014,37.8216832518839,127.046758060094,kakao_administrative_office_representative_proxy,경기 양주시 평화로1475번길 39,8164637,verified_municipality_match,pending_119_activity_api,,
+4163055000,경기도 양주시 회천3동,41630,24675,11103,37.837773338973186,127.06892994815009,kakao_administrative_office_representative_proxy,경기 양주시 회정로 143,1064899924,verified_municipality_match,pending_119_activity_api,,
+4163057000,경기도 양주시 옥정1동,41630,42627,18879,37.8372274548882,127.09013674711606,kakao_administrative_office_representative_proxy,경기 양주시 옥정로 397-7,8656916,verified_municipality_match,pending_119_activity_api,,
+4163058000,경기도 양주시 옥정2동,41630,59281,22716,37.8213826740919,127.094327816972,kakao_administrative_office_representative_proxy,경기 양주시 옥정동로7가길 4,849889889,verified_municipality_match,pending_119_activity_api,,

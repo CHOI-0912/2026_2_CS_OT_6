@@ -1,0 +1,81 @@
+{
+  "manifest_version": 1,
+  "title": "수원시 구급활동 환자 증상·발생장소·연령대 분포 (2025년 집계)",
+  "publisher": "경기도소방재난본부 / 경기데이터드림(경기도)",
+  "landing_url": "https://data.gg.go.kr/portal/data/service/selectServicePage.do?infId=SE00GA6F273B8PIJ9N8412495661&infSeq=1",
+  "source_url": "https://data.gg.go.kr/portal/data/sheet/searchSheetData.do",
+  "request_method": "POST",
+  "request_params": {
+    "infId": "SE00GA6F273B8PIJ9N8412495661",
+    "infSeq": "1",
+    "SIGUN_CD": "41110",
+    "CSRFToken": "<랜딩 페이지에서 추출>"
+  },
+  "open_api_key_used": false,
+  "login_required": false,
+  "downloaded_at": "2026-09-10T23:16:48+09:00",
+  "generator": "data/raw/municipal_dispatch_counts_20260910/fetch_suwon_patient_categories.py",
+  "response_bytes": 20432188,
+  "response_sha256": "55632721b8e07a65c270882aee2991c9aa23b24e107b72d2df4aa9e03124f7fe",
+  "response_row_count": 76784,
+  "rows_used_after_station_filter": 76784,
+  "rows_dropped_by_station_filter": 0,
+  "station_filter": [
+    "수원소방서",
+    "수원남부소방서"
+  ],
+  "rows_by_station": {
+    "수원남부소방서": 44881,
+    "수원소방서": 31903
+  },
+  "source_year": "2025",
+  "output_csv": "suwon_patient_category_shares_2025.csv",
+  "output_csv_sha256": "f3ae029a8ec1541e6090fb5b87b1ce00aab7c0ffbbece7b04a6d377f85fcaac0",
+  "distinct_values": {
+    "patnt_symptms_type": 46,
+    "relif_occurplc_type_raw": 710,
+    "relif_occurplc_type_base": 14,
+    "patnt_age_band_10y": 13
+  },
+  "missing_value_counts": {
+    "patnt_symptms_type": 25308,
+    "relif_occurplc_type": 18483,
+    "patnt_age": 22838
+  },
+  "patnt_age_range": {
+    "min": 0.0,
+    "max": 999.0,
+    "recorded_count": 53946
+  },
+  "model_type_proposal": {
+    "심정지": "cardiac",
+    "흉통": "cardiac",
+    "가슴불편감": "cardiac",
+    "심계항진": "cardiac",
+    "실신": "cardiac",
+    "의식장애": "stroke",
+    "마비": "stroke",
+    "경련/발작": "stroke",
+    "열상": "trauma",
+    "찰과상": "trauma",
+    "타박상": "trauma",
+    "골절": "trauma",
+    "염좌": "trauma",
+    "탈구": "trauma",
+    "화상": "trauma",
+    "절단": "trauma",
+    "압궤손상": "trauma",
+    "그 밖의출혈": "trauma",
+    "기타이물질": "trauma",
+    "기도이물": "trauma",
+    "저체온증": "trauma"
+  },
+  "notes": [
+    "원본 응답 약 20MB는 저장하지 않았다. 응답 바이트 수와 SHA-256으로 재현을 검증한다.",
+    "share_of_all_rows_pct는 전체 76784행 기준 비율이고, share_of_recorded_rows_pct는 해당 열에 값이 기재된 행만을 분모로 삼은 비율이다.",
+    "relif_occurplc_type_raw는 `도로외교통지역(인도)`처럼 괄호 안에 자유 기술이 붙은 값을 그대로 보존한 분포다. relif_occurplc_type_base는 괄호 앞 기본 분류만 남긴 분포다.",
+    "model_type_proposal은 모델의 4개 환자 유형(cardiac, stroke, trauma, minor)으로 묶어 본 제안이며 확정된 분류가 아니다. MODEL_TYPE_PROPOSAL에 없는 증상은 모두 minor로 처리했다.",
+    "이 데이터셋에는 신고시각이나 출동시각 같은 시간대 열이 없다. 시간대별 수요 곡선은 이 자료로 만들 수 없다.",
+    "이 데이터셋에는 사고종별(교통사고·추락 등) 열도 없다. trauma 비율은 외상 계열 증상만으로 추정한 값이므로 실제보다 낮게 나올 수 있다."
+  ]
+}

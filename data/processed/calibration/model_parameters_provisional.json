@@ -1,0 +1,214 @@
+{
+  "schema_version": 1,
+  "status": "provisional",
+  "generated_at": "2026-09-10T23:15:00+09:00",
+  "profiles": [
+    {
+      "name": "cardiac",
+      "share": 0.15,
+      "golden_minutes": 8,
+      "decay_rate": 0.045,
+      "scene_minutes": 12,
+      "field_success": 0.0,
+      "basis": "temporary coefficient copied from scripts/build_folium_municipal_simulator.py; not an observed incidence share or survival curve"
+    },
+    {
+      "name": "stroke",
+      "share": 0.2,
+      "golden_minutes": 20,
+      "decay_rate": 0.025,
+      "scene_minutes": 12,
+      "field_success": 0.0,
+      "basis": "temporary coefficient copied from scripts/build_folium_municipal_simulator.py; not an observed incidence share or survival curve"
+    },
+    {
+      "name": "trauma",
+      "share": 0.15,
+      "golden_minutes": 15,
+      "decay_rate": 0.03,
+      "scene_minutes": 15,
+      "field_success": 0.0,
+      "basis": "temporary coefficient copied from scripts/build_folium_municipal_simulator.py; not an observed incidence share or survival curve"
+    },
+    {
+      "name": "minor",
+      "share": 0.5,
+      "golden_minutes": 60,
+      "decay_rate": 0.004,
+      "scene_minutes": 8,
+      "field_success": 0.08,
+      "basis": "temporary coefficient copied from scripts/build_folium_municipal_simulator.py; not an observed incidence share or survival curve"
+    }
+  ],
+  "hourly_profile_weights": null,
+  "hourly_demand_multipliers": null,
+  "hospital": {
+    "categories": [
+      "권역응급의료센터",
+      "지역응급의료센터",
+      "지역응급의료기관"
+    ],
+    "success_by_category": {
+      "권역응급의료센터": {
+        "cardiac": 1.0,
+        "stroke": 1.0,
+        "trauma": 1.0,
+        "minor": 1.0
+      },
+      "지역응급의료센터": {
+        "cardiac": 1.0,
+        "stroke": 1.0,
+        "trauma": 1.0,
+        "minor": 1.0
+      },
+      "지역응급의료기관": {
+        "cardiac": 1.0,
+        "stroke": 1.0,
+        "trauma": 1.0,
+        "minor": 1.0
+      }
+    },
+    "capabilities_by_category": {
+      "권역응급의료센터": [
+        "cardiac",
+        "stroke",
+        "trauma",
+        "minor"
+      ],
+      "지역응급의료센터": [
+        "cardiac",
+        "stroke",
+        "trauma",
+        "minor"
+      ],
+      "지역응급의료기관": [
+        "cardiac",
+        "stroke",
+        "trauma",
+        "minor"
+      ]
+    },
+    "success_when_unavailable_by_profile": {
+      "cardiac": 0.1,
+      "stroke": 0.1,
+      "trauma": 0.1,
+      "minor": 0.1
+    },
+    "treatment_minutes": 75.0,
+    "transfer_delay_minutes": 5.0,
+    "basis": "user decision 2026-09-10: a patient who reaches a hospital with an open emergency-room bed is treated successfully (1.0); when no bed is open the hospital is assumed to refuse or hold the patient and only 0.1 of the remaining survival mass is saved (a 119-transported patient is assumed to need a bed). 75-minute bed occupancy and 5-minute transfer delay remain temporary coefficients. Time delay is already penalised through the survival function, so success is not further discounted."
+  },
+  "candidate": {
+    "category_assumption": "지역응급의료기관",
+    "capacity_beds": 20,
+    "treatment_minutes": 75.0,
+    "cost": 1.0,
+    "basis": "temporary planning assumption: every new-build candidate is modelled as a 지역응급의료기관 with 20 emergency-room beds, 75-minute bed occupancy and unit cost; not a design or budget figure"
+  },
+  "ambulance": {
+    "restock_minutes": 8.0,
+    "basis": "temporary coefficient copied from scripts/build_folium_municipal_simulator.py; not an observed turnaround time"
+  },
+  "demand": {
+    "method": "observed_municipal_dispatches",
+    "provincial_annual_dispatches": 811214,
+    "year": 2025,
+    "provincial_population_reference": "MOIS resident population 2026-08 (sum of the 31 municipalities in municipality_summary.csv)",
+    "daily_calls_by_municipality": {
+      "41110": 210.3671,
+      "41130": 161.1342,
+      "41150": 84.4164,
+      "41170": 86.6521,
+      "41190": 131.7781,
+      "41210": 42.5726,
+      "41220": 106.189,
+      "41250": 22.9288,
+      "41270": 115.8247,
+      "41280": 151.4575,
+      "41290": 10.937,
+      "41310": 32.5562,
+      "41360": 103.7699,
+      "41370": 44.3781,
+      "41390": 74.6247,
+      "41410": 38.2986,
+      "41430": 26.9452,
+      "41450": 42.4575,
+      "41460": 143.3644,
+      "41480": 78.7342,
+      "41500": 41.3808,
+      "41550": 39.8192,
+      "41570": 74.8986,
+      "41590": 123.2877,
+      "41610": 60.8575,
+      "41630": 45.4932,
+      "41650": 37.6219,
+      "41670": 27.926,
+      "41800": 12.0849,
+      "41820": 19.9123,
+      "41830": 29.8356
+    },
+    "basis": "observed 2025 municipal 119 dispatch counts from 경기데이터드림 '구급활동 현황' (Sheet query, one row per dispatch, assigned to municipalities by 출동소방서 name because the source SIGUN_CD mislabels 남양주소방서 rows as 41630); annual_dispatches / 365 -> daily_calls; file data/processed/calibration/municipal_daily_calls_2025.csv. Cross-check: NFA 2025 yearbook reports 799,302 Gyeonggi dispatches for 2024 (1.5% lower). Within a municipality the daily total is still allocated to administrative dongs by resident-population share because the source has no incident coordinates."
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "title": "소방청 본부별 구급활동정보 (2023-12-31 기준, nfa_headquarters_ambulance_activity_20231231.csv)",
+      "url": "https://www.data.go.kr/data/15080046/fileData.do",
+      "used_for": "demand: 2023 Gyeonggi annual dispatch total (846,564)"
+    },
+    {
+      "id": "S2",
+      "title": "행정안전부 주민등록 인구 및 세대현황 전체 읍면동 (2026-08)",
+      "url": "https://jumin.mois.go.kr/statMonth.do",
+      "used_for": "demand: municipal and administrative-dong population shares"
+    },
+    {
+      "id": "S3",
+      "title": "경기도 응급의료기관 현황 (기준일 2025-09-17)",
+      "url": "https://www.data.go.kr/data/15011313/fileData.do",
+      "used_for": "hospital: existing emergency institution registry, category, coordinates"
+    },
+    {
+      "id": "S4",
+      "title": "건강보험심사평가원 전국 병의원 및 약국 현황 2026.6",
+      "url": "https://opendata.hira.or.kr/op/opc/selectOpenData.do?sno=11925",
+      "used_for": "hospital: static emergency-room bed capacity (not real-time availability)"
+    },
+    {
+      "id": "S5",
+      "title": "국립중앙의료원 중앙응급의료센터 2024년도 응급의료기관 평가",
+      "url": "https://www.e-gen.or.kr/nemc/business_medical_institution_evaluation.do?tabId=9",
+      "used_for": "hospital: E-Gen institution code and evaluation grade preserved as official identifiers"
+    },
+    {
+      "id": "S6",
+      "title": "보건복지부 전국 지역보건의료기관 현황 (2025-12-31)",
+      "url": "https://www.data.go.kr/data/3072692/fileData.do",
+      "used_for": "candidate: existing public-health facilities used as planning-review candidate sites"
+    },
+    {
+      "id": "S7",
+      "title": "Kakao Mobility Directions API (RECOMMEND)",
+      "url": "https://developers.kakaomobility.com/docs/navi-api/directions/",
+      "used_for": "road_time: directional car-route minutes between local nodes"
+    },
+    {
+      "id": "S8",
+      "title": "scripts/build_folium_municipal_simulator.py temporary model coefficients",
+      "url": "scripts/build_folium_municipal_simulator.py",
+      "used_for": "profiles, hospital success, candidate and ambulance assumptions; temporary coefficients pending calibration"
+    },
+    {
+      "id": "S9",
+      "title": "경기데이터드림 구급활동 현황 (2025, 출동 1건 1행, 시군코드 필터 Sheet 조회)",
+      "url": "https://data.gg.go.kr/portal/data/service/selectServicePage.do?infId=SE00GA6F273B8PIJ9N8412495661&infSeq=1",
+      "used_for": "demand: observed 2025 daily 119 dispatches per municipality (수원 210.37/day)"
+    },
+    {
+      "id": "S10",
+      "title": "소방청 2025년도 119구급서비스 통계연보 (PDF)",
+      "url": "https://www.data.go.kr/data/15139158/fileData.do",
+      "used_for": "demand cross-check: 2024 Gyeonggi dispatches 799,302"
+    }
+  ]
+}

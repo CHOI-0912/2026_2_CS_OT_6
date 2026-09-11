@@ -1,0 +1,11 @@
+﻿source_province,fire_station,safety_center,regional_unit,ambulance_count,base_name,address,latitude,longitude,coordinate_source,matched_address,kakao_place_id,municipality_assignment,geocoding_status,routing_status
+경기,부천소방서,괴안119안전센터,,1,괴안119안전센터,경기도 부천시 부광로8번길 49,37.482716149283,126.810439637854,kakao_local_address_search,경기 부천시 소사구 부광로8번길 49,,address_exact,verified_municipality_match,pending_kakao_api
+경기,부천소방서,오정119안전센터,,1,오정119안전센터,경기도 부천시 신흥로 499,37.5277585766989,126.777475548441,kakao_local_address_search,경기 부천시 오정구 신흥로 499,,address_exact,verified_municipality_match,pending_kakao_api
+경기,부천소방서,범박119안전센터,,1,범박119안전센터,경기도 부천시 범안로 127,37.4705232236288,126.809413122136,kakao_local_address_search,경기 부천시 소사구 범안로 127,,address_exact,verified_municipality_match,pending_kakao_api
+경기,부천소방서,상동119안전센터,,1,상동119안전센터,경기도 부천시 장말로 113,37.4942981137064,126.754496545474,kakao_local_address_search,경기 부천시 원미구 장말로 113,,address_exact,verified_municipality_match,pending_kakao_api
+경기,부천소방서,서부119안전센터,,1,서부119안전센터,경기도 부천시 계남로 169,37.5079070548544,126.767774185027,kakao_local_address_search,경기 부천시 원미구 계남로 169,,address_exact,verified_municipality_match,pending_kakao_api
+경기,부천소방서,신상119안전센터,,1,신상119안전센터,경기도 부천시 상동로117번길 36,37.5081274274471,126.751559932545,kakao_local_address_search,경기 부천시 원미구 상동로117번길 36,,address_exact,verified_municipality_match,pending_kakao_api
+경기,부천소방서,여월119안전센터,,1,여월119안전센터,경기도 부천시 여월로 62,37.5113612613326,126.805392451009,kakao_local_address_search,경기 부천시 오정구 여월로 62,,address_exact,verified_municipality_match,pending_kakao_api
+경기,부천소방서,원종119안전센터,,1,원종119안전센터,경기도 부천시 원종로79번길 41,37.5260061746913,126.808496450708,kakao_local_address_search,경기 부천시 오정구 원종로79번길 41,,address_exact,verified_municipality_match,pending_kakao_api
+경기,부천소방서,중동119안전센터,,1,중동119안전센터,경기도 부천시 부일로 346,37.4877205366711,126.76852800331,kakao_local_address_search,경기 부천시 원미구 부일로 346,,address_exact,verified_municipality_match,pending_kakao_api
+경기,부천소방서,중앙119안전센터,,2,중앙119안전센터,경기도 부천시 신흥로 115,37.4940124263173,126.778052569053,kakao_local_address_search,경기 부천시 원미구 신흥로 115,,address_exact,verified_municipality_match,pending_kakao_api

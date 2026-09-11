@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.env.*
+!.env.example
+
+# Large official raw snapshots (re-download via data/raw/official_hospital_capacity_20260910/source_manifest.json)
+data/raw/official_hospital_capacity_20260910/hira_nationwide_hospitals_pharmacies_2026_06.zip
+data/raw/official_hospital_capacity_20260910/hira_2026_06_extracted/
+outputs/logs/

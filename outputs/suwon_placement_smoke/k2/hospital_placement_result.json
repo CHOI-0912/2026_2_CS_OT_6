@@ -1,0 +1,506 @@
+{
+  "municipality_code": "41110",
+  "municipality_name": "수원시",
+  "objective": "local expected survivors",
+  "cross_municipality_resources_allowed": false,
+  "search": "exact exhaustive combinations",
+  "new_hospitals": 2,
+  "episodes": 2,
+  "baseline_existing_only": {
+    "mean": 137.0069105,
+    "standard_deviation": 9.655379755435844,
+    "ci95_low": 123.62523688000002,
+    "ci95_high": 150.38858412,
+    "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
+    "values": [
+      130.179526,
+      143.834295
+    ]
+  },
+  "baseline_expected_saved_mean": 137.0069105,
+  "best": {
+    "candidate_ids": [
+      "C02",
+      "C03"
+    ],
+    "candidate_names": [
+      "영통구보건소",
+      "장안구보건소"
+    ],
+    "total_cost": 2.0,
+    "expected_saved": {
+      "mean": 138.1589735,
+      "standard_deviation": 9.091602104582245,
+      "ci95_low": 125.55865584000001,
+      "ci95_high": 150.75929115999998,
+      "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
+      "values": [
+        131.73024,
+        144.587707
+      ]
+    },
+    "incremental_expected_saved": {
+      "mean": 1.1520629999999983,
+      "standard_deviation": 0.5637776508535981,
+      "ci95_low": 0.37070703999999643,
+      "ci95_high": 1.93341896,
+      "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
+      "values": [
+        1.5507139999999993,
+        0.7534119999999973
+      ]
+    },
+    "expected_saved_mean": 138.1589735,
+    "incremental_expected_saved_mean": 1.1520629999999983,
+    "episodes": [
+      {
+        "episode": 0,
+        "seed": 42,
+        "expected_saved": 131.73024,
+        "baseline": 130.179526,
+        "difference": 1.5507139999999993
+      },
+      {
+        "episode": 1,
+        "seed": 43,
+        "expected_saved": 144.587707,
+        "baseline": 143.834295,
+        "difference": 0.7534119999999973
+      }
+    ]
+  },
+  "alternatives": [
+    {
+      "candidate_ids": [
+        "C02",
+        "C03"
+      ],
+      "candidate_names": [
+        "영통구보건소",
+        "장안구보건소"
+      ],
+      "total_cost": 2.0,
+      "expected_saved": {
+        "mean": 138.1589735,
+        "standard_deviation": 9.091602104582245,
+        "ci95_low": 125.55865584000001,
+        "ci95_high": 150.75929115999998,
+        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
+        "values": [
+          131.73024,
+          144.587707
+        ]
+      },
+      "incremental_expected_saved": {
+        "mean": 1.1520629999999983,
+        "standard_deviation": 0.5637776508535981,
+        "ci95_low": 0.37070703999999643,
+        "ci95_high": 1.93341896,
+        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
+        "values": [
+          1.5507139999999993,
+          0.7534119999999973
+        ]
+      },
+      "expected_saved_mean": 138.1589735,
+      "incremental_expected_saved_mean": 1.1520629999999983,
+      "episodes": [
+        {
+          "episode": 0,
+          "seed": 42,
+          "expected_saved": 131.73024,
+          "baseline": 130.179526,
+          "difference": 1.5507139999999993
+        },
+        {
+          "episode": 1,
+          "seed": 43,
+          "expected_saved": 144.587707,
+          "baseline": 143.834295,
+          "difference": 0.7534119999999973
+        }
+      ]
+    },
+    {
+      "candidate_ids": [
+        "C02",
+        "C04"
+      ],
+      "candidate_names": [
+        "영통구보건소",
+        "팔달구보건소"
+      ],
+      "total_cost": 2.0,
+      "expected_saved": {
+        "mean": 138.0521315,
+        "standard_deviation": 9.065285004400048,
+        "ci95_low": 125.48828748000001,
+        "ci95_high": 150.61597551999998,
+        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
+        "values": [
+          131.642007,
+          144.462256
+        ]
+      },
+      "incremental_expected_saved": {
+        "mean": 1.045220999999998,
+        "standard_deviation": 0.590094751035796,
+        "ci95_low": 0.22739140000000035,
+        "ci95_high": 1.8630505999999956,
+        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
+        "values": [
+          1.4624809999999968,
+          0.6279609999999991
+        ]
+      },
+      "expected_saved_mean": 138.0521315,
+      "incremental_expected_saved_mean": 1.045220999999998,
+      "episodes": [
+        {
+          "episode": 0,
+          "seed": 42,
+          "expected_saved": 131.642007,
+          "baseline": 130.179526,
+          "difference": 1.4624809999999968
+        },
+        {
+          "episode": 1,
+          "seed": 43,
+          "expected_saved": 144.462256,
+          "baseline": 143.834295,
+          "difference": 0.6279609999999991
+        }
+      ]
+    },
+    {
+      "candidate_ids": [
+        "C03",
+        "C04"
+      ],
+      "candidate_names": [
+        "장안구보건소",
+        "팔달구보건소"
+      ],
+      "total_cost": 2.0,
+      "expected_saved": {
+        "mean": 137.88970949999998,
+        "standard_deviation": 9.569972569977018,
+        "ci95_low": 124.62640419999998,
+        "ci95_high": 151.1530148,
+        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
+        "values": [
+          131.122717,
+          144.656702
+        ]
+      },
+      "incremental_expected_saved": {
+        "mean": 0.8827989999999915,
+        "standard_deviation": 0.08540718545882622,
+        "ci95_low": 0.7644306800000049,
+        "ci95_high": 1.001167319999978,
+        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
+        "values": [
+          0.9431909999999846,
+          0.8224069999999983
+        ]
+      },
+      "expected_saved_mean": 137.88970949999998,
+      "incremental_expected_saved_mean": 0.8827989999999915,
+      "episodes": [
+        {
+          "episode": 0,
+          "seed": 42,
+          "expected_saved": 131.122717,
+          "baseline": 130.179526,
+          "difference": 0.9431909999999846
+        },
+        {
+          "episode": 1,
+          "seed": 43,
+          "expected_saved": 144.656702,
+          "baseline": 143.834295,
+          "difference": 0.8224069999999983
+        }
+      ]
+    },
+    {
+      "candidate_ids": [
+        "C01",
+        "C02"
+      ],
+      "candidate_names": [
+        "수원시권선구보건소",
+        "영통구보건소"
+      ],
+      "total_cost": 2.0,
+      "expected_saved": {
+        "mean": 137.7326885,
+        "standard_deviation": 9.128332059224213,
+        "ci95_low": 125.08146572,
+        "ci95_high": 150.38391128,
+        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
+        "values": [
+          131.277983,
+          144.187394
+        ]
+      },
+      "incremental_expected_saved": {
+        "mean": 0.7257780000000054,
+        "standard_deviation": 0.5270476962116297,
+        "ci95_low": -0.004672839999976586,
+        "ci95_high": 1.4562288399999872,
+        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
+        "values": [
+          1.0984569999999962,
+          0.3530990000000145
+        ]
+      },
+      "expected_saved_mean": 137.7326885,
+      "incremental_expected_saved_mean": 0.7257780000000054,
+      "episodes": [
+        {
+          "episode": 0,
+          "seed": 42,
+          "expected_saved": 131.277983,
+          "baseline": 130.179526,
+          "difference": 1.0984569999999962
+        },
+        {
+          "episode": 1,
+          "seed": 43,
+          "expected_saved": 144.187394,
+          "baseline": 143.834295,
+          "difference": 0.3530990000000145
+        }
+      ]
+    },
+    {
+      "candidate_ids": [
+        "C01",
+        "C03"
+      ],
+      "candidate_names": [
+        "수원시권선구보건소",
+        "장안구보건소"
+      ],
+      "total_cost": 2.0,
+      "expected_saved": {
+        "mean": 137.5736815,
+        "standard_deviation": 9.60408481531501,
+        "ci95_low": 124.26309904,
+        "ci95_high": 150.88426395999997,
+        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
+        "values": [
+          130.782568,
+          144.364795
+        ]
+      },
+      "incremental_expected_saved": {
+        "mean": 0.5667709999999886,
+        "standard_deviation": 0.05129494012083351,
+        "ci95_low": 0.49567983999999,
+        "ci95_high": 0.6378621599999872,
+        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
+        "values": [
+          0.6030419999999879,
+          0.5304999999999893
+        ]
+      },
+      "expected_saved_mean": 137.5736815,
+      "incremental_expected_saved_mean": 0.5667709999999886,
+      "episodes": [
+        {
+          "episode": 0,
+          "seed": 42,
+          "expected_saved": 130.782568,
+          "baseline": 130.179526,
+          "difference": 0.6030419999999879
+        },
+        {
+          "episode": 1,
+          "seed": 43,
+          "expected_saved": 144.364795,
+          "baseline": 143.834295,
+          "difference": 0.5304999999999893
+        }
+      ]
+    },
+    {
+      "candidate_ids": [
+        "C01",
+        "C04"
+      ],
+      "candidate_names": [
+        "수원시권선구보건소",
+        "팔달구보건소"
+      ],
+      "total_cost": 2.0,
+      "expected_saved": {
+        "mean": 137.449406,
+        "standard_deviation": 9.579202434791855,
+        "ci95_low": 124.17330876,
+        "ci95_high": 150.72550324000002,
+        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
+        "values": [
+          130.675887,
+          144.222925
+        ]
+      },
+      "incremental_expected_saved": {
+        "mean": 0.4424954999999926,
+        "standard_deviation": 0.07617732064398865,
+        "ci95_low": 0.33691912000001933,
+        "ci95_high": 0.5480718799999659,
+        "ci95_note": "95% CI is the normal approximation mean +/- 1.96*sd/sqrt(n) over independent episodes; it is null when fewer than 2 episodes were run because the dispersion cannot be estimated",
+        "values": [
+          0.49636099999997896,
+          0.38863000000000625
+        ]
+      },
+      "expected_saved_mean": 137.449406,
+      "incremental_expected_saved_mean": 0.4424954999999926,
+      "episodes": [
+        {
+          "episode": 0,
+          "seed": 42,
+          "expected_saved": 130.675887,
+          "baseline": 130.179526,
+          "difference": 0.49636099999997896
+        },
+        {
+          "episode": 1,
+          "seed": 43,
+          "expected_saved": 144.222925,
+          "baseline": 143.834295,
+          "difference": 0.38863000000000625
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "hospital_source": {
+      "registry": [
+        "official_gyeonggi_emergency_medical_institutions"
+      ],
+      "capacity": {
+        "field": "emergency_room_beds",
+        "source": [
+          "https://opendata.hira.or.kr/op/opc/selectOpenData.do?sno=11925"
+        ],
+        "snapshot_period": [
+          "2026-06"
+        ],
+        "semantics": [
+          "HIRA static facility snapshot; not real-time availability"
+        ]
+      },
+      "evaluation": {
+        "source": [
+          "https://www.e-gen.or.kr/nemc/business_medical_institution_evaluation.do?tabId=9"
+        ],
+        "year": [
+          "2024"
+        ]
+      },
+      "treatment_success_basis": "temporary category-level coefficients copied from scripts/build_folium_municipal_simulator.py (0.86 for categories containing '센터', 0.78 for 지역응급의료기관, 0.25 when no bed is open, 75-minute bed occupancy, 5-minute transfer delay); not observed hospital outcomes",
+      "official_identifiers": "scenario.json hospitals.<id>.official_identifiers",
+      "dataset_details": "see provenance.sources"
+    },
+    "demand_source": {
+      "method": "population_proportional_provincial_dispatches",
+      "basis": "temporary estimate: official 2023 Gyeonggi headquarters dispatch total (data/raw/nfa_headquarters_ambulance_activity_20260910/nfa_headquarters_ambulance_activity_20231231.csv, 본부구분=경기, 년도=2023) divided by 365.25 and allocated by 2026-08 resident-population share; not observed municipal 119 calls",
+      "year": 2023,
+      "provincial_annual_dispatches": 846564,
+      "provincial_population_reference": "MOIS resident population 2026-08 (sum of the 31 municipalities in municipality_summary.csv)",
+      "provincial_population": 13773918,
+      "municipal_population": 1185677,
+      "daily_calls_model_input": 199.5163420695904,
+      "observed_municipal_calls": false,
+      "allocation_within_municipality": "resident population share of each administrative dong in demand_population.csv; flat hourly rate",
+      "coordinate_source": [
+        "kakao_administrative_office_representative_proxy"
+      ],
+      "coordinate_caveat": "administrative-office representative points; not incident coordinates"
+    },
+    "candidate_source": {
+      "datasets": [
+        "https://www.data.go.kr/data/3072692/fileData.do"
+      ],
+      "land_feasibility_status": [
+        "requires_planning_review_existing_public_health_facility"
+      ],
+      "interpretation": "existing public-health facilities; requires planning review before any site is presented as feasible",
+      "model_assumption": "temporary planning assumption: every new-build candidate is modelled as a 지역응급의료기관 with 20 emergency-room beds, 75-minute bed occupancy and unit cost; not a design or budget figure"
+    },
+    "road_time_source": {
+      "provider": "Kakao Mobility Directions API",
+      "extracted_at": "2026-09-10T04:15:43.150292+00:00",
+      "routing_profile": "RECOMMEND",
+      "unit": "minutes",
+      "pair_set": "simulation",
+      "required_pair_count": 1683,
+      "file": "road_times.csv"
+    },
+    "coordinate_order": "network.positions are [longitude, latitude] in WGS84",
+    "model_parameters": {
+      "path": "data/processed/calibration/model_parameters_provisional.json",
+      "status": "provisional",
+      "generated_at": "2026-09-10T21:08:35+09:00"
+    },
+    "sources": [
+      {
+        "id": "S1",
+        "title": "소방청 본부별 구급활동정보 (2023-12-31 기준, nfa_headquarters_ambulance_activity_20231231.csv)",
+        "url": "https://www.data.go.kr/data/15080046/fileData.do",
+        "used_for": "demand: 2023 Gyeonggi annual dispatch total (846,564)"
+      },
+      {
+        "id": "S2",
+        "title": "행정안전부 주민등록 인구 및 세대현황 전체 읍면동 (2026-08)",
+        "url": "https://jumin.mois.go.kr/statMonth.do",
+        "used_for": "demand: municipal and administrative-dong population shares"
+      },
+      {
+        "id": "S3",
+        "title": "경기도 응급의료기관 현황 (기준일 2025-09-17)",
+        "url": "https://www.data.go.kr/data/15011313/fileData.do",
+        "used_for": "hospital: existing emergency institution registry, category, coordinates"
+      },
+      {
+        "id": "S4",
+        "title": "건강보험심사평가원 전국 병의원 및 약국 현황 2026.6",
+        "url": "https://opendata.hira.or.kr/op/opc/selectOpenData.do?sno=11925",
+        "used_for": "hospital: static emergency-room bed capacity (not real-time availability)"
+      },
+      {
+        "id": "S5",
+        "title": "국립중앙의료원 중앙응급의료센터 2024년도 응급의료기관 평가",
+        "url": "https://www.e-gen.or.kr/nemc/business_medical_institution_evaluation.do?tabId=9",
+        "used_for": "hospital: E-Gen institution code and evaluation grade preserved as official identifiers"
+      },
+      {
+        "id": "S6",
+        "title": "보건복지부 전국 지역보건의료기관 현황 (2025-12-31)",
+        "url": "https://www.data.go.kr/data/3072692/fileData.do",
+        "used_for": "candidate: existing public-health facilities used as planning-review candidate sites"
+      },
+      {
+        "id": "S7",
+        "title": "Kakao Mobility Directions API (RECOMMEND)",
+        "url": "https://developers.kakaomobility.com/docs/navi-api/directions/",
+        "used_for": "road_time: directional car-route minutes between local nodes"
+      },
+      {
+        "id": "S8",
+        "title": "scripts/build_folium_municipal_simulator.py temporary model coefficients",
+        "url": "scripts/build_folium_municipal_simulator.py",
+        "used_for": "profiles, hospital success, candidate and ambulance assumptions; temporary coefficients pending calibration"
+      }
+    ],
+    "generated_by": {
+      "script": "scripts/build_municipal_placement_inputs.py",
+      "generated_at": "2026-09-10T21:46:35+09:00",
+      "processed_dir": "data/processed/gyeonggi_20260909/41110"
+    }
+  }
+}

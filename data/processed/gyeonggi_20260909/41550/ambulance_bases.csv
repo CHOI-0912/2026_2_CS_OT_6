@@ -1,0 +1,7 @@
+﻿source_province,fire_station,safety_center,regional_unit,ambulance_count,base_name,address,latitude,longitude,coordinate_source,matched_address,kakao_place_id,municipality_assignment,geocoding_status,routing_status
+경기,안성소방서,공도119안전센터,,1,공도119안전센터,경기도 안성시 공도읍 공도로 111,37.0008203885791,127.17311335385,kakao_local_address_search,경기 안성시 공도읍 공도로 111,,address_exact,verified_municipality_match,pending_kakao_api
+경기,안성소방서,119구조대119안전센터,,1,119구조대119안전센터,,37.019360494664,127.253549927855,kakao_local_keyword_search,경기 안성시 공단2로 74,26023246,fire_station_address_inferred,verified_municipality_match,pending_kakao_api
+경기,안성소방서,도기119안전센터,,2,도기119안전센터,경기도 안성시 미양로 855,37.0006816494231,127.255706265336,kakao_local_address_search,경기 안성시 미양로 855,,address_exact,verified_municipality_match,pending_kakao_api
+경기,안성소방서,미양119안전센터,,1,미양119안전센터,경기도 안성시 미양면 제2공단3길 8,36.9775899484847,127.260493418706,kakao_local_address_search,경기 안성시 미양면 제2공단3길 8,,address_exact,verified_municipality_match,pending_kakao_api
+경기,안성소방서,원곡119안전센터,,1,원곡119안전센터,경기도 안성시 원곡면 원곡물류단지로 162-20,37.0420731592264,127.158221369189,kakao_local_address_search,경기 안성시 원곡면 원곡물류단지로 162-20,,address_exact,verified_municipality_match,pending_kakao_api
+경기,안성소방서,죽산119안전센터,,1,죽산119안전센터,경기도 안성시 죽산면 장원공단길 38,37.0680560538951,127.423953326519,kakao_local_address_search,경기 안성시 죽산면 장원공단길 38,,address_exact,verified_municipality_match,pending_kakao_api

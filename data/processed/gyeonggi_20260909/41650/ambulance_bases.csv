@@ -1,0 +1,11 @@
+﻿source_province,fire_station,safety_center,regional_unit,ambulance_count,base_name,address,latitude,longitude,coordinate_source,matched_address,kakao_place_id,municipality_assignment,geocoding_status,routing_status
+경기북부,포천소방서,가산119안전센터,,1,가산119안전센터,경기도 포천시 포천로 890,37.8484965104987,127.194491734205,kakao_local_address_search,경기 포천시 가산면 포천로 890,,address_exact,verified_municipality_match,pending_kakao_api
+경기북부,포천소방서,군내119안전센터,,2,군내119안전센터,경기도 포천시 호국로 1538,37.8913495611211,127.202615939326,kakao_local_address_search,경기 포천시 군내면 호국로 1538,,address_exact,verified_municipality_match,pending_kakao_api
+경기북부,포천소방서,선단119안전센터,,1,선단119안전센터,경기도 포천시 호국로 1007-33,37.8552980778232,127.164965329385,kakao_local_address_search,경기 포천시 호국로 1007-33,,address_exact,verified_municipality_match,pending_kakao_api
+경기북부,포천소방서,내촌119안전센터,,1,내촌119안전센터,경기도 포천시 내촌면 내촌로 120,37.7904317665101,127.230477025699,kakao_local_address_search,경기 포천시 내촌면 내촌로 120,,address_exact,verified_municipality_match,pending_kakao_api
+경기북부,포천소방서,소흘119안전센터,,1,소흘119안전센터,경기도 포천시 소흘읍 송우로 182,37.8360945080896,127.13174003256,kakao_local_address_search,경기 포천시 소흘읍 송우로 182,,address_exact,verified_municipality_match,pending_kakao_api
+경기북부,포천소방서,영북119안전센터,,1,영북119안전센터,경기도 포천시 영북면 영북로 144,38.087120511956,127.275438779423,kakao_local_address_search,경기 포천시 영북면 영북로 144,,address_exact,verified_municipality_match,pending_kakao_api
+경기북부,포천소방서,영중119안전센터,,1,영중119안전센터,경기도 포천시 영중면 양문로 66,37.9985156571718,127.242747776886,kakao_local_address_search,경기 포천시 영중면 양문로 66,,address_exact,verified_municipality_match,pending_kakao_api
+경기북부,포천소방서,일동119안전센터,,1,일동119안전센터,경기도 포천시 일동면 영일로 978,37.9480490250794,127.309969366675,kakao_local_address_search,경기 포천시 일동면 영일로 978,,address_exact,verified_municipality_match,pending_kakao_api
+경기북부,포천소방서,영북119안전센터,관인지역대,1,관인지역대,,38.1577388961828,127.250714081095,kakao_local_keyword_search,경기 포천시 관인면 관인로 14,10153043,address_exact,verified_municipality_match,pending_kakao_api
+경기북부,포천소방서,일동119안전센터,이동지역대,1,이동지역대,,38.0307028804504,127.367297017281,kakao_local_keyword_search,경기 포천시 이동면 화동로 2048,9942285,address_exact,verified_municipality_match,pending_kakao_api

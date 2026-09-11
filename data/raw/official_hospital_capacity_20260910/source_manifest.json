@@ -1,0 +1,90 @@
+{
+  "created_at_kst": "2026-09-10",
+  "sources": [
+    {
+      "publisher": "건강보험심사평가원",
+      "title": "전국 병의원 및 약국 현황 2026.6",
+      "url": "https://opendata.hira.or.kr/op/opc/selectOpenData.do?sno=11925",
+      "snapshot_period": "2026-06",
+      "temporal_class": "static_quarterly_snapshot",
+      "archive_workbooks": 12,
+      "relevant_rows": {
+        "facility_information": 105532,
+        "medical_equipment_information": 63157,
+        "special_treatment_information": 65420
+      }
+    },
+    {
+      "publisher": "국립중앙의료원 중앙응급의료센터",
+      "title": "2024년도 응급의료기관 평가",
+      "url": "https://www.e-gen.or.kr/nemc/business_medical_institution_evaluation.do?tabId=9",
+      "evaluation_year": 2024,
+      "temporal_class": "static_annual_evaluation",
+      "gyeonggi_rows": 73
+    },
+    {
+      "publisher": "국립중앙의료원",
+      "title": "전국 응급의료기관 정보 조회 서비스",
+      "url": "https://www.data.go.kr/data/15000563/openapi.do",
+      "temporal_class": "real_time_api_not_downloaded_requires_service_approval",
+      "required_query_parameter": "serviceKey",
+      "operations": [
+        "getEmrrmRltmUsefulSckbdInfoInqire",
+        "getSrsillDissAceptncPosblInfoInqire"
+      ]
+    }
+  ],
+  "files": [
+    {
+      "file": "hira_nationwide_hospitals_pharmacies_2026_06.zip",
+      "bytes": 64452916,
+      "sha256": "eed609c3ee13018d70367c83e84cdc456e91d7036cf68e6c72574df1520c2907",
+      "rows": null,
+      "role": "source"
+    },
+    {
+      "file": "egen_2024_evaluation_all_emergency_institutions.pdf",
+      "bytes": 315075,
+      "sha256": "3416358961891b65b0451318c620f5707b4a035a446bf80a3cfb0f61cd2b8c3f",
+      "rows": null,
+      "role": "source"
+    },
+    {
+      "file": "egen_2024_evaluation_gyeonggi.json",
+      "bytes": 32094,
+      "sha256": "0dc352522f251a04e61332d54e96863b0c5a7a26030c61bb37010bfb6d7414a7",
+      "rows": 73,
+      "role": "source"
+    },
+    {
+      "file": "hospital_capacity_hira_matched_73.csv",
+      "bytes": 61184,
+      "sha256": "b7b16dd503ed83c4b1103667bb900a34905ca0c33724739a71989ae4736b2489",
+      "rows": 73,
+      "role": "derived"
+    },
+    {
+      "file": "egen_2024_evaluation_gyeonggi.csv",
+      "bytes": 13874,
+      "sha256": "2cb0ee4d952ca9a380bb11529c7134afc41f77b7f654aeac8af298b9387c63cb",
+      "rows": 73,
+      "role": "derived"
+    },
+    {
+      "file": "hospital_evaluation_egen_matched_73.csv",
+      "bytes": 15755,
+      "sha256": "dd59a413a1d5575f0284f59e98ea34a987d311ef285971482736b32df298456d",
+      "rows": 73,
+      "role": "derived"
+    }
+  ],
+  "match_summary": {
+    "staged_hospitals": 73,
+    "hira_matches": 73,
+    "distinct_hira_facilities": 72,
+    "hira_manual_review_required": 1,
+    "egen_evaluation_rows": 73,
+    "egen_matches": 73,
+    "egen_manual_review_required": 4
+  }
+}

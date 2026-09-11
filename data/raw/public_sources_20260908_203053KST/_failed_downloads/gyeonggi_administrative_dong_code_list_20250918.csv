@@ -1,0 +1,793 @@
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+        <!DOCTYPE html>
+        <html lang="ko">
+        <head>
+            <title>오류 메세지 | 경기데이터드림</title>
+            
+
+ 
+
+
+
+
+
+
+
+ 
+
+<meta charset="UTF-8" />
+
+ 
+
+    
+    
+        
+            
+            
+            
+            
+                <title> | 경기데이터드림</title>
+                <meta property="og:title" content=" | 경기데이터드림">
+                <meta name="twitter:title" content=" | 경기데이터드림">
+            
+            
+            
+        
+    
+
+ 
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="copyright" content="Gyeonggi Province. All Rights Reserved." />
+
+
+    
+    
+        <meta name="description" content="경기도의 모든 공공데이터를 개방합니다." />
+        <meta property="og:description" content="경기도의 모든 공공데이터를 개방합니다." />
+        <meta name="twitter:description" content="경기도의 모든 공공데이터를 개방합니다." />
+    
+
+
+
+    
+    
+        <meta name="keywords" content="경기도, 데이터, data, 데이터셋, 멀티미디어, 데이터 시각화, 활용갤러리, 개방데이터 요청, 개발자 공간, 공공데이터 개방, 공공데이터 통계, 오픈데이터, 공공데이터, 공공api, 오픈api, 공공포털" />
+    
+
+
+<meta property="og:type" content="website">
+<meta property="og:image:secure_url" content="https://data.gg.go.kr/img/ggportal/desktop/main/og_logo.png">
+<meta property="og:image" content="https://data.gg.go.kr/img/ggportal/desktop/main/og_logo.png">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://data.gg.go.kr/img/ggportal/desktop/main/og_logo.png">
+<meta name="twitter:image:width" content="300">
+<meta name="twitter:image:height" content="300">
+
+<meta name="naver-site-verification" content="c7828cb0c4915c186fb66beb8c7a572b9f2b4c1e"/>
+<meta name="google-site-verification" content="PjZkz6EHGF8RRvvOB_xLxoFylxeCMF1M95qVI7TRVTg" />
+<meta name="naver-site-verification" content="308a7dbeabf69f27b82c154f2c4a56fbae03be37" />
+<meta name="_csrf" content="f0f78482-896e-4c2e-b8ad-f9ad024f3d88" />
+<meta name="_csrf_header" content="X-CSRF-TOKEN" />
+<meta name="_csrf_param" content="_csrf" />
+
+<link rel="canonical" href="https://data.gg.go.kr" />
+ 
+ 
+
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="icon" href="/favicon.ico">
+
+<link rel="apple-touch-icon" sizes="152x152" href="/favicon-152.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/favicon-144.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/favicon-120.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/favicon-114.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/favicon-180.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/favicon-72.png">
+<link rel="apple-touch-icon" href="/favicon-57.png">
+<link rel="icon" href="/favicon-32.png" sizes="32x32">
+<meta name="msapplication-TileColor" content="#FFFFFF">
+<meta name="msapplication-TileImage" content="/favicon-144.png">
+<link rel="icon" sizes="192x192" href="/favicon-192.png">
+
+
+
+
+    
+        <link rel="stylesheet" type="text/css" href="/css/ggportal/data.css?ver=1.4" />
+    
+    
+    
+    
+    
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="/css/plugin/swiper-bundle.min.css">
+<link rel="stylesheet" type="text/css" href="/css/token/krds_tokens.css">
+<link rel="stylesheet" type="text/css" href="/css/common/common.css">
+<link rel="stylesheet" type="text/css" href="/css/component/component.css">
+<link rel="stylesheet" type="text/css" href="/css/sub.css">
+<link rel="stylesheet" type="text/css" href="/css/custom.css">
+<link rel="stylesheet" type="text/css" href="/css/develop.css">
+
+
+
+
+
+
+
+<script src="/js/common/jquery/jquery-2.2.4.min.js?ver=1.5"></script>
+<script src="/js/common/jquery/jquery.easing.js"></script>
+<script src="/js/common/jquery/jquery-migrate-1.2.1.min.js"></script>
+<script src="/js/common/jquery/json.min.js?ver=1.4"></script>
+<script src="/js/common/jquery/jquery.form.js?ver=1.4"></script>
+<script src="/js/common/jquery/jquery.cookie.js?ver=1.4"></script>
+<script src="/js/common/jquery/jquery.meio.mask.js?ver=1.4" charset="utf-8"></script>
+<script src="/js/common/jquery/jquery-ui-1.9.2.js"></script>
+<script src="/js/common/jquery/jquery.fileDownload.js?ver=1.4"></script>
+
+
+
+<script src="/js/common/jquery/jquery.bx.js?ver=1.4"></script>
+
+
+
+<script src="/js/common/csrf.js"></script>
+
+
+
+
+    <script src="/js/common/sheet/ibleaders.js"></script>
+    <script src="/js/common/sheet/ibsheet.js"></script>
+    <script src="/js/common/sheet/ibsheetinfo.js"></script>
+    <script src="/js/common/sheet/ibsheet_patch_chrome61.js"></script>
+    <script src="/js/common/chart/ibchartinfo.js"></script>
+    <script src="/js/common/chart/ibchart.js?ver=1.4"></script>
+
+
+
+
+
+<script src="/js/common/cipher/tripledes.js?ver=1.4"></script>
+<script src="/js/common/cipher/mode-ecb.js?ver=1.4"></script>
+<script src="/js/common/cipher/encrypt.js?ver=1.4"></script>
+
+
+
+<script src="/js/common/sns/kakao.min.js"></script>
+<script src="/js/common/sns/snsShare.js?ver=1.0"></script>
+
+
+
+<script src="/js/common/base/commonness.js?ver=1.4"></script>
+<script src="/js/common/base/delegation.js"></script>
+<script src="/js/common/base/ui-script.js"></script>
+<script src="/js/common/common.js"></script>
+<script src="/js/common/commonchart.js?ver=1.4"></script>
+
+<script src="/js/common/slick.min.js"></script>
+
+
+
+<script src="/js/main/header.js"></script>
+
+
+<script>
+    var getContextPath = "";
+</script>
+
+
+
+
+    <script type="text/javascript" src="//wcs.pstatic.net/wcslog.js"></script>
+    <script type="text/javascript">
+        if (!wcs_add) var wcs_add = {};
+        wcs_add["wa"] = "1b6f00cef8dc520";
+        if (window.wcs) {
+            wcs_do();
+        }
+
+        // [탭 메뉴 가상 페이지뷰 추적] 포털 전역 탭 클릭 감지
+        (function() {
+            var lastTrackedTab = "";
+            $(document).on("click", ".btn-tab, [role='tab'] button, .tablist button", function() {
+                var tabName = $(this).text().replace("선택됨", "").trim();
+                if (!tabName || lastTrackedTab === tabName) return;
+                lastTrackedTab = tabName;
+
+                // 기존 파라미터(검색어, 페이징 등) 유지하며 tab 파라미터 추가/갱신
+                var searchParams = new URLSearchParams(window.location.search);
+                searchParams.set("tab", tabName);
+                var virtualUrl = window.location.pathname + "?" + searchParams.toString();
+                if (window.history && window.history.replaceState) {
+                    window.history.replaceState(null, document.title, virtualUrl);
+                }
+
+                // 네이버 애널리틱스로 해당 탭 페이지뷰 즉시 재전송
+                if (window.wcs) {
+                    wcs_do();
+                }
+            });
+        })();
+    </script>
+
+
+
+            <script>
+                $(function() {
+                    alert("시군명 필터값을 입력하여 주십시오.")
+                });
+            </script>
+        </head>
+        <body>
+            <div id="wrap">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="krds-skip-link">
+    <a href="#container">본문 바로가기</a>
+</div>
+
+
+
+<div id="krds-masthead">
+    <img src="/img/bg/bg-top_Line.svg" alt="top-line" />
+    <div class="toggle-wrap">
+        <div class="toggle-head">
+            <div class="inner">
+                <span 
+                    class="nuri-txt"
+                >
+                    이 누리집은 대한민국 공식 전자정부 누리집입니다.
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<header id="krds-header">
+    
+    <div class="header-in">
+        
+        <div class="header-container">
+            <div class="inner">
+                <div class="header-branding">
+                <h2 class="logo">
+                    <a href="/portal/mainPage.do">
+                        <span class="sr-only">경기데이터드림</span>
+                    </a>
+                </h2>
+                <div class="search-container">
+                    <div class="search-wrapper" id="searchWrapper">
+                        <div class="search-box">
+                            <input
+                                type="text"
+                                id="searchInput"
+                                name="searchWord_main"
+                                class="search-input"
+                                placeholder="검색어를 입력하세요."
+                                title="검색어를 입력하세요."
+                                autocomplete="off"
+                                maxlength="50"
+                                tabindex="0"
+                            />
+                            <button class="clear-btn" id="clearBtn">
+                            <svg
+                                width="16"
+                                height="16"
+                                fill="none"
+                                stroke="currentColor"
+                                viewBox="0 0 24 24"
+                            >
+                                <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M6 18L18 6M6 6l12 12"
+                                />
+                            </svg>
+                            </button>
+
+                                <button 
+                                    class="btn-txt btn-ai-search ico-before ico-ai-search"
+                                    onclick="goAiSch($(this).parent().find('input[name=searchWord_main]').val());"
+                                >
+                                    AI찾아드림
+                                </button>
+                            <button 
+                                type="button" 
+                                class="krds-btn icon large" 
+                                onclick="goTotalSch($(this).parent().find('input[name=searchWord_main]').val());"
+                            >
+                                <span class="sr-only">입력한 비밀번호 보기</span>
+                                <i class="svg-icon ico-sch"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-actions">
+                    
+                    <button
+                        type="button"
+                        class="btn-navi menu-all open-modal web-only"
+                        title="전체메뉴"
+                        data-target="gg_all_menu_pop"
+                    >
+                        전체메뉴
+                    </button>
+                    <button
+                        type="button"
+                        class="btn-navi all"
+                        aria-controls="mobile-nav"
+                    >
+                        전체메뉴
+                    </button>
+                </div>
+                </div>
+            </div>
+        </div>
+        
+
+        
+        <nav class="krds-main-menu">
+            <div class="inner">
+                <div class="justify-between">
+                    
+                    <ul class="gnb-menu" id="menu_lvl_1">
+                        
+                    </ul>
+
+                    
+                    <ul class="my-info">
+                        
+                        
+                            <li class="li">
+                                <button class="btn-txt mn-login" onclick="location.href='/portal/user/oauth/authorizePage.do'">
+                                    로그인
+                                </button>
+                            </li>
+                            <li class="li">
+                                <button
+                                    class="btn-txt mn-join"
+                                    onclick="location.href='/portal/user/signup/mainPage.do'"
+                                >
+                                    회원가입
+                                </button>
+                            </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+    </div>
+    <form id="global-search-form" name="global-search-form" method="post">
+        <input type="hidden" name="_csrf" value="f0f78482-896e-4c2e-b8ad-f9ad024f3d88" />
+        <input type="hidden" name="CSRFToken" value="f0f78482-896e-4c2e-b8ad-f9ad024f3d88" />
+        <input type="hidden" name="searchWord" />
+    </form>
+    
+
+    
+    <div id="mobile-nav" class="krds-main-menu-mobile">
+        <div class="gnb-wrap">
+            
+            <div class="gnb-header">
+                
+                <div class="gnb-login">
+                    
+                    
+                        <button 
+                            type="button" 
+                            class="krds-btn large text"
+                            onclick="location.href='/portal/user/oauth/authorizePage.do'"
+                        >
+                            <i class="svg-icon ico-log"></i> 로그인을 해주세요
+                        </button>
+                    
+                </div>
+                
+                
+                
+                
+            </div>
+            
+
+            
+            <div class="gnb-body">
+                
+                <div class="gnb-menu">
+                    <div class="menu-wrap">
+                        <ul>
+                            
+                            
+                        </ul>
+                    </div>
+                    <div class="submenu-wrap">
+                        
+                        
+                        
+                        
+                    </div>
+                </div>
+                
+                
+                
+                
+            </div>
+            
+            
+            <button type="button" class="krds-btn medium icon" id="close-nav">
+                <span class="sr-only">전체메뉴 닫기</span>
+                <i class="svg-icon ico-popup-close"></i>
+            </button>
+            
+        </div>
+    </div>
+    
+</header>
+
+
+                <main id="container">
+                    <div class="container">
+                        <div class="inner">
+                            <div class="conts-area mt-24">
+                                <div class="flex-col align-center">
+                                    <div class="img-area">
+                                        <img
+                                            src="/img/component/icon/ico-system-info.svg"
+                                            alt="info 이미지"
+                                        />
+                                    </div>
+                                    <h1 class="mt-64">요청하신 페이지를 찾을 수 없습니다!</h1>
+                                    <div class="mt-24 text-center">
+                                        찾으시는 웹페이지의 주소가 현재 사용할 수 없거나,<br />
+                                        변경 또는 삭제되어 페이지를 찾을 수 없습니다.<br />
+                                        다시 한 번 확인 후 접속하시기 바랍니다.
+                                    </div>
+                                    <div class="mt-24">
+                                        <button class="krds-btn primary" onclick="location.href='/'">홈으로</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+                
+
+
+
+
+
+
+
+
+
+<footer id="krds-footer">
+    <div class="foot-quick">
+        <div class="inner relation-site">
+            <ul class="relation-outer">
+                <li class="relation-outer-line">
+                    <button
+                        type="button"
+                        class="link relation-btn"
+                        title="소속기관(지청 및 위원회) 레이어"
+                    >
+                        패밀리사이트
+                    </button>
+                    <div class="relation-layer relation-modal" role="dialog" aria-modal="true">
+                        <div class="relation-wrap" tabindex="0">
+                            <div class="relation-dialog">
+                                <div class="relation-header">
+                                    <h2 class="relation-title">패밀리사이트</h2>
+                                </div>
+                                <div class="relation-body">
+                                    <ul id="relation-site-line">
+                                        
+                                    </ul>
+                                </div>
+                                <button type="button" class="krds-btn medium icon btn-close relation-btn">
+                                    <span class="sr-only">닫기</span>
+                                    <i class="svg-icon ico-popup-close"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="inner">
+        <div class="f-logo sample">
+            <span class="sr-only">경기데이터드림</span>
+        </div>
+        <div class="f-cnt">
+            <div class="f-info">
+                <p class="info-addr">
+                    <span class="point font-bold">경기도청</span> (16508) 경기도 수원시 영통구 도청로 30 (이의동)
+                    <br />
+                    <span class="point font-bold">북부청사</span> (11780) 경기도 의정부시 청사로 1 (신곡동)
+                </p>
+                <p class="info-addr"></p>
+                <ul class="info-cs">
+                    <li>
+                        <strong class="key-info">대표전화 <span>031-8008-3954/5589</span></strong>
+                        <span class="more-info">(월~금 09:00~18:00, 주말/공휴일 제외)</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="f-btm">
+            <div class="f-btm-text">
+                <div class="f-menu">
+                    <a 
+                        href="/portal/privatePolicyPage.do"
+                        class="krds-btn small text font-bold color-point flex justify-between"
+                    >
+                        개인정보처리방침
+                    </a>
+                    <a 
+                        href="/portal/termsPolicyPage.do" 
+                        class="krds-btn small text"
+                    >
+                        서비스 이용약관
+                    </a>
+                    <a 
+                        href="/portal/emailPolicyPage.do" 
+                        class="krds-btn small text"
+                    >
+                        이메일 무단수집거부 
+                    </a>
+                    <!-- <a 
+                        href="https://www.wa.or.kr/" 
+                        class="krds-btn small text flex justify-between"
+                        target="_blank"
+                    >
+                        웹 접근성 품질인증 마크 획득
+                        <i class="svg-icon ico-go"></i>
+                    </a> -->
+                </div>
+                <p class="f-copy">© GYEONGGI PROVINCE All Rights Reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<button type="button" class="quick-item quick-top" title="화면 최상단 이동"><span class="sr-only">화면 최상단 이동</span></button>
+
+<form
+    id="global-request-form"
+    name="global-request-form"
+    method="post"
+    action=""
+>
+    <input type="hidden" name="_csrf" value="f0f78482-896e-4c2e-b8ad-f9ad024f3d88" />
+    <input type="hidden" name="CSRFToken" value="f0f78482-896e-4c2e-b8ad-f9ad024f3d88" />
+    
+        
+        
+        
+        
+        
+            
+                <input type="hidden" name="infSeq" value="1" />
+            
+        
+    
+        
+        
+        
+        
+        
+            
+                <input type="hidden" name="infId" value="ECSP3DEPZLV8SPH9KR9F38156928" />
+            
+        
+    
+        
+        
+        
+        
+        
+            
+                <input type="hidden" name="downloadType" value="C" />
+            
+        
+    
+</form>
+
+<iframe 
+    id="global-process-iframe" 
+    name="global-process-iframe"  
+    title="프로그램 처리 영역" 
+    height="0" 
+    style="width:100%; display:none;"
+>
+</iframe>
+
+
+
+		
+
+            </div>
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section
+  id="gg_all_menu_pop"
+  class="krds-modal fade all-menu-alert"
+  role="dialog"
+  aria-labelledby="tit_gg_all_menu_pop"
+>
+    <div class="modal-dialog">
+        <div class="modal-content">
+            
+            <div class="modal-header">
+                <h2 id="tit_gg_all_menu_pop" class="modal-title">전체메뉴</h2>
+            </div>
+            
+            
+            <div class="modal-conts">
+                <div class="conts-area">
+                    <div class="modal-body">
+                        <div class="section-4">
+                            
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <button
+              type="button"
+              class="krds-btn medium icon btn-close close-modal"
+            >
+                <span class="sr-only">닫기</span>
+                <i class="svg-icon ico-popup-close"></i>
+            </button>
+            
+        </div>
+    </div>
+    <div class="modal-back in"></div>
+</section>
+
+
+
+<section
+  id="confirm_modal"
+  class="krds-modal fade m-bottom-sheet small"
+  role="dialog"
+  aria-labelledby="tit_confirm_modal"
+>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      
+      <div class="modal-header">
+        <h2 id="tit_confirm_modal" class="modal-title">확인 팝업</h2>
+      </div>
+      
+      
+      <div class="modal-conts">
+        <div class="conts-area pre-wrap">
+        </div>
+      </div>
+      
+      
+      <div class="modal-btn btn-wrap">
+        <button type="button" class="krds-btn medium tertiary close-modal">
+          취소
+        </button>
+        <button type="button" id="confirmModalActionBtn" class="krds-btn medium primary">
+          확인
+        </button>
+      </div>
+      
+      
+      <button type="button" class="krds-btn medium icon btn-close close-modal">
+        <span class="sr-only">닫기</span>
+        <i class="svg-icon ico-popup-close"></i>
+      </button>
+      
+    </div>
+  </div>
+  <div class="modal-back in"></div>
+</section>
+
+
+<section
+  id="alert_modal"
+  class="krds-modal fade m-bottom-sheet small"
+  role="dialog"
+  aria-labelledby="tit_alert_modal"
+>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      
+      <div class="modal-header">
+        <h2 id="tit_alert_modal" class="modal-title"></h2>
+      </div>
+      
+      
+      <div class="modal-conts">
+        <div class="conts-area pre-wrap">
+        </div>
+      </div>
+      
+      
+      <div class="modal-btn btn-wrap">
+        <button type="button" id="alertModalCloseBtn" class="krds-btn medium primary close-modal  hidden">
+          확인
+        </button>
+        <button type="button" id="alertModalActionBtn" class="krds-btn medium primary hidden">
+          확인
+        </button>
+      </div>
+      
+      
+      <button type="button" class="krds-btn medium icon btn-close close-modal">
+        <span class="sr-only">닫기</span>
+        <i class="svg-icon ico-popup-close"></i>
+      </button>
+      
+    </div>
+  </div>
+  <div class="modal-back in"></div>
+</section>
+        </body>
+        </html>
+    

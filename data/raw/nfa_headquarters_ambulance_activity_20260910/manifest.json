@@ -1,0 +1,28 @@
+﻿[
+    {
+        "title":  "소방청_본부별 구급활동정보_20231231",
+        "source_url":  "https://www.data.go.kr/data/15080046/fileData.do",
+        "direct_url":  "https://www.data.go.kr/cmm/cmm/fileDownload.do?atchFileId=FILE_000000002992996\u0026fileDetailSn=1\u0026insertDataPrcus=N",
+        "public_data_detail_pk":  "uddi:4cb00ac9-9939-4b9b-947c-e92a1ea8a48d",
+        "atch_file_id":  "FILE_000000002992996",
+        "file":  "nfa_headquarters_ambulance_activity_20231231.csv",
+        "bytes":  26102,
+        "sha256":  "48d8a83d51cad1989273be0ed94fd3687faa49aded4094c26fa2466a26cdc4bf",
+        "declared_rows":  912,
+        "physical_lines":  914,
+        "encoding":  "CP949"
+    },
+    {
+        "title":  "소방청_본부별 구급활동정보_20201231",
+        "source_url":  "https://www.data.go.kr/data/15080046/fileData.do",
+        "direct_url":  "https://www.data.go.kr/cmm/cmm/fileDownload.do?atchFileId=FILE_000000002639589\u0026fileDetailSn=1\u0026insertDataPrcus=N",
+        "public_data_detail_pk":  "uddi:fb69932c-d214-45cd-90ac-e71a7d2b8848",
+        "atch_file_id":  "FILE_000000002639589",
+        "file":  "nfa_headquarters_ambulance_activity_20201231.csv",
+        "bytes":  6684,
+        "sha256":  "65e43c8f1e648063c37e7dec27361ceecd6d0e898dd8ef55adf6430e295a4178",
+        "declared_rows":  228,
+        "physical_lines":  230,
+        "encoding":  "CP949"
+    }
+]

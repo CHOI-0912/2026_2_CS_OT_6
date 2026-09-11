@@ -1,0 +1,7 @@
+﻿source_province,fire_station,safety_center,regional_unit,ambulance_count,base_name,address,latitude,longitude,coordinate_source,matched_address,kakao_place_id,municipality_assignment,geocoding_status,routing_status
+경기,이천소방서,관고119안전센터,,2,관고119안전센터,경기도 이천시 경충대로 2739,37.2820570899899,127.431582019057,kakao_local_address_search,경기 이천시 경충대로 2739,,address_exact,verified_municipality_match,pending_kakao_api
+경기,이천소방서,대월119안전센터,,1,대월119안전센터,경기도 이천시 경충대로 1973,37.2435670875158,127.497398274234,kakao_local_address_search,경기 이천시 대월면 경충대로 1973,,address_exact,verified_municipality_match,pending_kakao_api
+경기,이천소방서,마장119안전센터,,1,마장119안전센터,경기도 이천시 마장면 중앙로 87,37.2493756786865,127.357833692897,kakao_local_address_search,경기 이천시 마장면 중앙로 87,,address_exact,verified_municipality_match,pending_kakao_api
+경기,이천소방서,장호원119안전센터,,1,장호원119안전센터,경기도 이천시 서동대로8829번길 71,37.1170767191171,127.614731641638,kakao_local_address_search,경기 이천시 장호원읍 서동대로8829번길 71,,address_exact,verified_municipality_match,pending_kakao_api
+경기,이천소방서,대월119안전센터,부발지역대,1,부발지역대,,37.2800647147584,127.497846052319,kakao_local_keyword_search,경기 이천시 부발읍 황무로 1478,80219215,address_exact,verified_municipality_match,pending_kakao_api
+경기,이천소방서,장호원119안전센터,설성지역대,1,설성지역대,,37.127138724938035,127.5211673540506,kakao_local_keyword_search,경기 이천시 설성면 설장로16번길 68-57,9166280,address_exact,verified_municipality_match,pending_kakao_api

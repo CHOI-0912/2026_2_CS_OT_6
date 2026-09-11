@@ -1,0 +1,2 @@
+﻿candidate_id,candidate_name,municipality_code,road_address,latitude,longitude,candidate_source,land_feasibility_status,coordinate_source,matched_address,kakao_place_id,geocoding_status,routing_status
+MOHW-20251231-41150-001,의정부시보건소,41150,"경기도 의정부시 범골로 131 (의정부동, 의정부시보건소) 의정부시보건소",37.7361593290305,127.039559500906,https://www.data.go.kr/data/3072692/fileData.do,requires_planning_review_existing_public_health_facility,kakao_local_address_search,경기 의정부시 범골로 131,,verified_municipality_match,pending_kakao_api

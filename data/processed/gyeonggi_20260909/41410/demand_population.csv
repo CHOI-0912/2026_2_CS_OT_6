@@ -1,0 +1,13 @@
+﻿administrative_code,administrative_name,municipality_code,population,households,latitude,longitude,coordinate_source,matched_address,kakao_place_id,geocoding_status,demand_rate_status,coordinate_reference_url,coordinate_basis
+4141051000,경기도 군포시 군포1동,41410,29963,14817,37.353688187094846,126.94557420351867,kakao_administrative_office_representative_proxy,경기 군포시 군포로 531,10227721,verified_municipality_match,pending_119_activity_api,,
+4141052000,경기도 군포시 군포2동,41410,40168,16077,37.346343624639715,126.94307404081538,kakao_administrative_office_representative_proxy,경기 군포시 고산로 263,8201328,verified_municipality_match,pending_119_activity_api,,
+4141054000,경기도 군포시 산본1동,41410,14081,8304,37.37337219447705,126.93857152288022,kakao_administrative_office_representative_proxy,경기 군포시 고산로724번길 13,11059653,verified_municipality_match,pending_119_activity_api,,
+4141055000,경기도 군포시 산본2동,41410,24535,9844,37.3700244008242,126.932715043043,kakao_administrative_office_representative_proxy,경기 군포시 고산로 663,8350131,verified_municipality_match,pending_119_activity_api,,
+4141056000,경기도 군포시 금정동,41410,18401,9610,37.3653967180813,126.939356947385,kakao_administrative_office_representative_proxy,경기 군포시 금산로 35,8213983,verified_municipality_match,pending_119_activity_api,,
+4141057000,경기도 군포시 재궁동,41410,16771,8318,37.3584334095118,126.93902391984012,kakao_administrative_office_representative_proxy,경기 군포시 번영로550번길 25,9389906,verified_municipality_match,pending_119_activity_api,,
+4141058000,경기도 군포시 오금동,41410,19400,8598,37.3510252880064,126.929531130039,kakao_administrative_office_representative_proxy,경기 군포시 고산로 406,8016722,verified_municipality_match,pending_119_activity_api,,
+4141059000,경기도 군포시 수리동,41410,14784,6983,37.35601700884593,126.9210113078398,kakao_administrative_office_representative_proxy,경기 군포시 수리산로 38,7966351,verified_municipality_match,pending_119_activity_api,,
+4141060000,경기도 군포시 궁내동,41410,19160,6924,37.359648672644475,126.92179765251427,kakao_administrative_office_representative_proxy,경기 군포시 고산로517번길 10,8199917,verified_municipality_match,pending_119_activity_api,,
+4141061000,경기도 군포시 대야동,41410,8872,3771,37.33023459018337,126.91529502485638,kakao_administrative_office_representative_proxy,경기 군포시 대야2로 139,7819568,verified_municipality_match,pending_119_activity_api,,
+4141062000,경기도 군포시 광정동,41410,22802,10287,37.362103365475384,126.92793590451977,kakao_administrative_office_representative_proxy,경기 군포시 광정로 106,8195087,verified_municipality_match,pending_119_activity_api,,
+4141063000,경기도 군포시 송부동,41410,20129,8256,37.31622932216592,126.92381689559267,kakao_administrative_office_representative_proxy,경기 군포시 송부로74번길 3-32,5248530,verified_municipality_match,pending_119_activity_api,,

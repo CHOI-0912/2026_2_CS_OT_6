@@ -1,0 +1,19 @@
+{
+  "source_manifest": "C:\\Users\\choi-\\Desktop\\2-2 수행\\오대위T수행\\6\\data\\raw\\public_sources_20260908_203053KST\\source_manifest.json",
+  "source_manifest_sha256": "e4e7d7f7698c3c91ef26bca8025bfe50858058d0f17d57421c07a381b717b70e",
+  "municipality_count": 31,
+  "hospital_rows": 73,
+  "demand_rows": 604,
+  "ambulance_rows": 232,
+  "ambulance_count": 290,
+  "unresolved_ambulance_rows": 0,
+  "ready_for_simulation": false,
+  "no_synthetic_fallbacks": true,
+  "raw_manifest_dataset_count": 5,
+  "ambulance_rows_with_coordinates": 232,
+  "demand_rows_with_coordinates": 604,
+  "hospital_rows_with_coordinates": 73,
+  "candidate_rows": 365,
+  "candidate_rows_with_coordinates": 365,
+  "ready_municipality_codes": []
+}

@@ -1,0 +1,68 @@
+{
+  "dataset_name": "보건복지부_전국 지역보건의료기관 현황_20251231",
+  "dataset_id": "3072692",
+  "official_source": "https://www.data.go.kr/data/3072692/fileData.do",
+  "official_attachment": "https://www.data.go.kr/cmm/cmm/fileDownload.do?atchFileId=FILE_000000003692397&fileDetailSn=1&insertDataPrcus=N",
+  "source_encoding": "cp949",
+  "candidate_interpretation": "existing public-health facility; requires planning review",
+  "national_rows": 3607,
+  "gyeonggi_rows": 336,
+  "gyeonggi_municipalities": 31,
+  "gyeonggi_municipality_counts": {
+    "가평군": 21,
+    "고양시": 5,
+    "과천시": 2,
+    "광명시": 4,
+    "광주시": 16,
+    "구리시": 3,
+    "군포시": 3,
+    "김포시": 14,
+    "남양주시": 11,
+    "동두천시": 1,
+    "부천시": 3,
+    "성남시": 4,
+    "수원시": 4,
+    "시흥시": 6,
+    "안산시": 9,
+    "안성시": 26,
+    "안양시": 2,
+    "양주시": 8,
+    "양평군": 28,
+    "여주시": 22,
+    "연천군": 15,
+    "오산시": 2,
+    "용인시": 18,
+    "의왕시": 2,
+    "의정부시": 1,
+    "이천시": 24,
+    "파주시": 14,
+    "평택시": 23,
+    "포천시": 18,
+    "하남시": 3,
+    "화성시": 24
+  },
+  "gyeonggi_type_counts": {
+    "건강생활지원센터": 30,
+    "보건소": 49,
+    "보건의료원": 1,
+    "보건진료소": 154,
+    "일반보건지소": 98,
+    "통합보건지소": 4
+  },
+  "source_quality_notes": [
+    "All 31 Gyeonggi municipalities are represented after collapsing district-level names to their parent city.",
+    "One source row labels 시군구 as 경기도; its parent/name and address identify it as 시흥시 and the normalized field records that correction.",
+    "The source provides postal addresses but no coordinates; geocoding and municipality-boundary validation remain required.",
+    "Existing public-health facilities are not automatically feasible hospital construction sites and do not imply emergency-care capability."
+  ],
+  "files": {
+    "mohw_national_public_health_institutions_20251231.csv": {
+      "sha256": "2a329948d19d7cacc170125e2e04ad8b1840963d69c784c8c8405d7539f8d81e",
+      "rows": 3607
+    },
+    "gyeonggi_public_health_institutions_20251231.csv": {
+      "sha256": "4d3f26960e6ee24fc33ef7693d0f4c506f58be9525b902678411bb13d64a4c9c",
+      "rows": 336
+    }
+  }
+}

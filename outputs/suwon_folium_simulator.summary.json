@@ -1,0 +1,221 @@
+{
+  "generated_by": "scripts/build_folium_municipal_simulator.py",
+  "municipality_code": "41110",
+  "municipality_name": "수원시",
+  "placement_manifest": "C:\\Users\\choi-\\Desktop\\2-2 수행\\오대위T수행\\6\\data\\gyeonggi_real\\41110_suwon\\placement.json",
+  "scenario_file": "C:\\Users\\choi-\\Desktop\\2-2 수행\\오대위T수행\\6\\data\\gyeonggi_real\\41110_suwon\\scenario.json",
+  "processed_csv_folder": "C:\\Users\\choi-\\Desktop\\2-2 수행\\오대위T수행\\6\\data\\processed\\gyeonggi_20260909\\41110",
+  "results_file": "C:\\Users\\choi-\\Desktop\\2-2 수행\\오대위T수행\\6\\outputs\\suwon_placement_provisional\\k1\\hospital_placement_result.json",
+  "results_file_requested": "C:\\Users\\choi-\\Desktop\\2-2 수행\\오대위T수행\\6\\outputs\\suwon_placement_provisional\\k1\\hospital_placement_result.json",
+  "policy": "centralized greedy expected-survival",
+  "seed": 42,
+  "coordinate_order": "network.positions are [longitude, latitude] in WGS84",
+  "model_parameters": {
+    "path": "data/processed/calibration/model_parameters_provisional.json",
+    "status": "provisional",
+    "generated_at": "2026-09-10T21:08:35+09:00"
+  },
+  "caveats": [
+    "행정동 점은 행정복지센터 대표좌표이며 실제 신고 좌표가 아닙니다.",
+    "지도 위 구급차 이동선은 재생용 직선 보간이며, 소요시간만 카카오 자동차 경로 실측값입니다.",
+    "병상 수는 HIRA 정적 신고값이며 실시간 가용병상이 아닙니다.",
+    "1km 격자는 분석용 사각격자이며 행정경계가 아닙니다.",
+    "재생 화면은 시나리오별 단일 에피소드(고정 시드)이며, 결과표의 평균/CI는 다중 에피소드 결과입니다."
+  ],
+  "grid_km": 1.0,
+  "grid_cell_count": 154,
+  "scenarios": [
+    {
+      "key": "baseline",
+      "label": "기준안: 기존 병원만",
+      "seed": 42,
+      "is_best": false,
+      "activated_candidate_ids": [],
+      "activated_candidate_names": [],
+      "patients": 184,
+      "expected_saved": 130.179526,
+      "expected_lost": 53.820474,
+      "expected_saved_per_patient": 0.7074974235713968,
+      "response": {
+        "mean_minutes": 14.260714285714284,
+        "p90_minutes": 23.0,
+        "reached_patients": 182,
+        "unreached_patients": 2,
+        "response_rate": 0.9891304347826086
+      },
+      "events": {
+        "patient_arrival": 184,
+        "arrive_scene": 182,
+        "scene_complete": 181,
+        "arrive_hospital": 539,
+        "transfer_ready": 359,
+        "restock_complete": 177,
+        "reposition_complete": 176,
+        "hospital_release": 505
+      },
+      "frame_count": 2305,
+      "log_entry_count": 2882
+    },
+    {
+      "key": "C02",
+      "label": "최적안 C02 추가: 영통구보건소",
+      "seed": 42,
+      "is_best": true,
+      "activated_candidate_ids": [
+        "C02"
+      ],
+      "activated_candidate_names": [
+        "영통구보건소"
+      ],
+      "patients": 184,
+      "expected_saved": 131.20259,
+      "expected_lost": 52.79741,
+      "expected_saved_per_patient": 0.7130575555522666,
+      "response": {
+        "mean_minutes": 14.260714285714284,
+        "p90_minutes": 23.0,
+        "reached_patients": 182,
+        "unreached_patients": 2,
+        "response_rate": 0.9891304347826086
+      },
+      "events": {
+        "patient_arrival": 184,
+        "arrive_scene": 182,
+        "scene_complete": 181,
+        "arrive_hospital": 539,
+        "transfer_ready": 359,
+        "restock_complete": 177,
+        "reposition_complete": 176,
+        "hospital_release": 505
+      },
+      "frame_count": 2305,
+      "log_entry_count": 2882
+    }
+  ],
+  "provenance": {
+    "hospital_source": {
+      "registry": [
+        "official_gyeonggi_emergency_medical_institutions"
+      ],
+      "capacity": {
+        "field": "emergency_room_beds",
+        "source": [
+          "https://opendata.hira.or.kr/op/opc/selectOpenData.do?sno=11925"
+        ],
+        "snapshot_period": [
+          "2026-06"
+        ],
+        "semantics": [
+          "HIRA static facility snapshot; not real-time availability"
+        ]
+      },
+      "evaluation": {
+        "source": [
+          "https://www.e-gen.or.kr/nemc/business_medical_institution_evaluation.do?tabId=9"
+        ],
+        "year": [
+          "2024"
+        ]
+      },
+      "treatment_success_basis": "temporary category-level coefficients copied from scripts/build_folium_municipal_simulator.py (0.86 for categories containing '센터', 0.78 for 지역응급의료기관, 0.25 when no bed is open, 75-minute bed occupancy, 5-minute transfer delay); not observed hospital outcomes",
+      "official_identifiers": "scenario.json hospitals.<id>.official_identifiers",
+      "dataset_details": "see provenance.sources"
+    },
+    "demand_source": {
+      "method": "population_proportional_provincial_dispatches",
+      "basis": "temporary estimate: official 2023 Gyeonggi headquarters dispatch total (data/raw/nfa_headquarters_ambulance_activity_20260910/nfa_headquarters_ambulance_activity_20231231.csv, 본부구분=경기, 년도=2023) divided by 365.25 and allocated by 2026-08 resident-population share; not observed municipal 119 calls",
+      "year": 2023,
+      "provincial_annual_dispatches": 846564,
+      "provincial_population_reference": "MOIS resident population 2026-08 (sum of the 31 municipalities in municipality_summary.csv)",
+      "provincial_population": 13773918,
+      "municipal_population": 1185677,
+      "daily_calls_model_input": 199.5163420695904,
+      "observed_municipal_calls": false,
+      "allocation_within_municipality": "resident population share of each administrative dong in demand_population.csv; flat hourly rate",
+      "coordinate_source": [
+        "kakao_administrative_office_representative_proxy"
+      ],
+      "coordinate_caveat": "administrative-office representative points; not incident coordinates"
+    },
+    "candidate_source": {
+      "datasets": [
+        "https://www.data.go.kr/data/3072692/fileData.do"
+      ],
+      "land_feasibility_status": [
+        "requires_planning_review_existing_public_health_facility"
+      ],
+      "interpretation": "existing public-health facilities; requires planning review before any site is presented as feasible",
+      "model_assumption": "temporary planning assumption: every new-build candidate is modelled as a 지역응급의료기관 with 20 emergency-room beds, 75-minute bed occupancy and unit cost; not a design or budget figure"
+    },
+    "road_time_source": {
+      "provider": "Kakao Mobility Directions API",
+      "extracted_at": "2026-09-10T04:15:43.150292+00:00",
+      "routing_profile": "RECOMMEND",
+      "unit": "minutes",
+      "pair_set": "simulation",
+      "required_pair_count": 1683,
+      "file": "road_times.csv"
+    },
+    "coordinate_order": "network.positions are [longitude, latitude] in WGS84",
+    "model_parameters": {
+      "path": "data/processed/calibration/model_parameters_provisional.json",
+      "status": "provisional",
+      "generated_at": "2026-09-10T21:08:35+09:00"
+    },
+    "sources": [
+      {
+        "id": "S1",
+        "title": "소방청 본부별 구급활동정보 (2023-12-31 기준, nfa_headquarters_ambulance_activity_20231231.csv)",
+        "url": "https://www.data.go.kr/data/15080046/fileData.do",
+        "used_for": "demand: 2023 Gyeonggi annual dispatch total (846,564)"
+      },
+      {
+        "id": "S2",
+        "title": "행정안전부 주민등록 인구 및 세대현황 전체 읍면동 (2026-08)",
+        "url": "https://jumin.mois.go.kr/statMonth.do",
+        "used_for": "demand: municipal and administrative-dong population shares"
+      },
+      {
+        "id": "S3",
+        "title": "경기도 응급의료기관 현황 (기준일 2025-09-17)",
+        "url": "https://www.data.go.kr/data/15011313/fileData.do",
+        "used_for": "hospital: existing emergency institution registry, category, coordinates"
+      },
+      {
+        "id": "S4",
+        "title": "건강보험심사평가원 전국 병의원 및 약국 현황 2026.6",
+        "url": "https://opendata.hira.or.kr/op/opc/selectOpenData.do?sno=11925",
+        "used_for": "hospital: static emergency-room bed capacity (not real-time availability)"
+      },
+      {
+        "id": "S5",
+        "title": "국립중앙의료원 중앙응급의료센터 2024년도 응급의료기관 평가",
+        "url": "https://www.e-gen.or.kr/nemc/business_medical_institution_evaluation.do?tabId=9",
+        "used_for": "hospital: E-Gen institution code and evaluation grade preserved as official identifiers"
+      },
+      {
+        "id": "S6",
+        "title": "보건복지부 전국 지역보건의료기관 현황 (2025-12-31)",
+        "url": "https://www.data.go.kr/data/3072692/fileData.do",
+        "used_for": "candidate: existing public-health facilities used as planning-review candidate sites"
+      },
+      {
+        "id": "S7",
+        "title": "Kakao Mobility Directions API (RECOMMEND)",
+        "url": "https://developers.kakaomobility.com/docs/navi-api/directions/",
+        "used_for": "road_time: directional car-route minutes between local nodes"
+      },
+      {
+        "id": "S8",
+        "title": "scripts/build_folium_municipal_simulator.py temporary model coefficients",
+        "url": "scripts/build_folium_municipal_simulator.py",
+        "used_for": "profiles, hospital success, candidate and ambulance assumptions; temporary coefficients pending calibration"
+      }
+    ],
+    "generated_by": {
+      "script": "scripts/build_municipal_placement_inputs.py",
+      "generated_at": "2026-09-10T21:46:35+09:00",
+      "processed_dir": "data/processed/gyeonggi_20260909/41110"
+    }
+  }
+}

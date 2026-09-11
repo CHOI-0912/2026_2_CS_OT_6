@@ -1,0 +1,145 @@
+{
+  "manifest_version": 1,
+  "created_at": "2026-09-11T00:00:00+09:00",
+  "target": {
+    "province": "전북특별자치도",
+    "municipality": "전주시",
+    "municipality_code": "52110",
+    "district_codes": {"완산구": "52111", "덕진구": "52113"}
+  },
+  "notes": [
+    "전주시 전용 원본을 새로 내려받지 않았다. 이미 저장소에 있는 전국 단위 공식 원본을 그대로 재사용한다.",
+    "reused 배열의 파일은 원래 위치에 그대로 두고 sha256 으로만 고정한다. 복사본을 만들지 않는다.",
+    "derived 배열은 전국 원본에서 전북·전주 행만 기계적으로 추출한 결과이며, 값을 가공하거나 보정하지 않았다.",
+    "경기도와 달리 전북특별자치도는 시·도 자체 응급의료기관 CSV 를 개방하지 않는다. 그래서 응급의료기관 명단은 E-Gen 전국 평가 PDF 에서 읽고 주소·좌표·병상은 HIRA 에서 결합한다."
+  ],
+  "reused": [
+    {
+      "id": "mois_resident_population_all_eup_myeon_dong",
+      "title": "행정안전부 주민등록 인구 및 세대현황 전체 읍면동",
+      "publisher": "행정안전부",
+      "landing_url": "https://jumin.mois.go.kr/statMonth.do",
+      "reference_date": "2026-08-31",
+      "path": "data/raw/public_sources_20260908_203053KST/mois_resident_population_all_eup_myeon_dong_202608.csv",
+      "sha256": "ec7da56f58c089e4ccbb344b1ced593e9e44bbc0b695c258ea76ede98e26beed",
+      "size_bytes": 420710,
+      "encoding": "CP949",
+      "used_for": "demand_population.csv (전주시 행정동 35개, 인구·세대수)",
+      "province_label_in_file": "전북특별자치도"
+    },
+    {
+      "id": "nfa_ambulances_by_fire_station_119_center",
+      "title": "소방청_전국 소방서 및 119안전센터별 구급차 정보",
+      "publisher": "소방청",
+      "landing_url": "https://www.data.go.kr/data/15113282/fileData.do?recommendDataYn=Y",
+      "reference_date": "2025-06-30",
+      "path": "data/raw/public_sources_20260908_203053KST/nfa_ambulances_by_fire_station_119_center_20250630.csv",
+      "sha256": "402216392f638b1031263ed81759032db41da05f6d238c6a094b92d150bd6e27",
+      "size_bytes": 57124,
+      "encoding": "CP949",
+      "used_for": "ambulance_bases.csv (전주완산·전주덕진소방서 10행, 구급차 12대)",
+      "province_label_in_file": "전북",
+      "validation": {"jeonbuk_rows": 99, "jeonju_rows": 10, "jeonju_ambulance_total": 12}
+    },
+    {
+      "id": "nfa_119_safety_centers",
+      "title": "소방청_119안전센터 현황",
+      "publisher": "소방청",
+      "landing_url": "https://www.data.go.kr/data/15065056/fileData.do?recommendDataYn=Y",
+      "reference_date": "2023-12-31",
+      "path": "data/raw/public_sources_20260908_203053KST/nfa_119_safety_centers_20231231.csv",
+      "sha256": "d9525886b6e44ff1d2be8b3e58db66c6c1947b0fe87cf715f878b7074115e2cd",
+      "size_bytes": 113797,
+      "encoding": "CP949",
+      "used_for": "119안전센터 공식 주소 (구급차 자료에는 주소가 없다)",
+      "province_label_in_file": "전라북도",
+      "limitation": "2023-12-31 기준이라 2025년 구급차 자료의 서신·조촌119안전센터 주소가 없다. 두 곳은 Kakao 키워드 검색으로 좌표를 얻었다."
+    },
+    {
+      "id": "hira_nationwide_hospitals_pharmacies_2026_06",
+      "title": "건강보험심사평가원_전국 병의원 및 약국 현황 2026.6",
+      "publisher": "건강보험심사평가원",
+      "landing_url": "https://opendata.hira.or.kr/op/opc/selectOpenData.do?sno=11925",
+      "reference_date": "2026-06-30",
+      "path": "data/raw/official_hospital_capacity_20260910/hira_nationwide_hospitals_pharmacies_2026_06.zip",
+      "sha256": "eed609c3ee13018d70367c83e84cdc456e91d7036cf68e6c72574df1520c2907",
+      "size_bytes": 64452916,
+      "used_for": "existing_hospitals.csv 의 주소·우편번호·전화·좌표·응급실병상·중환자병상·CT·MRI",
+      "workbooks_used": [
+        "1.병원정보서비스(2026.6.).xlsx",
+        "3.의료기관별상세정보서비스_01_시설정보(2026.6.).xlsx",
+        "7.의료기관별상세정보서비스_05_의료장비정보(2026.6.).xlsx",
+        "10.의료기관별상세정보서비스_08_특수진료정보서비스(2026.6.).xlsx"
+      ],
+      "province_label_in_file": "전북",
+      "capacity_semantics": "2026년 6월 정적 시설 신고 스냅샷이며 실시간 가용 병상이 아니다."
+    },
+    {
+      "id": "egen_2024_evaluation_all_emergency_institutions",
+      "title": "중앙응급의료센터_2024년도 응급의료기관 평가 (전체 기관)",
+      "publisher": "국립중앙의료원 중앙응급의료센터",
+      "landing_url": "https://www.e-gen.or.kr/nemc/business_medical_institution_evaluation.do?tabId=9",
+      "evaluation_year": 2024,
+      "path": "data/raw/official_hospital_capacity_20260910/egen_2024_evaluation_all_emergency_institutions.pdf",
+      "sha256": "3416358961891b65b0451318c620f5707b4a035a446bf80a3cfb0f61cd2b8c3f",
+      "size_bytes": 315075,
+      "used_for": "전주시 응급의료기관 명단·종별·평가종합등급·필수영역",
+      "area_label_in_file": "전북",
+      "limitation": "PDF 에는 기관코드(INSTT_CD) 열이 없다. 따라서 existing_hospitals.csv 의 egen_institution_code 는 비어 있다."
+    },
+    {
+      "id": "nfa_119_ems_service_statistical_yearbook_2025",
+      "title": "소방청_2025년도 119구급서비스 통계연보(최종)",
+      "publisher": "소방청",
+      "landing_url": "https://www.nfa.go.kr/nfa/releaseinformation/statisticalinformation/main/?boardId=bbs_0000000000000019&mode=view&cntId=71",
+      "file_url": "https://www.nfa.go.kr/board/file/bbs_0000000000000019/71/FILE_000000000024779/202506271741134568",
+      "reference_date": "2024-12-31",
+      "path": "data/raw/municipal_dispatch_counts_20260910/nfa_119_ems_service_statistical_yearbook_2025.pdf",
+      "sha256": "16bf9facd94fef47477e475ac69b1777a3dffca72f53bc0051a22fdedc5aaa3e",
+      "size_bytes": 6070842,
+      "used_for": "전주시 연간 구급 출동건수 (부록 시·도 소방기관별 구급활동 현황)",
+      "page_index_zero_based": {"province_totals": 80, "jeonbuk_station_table": 207}
+    }
+  ],
+  "derived": [
+    {
+      "path": "egen_2024_evaluation_jeonbuk.csv",
+      "sha256": "fb6331360b03999fa4a0382d4e2db6dbb4a5da35352eddae358b29abbead8360",
+      "size_bytes": 3520,
+      "row_count_excluding_header": 19,
+      "encoding": "UTF-8-SIG",
+      "from": "egen_2024_evaluation_all_emergency_institutions",
+      "generator": "scripts/prepare_municipal_inputs.py --egen-extract-out",
+      "description": "2024년도 응급의료기관 평가 PDF 의 지역=전북 19개 기관 원문 행"
+    },
+    {
+      "path": "nfa_yearbook_2025_jeonbuk_station_dispatches.csv",
+      "sha256": "d18a7626a99d1f13a99bd7467f1278d341dd6f3bd781908cdbfbc63104a92e1f",
+      "size_bytes": 601,
+      "row_count_excluding_header": 9,
+      "encoding": "UTF-8-SIG",
+      "from": "nfa_119_ems_service_statistical_yearbook_2025",
+      "generator": "data/raw/jeonju_sources_20260911/extract_jeonju_dispatch_counts.py",
+      "description": "전주완산·전주덕진소방서 소속 119안전센터 9개소의 2024년 출동건수·이송건수"
+    }
+  ],
+  "not_available": [
+    {
+      "title": "전북특별자치도 시·군별 구급활동 원자료 (경기데이터드림 상당)",
+      "verdict": "전북특별자치도에는 경기데이터드림의 `구급활동 현황` 에 해당하는 시·군별 출동 원자료 개방 서비스가 없다."
+    },
+    {
+      "title": "전북특별자치도_소방서별 구급대실적 / 소방서별 이송건수 및 이송인원 현황",
+      "landing_urls": [
+        "https://www.data.go.kr/data/15055614/fileData.do",
+        "https://www.data.go.kr/data/15055616/fileData.do"
+      ],
+      "verdict": "파일은 실제로 내려받아지지만 2015년 기준에서 갱신이 멈춰 있어 사용하지 않았다."
+    },
+    {
+      "title": "국립중앙의료원_전국 응급의료기관 정보 조회 서비스 (실시간 가용 병상)",
+      "landing_url": "https://www.data.go.kr/data/15000563/openapi.do",
+      "verdict": "활용신청 승인이 필요해 이번에도 수집하지 않았다. 경기도와 동일한 상태다."
+    }
+  ]
+}

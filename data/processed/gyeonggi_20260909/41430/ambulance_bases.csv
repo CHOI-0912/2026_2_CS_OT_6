@@ -1,0 +1,4 @@
+﻿source_province,fire_station,safety_center,regional_unit,ambulance_count,base_name,address,latitude,longitude,coordinate_source,matched_address,kakao_place_id,municipality_assignment,geocoding_status,routing_status
+경기,의왕소방서,고천119안전센터,,2,고천119안전센터,경기도 의왕시 오봉로 9,37.3441994554514,126.974761209112,kakao_local_address_search,경기 의왕시 오봉로 9,,address_exact,verified_municipality_match,pending_kakao_api
+경기,의왕소방서,백운119안전센터,,1,백운119안전센터,경기도 의왕시 안양판교로 187,37.3904788127938,126.992611211165,kakao_local_address_search,경기 의왕시 안양판교로 187,,address_exact,verified_municipality_match,pending_kakao_api
+경기,의왕소방서,부곡119안전센터,,1,부곡119안전센터,경기도 의왕시 오봉로 289,37.3277541213538,126.952080468743,kakao_local_address_search,경기 의왕시 오봉로 289,,address_exact,verified_municipality_match,pending_kakao_api

@@ -1,0 +1,9 @@
+﻿administrative_code,administrative_name,municipality_code,population,households,latitude,longitude,coordinate_source,matched_address,kakao_place_id,geocoding_status,demand_rate_status,coordinate_reference_url,coordinate_basis
+4137051000,경기도 오산시 중앙동,41370,32742,14054,37.1523254772063,127.073138826416,kakao_administrative_office_representative_proxy,경기 오산시 경기대로 307,9426080,verified_municipality_match,pending_119_activity_api,,
+4137052300,경기도 오산시 대원1동,41370,44948,21627,37.1386482302748,127.071757056244,kakao_administrative_office_representative_proxy,경기 오산시 오산로132번길 28,7831311,verified_municipality_match,pending_119_activity_api,,
+4137052600,경기도 오산시 대원2동,41370,24551,10535,37.131981390483574,127.07867644781975,kakao_administrative_office_representative_proxy,경기 오산시 동부대로 332-13,922795545,verified_municipality_match,pending_119_activity_api,,
+4137053000,경기도 오산시 남촌동,41370,32237,18426,37.15624602268625,127.0653613799908,kakao_administrative_office_representative_proxy,경기 오산시 청학로 80,8220806,verified_municipality_match,pending_119_activity_api,,
+4137054300,경기도 오산시 신장1동,41370,35256,16033,37.17664330336067,127.05456766236776,kakao_administrative_office_representative_proxy,경기 오산시 문헌공로 45,7989973,verified_municipality_match,pending_119_activity_api,,
+4137054600,경기도 오산시 신장2동,41370,22548,9963,37.1697708780964,127.065391041868,kakao_administrative_office_representative_proxy,경기 오산시 내삼미로79번길 48,762417082,verified_municipality_match,pending_119_activity_api,,
+4137055000,경기도 오산시 세마동,41370,31859,13803,37.1882931789048,127.040778584353,kakao_administrative_office_representative_proxy,경기 오산시 독산성로 419,27101172,verified_municipality_match,pending_119_activity_api,,
+4137056000,경기도 오산시 초평동,41370,31162,14475,37.140189946485464,127.04409778908415,kakao_administrative_office_representative_proxy,경기 오산시 초평중앙로 77,156429526,verified_municipality_match,pending_119_activity_api,,

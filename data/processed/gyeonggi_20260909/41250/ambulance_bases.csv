@@ -1,0 +1,4 @@
+﻿source_province,fire_station,safety_center,regional_unit,ambulance_count,base_name,address,latitude,longitude,coordinate_source,matched_address,kakao_place_id,municipality_assignment,geocoding_status,routing_status
+경기북부,동두천소방서,불현119안전센터,,2,불현119안전센터,경기도 동두천시 지행로 6,37.8922636252089,127.047600860923,kakao_local_address_search,경기 동두천시 지행로 6,,address_exact,verified_municipality_match,pending_kakao_api
+경기북부,동두천소방서,소요119안전센터,,1,소요119안전센터,경기 동두천시 평화로2910번길 65,37.9464015597105,127.065130915744,kakao_local_address_search,경기 동두천시 평화로2910번길 65,,fire_station_address_inferred,verified_municipality_match,pending_kakao_api
+경기북부,동두천소방서,불현119안전센터,광암지역대,1,광암지역대,,37.8931004984575,127.089304417376,kakao_local_keyword_search,경기 동두천시 삼육사로1269번길 9,10155871,address_exact,verified_municipality_match,pending_kakao_api

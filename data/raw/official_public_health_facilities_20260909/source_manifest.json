@@ -1,0 +1,37 @@
+{
+  "candidate_definition": "existing public-health facilities requiring planning review",
+  "datasets": [
+    {
+      "name": "경기도 안산시 보건지소등 현황",
+      "source_url": "https://www.data.go.kr/data/15036776/fileData.do",
+      "file": "gyeonggi_ansan_public_health_facilities_20260128.csv",
+      "sha256": "304f1b40f9288c9d5352f8115d5d4959448bf15e645476e6a81da5dbd6d18a34",
+      "raw_rows": 9,
+      "selected_candidate_rows": 9
+    },
+    {
+      "name": "경기도 구리시 공공보건기관현황",
+      "source_url": "https://www.data.go.kr/data/3038708/fileData.do",
+      "file": "gyeonggi_guri_public_health_facilities_20240607.csv",
+      "sha256": "fbbdbb83ce39ff029f535bfa2d42254026031b3a07e4c4bad4b0ea5a801190d6",
+      "raw_rows": 3,
+      "selected_candidate_rows": 3
+    },
+    {
+      "name": "경기도 양주시 의료시설 현황",
+      "source_url": "https://www.data.go.kr/data/3079714/fileData.do",
+      "file": "gyeonggi_yangju_medical_facilities_20260720.csv",
+      "sha256": "a0c301b13394c5ae45d5fe4e3ada5dc0ddeeca9751abff2cb53db5b089904e1b",
+      "raw_rows": 252,
+      "selected_candidate_rows": 6
+    },
+    {
+      "name": "경기도 여주시 생활지도",
+      "source_url": "https://www.data.go.kr/data/15118550/fileData.do",
+      "file": "gyeonggi_yeoju_public_health_facilities_20251216.csv",
+      "sha256": "fefd4fcdf1a18a835d0496641ecfb1d733ca2b4adc8ce033afc2b894cb062b2e",
+      "raw_rows": 714,
+      "selected_candidate_rows": 22
+    }
+  ]
+}

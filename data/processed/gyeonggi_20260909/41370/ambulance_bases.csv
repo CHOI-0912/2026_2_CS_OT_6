@@ -1,0 +1,5 @@
+﻿source_province,fire_station,safety_center,regional_unit,ambulance_count,base_name,address,latitude,longitude,coordinate_source,matched_address,kakao_place_id,municipality_assignment,geocoding_status,routing_status
+경기,오산소방서,119구조대119안전센터,,1,119구조대119안전센터,,37.1531450259515,127.076647326877,kakao_local_keyword_search,경기 오산시 운암로 77,10789857,fire_station_address_inferred,verified_municipality_match,pending_kakao_api
+경기,오산소방서,세교119안전센터,,2,세교119안전센터,경기도 오산시 문헌공로 30,37.1753074687709,127.053822953256,kakao_local_address_search,경기 오산시 문헌공로 30,,address_exact,verified_municipality_match,pending_kakao_api
+경기,오산소방서,원동119안전센터,,1,원동119안전센터,경기도 오산시 경기대로 99,37.1336252291928,127.072257851627,kakao_local_address_search,경기 오산시 경기대로 99,,address_exact,verified_municipality_match,pending_kakao_api
+경기,오산소방서,청학119안전센터,,1,청학119안전센터,경기도 오산시 청학로 55-6,37.1547073565701,127.063908310447,kakao_local_address_search,경기 오산시 청학로 55-6,,address_exact,verified_municipality_match,pending_kakao_api

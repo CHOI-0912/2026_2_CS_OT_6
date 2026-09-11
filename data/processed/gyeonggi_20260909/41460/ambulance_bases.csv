@@ -1,0 +1,15 @@
+﻿source_province,fire_station,safety_center,regional_unit,ambulance_count,base_name,address,latitude,longitude,coordinate_source,matched_address,kakao_place_id,municipality_assignment,geocoding_status,routing_status
+경기,용인소방서,역북119안전센터,,2,역북119안전센터,경기도 용인시 처인구 명지로 45,37.2321556319159,127.189884611282,kakao_local_address_search,경기 용인시 처인구 명지로 45,,address_exact,verified_municipality_match,pending_kakao_api
+경기,용인소방서,포곡119안전센터,,1,포곡119안전센터,경기도 용인시 처인구 포곡읍 포곡로 252,37.2776622890736,127.230035112665,kakao_local_address_search,경기 용인시 처인구 포곡읍 포곡로 252,,address_exact,verified_municipality_match,pending_kakao_api
+경기,용인소방서,백암119안전센터,,1,백암119안전센터,경기도 용인시 처인구 백암면 백암로 247,37.1677158778686,127.371362882119,kakao_local_address_search,경기 용인시 처인구 백암면 백암로 247,,address_exact,verified_municipality_match,pending_kakao_api
+경기,용인소방서,이동119안전센터,,1,이동119안전센터,경기도 용인시 처인구 이동면 백옥대로 416-2,37.1744704589177,127.204263956227,kakao_local_address_search,경기 용인시 처인구 이동읍 백옥대로 416-2,,address_exact,verified_municipality_match,pending_kakao_api
+경기,용인소방서,양지119안전센터,,1,양지119안전센터,경기도 용인시 처인구 양지면 남평로 46,37.2300909382071,127.288906562297,kakao_local_address_search,경기 용인시 처인구 양지읍 남평로 46,,address_exact,verified_municipality_match,pending_kakao_api
+경기,용인소방서,모현119안전센터,,1,모현119안전센터,경기도 용인시 처인구 모현면 독점로 31-12,37.3292087399888,127.241566290682,kakao_local_address_search,경기 용인시 처인구 모현읍 독점로 31-12,,address_exact,verified_municipality_match,pending_kakao_api
+경기,용인소방서,남사119안전센터,,1,남사119안전센터,경기도 용인시 처인구 남사면 봉무로 13,37.1154285519964,127.15226588343,kakao_local_address_search,경기 용인시 처인구 남사읍 봉무로 13,,address_exact,verified_municipality_match,pending_kakao_api
+경기,용인서부소방서,수지119안전센터,,3,수지119안전센터,,37.326092182008,127.100164589908,kakao_local_keyword_search,경기 용인시 수지구 풍덕천로 177,9847451,official_fire_station_name_inferred,verified_municipality_match,pending_kakao_api
+경기,용인서부소방서,구갈119안전센터,,2,구갈119안전센터,,37.278890066323356,127.10981272079137,kakao_local_keyword_search,경기 용인시 기흥구 신구로 74,8698255,official_fire_station_name_inferred,verified_municipality_match,pending_kakao_api
+경기,용인서부소방서,성복119안전센터,,1,성복119안전센터,,37.32305420463865,127.05788431420225,kakao_local_keyword_search,경기 용인시 수지구 성복1로 251,984850580,official_fire_station_name_inferred,verified_municipality_match,pending_kakao_api
+경기,용인서부소방서,보정119안전센터,,1,보정119안전센터,,37.3197165853276,127.115837953608,kakao_local_keyword_search,경기 용인시 기흥구 보정로114번길 2,23816636,official_fire_station_name_inferred,verified_municipality_match,pending_kakao_api
+경기,용인서부소방서,동백119안전센터,,2,동백119안전센터,,37.27767509323168,127.1552200855481,kakao_local_keyword_search,경기 용인시 기흥구 동백6로 33,7841504,official_fire_station_name_inferred,verified_municipality_match,pending_kakao_api
+경기,용인서부소방서,기흥119안전센터,,1,기흥119안전센터,,37.24499104960163,127.1058694750427,kakao_local_keyword_search,경기 용인시 기흥구 한보라1로 128,842657182,official_fire_station_name_inferred,verified_municipality_match,pending_kakao_api
+경기,용인소방서,백암119안전센터,원삼지역대,1,원삼지역대,,37.16677966751264,127.3136640345656,kakao_local_keyword_search,경기 용인시 처인구 원삼면 원양로 64,9322561,address_exact,verified_municipality_match,pending_kakao_api

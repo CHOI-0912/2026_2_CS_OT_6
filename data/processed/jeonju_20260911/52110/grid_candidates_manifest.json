@@ -1,0 +1,666 @@
+{
+  "municipality_code": "52110",
+  "status": "collecting_region_codes",
+  "region_code_cache": {
+    "127.057252,35.791056": {
+      "administrative_code": "5221042000",
+      "administrative_name": "전북특별자치도 김제시 금구면",
+      "legal_address_name": "전북특별자치도 김제시 금구면 오봉리"
+    },
+    "127.068331,35.791056": {
+      "administrative_code": "5211170300",
+      "administrative_name": "전북특별자치도 전주시 완산구 삼천3동",
+      "legal_address_name": "전북특별자치도 전주시 완산구 용복동"
+    },
+    "127.079411,35.791056": {
+      "administrative_code": "5211170300",
+      "administrative_name": "전북특별자치도 전주시 완산구 삼천3동",
+      "legal_address_name": "전북특별자치도 전주시 완산구 삼천동3가"
+    },
+    "127.090491,35.791056": {
+      "administrative_code": "5211170300",
+      "administrative_name": "전북특별자치도 전주시 완산구 삼천3동",
+      "legal_address_name": "전북특별자치도 전주시 완산구 삼천동3가"
+    },
+    "127.101570,35.791056": {
+      "administrative_code": "5211170300",
+      "administrative_name": "전북특별자치도 전주시 완산구 삼천3동",
+      "legal_address_name": "전북특별자치도 전주시 완산구 삼천동2가"
+    },
+    "127.112650,35.791056": {
+      "administrative_code": "5211170300",
+      "administrative_name": "전북특별자치도 전주시 완산구 삼천3동",
+      "legal_address_name": "전북특별자치도 전주시 완산구 삼천동1가"
+    },
+    "127.123730,35.791056": {
+      "administrative_code": "5211169200",
+      "administrative_name": "전북특별자치도 전주시 완산구 평화2동",
+      "legal_address_name": "전북특별자치도 전주시 완산구 평화동2가"
+    },
+    "127.134809,35.791056": {
+      "administrative_code": "5211169200",
+      "administrative_name": "전북특별자치도 전주시 완산구 평화2동",
+      "legal_address_name": "전북특별자치도 전주시 완산구 평화동2가"
+    },
+    "127.145889,35.791056": {
+      "administrative_code": "5211169100",
+      "administrative_name": "전북특별자치도 전주시 완산구 평화1동",
+      "legal_address_name": "전북특별자치도 전주시 완산구 평화동1가"
+    },
+    "127.156969,35.791056": {
+      "administrative_code": "5211166000",
+      "administrative_name": "전북특별자치도 전주시 완산구 서서학동",
+      "legal_address_name": "전북특별자치도 전주시 완산구 서서학동"
+    },
+    "127.168048,35.791056": {
+      "administrative_code": "5211165000",
+      "administrative_name": "전북특별자치도 전주시 완산구 동서학동",
+      "legal_address_name": "전북특별자치도 전주시 완산구 대성동"
+    },
+    "127.179128,35.791056": {
+      "administrative_code": "5211165000",
+      "administrative_name": "전북특별자치도 전주시 완산구 동서학동",
+      "legal_address_name": "전북특별자치도 전주시 완산구 대성동"
+    },
+    "127.057252,35.800039": {
+      "administrative_code": "5271033000",
+      "administrative_name": "전북특별자치도 완주군 이서면",
+      "legal_address_name": "전북특별자치도 완주군 이서면 이성리"
+    },
+    "127.068331,35.800039": {
+      "administrative_code": "5211170300",
+      "administrative_name": "전북특별자치도 전주시 완산구 삼천3동",
+      "legal_address_name": "전북특별자치도 전주시 완산구 삼천동3가"
+    },
+    "127.079411,35.800039": {
+      "administrative_code": "5211170300",
+      "administrative_name": "전북특별자치도 전주시 완산구 삼천3동",
+      "legal_address_name": "전북특별자치도 전주시 완산구 삼천동3가"
+    },
+    "127.090491,35.800039": {
+      "administrative_code": "5211170300",
+      "administrative_name": "전북특별자치도 전주시 완산구 삼천3동",
+      "legal_address_name": "전북특별자치도 전주시 완산구 삼천동3가"
+    },
+    "127.101570,35.800039": {
+      "administrative_code": "5211171400",
+      "administrative_name": "전북특별자치도 전주시 완산구 효자4동",
+      "legal_address_name": "전북특별자치도 전주시 완산구 효자동2가"
+    },
+    "127.112650,35.800039": {
+      "administrative_code": "5211170300",
+      "administrative_name": "전북특별자치도 전주시 완산구 삼천3동",
+      "legal_address_name": "전북특별자치도 전주시 완산구 삼천동1가"
+    },
+    "127.123730,35.800039": {
+      "administrative_code": "5211170100",
+      "administrative_name": "전북특별자치도 전주시 완산구 삼천1동",
+      "legal_address_name": "전북특별자치도 전주시 완산구 삼천동1가"
+    },
+    "127.134809,35.800039": {
+      "administrative_code": "5211170100",
+      "administrative_name": "전북특별자치도 전주시 완산구 삼천1동",
+      "legal_address_name": "전북특별자치도 전주시 완산구 삼천동1가"
+    },
+    "127.145889,35.800039": {
+      "administrative_code": "5211166000",
+      "administrative_name": "전북특별자치도 전주시 완산구 서서학동",
+      "legal_address_name": "전북특별자치도 전주시 완산구 서서학동"
+    },
+    "127.156969,35.800039": {
+      "administrative_code": "5211165000",
+      "administrative_name": "전북특별자치도 전주시 완산구 동서학동",
+      "legal_address_name": "전북특별자치도 전주시 완산구 동서학동"
+    },
+    "127.168048,35.800039": {
+      "administrative_code": "5211165000",
+      "administrative_name": "전북특별자치도 전주시 완산구 동서학동",
+      "legal_address_name": "전북특별자치도 전주시 완산구 대성동"
+    },
+    "127.179128,35.800039": {
+      "administrative_code": "5211165000",
+      "administrative_name": "전북특별자치도 전주시 완산구 동서학동",
+      "legal_address_name": "전북특별자치도 전주시 완산구 색장동"
+    },
+    "127.057252,35.809022": {
+      "administrative_code": "5271033000",
+      "administrative_name": "전북특별자치도 완주군 이서면",
+      "legal_address_name": "전북특별자치도 완주군 이서면 상개리"
+    },
+    "127.068331,35.809022": {
+      "administrative_code": "5211171400",
+      "administrative_name": "전북특별자치도 전주시 완산구 효자4동",
+      "legal_address_name": "전북특별자치도 전주시 완산구 상림동"
+    },
+    "127.079411,35.809022": {
+      "administrative_code": "5211171400",
+      "administrative_name": "전북특별자치도 전주시 완산구 효자4동",
+      "legal_address_name": "전북특별자치도 전주시 완산구 상림동"
+    },
+    "127.090491,35.809022": {
+      "administrative_code": "5211171400",
+      "administrative_name": "전북특별자치도 전주시 완산구 효자4동",
+      "legal_address_name": "전북특별자치도 전주시 완산구 효자동2가"
+    },
+    "127.101570,35.809022": {
+      "administrative_code": "5211171400",
+      "administrative_name": "전북특별자치도 전주시 완산구 효자4동",
+      "legal_address_name": "전북특별자치도 전주시 완산구 효자동2가"
+    },
+    "127.112650,35.809022": {
+      "administrative_code": "5211171300",
+      "administrative_name": "전북특별자치도 전주시 완산구 효자3동",
+      "legal_address_name": "전북특별자치도 전주시 완산구 효자동1가"
+    },
+    "127.123730,35.809022": {
+      "administrative_code": "5211171100",
+      "administrative_name": "전북특별자치도 전주시 완산구 효자1동",
+      "legal_address_name": "전북특별자치도 전주시 완산구 효자동1가"
+    },
+    "127.134809,35.809022": {
+      "administrative_code": "5211163500",
+      "administrative_name": "전북특별자치도 전주시 완산구 완산동",
+      "legal_address_name": "전북특별자치도 전주시 완산구 서완산동2가"
+    },
+    "127.145889,35.809022": {
+      "administrative_code": "5211163500",
+      "administrative_name": "전북특별자치도 전주시 완산구 완산동",
+      "legal_address_name": "전북특별자치도 전주시 완산구 동완산동"
+    },
+    "127.156969,35.809022": {
+      "administrative_code": "5211165000",
+      "administrative_name": "전북특별자치도 전주시 완산구 동서학동",
+      "legal_address_name": "전북특별자치도 전주시 완산구 동서학동"
+    },
+    "127.168048,35.809022": {
+      "administrative_code": "5211165000",
+      "administrative_name": "전북특별자치도 전주시 완산구 동서학동",
+      "legal_address_name": "전북특별자치도 전주시 완산구 대성동"
+    },
+    "127.179128,35.809022": {
+      "administrative_code": "5211361200",
+      "administrative_name": "전북특별자치도 전주시 덕진구 우아2동",
+      "legal_address_name": "전북특별자치도 전주시 덕진구 우아동1가"
+    },
+    "127.057252,35.818005": {
+      "administrative_code": "5271033000",
+      "administrative_name": "전북특별자치도 완주군 이서면",
+      "legal_address_name": "전북특별자치도 완주군 이서면 금평리"
+    },
+    "127.068331,35.818005": {
+      "administrative_code": "5211171400",
+      "administrative_name": "전북특별자치도 전주시 완산구 효자4동",
+      "legal_address_name": "전북특별자치도 전주시 완산구 상림동"
+    },
+    "127.079411,35.818005": {
+      "administrative_code": "5211171400",
+      "administrative_name": "전북특별자치도 전주시 완산구 효자4동",
+      "legal_address_name": "전북특별자치도 전주시 완산구 상림동"
+    },
+    "127.090491,35.818005": {
+      "administrative_code": "5211171400",
+      "administrative_name": "전북특별자치도 전주시 완산구 효자4동",
+      "legal_address_name": "전북특별자치도 전주시 완산구 효자동3가"
+    },
+    "127.101570,35.818005": {
+      "administrative_code": "5211173000",
+      "administrative_name": "전북특별자치도 전주시 완산구 효자5동",
+      "legal_address_name": "전북특별자치도 전주시 완산구 효자동3가"
+    },
+    "127.112650,35.818005": {
+      "administrative_code": "5211173000",
+      "administrative_name": "전북특별자치도 전주시 완산구 효자5동",
+      "legal_address_name": "전북특별자치도 전주시 완산구 효자동3가"
+    },
+    "127.123730,35.818005": {
+      "administrative_code": "5211167200",
+      "administrative_name": "전북특별자치도 전주시 완산구 중화산2동",
+      "legal_address_name": "전북특별자치도 전주시 완산구 중화산동2가"
+    },
+    "127.134809,35.818005": {
+      "administrative_code": "5211167100",
+      "administrative_name": "전북특별자치도 전주시 완산구 중화산1동",
+      "legal_address_name": "전북특별자치도 전주시 완산구 중화산동1가"
+    },
+    "127.145889,35.818005": {
+      "administrative_code": "5211151000",
+      "administrative_name": "전북특별자치도 전주시 완산구 중앙동",
+      "legal_address_name": "전북특별자치도 전주시 완산구 경원동1가"
+    },
+    "127.156969,35.818005": {
+      "administrative_code": "5211160500",
+      "administrative_name": "전북특별자치도 전주시 완산구 노송동",
+      "legal_address_name": "전북특별자치도 전주시 완산구 남노송동"
+    },
+    "127.168048,35.818005": {
+      "administrative_code": "5211160500",
+      "administrative_name": "전북특별자치도 전주시 완산구 노송동",
+      "legal_address_name": "전북특별자치도 전주시 완산구 중노송동"
+    },
+    "127.179128,35.818005": {
+      "administrative_code": "5211361200",
+      "administrative_name": "전북특별자치도 전주시 덕진구 우아2동",
+      "legal_address_name": "전북특별자치도 전주시 덕진구 우아동1가"
+    },
+    "127.057252,35.826988": {
+      "administrative_code": "5211367000",
+      "administrative_name": "전북특별자치도 전주시 덕진구 혁신동",
+      "legal_address_name": "전북특별자치도 전주시 덕진구 중동"
+    },
+    "127.068331,35.826988": {
+      "administrative_code": "5211367000",
+      "administrative_name": "전북특별자치도 전주시 덕진구 혁신동",
+      "legal_address_name": "전북특별자치도 전주시 덕진구 중동"
+    },
+    "127.079411,35.826988": {
+      "administrative_code": "5211173000",
+      "administrative_name": "전북특별자치도 전주시 완산구 효자5동",
+      "legal_address_name": "전북특별자치도 전주시 완산구 상림동"
+    },
+    "127.090491,35.826988": {
+      "administrative_code": "5211173000",
+      "administrative_name": "전북특별자치도 전주시 완산구 효자5동",
+      "legal_address_name": "전북특별자치도 전주시 완산구 효자동3가"
+    },
+    "127.101570,35.826988": {
+      "administrative_code": "5211173000",
+      "administrative_name": "전북특별자치도 전주시 완산구 효자5동",
+      "legal_address_name": "전북특별자치도 전주시 완산구 효자동3가"
+    },
+    "127.112650,35.826988": {
+      "administrative_code": "5211168000",
+      "administrative_name": "전북특별자치도 전주시 완산구 서신동",
+      "legal_address_name": "전북특별자치도 전주시 완산구 서신동"
+    },
+    "127.123730,35.826988": {
+      "administrative_code": "5211168000",
+      "administrative_name": "전북특별자치도 전주시 완산구 서신동",
+      "legal_address_name": "전북특별자치도 전주시 완산구 서신동"
+    },
+    "127.134809,35.826988": {
+      "administrative_code": "5211352500",
+      "administrative_name": "전북특별자치도 전주시 덕진구 진북동",
+      "legal_address_name": "전북특별자치도 전주시 덕진구 진북동"
+    },
+    "127.145889,35.826988": {
+      "administrative_code": "5211160500",
+      "administrative_name": "전북특별자치도 전주시 완산구 노송동",
+      "legal_address_name": "전북특별자치도 전주시 완산구 서노송동"
+    },
+    "127.156969,35.826988": {
+      "administrative_code": "5211160500",
+      "administrative_name": "전북특별자치도 전주시 완산구 노송동",
+      "legal_address_name": "전북특별자치도 전주시 완산구 중노송동"
+    },
+    "127.168048,35.826988": {
+      "administrative_code": "5211356000",
+      "administrative_name": "전북특별자치도 전주시 덕진구 인후3동",
+      "legal_address_name": "전북특별자치도 전주시 덕진구 인후동1가"
+    },
+    "127.179128,35.826988": {
+      "administrative_code": "5211361200",
+      "administrative_name": "전북특별자치도 전주시 덕진구 우아2동",
+      "legal_address_name": "전북특별자치도 전주시 덕진구 우아동1가"
+    },
+    "127.057252,35.835971": {
+      "administrative_code": "5271033000",
+      "administrative_name": "전북특별자치도 완주군 이서면",
+      "legal_address_name": "전북특별자치도 완주군 이서면 갈산리"
+    },
+    "127.068331,35.835971": {
+      "administrative_code": "5211367000",
+      "administrative_name": "전북특별자치도 전주시 덕진구 혁신동",
+      "legal_address_name": "전북특별자치도 전주시 덕진구 만성동"
+    },
+    "127.079411,35.835971": {
+      "administrative_code": "5211367000",
+      "administrative_name": "전북특별자치도 전주시 덕진구 혁신동",
+      "legal_address_name": "전북특별자치도 전주시 덕진구 만성동"
+    },
+    "127.090491,35.835971": {
+      "administrative_code": "5211173000",
+      "administrative_name": "전북특별자치도 전주시 완산구 효자5동",
+      "legal_address_name": "전북특별자치도 전주시 완산구 효자동3가"
+    },
+    "127.101570,35.835971": {
+      "administrative_code": "5211173000",
+      "administrative_name": "전북특별자치도 전주시 완산구 효자5동",
+      "legal_address_name": "전북특별자치도 전주시 완산구 효자동3가"
+    },
+    "127.112650,35.835971": {
+      "administrative_code": "5211168000",
+      "administrative_name": "전북특별자치도 전주시 완산구 서신동",
+      "legal_address_name": "전북특별자치도 전주시 완산구 서신동"
+    },
+    "127.123730,35.835971": {
+      "administrative_code": "5211357000",
+      "administrative_name": "전북특별자치도 전주시 덕진구 덕진동",
+      "legal_address_name": "전북특별자치도 전주시 덕진구 덕진동1가"
+    },
+    "127.134809,35.835971": {
+      "administrative_code": "5211357500",
+      "administrative_name": "전북특별자치도 전주시 덕진구 금암동",
+      "legal_address_name": "전북특별자치도 전주시 덕진구 금암동"
+    },
+    "127.145889,35.835971": {
+      "administrative_code": "5211355000",
+      "administrative_name": "전북특별자치도 전주시 덕진구 인후2동",
+      "legal_address_name": "전북특별자치도 전주시 덕진구 인후동2가"
+    },
+    "127.156969,35.835971": {
+      "administrative_code": "5211354000",
+      "administrative_name": "전북특별자치도 전주시 덕진구 인후1동",
+      "legal_address_name": "전북특별자치도 전주시 덕진구 인후동1가"
+    },
+    "127.168048,35.835971": {
+      "administrative_code": "5211361200",
+      "administrative_name": "전북특별자치도 전주시 덕진구 우아2동",
+      "legal_address_name": "전북특별자치도 전주시 덕진구 우아동2가"
+    },
+    "127.179128,35.835971": {
+      "administrative_code": "5211361200",
+      "administrative_name": "전북특별자치도 전주시 덕진구 우아2동",
+      "legal_address_name": "전북특별자치도 전주시 덕진구 금상동"
+    },
+    "127.057252,35.844954": {
+      "administrative_code": "5211367000",
+      "administrative_name": "전북특별자치도 전주시 덕진구 혁신동",
+      "legal_address_name": "전북특별자치도 전주시 덕진구 장동"
+    },
+    "127.068331,35.844954": {
+      "administrative_code": "5211367000",
+      "administrative_name": "전북특별자치도 전주시 덕진구 혁신동",
+      "legal_address_name": "전북특별자치도 전주시 덕진구 만성동"
+    },
+    "127.079411,35.844954": {
+      "administrative_code": "5211367000",
+      "administrative_name": "전북특별자치도 전주시 덕진구 혁신동",
+      "legal_address_name": "전북특별자치도 전주시 덕진구 만성동"
+    },
+    "127.090491,35.844954": {
+      "administrative_code": "5211360000",
+      "administrative_name": "전북특별자치도 전주시 덕진구 팔복동",
+      "legal_address_name": "전북특별자치도 전주시 덕진구 팔복동3가"
+    },
+    "127.101570,35.844954": {
+      "administrative_code": "5211360000",
+      "administrative_name": "전북특별자치도 전주시 덕진구 팔복동",
+      "legal_address_name": "전북특별자치도 전주시 덕진구 팔복동3가"
+    },
+    "127.112650,35.844954": {
+      "administrative_code": "5211357000",
+      "administrative_name": "전북특별자치도 전주시 덕진구 덕진동",
+      "legal_address_name": "전북특별자치도 전주시 덕진구 덕진동2가"
+    },
+    "127.123730,35.844954": {
+      "administrative_code": "5211357000",
+      "administrative_name": "전북특별자치도 전주시 덕진구 덕진동",
+      "legal_address_name": "전북특별자치도 전주시 덕진구 덕진동1가"
+    },
+    "127.134809,35.844954": {
+      "administrative_code": "5211357500",
+      "administrative_name": "전북특별자치도 전주시 덕진구 금암동",
+      "legal_address_name": "전북특별자치도 전주시 덕진구 금암동"
+    },
+    "127.145889,35.844954": {
+      "administrative_code": "5211355000",
+      "administrative_name": "전북특별자치도 전주시 덕진구 인후2동",
+      "legal_address_name": "전북특별자치도 전주시 덕진구 인후동2가"
+    },
+    "127.156969,35.844954": {
+      "administrative_code": "5211361100",
+      "administrative_name": "전북특별자치도 전주시 덕진구 우아1동",
+      "legal_address_name": "전북특별자치도 전주시 덕진구 우아동3가"
+    },
+    "127.168048,35.844954": {
+      "administrative_code": "5211361200",
+      "administrative_name": "전북특별자치도 전주시 덕진구 우아2동",
+      "legal_address_name": "전북특별자치도 전주시 덕진구 산정동"
+    },
+    "127.179128,35.844954": {
+      "administrative_code": "5211361200",
+      "administrative_name": "전북특별자치도 전주시 덕진구 우아2동",
+      "legal_address_name": "전북특별자치도 전주시 덕진구 금상동"
+    },
+    "127.057252,35.853937": {
+      "administrative_code": "5211366500",
+      "administrative_name": "전북특별자치도 전주시 덕진구 여의동",
+      "legal_address_name": "전북특별자치도 전주시 덕진구 장동"
+    },
+    "127.068331,35.853937": {
+      "administrative_code": "5211366500",
+      "administrative_name": "전북특별자치도 전주시 덕진구 여의동",
+      "legal_address_name": "전북특별자치도 전주시 덕진구 여의동"
+    },
+    "127.079411,35.853937": {
+      "administrative_code": "5211366500",
+      "administrative_name": "전북특별자치도 전주시 덕진구 여의동",
+      "legal_address_name": "전북특별자치도 전주시 덕진구 여의동"
+    },
+    "127.090491,35.853937": {
+      "administrative_code": "5211360000",
+      "administrative_name": "전북특별자치도 전주시 덕진구 팔복동",
+      "legal_address_name": "전북특별자치도 전주시 덕진구 팔복동3가"
+    },
+    "127.101570,35.853937": {
+      "administrative_code": "5211360000",
+      "administrative_name": "전북특별자치도 전주시 덕진구 팔복동",
+      "legal_address_name": "전북특별자치도 전주시 덕진구 팔복동2가"
+    },
+    "127.112650,35.853937": {
+      "administrative_code": "5211360000",
+      "administrative_name": "전북특별자치도 전주시 덕진구 팔복동",
+      "legal_address_name": "전북특별자치도 전주시 덕진구 팔복동1가"
+    },
+    "127.123730,35.853937": {
+      "administrative_code": "5211364100",
+      "administrative_name": "전북특별자치도 전주시 덕진구 송천1동",
+      "legal_address_name": "전북특별자치도 전주시 덕진구 송천동1가"
+    },
+    "127.134809,35.853937": {
+      "administrative_code": "5211357000",
+      "administrative_name": "전북특별자치도 전주시 덕진구 덕진동",
+      "legal_address_name": "전북특별자치도 전주시 덕진구 덕진동1가"
+    },
+    "127.145889,35.853937": {
+      "administrative_code": "5211357000",
+      "administrative_name": "전북특별자치도 전주시 덕진구 덕진동",
+      "legal_address_name": "전북특별자치도 전주시 덕진구 덕진동1가"
+    },
+    "127.156969,35.853937": {
+      "administrative_code": "5211361100",
+      "administrative_name": "전북특별자치도 전주시 덕진구 우아1동",
+      "legal_address_name": "전북특별자치도 전주시 덕진구 우아동3가"
+    },
+    "127.168048,35.853937": {
+      "administrative_code": "5211361100",
+      "administrative_name": "전북특별자치도 전주시 덕진구 우아1동",
+      "legal_address_name": "전북특별자치도 전주시 덕진구 우아동3가"
+    },
+    "127.179128,35.853937": {
+      "administrative_code": "5271025600",
+      "administrative_name": "전북특별자치도 완주군 용진읍",
+      "legal_address_name": "전북특별자치도 완주군 용진읍 상삼리"
+    },
+    "127.057252,35.862921": {
+      "administrative_code": "5211366500",
+      "administrative_name": "전북특별자치도 전주시 덕진구 여의동",
+      "legal_address_name": "전북특별자치도 전주시 덕진구 장동"
+    },
+    "127.068331,35.862921": {
+      "administrative_code": "5211366500",
+      "administrative_name": "전북특별자치도 전주시 덕진구 여의동",
+      "legal_address_name": "전북특별자치도 전주시 덕진구 여의동"
+    },
+    "127.079411,35.862921": {
+      "administrative_code": "5211366500",
+      "administrative_name": "전북특별자치도 전주시 덕진구 여의동",
+      "legal_address_name": "전북특별자치도 전주시 덕진구 여의동"
+    },
+    "127.090491,35.862921": {
+      "administrative_code": "5211366500",
+      "administrative_name": "전북특별자치도 전주시 덕진구 여의동",
+      "legal_address_name": "전북특별자치도 전주시 덕진구 여의동2가"
+    },
+    "127.101570,35.862921": {
+      "administrative_code": "5211360000",
+      "administrative_name": "전북특별자치도 전주시 덕진구 팔복동",
+      "legal_address_name": "전북특별자치도 전주시 덕진구 팔복동4가"
+    },
+    "127.112650,35.862921": {
+      "administrative_code": "5211364200",
+      "administrative_name": "전북특별자치도 전주시 덕진구 송천2동",
+      "legal_address_name": "전북특별자치도 전주시 덕진구 송천동2가"
+    },
+    "127.123730,35.862921": {
+      "administrative_code": "5211364100",
+      "administrative_name": "전북특별자치도 전주시 덕진구 송천1동",
+      "legal_address_name": "전북특별자치도 전주시 덕진구 송천동1가"
+    },
+    "127.134809,35.862921": {
+      "administrative_code": "5211364100",
+      "administrative_name": "전북특별자치도 전주시 덕진구 송천1동",
+      "legal_address_name": "전북특별자치도 전주시 덕진구 송천동1가"
+    },
+    "127.145889,35.862921": {
+      "administrative_code": "5211362000",
+      "administrative_name": "전북특별자치도 전주시 덕진구 호성동",
+      "legal_address_name": "전북특별자치도 전주시 덕진구 호성동1가"
+    },
+    "127.156969,35.862921": {
+      "administrative_code": "5211362000",
+      "administrative_name": "전북특별자치도 전주시 덕진구 호성동",
+      "legal_address_name": "전북특별자치도 전주시 덕진구 호성동1가"
+    },
+    "127.168048,35.862921": {
+      "administrative_code": "5271025600",
+      "administrative_name": "전북특별자치도 완주군 용진읍",
+      "legal_address_name": "전북특별자치도 완주군 용진읍 구억리"
+    },
+    "127.179128,35.862921": {
+      "administrative_code": "5271025600",
+      "administrative_name": "전북특별자치도 완주군 용진읍",
+      "legal_address_name": "전북특별자치도 완주군 용진읍 상삼리"
+    },
+    "127.057252,35.871904": {
+      "administrative_code": "5211365000",
+      "administrative_name": "전북특별자치도 전주시 덕진구 조촌동",
+      "legal_address_name": "전북특별자치도 전주시 덕진구 반월동"
+    },
+    "127.068331,35.871904": {
+      "administrative_code": "5211365000",
+      "administrative_name": "전북특별자치도 전주시 덕진구 조촌동",
+      "legal_address_name": "전북특별자치도 전주시 덕진구 반월동"
+    },
+    "127.079411,35.871904": {
+      "administrative_code": "5211366500",
+      "administrative_name": "전북특별자치도 전주시 덕진구 여의동",
+      "legal_address_name": "전북특별자치도 전주시 덕진구 여의동2가"
+    },
+    "127.090491,35.871904": {
+      "administrative_code": "5211366500",
+      "administrative_name": "전북특별자치도 전주시 덕진구 여의동",
+      "legal_address_name": "전북특별자치도 전주시 덕진구 고랑동"
+    },
+    "127.101570,35.871904": {
+      "administrative_code": "5211364200",
+      "administrative_name": "전북특별자치도 전주시 덕진구 송천2동",
+      "legal_address_name": "전북특별자치도 전주시 덕진구 송천동2가"
+    },
+    "127.112650,35.871904": {
+      "administrative_code": "5211364200",
+      "administrative_name": "전북특별자치도 전주시 덕진구 송천2동",
+      "legal_address_name": "전북특별자치도 전주시 덕진구 송천동2가"
+    },
+    "127.123730,35.871904": {
+      "administrative_code": "5211364300",
+      "administrative_name": "전북특별자치도 전주시 덕진구 송천3동",
+      "legal_address_name": "전북특별자치도 전주시 덕진구 송천동2가"
+    },
+    "127.134809,35.871904": {
+      "administrative_code": "5211364300",
+      "administrative_name": "전북특별자치도 전주시 덕진구 송천3동",
+      "legal_address_name": "전북특별자치도 전주시 덕진구 송천동2가"
+    },
+    "127.145889,35.871904": {
+      "administrative_code": "5211362000",
+      "administrative_name": "전북특별자치도 전주시 덕진구 호성동",
+      "legal_address_name": "전북특별자치도 전주시 덕진구 호성동2가"
+    },
+    "127.156969,35.871904": {
+      "administrative_code": "5211362000",
+      "administrative_name": "전북특별자치도 전주시 덕진구 호성동",
+      "legal_address_name": "전북특별자치도 전주시 덕진구 호성동1가"
+    },
+    "127.168048,35.871904": {
+      "administrative_code": "5271025600",
+      "administrative_name": "전북특별자치도 완주군 용진읍",
+      "legal_address_name": "전북특별자치도 완주군 용진읍 구억리"
+    },
+    "127.179128,35.871904": {
+      "administrative_code": "5271025600",
+      "administrative_name": "전북특별자치도 완주군 용진읍",
+      "legal_address_name": "전북특별자치도 완주군 용진읍 상삼리"
+    },
+    "127.057252,35.880887": {
+      "administrative_code": "5211365000",
+      "administrative_name": "전북특별자치도 전주시 덕진구 조촌동",
+      "legal_address_name": "전북특별자치도 전주시 덕진구 용정동"
+    },
+    "127.068331,35.880887": {
+      "administrative_code": "5211365000",
+      "administrative_name": "전북특별자치도 전주시 덕진구 조촌동",
+      "legal_address_name": "전북특별자치도 전주시 덕진구 반월동"
+    },
+    "127.079411,35.880887": {
+      "administrative_code": "5211366500",
+      "administrative_name": "전북특별자치도 전주시 덕진구 여의동",
+      "legal_address_name": "전북특별자치도 전주시 덕진구 고랑동"
+    },
+    "127.090491,35.880887": {
+      "administrative_code": "5211366500",
+      "administrative_name": "전북특별자치도 전주시 덕진구 여의동",
+      "legal_address_name": "전북특별자치도 전주시 덕진구 고랑동"
+    },
+    "127.101570,35.880887": {
+      "administrative_code": "5211364200",
+      "administrative_name": "전북특별자치도 전주시 덕진구 송천2동",
+      "legal_address_name": "전북특별자치도 전주시 덕진구 전미동2가"
+    },
+    "127.112650,35.880887": {
+      "administrative_code": "5211364200",
+      "administrative_name": "전북특별자치도 전주시 덕진구 송천2동",
+      "legal_address_name": "전북특별자치도 전주시 덕진구 전미동2가"
+    },
+    "127.123730,35.880887": {
+      "administrative_code": "5211364200",
+      "administrative_name": "전북특별자치도 전주시 덕진구 송천2동",
+      "legal_address_name": "전북특별자치도 전주시 덕진구 전미동1가"
+    },
+    "127.134809,35.880887": {
+      "administrative_code": "5211364300",
+      "administrative_name": "전북특별자치도 전주시 덕진구 송천3동",
+      "legal_address_name": "전북특별자치도 전주시 덕진구 송천동2가"
+    },
+    "127.145889,35.880887": {
+      "administrative_code": "5211362000",
+      "administrative_name": "전북특별자치도 전주시 덕진구 호성동",
+      "legal_address_name": "전북특별자치도 전주시 덕진구 호성동2가"
+    },
+    "127.156969,35.880887": {
+      "administrative_code": "5271025600",
+      "administrative_name": "전북특별자치도 완주군 용진읍",
+      "legal_address_name": "전북특별자치도 완주군 용진읍 용흥리"
+    },
+    "127.168048,35.880887": {
+      "administrative_code": "5271025600",
+      "administrative_name": "전북특별자치도 완주군 용진읍",
+      "legal_address_name": "전북특별자치도 완주군 용진읍 용흥리"
+    },
+    "127.179128,35.880887": {
+      "administrative_code": "5271025600",
+      "administrative_name": "전북특별자치도 완주군 용진읍",
+      "legal_address_name": "전북특별자치도 완주군 용진읍 구억리"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "municipality_code": "52110",
+  "pair_set": "standby",
+  "routing_provider": "Kakao Mobility Directions API",
+  "routing_profile": "RECOMMEND",
+  "required_pair_count": 6010,
+  "completed_pair_count": 6010,
+  "complete": true,
+  "simulation_ready": false,
+  "standby_ready": true,
+  "updated_at": "2026-09-11T01:53:32.533299+00:00"
+}

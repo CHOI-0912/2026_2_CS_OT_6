@@ -1,0 +1,22 @@
+{
+  "municipality_code": "41450",
+  "municipality_name": "하남시",
+  "existing_emergency_hospital_count": 0,
+  "demand_point_count": 14,
+  "ambulance_base_row_count": 4,
+  "ambulance_count": 5,
+  "ready_for_simulation": false,
+  "blocking_inputs": [
+    "actual directional road travel-time matrix",
+    "municipal 119 demand-rate calibration (population-proportional estimate in use)",
+    "patient-type treatment success calibration"
+  ],
+  "ambulance_base_rows_with_coordinates": 4,
+  "demand_points_with_coordinates": 14,
+  "existing_hospitals_with_coordinates": 0,
+  "candidate_site_count": 3,
+  "candidate_sites_with_coordinates": 3,
+  "advisory_inputs": [
+    "candidate-site land feasibility review"
+  ]
+}

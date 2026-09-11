@@ -1,0 +1,2 @@
+municipality_code,municipality_name,annual_dispatches,daily_calls,source_url,source_year,mapping_note
+52110,전주시,38183,104.3251,https://www.nfa.go.kr/nfa/releaseinformation/statisticalinformation/main/?boardId=bbs_0000000000000019&mode=view&cntId=71,2024,"전주완산소방서 + 전주덕진소방서 관할 119안전센터 9개소 합산(관측값, 인구비례 추정 아님)"

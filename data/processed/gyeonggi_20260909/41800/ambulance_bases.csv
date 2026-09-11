@@ -1,0 +1,7 @@
+﻿source_province,fire_station,safety_center,regional_unit,ambulance_count,base_name,address,latitude,longitude,coordinate_source,matched_address,kakao_place_id,municipality_assignment,geocoding_status,routing_status
+경기북부,연천소방서,차탄119안전센터,,1,차탄119안전센터,,38.0993898254721,127.076804339952,kakao_local_keyword_search,경기 연천군 연천읍 차현로 92,1403256883,fire_station_address_inferred,verified_municipality_match,pending_kakao_api
+경기북부,연천소방서,은대119안전센터,,1,은대119안전센터,경기도 연천군 전곡읍 평화로 892,38.0482487444254,127.068378668126,kakao_local_address_search,경기 연천군 전곡읍 평화로 892,,address_exact,verified_municipality_match,pending_kakao_api
+경기북부,연천소방서,백학119안전센터,,1,백학119안전센터,경기도 연천군 백학면 백학산단길 16,38.017431060094,126.913997426981,kakao_local_address_search,경기 연천군 백학면 백학산단길 16,,address_exact,verified_municipality_match,pending_kakao_api
+경기북부,연천소방서,전곡119안전센터,,1,전곡119안전센터,경기도 연천군 전곡읍 전곡로 27,38.0162295654075,127.071945296893,kakao_local_address_search,경기 연천군 전곡읍 전곡로 27,,address_exact,verified_municipality_match,pending_kakao_api
+경기북부,연천소방서,군남119안전센터,,1,군남119안전센터,,38.0778202493984,127.018928746788,kakao_local_keyword_search,경기 연천군 군남면 군남로 338,1403261178,fire_station_address_inferred,verified_municipality_match,pending_kakao_api
+경기북부,연천소방서,차탄119안전센터,신서지역대,1,신서지역대,,38.18301299133692,127.10674694859665,kakao_local_keyword_search,경기 연천군 신서면 연신로 1134,11118611,fire_station_address_inferred,verified_municipality_match,pending_kakao_api

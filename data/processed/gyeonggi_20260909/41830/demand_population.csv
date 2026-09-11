@@ -1,0 +1,13 @@
+﻿administrative_code,administrative_name,municipality_code,population,households,latitude,longitude,coordinate_source,matched_address,kakao_place_id,geocoding_status,demand_rate_status,coordinate_reference_url,coordinate_basis
+4183025000,경기도 양평군 양평읍,41830,38413,17999,37.48642972887982,127.49351363597191,kakao_administrative_office_representative_proxy,경기 양평군 양평읍 양근강변길 7,7992555,verified_municipality_match,pending_119_activity_api,,
+4183031000,경기도 양평군 강상면,41830,10089,4834,37.48086658661962,127.4778216661513,kakao_administrative_office_representative_proxy,경기 양평군 강상면 송학길 60,11045928,verified_municipality_match,pending_119_activity_api,,
+4183032000,경기도 양평군 강하면,41830,4734,2627,37.4949573777691,127.410464187934,kakao_administrative_office_representative_proxy,경기 양평군 강하면 운심길 40-8,8175178,verified_municipality_match,pending_119_activity_api,,
+4183033000,경기도 양평군 양서면,41830,14028,6971,37.54336113906305,127.32334587117826,kakao_administrative_office_representative_proxy,경기 양평군 양서면 양수로118번길 10,7995889,verified_municipality_match,pending_119_activity_api,,
+4183034000,경기도 양평군 옥천면,41830,7913,4176,37.518069228764,127.45606113656613,kakao_administrative_office_representative_proxy,경기 양평군 옥천면 옥천길 21,8458884,verified_municipality_match,pending_119_activity_api,,
+4183035000,경기도 양평군 서종면,41830,9812,5089,37.6065762917889,127.348721243797,kakao_administrative_office_representative_proxy,경기 양평군 서종면 북한강로 777,26369639,verified_municipality_match,pending_119_activity_api,,
+4183036000,경기도 양평군 단월면,41830,3823,2126,37.5385614314103,127.672990233662,kakao_administrative_office_representative_proxy,경기 양평군 단월면 보룡길 53,8219224,verified_municipality_match,pending_119_activity_api,,
+4183037000,경기도 양평군 청운면,41830,3642,2155,37.5562806888161,127.710722823777,kakao_administrative_office_representative_proxy,경기 양평군 청운면 용두로 170,8105499,verified_municipality_match,pending_119_activity_api,,
+4183038000,경기도 양평군 양동면,41830,4421,2463,37.4251059645826,127.751177593941,kakao_administrative_office_representative_proxy,경기 양평군 양동면 학둔지아래길 20,13337555,verified_municipality_match,pending_119_activity_api,,
+4183039500,경기도 양평군 지평면,41830,6528,3611,37.474475523236,127.639309823997,kakao_administrative_office_representative_proxy,경기 양평군 지평면 지평의병로116번길 1,15104499,verified_municipality_match,pending_119_activity_api,,
+4183040000,경기도 양평군 용문면,41830,18748,9390,37.48890186108204,127.59915906902079,kakao_administrative_office_representative_proxy,경기 양평군 용문면 용문로 428,8014460,verified_municipality_match,pending_119_activity_api,,
+4183041000,경기도 양평군 개군면,41830,4986,2687,37.4259639502483,127.536793361895,kakao_administrative_office_representative_proxy,경기 양평군 개군면 하자포길33번길 8,8173798,verified_municipality_match,pending_119_activity_api,,

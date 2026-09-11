@@ -1,0 +1,9 @@
+{
+  "staged_hospitals": 73,
+  "hira_matches": 73,
+  "distinct_hira_facilities": 72,
+  "hira_manual_review_required": 1,
+  "egen_evaluation_rows": 73,
+  "egen_matches": 73,
+  "egen_manual_review_required": 4
+}

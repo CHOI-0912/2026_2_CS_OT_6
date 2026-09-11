@@ -1,0 +1,22 @@
+{
+  "municipality_code": "41220",
+  "municipality_name": "평택시",
+  "existing_emergency_hospital_count": 4,
+  "demand_point_count": 25,
+  "ambulance_base_row_count": 12,
+  "ambulance_count": 14,
+  "ready_for_simulation": false,
+  "blocking_inputs": [
+    "actual directional road travel-time matrix",
+    "municipal 119 demand-rate calibration (population-proportional estimate in use)",
+    "patient-type treatment success calibration"
+  ],
+  "ambulance_base_rows_with_coordinates": 12,
+  "demand_points_with_coordinates": 25,
+  "existing_hospitals_with_coordinates": 4,
+  "candidate_site_count": 23,
+  "candidate_sites_with_coordinates": 23,
+  "advisory_inputs": [
+    "candidate-site land feasibility review"
+  ]
+}

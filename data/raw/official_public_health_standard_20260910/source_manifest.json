@@ -1,0 +1,35 @@
+{
+  "dataset_name": "전국보건기관표준데이터",
+  "dataset_id": "15107750",
+  "official_source": "https://www.data.go.kr/data/15107750/standard.do",
+  "retrieval_method": "unauthenticated public-data-portal standard JSON endpoints",
+  "candidate_interpretation": "existing public-health facility; requires planning review",
+  "national_rows": 220,
+  "gyeonggi_rows": 58,
+  "gyeonggi_municipality_counts": {
+    "가평군": 21,
+    "수원시 권선구": 1,
+    "수원시 영통구": 1,
+    "수원시 장안구": 1,
+    "수원시 팔달구": 1,
+    "안산시": 7,
+    "파주시": 2,
+    "평택시": 22,
+    "하남시": 2
+  },
+  "source_reported_total_count": 220,
+  "files": {
+    "national_public_health_standard_raw.json": {
+      "sha256": "3fa3cd9b52ac7421b1b767cd80c8754870440546ec9a214191d47d60d6300e79",
+      "rows": 220
+    },
+    "gyeonggi_public_health_standard.csv": {
+      "sha256": "bfb8946f80eef67e5d24bb74380520630dac89be66855647cb323c87ac6a33ca",
+      "rows": 58
+    }
+  },
+  "limitations": [
+    "The portal's current standard aggregation contains only participating provider datasets, not all municipalities.",
+    "Addresses identify existing facilities; they do not prove land ownership, construction feasibility, or emergency-care capability."
+  ]
+}

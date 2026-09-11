@@ -1,0 +1,8 @@
+﻿administrative_code,administrative_name,municipality_code,population,households,latitude,longitude,coordinate_source,matched_address,kakao_place_id,geocoding_status,demand_rate_status,coordinate_reference_url,coordinate_basis
+4129051000,경기도 과천시 중앙동,41290,11359,4243,37.43315088063525,126.99345567884225,kakao_administrative_office_representative_proxy,경기 과천시 관문로 136,8079563,verified_municipality_match,pending_119_activity_api,,
+4129051500,경기도 과천시 원문동,41290,16192,5353,37.4193686010125,126.989141490813,kakao_administrative_office_representative_proxy,경기 과천시 중앙로 28,8704038,verified_municipality_match,pending_119_activity_api,,
+4129052000,경기도 과천시 갈현동,41290,19863,6887,37.40978636557276,126.98249327972138,kakao_administrative_office_representative_proxy,경기 과천시 과천대로6길 57,1445799381,verified_municipality_match,pending_119_activity_api,,
+4129053000,경기도 과천시 별양동,41290,12493,4624,37.4242344328177,126.993763748511,kakao_administrative_office_representative_proxy,경기 과천시 별양로 60,7891728,verified_municipality_match,pending_119_activity_api,,
+4129054000,경기도 과천시 부림동,41290,8819,3292,37.4334598310842,126.998541758355,official_municipal_office_address_geocoded_by_kakao,경기 과천시 별양로 174,,verified_municipality_match_official_address,pending_119_activity_api,https://www.gccity.go.kr/csc/contents.do?mId=0401010000,administrative-office representative; not incident coordinate
+4129055000,경기도 과천시 과천동,41290,5755,2623,37.4484033596012,126.995461441865,kakao_administrative_office_representative_proxy,경기 과천시 과천대로 608-17,8205426,verified_municipality_match,pending_119_activity_api,,
+4129056000,경기도 과천시 문원동,41290,6626,2736,37.4263177351448,127.001866408137,kakao_administrative_office_representative_proxy,경기 과천시 아랫배랭이로 35,7875377,verified_municipality_match,pending_119_activity_api,,

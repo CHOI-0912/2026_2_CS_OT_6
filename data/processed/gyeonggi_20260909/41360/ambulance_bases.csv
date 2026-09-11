@@ -1,0 +1,11 @@
+﻿source_province,fire_station,safety_center,regional_unit,ambulance_count,base_name,address,latitude,longitude,coordinate_source,matched_address,kakao_place_id,municipality_assignment,geocoding_status,routing_status
+경기북부,남양주소방서,가운119안전센터,,1,가운119안전센터,경기도 남양주시 가운동 가운로 16,37.604843354814,127.158411349493,kakao_local_address_search,경기 남양주시 가운로 16,,address_exact,verified_municipality_match,pending_kakao_api
+경기북부,남양주소방서,별내119안전센터,,2,별내119안전센터,경기도 남양주시 별내동 송산로 793-41,37.646112115259,127.129795203273,kakao_local_keyword_search,경기 남양주시 송산로 41,1376009798,address_exact,verified_municipality_match,pending_kakao_api
+경기북부,남양주소방서,오남119안전센터,,1,오남119안전센터,경기도 남양주시 오남읍 진건오남로 772,37.6968421497046,127.20575965489,kakao_local_address_search,경기 남양주시 오남읍 진건오남로 772,,address_exact,verified_municipality_match,pending_kakao_api
+경기북부,남양주소방서,와부119안전센터,,1,와부119안전센터,경기도 남양주시 와부읍 덕소로97번길 34-2,37.5857908381608,127.216205219335,kakao_local_address_search,경기 남양주시 와부읍 덕소로97번길 34-2,,address_exact,verified_municipality_match,pending_kakao_api
+경기북부,남양주소방서,진건119안전센터,,1,진건119안전센터,경기도 남양주시 진건읍 진건오남로 112-21,37.6601477964371,127.180251809493,kakao_local_address_search,경기 남양주시 진건읍 진건오남로 112-21,,address_exact,verified_municipality_match,pending_kakao_api
+경기북부,남양주소방서,진접119안전센터,,1,진접119안전센터,경기도 남양주시 진접읍 금강로 1509-25,37.7255635615024,127.189731694104,kakao_local_address_search,경기 남양주시 진접읍 금강로 1509-25,,address_exact,verified_municipality_match,pending_kakao_api
+경기북부,남양주소방서,평내119안전센터,,2,평내119안전센터,경기도 남양주시 평내동 평내로 25,37.6433215355939,127.232240174107,kakao_local_address_search,경기 남양주시 평내로 25,,address_exact,verified_municipality_match,pending_kakao_api
+경기북부,남양주소방서,화도119안전센터,,1,화도119안전센터,경기도 남양주시 화도읍 수레로1260번길 25,37.650092392259,127.30480478415,kakao_local_address_search,경기 남양주시 화도읍 수레로1260번길 25,,address_exact,verified_municipality_match,pending_kakao_api
+경기북부,남양주소방서,다산119안전센터,,1,다산119안전센터,경기도 남양주시 다산중앙로146번길 76,37.6267539124757,127.160557279905,kakao_local_address_search,경기 남양주시 다산중앙로146번길 76,,address_exact,verified_municipality_match,pending_kakao_api
+경기북부,남양주소방서,화도119안전센터,수동지역대,1,수동지역대,,37.7103548976766,127.321970913912,kakao_local_keyword_search,경기 남양주시 수동면 비룡로 816,26497853,address_exact,verified_municipality_match,pending_kakao_api

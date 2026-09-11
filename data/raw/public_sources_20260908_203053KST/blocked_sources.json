@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-08T20:40:00+09:00",
+  "authentication_required": [
+    {
+      "service": "경기데이터드림 구급활동 현황 Open API",
+      "landing_url": "https://data.gg.go.kr/portal/data/service/selectServicePage.do?infId=SE00GA6F273B8PIJ9N8412495661&infSeq=2",
+      "status": "official_endpoint_specification_not_publicly_exposed",
+      "reason": "인증키는 준비됐으나 공개 정적 메타데이터에 데이터셋별 요청주소와 출력 스키마가 비어 있다. 공식 명세서를 확보하기 전에는 서비스명을 추측해 호출하지 않는다.",
+      "required_credential": "경기데이터드림에서 발급한 KEY",
+      "required_parameters": {
+        "KEY": "발급 인증키",
+        "Type": "json",
+        "pIndex": "페이지 번호",
+        "pSize": "페이지당 건수, 최대 1000"
+      }
+    },
+    {
+      "service": "카카오 Local 주소 검색 및 카카오모빌리티 자동차 길찾기 API",
+      "documentation": [
+        "https://developers.kakao.com/docs/ko/local/dev-guide",
+        "https://developers.kakaomobility.com/guide/navi-api/start"
+      ],
+      "status": "credential_available_map_and_local_enabled",
+      "purpose": [
+        "119안전센터 주소를 위도·경도로 변환",
+        "시·군 내부 수요지·구급차·기존 병원·신설 후보지 사이 실제 자동차 이동시간 계산"
+      ],
+      "required_credential": "카카오 개발자 애플리케이션 REST API 키",
+      "recommended_environment_variable": "KAKAO_REST_API_KEY",
+      "security_note": "키를 JSON이나 채팅에 넣지 말고 로컬 환경변수로 제공한다."
+    }
+  ],
+  "failed_public_downloads": [
+    {
+      "service": "소방청 본부별 구급활동정보",
+      "landing_url": "https://www.data.go.kr/data/15080046/fileData.do?recommendDataYn=Y",
+      "direct_url": "https://www.data.go.kr/cmm/cmm/fileDownload.do?atchFileId=FILE_000000003246004&fileDetailSn=1&insertDataPrcus=N",
+      "status": "download_failed_empty_response",
+      "quarantined_path": "_failed_downloads/nfa_ambulance_activity_by_headquarters_2020_2024.csv"
+    },
+    {
+      "service": "경기도 행정동 코드 목록",
+      "landing_url": "https://www.data.go.kr/data/15151658/fileData.do",
+      "status": "download_failed_html_response",
+      "replacement": "행정안전부 법정동 코드 공식 전체자료 ZIP",
+      "quarantined_path": "_failed_downloads/gyeonggi_administrative_dong_code_list_20250918.csv"
+    },
+    {
+      "service": "경기도 응급의료기관 현황 첫 다운로드 시도",
+      "status": "download_failed_html_response",
+      "replacement": "gyeonggi_emergency_medical_institutions_20250917_primary.csv",
+      "quarantined_path": "_failed_downloads/gyeonggi_emergency_medical_institutions_20250917.csv"
+    }
+  ]
+}

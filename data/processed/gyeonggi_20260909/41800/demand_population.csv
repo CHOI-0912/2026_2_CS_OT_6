@@ -1,0 +1,11 @@
+﻿administrative_code,administrative_name,municipality_code,population,households,latitude,longitude,coordinate_source,matched_address,kakao_place_id,geocoding_status,demand_rate_status,coordinate_reference_url,coordinate_basis
+4180025000,경기도 연천군 연천읍,41800,8265,4425,38.1039237861858,127.07593801776,kakao_administrative_office_representative_proxy,경기 연천군 연천읍 연천로 302,8011815,verified_municipality_match,pending_119_activity_api,,
+4180025300,경기도 연천군 전곡읍,41800,19618,9685,38.0280339296482,127.063864039262,kakao_administrative_office_representative_proxy,경기 연천군 전곡읍 은전로 45,8062670,verified_municipality_match,pending_119_activity_api,,
+4180031000,경기도 연천군 군남면,41800,2945,1656,38.0851969328481,127.019081108902,kakao_administrative_office_representative_proxy,경기 연천군 군남면 군남로 417,8677412,verified_municipality_match,pending_119_activity_api,,
+4180032000,경기도 연천군 청산면,41800,3890,2356,37.98176370609815,127.06768030665008,kakao_administrative_office_representative_proxy,경기 연천군 청산면 청신로 71,10856612,verified_municipality_match,pending_119_activity_api,,
+4180033000,경기도 연천군 백학면,41800,2470,1358,38.02971099240775,126.91796988136382,kakao_administrative_office_representative_proxy,경기 연천군 백학면 청정로 534,7886316,verified_municipality_match,pending_119_activity_api,,
+4180034000,경기도 연천군 미산면,41800,1698,975,38.047406499147165,126.99281693408909,kakao_administrative_office_representative_proxy,경기 연천군 미산면 유노로 110,10417844,verified_municipality_match,pending_119_activity_api,,
+4180035000,경기도 연천군 왕징면,41800,977,570,38.058516182634854,127.0128118321438,kakao_administrative_office_representative_proxy,경기 연천군 왕징면 왕산로 44,8456718,verified_municipality_match,pending_119_activity_api,,
+4180036000,경기도 연천군 신서면,41800,2388,1474,38.1829667805039,127.107037931125,kakao_administrative_office_representative_proxy,경기 연천군 신서면 연신로 1130,7981734,verified_municipality_match,pending_119_activity_api,,
+4180037000,경기도 연천군 중면,41800,162,91,38.13582100429668,127.01910568921234,kakao_administrative_office_representative_proxy,경기 연천군 중면 군중로 400,8071851,verified_municipality_match,pending_119_activity_api,,
+4180038000,경기도 연천군 장남면,41800,730,402,37.9818271510525,126.88427182463,kakao_administrative_office_representative_proxy,경기 연천군 장남면 장백로 244,10744828,verified_municipality_match,pending_119_activity_api,,

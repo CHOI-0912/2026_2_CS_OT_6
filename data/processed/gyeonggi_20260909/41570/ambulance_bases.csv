@@ -1,0 +1,11 @@
+﻿source_province,fire_station,safety_center,regional_unit,ambulance_count,base_name,address,latitude,longitude,coordinate_source,matched_address,kakao_place_id,municipality_assignment,geocoding_status,routing_status
+경기,김포소방서,고촌119안전센터,,1,고촌119안전센터,경기도 김포시 고촌읍 은행영사정로 31,37.6024034611776,126.77374260379,kakao_local_address_search,경기 김포시 고촌읍 은행영사정로 31,,address_exact,verified_municipality_match,pending_kakao_api
+경기,김포소방서,119구조대119안전센터,,1,119구조대119안전센터,,37.628206375962,126.702322787102,kakao_local_keyword_search,경기 김포시 봉화로182번길 8,8405034,fire_station_address_inferred,verified_municipality_match,pending_kakao_api
+경기,김포소방서,대곶119안전센터,,1,대곶119안전센터,경기도 김포시 대곶면 수남로 104,37.633475202913,126.582481793136,kakao_local_address_search,경기 김포시 대곶면 수남로 104,,address_exact,verified_municipality_match,pending_kakao_api
+경기,김포소방서,마산119안전센터,,1,마산119안전센터,경기도 김포시 김포한강8로 196,37.6396597030133,126.644319128034,kakao_local_address_search,경기 김포시 김포한강8로 196,,address_exact,verified_municipality_match,pending_kakao_api
+경기,김포소방서,양촌119안전센터,,1,양촌119안전센터,경기도 김포시 양곡1로 85,37.6581110552064,126.622327912508,kakao_local_address_search,경기 김포시 양촌읍 양곡1로 85,,address_exact,verified_municipality_match,pending_kakao_api
+경기,김포소방서,중앙119안전센터,,1,중앙119안전센터,경기도 김포시 감암로 111,37.6415655279945,126.7085359654,kakao_local_address_search,경기 김포시 감암로 111,,address_exact,verified_municipality_match,pending_kakao_api
+경기,김포소방서,통진119안전센터,,1,통진119안전센터,경기도 김포시 통진읍 김포대로 2250,37.6906614612924,126.596328841226,kakao_local_address_search,경기 김포시 통진읍 김포대로 2250,,address_exact,verified_municipality_match,pending_kakao_api
+경기,김포소방서,하성119안전센터,,1,하성119안전센터,경기도 김포시 하성면 하성로 404,37.7112774859604,126.637666084616,kakao_local_address_search,경기 김포시 하성면 하성로 404,,address_exact,verified_municipality_match,pending_kakao_api
+경기,김포소방서,학운119안전센터,,1,학운119안전센터,,37.6114455004384,126.604507836721,kakao_local_keyword_search,경기 김포시 양촌읍 황금로273번길 8,649579111,fire_station_address_inferred,verified_municipality_match,pending_kakao_api
+경기,김포소방서,통진119안전센터,월곶지역대,1,월곶지역대,,37.700364814745825,126.55810626666481,kakao_local_keyword_search,경기 김포시 월곶면 오리정로 78,17061978,address_exact,verified_municipality_match,pending_kakao_api

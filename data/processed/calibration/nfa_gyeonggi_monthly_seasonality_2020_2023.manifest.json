@@ -1,0 +1,15 @@
+{
+  "source_file": "data\\raw\\nfa_headquarters_ambulance_activity_20260910\\nfa_headquarters_ambulance_activity_20231231.csv",
+  "source_sha256": "48d8a83d51cad1989273be0ed94fd3687faa49aded4094c26fa2466a26cdc4bf",
+  "headquarters": "경기",
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023
+  ],
+  "method": "within-year monthly count divided by that year's monthly mean, then averaged across years",
+  "scope_warning": "province-level temporal seasonality only; not municipal spatial demand",
+  "output_file": "data\\processed\\calibration\\nfa_gyeonggi_monthly_seasonality_2020_2023.csv",
+  "generated_at": "2026-09-10T01:25:25.254061+00:00"
+}

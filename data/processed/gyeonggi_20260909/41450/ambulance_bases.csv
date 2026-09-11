@@ -1,0 +1,5 @@
+﻿source_province,fire_station,safety_center,regional_unit,ambulance_count,base_name,address,latitude,longitude,coordinate_source,matched_address,kakao_place_id,municipality_assignment,geocoding_status,routing_status
+경기,하남소방서,감일119안전센터,,1,감일119안전센터,경기도 하남시 감일백제로 77,37.503205639169,127.163069821202,kakao_local_address_search,경기 하남시 감일백제로 77,,address_exact,verified_municipality_match,pending_kakao_api
+경기,하남소방서,덕풍119안전센터,,2,덕풍119안전센터,경기도 하남시 덕풍서로 60,37.5522687942907,127.204485502633,kakao_local_address_search,경기 하남시 덕풍서로 60,,address_exact,verified_municipality_match,pending_kakao_api
+경기,하남소방서,신장119안전센터,,1,신장119안전센터,경기도 하남시 대청로 76,37.539901048563,127.22042336185,kakao_local_address_search,경기 하남시 대청로 76,,address_exact,verified_municipality_match,pending_kakao_api
+경기,하남소방서,미사119안전센터,,1,미사119안전센터,경기도 하남시 미사강변대로 190,37.567164690866,127.185668496232,kakao_local_address_search,경기 하남시 미사강변대로 190,,address_exact,verified_municipality_match,pending_kakao_api

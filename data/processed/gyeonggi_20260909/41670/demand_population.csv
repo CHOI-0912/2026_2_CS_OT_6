@@ -1,0 +1,13 @@
+﻿administrative_code,administrative_name,municipality_code,population,households,latitude,longitude,coordinate_source,matched_address,kakao_place_id,geocoding_status,demand_rate_status,coordinate_reference_url,coordinate_basis
+4167025000,경기도 여주시 가남읍,41670,13897,7454,37.20180145086192,127.54515707747889,kakao_administrative_office_representative_proxy,경기 여주시 가남읍 태평중앙1길 20,8115411,verified_municipality_match,pending_119_activity_api,,
+4167031000,경기도 여주시 점동면,41670,4549,2358,37.20390318713322,127.65985231330677,kakao_administrative_office_representative_proxy,경기 여주시 점동면 청안2길 20,8077770,verified_municipality_match,pending_119_activity_api,,
+4167032000,경기도 여주시 흥천면,41670,4811,2501,37.33322408327128,127.54160313341465,kakao_administrative_office_representative_proxy,경기 여주시 흥천면 효자로 154,15767842,verified_municipality_match,pending_119_activity_api,,
+4167033000,경기도 여주시 금사면,41670,2788,1615,37.39250364804347,127.53330012156866,kakao_administrative_office_representative_proxy,경기 여주시 금사면 이포로 27,8222945,verified_municipality_match,pending_119_activity_api,,
+4167034500,경기도 여주시 세종대왕면,41670,5539,2933,37.300195476490636,127.57349960195324,kakao_administrative_office_representative_proxy,경기 여주시 세종대왕면 번도1길 2-9,8217448,verified_municipality_match,pending_119_activity_api,,
+4167035000,경기도 여주시 대신면,41670,6378,3535,37.3750403179903,127.586562498138,kakao_administrative_office_representative_proxy,경기 여주시 대신면 여양로 1456-10,8286385,verified_municipality_match,pending_119_activity_api,,
+4167036000,경기도 여주시 북내면,41670,4477,2455,37.32930802796434,127.67894744838547,kakao_administrative_office_representative_proxy,경기 여주시 북내면 여양2로 301,8388799,verified_municipality_match,pending_119_activity_api,,
+4167037000,경기도 여주시 강천면,41670,4240,2387,37.27244966852126,127.71184318977271,kakao_administrative_office_representative_proxy,경기 여주시 강천면 긴등길 7,8175024,verified_municipality_match,pending_119_activity_api,,
+4167038000,경기도 여주시 산북면,41670,2464,1361,37.40168838474245,127.44299011722876,kakao_administrative_office_representative_proxy,경기 여주시 산북면 상품로 93,7911115,verified_municipality_match,pending_119_activity_api,,
+4167051000,경기도 여주시 여흥동,41670,20576,10759,37.2951248426339,127.639877544917,kakao_administrative_office_representative_proxy,경기 여주시 여흥로 148,8001573,verified_municipality_match,pending_119_activity_api,,
+4167052000,경기도 여주시 중앙동,41670,25350,11460,37.298695573072735,127.62929466079513,kakao_administrative_office_representative_proxy,경기 여주시 여흥로11번길 26,21605736,verified_municipality_match,pending_119_activity_api,,
+4167053000,경기도 여주시 오학동,41670,18279,8451,37.30521054325193,127.63827106583545,kakao_administrative_office_representative_proxy,경기 여주시 도예로 2,10653042,verified_municipality_match,pending_119_activity_api,,

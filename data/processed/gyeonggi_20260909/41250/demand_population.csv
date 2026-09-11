@@ -1,0 +1,9 @@
+﻿administrative_code,administrative_name,municipality_code,population,households,latitude,longitude,coordinate_source,matched_address,kakao_place_id,geocoding_status,demand_rate_status,coordinate_reference_url,coordinate_basis
+4125051000,경기도 동두천시 생연1동,41250,5984,3199,37.907383283469,127.065906465139,kakao_administrative_office_representative_proxy,경기 동두천시 장고갯로 140,7930203,verified_municipality_match,pending_119_activity_api,,
+4125052000,경기도 동두천시 생연2동,41250,10359,4936,37.90121428269662,127.04990554096263,kakao_administrative_office_representative_proxy,경기 동두천시 생연로 95,7944569,verified_municipality_match,pending_119_activity_api,,
+4125053500,경기도 동두천시 중앙동,41250,4249,2812,37.9077500762632,127.053230310907,kakao_administrative_office_representative_proxy,경기 동두천시 생연로 172,11149884,verified_municipality_match,pending_119_activity_api,,
+4125055000,경기도 동두천시 보산동,41250,2522,1492,37.91766103804686,127.06127561137656,kakao_administrative_office_representative_proxy,경기 동두천시 싸리말로 28,643818782,verified_municipality_match,pending_119_activity_api,,
+4125056500,경기도 동두천시 불현동,41250,25110,12558,37.898510883338716,127.06241943718045,kakao_administrative_office_representative_proxy,경기 동두천시 행선로 123,8193422,verified_municipality_match,pending_119_activity_api,,
+4125056600,경기도 동두천시 송내동,41250,25448,11954,37.884011025231764,127.05129325988021,kakao_administrative_office_representative_proxy,경기 동두천시 중앙로 31,11129769,verified_municipality_match,pending_119_activity_api,,
+4125058000,경기도 동두천시 소요동,41250,8031,4292,37.92952556257859,127.05764791304165,kakao_administrative_office_representative_proxy,경기 동두천시 평화로 2706,7965075,verified_municipality_match,pending_119_activity_api,,
+4125060000,경기도 동두천시 상패동,41250,4465,2602,37.9053716773177,127.04430940811,kakao_administrative_office_representative_proxy,경기 동두천시 어수로 8,23801791,verified_municipality_match,pending_119_activity_api,,

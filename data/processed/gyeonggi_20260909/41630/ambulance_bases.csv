@@ -1,0 +1,8 @@
+﻿source_province,fire_station,safety_center,regional_unit,ambulance_count,base_name,address,latitude,longitude,coordinate_source,matched_address,kakao_place_id,municipality_assignment,geocoding_status,routing_status
+경기북부,양주소방서,고읍119안전센터,,1,고읍119안전센터,경기도 양주시 고덕로 266,37.8019131551347,127.069887658369,kakao_local_address_search,경기 양주시 고덕로 266,,address_exact,verified_municipality_match,pending_kakao_api
+경기북부,양주소방서,광적119안전센터,,1,광적119안전센터,경기도 양주시 광적면 광적로 55,37.8234592178815,126.981568127586,kakao_local_address_search,경기 양주시 광적면 광적로 55,,address_exact,verified_municipality_match,pending_kakao_api
+경기북부,양주소방서,남면119안전센터,,1,남면119안전센터,경기도 양주시 남면 삼육사로 247,37.9017388836514,126.98646473674,kakao_local_address_search,경기 양주시 남면 삼육사로 247,,address_exact,verified_municipality_match,pending_kakao_api
+경기북부,양주소방서,백석119안전센터,,1,백석119안전센터,경기도 양주시 꿈나무로 156,37.7958712056516,126.989398283979,kakao_local_address_search,경기 양주시 백석읍 꿈나무로 156,,address_exact,verified_municipality_match,pending_kakao_api
+경기북부,양주소방서,옥정119안전센터,,1,옥정119안전센터,경기도 양주시 옥정로 8길 52,37.8274430050036,127.094040657856,kakao_local_address_search,경기 양주시 옥정로8길 52,,address_exact,verified_municipality_match,pending_kakao_api
+경기북부,양주소방서,장흥119안전센터,,1,장흥119안전센터,경기도 양주시 장흥면 일영로 794,37.71204557241,126.936247198876,kakao_local_address_search,경기 양주시 장흥면 일영로 794,,address_exact,verified_municipality_match,pending_kakao_api
+경기북부,양주소방서,회천119안전센터,,1,회천119안전센터,경기도 양주시 화합로 1272,37.8461677292825,127.055589223047,kakao_local_address_search,경기 양주시 화합로 1272,,address_exact,verified_municipality_match,pending_kakao_api

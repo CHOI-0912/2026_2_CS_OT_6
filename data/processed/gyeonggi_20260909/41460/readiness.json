@@ -1,0 +1,23 @@
+{
+  "municipality_code": "41460",
+  "municipality_name": "용인시",
+  "existing_emergency_hospital_count": 5,
+  "demand_point_count": 39,
+  "ambulance_base_row_count": 14,
+  "ambulance_count": 19,
+  "ready_for_simulation": false,
+  "blocking_inputs": [
+    "actual directional road travel-time matrix",
+    "municipal 119 demand-rate calibration (population-proportional estimate in use)",
+    "hospital static capacity matching",
+    "patient-type treatment success calibration"
+  ],
+  "ambulance_base_rows_with_coordinates": 14,
+  "demand_points_with_coordinates": 39,
+  "existing_hospitals_with_coordinates": 5,
+  "candidate_site_count": 18,
+  "candidate_sites_with_coordinates": 18,
+  "advisory_inputs": [
+    "candidate-site land feasibility review"
+  ]
+}

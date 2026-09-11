@@ -1,0 +1,7 @@
+﻿source_province,fire_station,safety_center,regional_unit,ambulance_count,base_name,address,latitude,longitude,coordinate_source,matched_address,kakao_place_id,municipality_assignment,geocoding_status,routing_status
+경기북부,가평소방서,대곡119안전센터,,1,대곡119안전센터,,37.8232986128627,127.516587952081,kakao_local_keyword_search,경기 가평군 가평읍 가화로 36,1376885844,fire_station_address_inferred,verified_municipality_match,pending_kakao_api
+경기북부,가평소방서,설악119안전센터,,1,설악119안전센터,경기도 가평군 설악면 한서로 7,37.6766908319871,127.49460804094,kakao_local_address_search,경기 가평군 설악면 한서로 7,,address_exact,verified_municipality_match,pending_kakao_api
+경기북부,가평소방서,가평수난구조대119안전센터,,1,가평수난구조대119안전센터,,37.737030932410285,127.50798075291718,kakao_local_keyword_search,경기 가평군 가평읍 호반로 1580,10117699,fire_station_address_inferred,verified_municipality_match,pending_kakao_api
+경기북부,가평소방서,조종119안전센터,,1,조종119안전센터,경기도 가평군 조종면 현창로 14,37.8161627372582,127.349804751171,kakao_local_address_search,경기 가평군 조종면 현창로 14,,address_exact,verified_municipality_match,pending_kakao_api
+경기북부,가평소방서,대곡119안전센터,북면지역대,1,북면지역대,,37.88581948551982,127.5500086157296,kakao_local_keyword_search,경기 가평군 북면 화악산로 2,11063390,fire_station_address_inferred,verified_municipality_match,pending_kakao_api
+경기북부,가평소방서,설악119안전센터,청평지역대,1,청평지역대,,37.75338112856035,127.43414884466624,kakao_local_keyword_search,경기 가평군 청평면 경춘로 1037,1183489444,address_exact,verified_municipality_match,pending_kakao_api
