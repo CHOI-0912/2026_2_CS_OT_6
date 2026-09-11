@@ -32,7 +32,7 @@ python scripts/build_municipal_placement_inputs.py \
 
 ```bash
 python -m ambulance_sim --hospital-placement data/gyeonggi_real/41110_suwon/placement.json \
-  --new-hospitals 1 --episodes 3 --seed 42 --json --output-dir outputs/suwon_placement_smoke
+  --new-hospitals 1 --episodes 3 --seed 42 --json --output-dir outputs/suwon_placement_smoke_rerun
 ```
 
 ## 공식 병원 자료 원본

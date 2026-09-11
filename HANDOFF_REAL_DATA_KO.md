@@ -1,14 +1,23 @@
 # 구급차·병원 입지 프로젝트 인수인계
 
-작성 기준: 2026-09-11 08:05 KST
-현재 목표: **전주시(52110) 기존 구급차의 상시대기 위치 재배치**를 실데이터로 완성. 수원 작업물과 병원 신설 분석은 보관(코드·결과 유지, 실행 중단).
+작성 기준: 2026-09-11 08:05 KST (상단 "현재 상태" 블록만 2026-09-11 16:10 갱신)
+
+> **먼저 읽을 것**: 프로젝트 요약과 절대 규칙은 [CLAUDE.md](CLAUDE.md), 폴더·모듈·파이프라인·결과표 전체는 [PROJECT_CONTEXT.md](PROJECT_CONTEXT.md)에 있다. 이 문서의 아래 절들은 08:05 시점 상태를 담고 있어 일부가 낡았다.
+
+## 현재 상태 (2026-09-11 16:10 갱신)
+
+- **제출 완료된 최종 산출물은 "수원시(41110) 응급병원 신설 입지" 분석이다.** 보고서는 `보고서.md` / `2518최지완_7번.hwpx`, 결과는 `outputs/suwon_grid_k1/hospital_placement_result.json`(격자 후보 31곳, 10 episode, calibrated 계수, §19 치료 규칙 수정 후 재실행분), 그림은 `outputs/figures/` 5장이다.
+- **전주시(52110) 구급차 상시대기 재배치는 "코드·데이터 완성, 결과 stale" 상태다.** 엔진(`ScheduledStandbyPolicy`, SHIFT_CHANGE), 최적화(`ambulance_sim/standby_placement.py`), 입력 생성기, 시뮬레이터가 모두 동작하고 입력(`data/jeonju_real/52110_jeonju/`)도 검증을 통과했다. 다만 산출된 수치는 전부 `docs/decisions_and_tradeoffs_ko.md` §19(치료 결과 최종화, 전원은 병상 없을 때만) **이전** 실행분이므로 **인용하지 말 것**.
+- 아래 0-1절·0절의 "현재 목표 = 전주"라는 서술과 `README.md`·`REPORT_GUIDE_KO.md` 상단 배너는 이 반전을 반영하지 못한 낡은 문장이다. 충돌 시 이 블록과 `PROJECT_CONTEXT.md`가 우선한다.
+- **이어서 진행한다면 할 일**: (1) 현재 엔진으로 전주 재배치를 충분한 episode 수로 재실행하고 `RESULTS_KO.md` 3절·`REPORT_GUIDE_KO.md` 5-5절을 갱신, (2) 공개 저장소의 Kakao 도로시간·원자료 재배포 약관 확인(LICENSE 없음, 미검증), (3) `data/gyeonggi_real/README.md`의 "후보 4곳 / 1,683쌍 / provisional" 서술을 실제(격자 31곳 / 5,652쌍 / calibrated)로 갱신, (4) 시간대별 수요 배율 24개 중 22개가 보간값인 문제(§12-3) 해소.
+- 낡은 실행 결과는 `outputs/archive/`로 옮겨 두었다(`suwon_placement_provisional`, `suwon_placement_smoke`, `jeonju_standby_test`, `jeonju_standby_prelim`, `jeonju_standby_grid_test`, `gyeonggi_real_resource_dashboard.html`). 전부 인용 금지.
 
 ## 0-1. 2026-09-11 08:05 대상 도시 전환
 
 - 수원시 → 전주시(전북특별자치도, 시 코드 52110). 결정 기록 14절.
 - 처리 루트는 `data/processed/jeonju_20260911/52110/`(수원과 같은 파일 구성), 최적화 입력은 `data/gyeonggi_real/` 대신 `data/municipal_real/52110_jeonju/` 또는 생성기 `--output-root` 지정 폴더.
 - 2026-09-11 11:00 기준 완료: 엔진·최적화(`ambulance_sim/standby_placement.py`, `ScheduledStandbyPolicy`, SHIFT_CHANGE), 대기지 파이프라인(`--mode standby`, `--pair-set standby`, `build_municipal_standby_inputs.py`), 시뮬레이터 재배치 모드, 전주 처리 폴더 `data/processed/jeonju_20260911/52110/`(수요 35, 거점 10/구급차 12, 병원 5, 실측 수요 104.3건/일), 격자 대기지 92곳(도로접근 전부 통과), 도로시간 6,780쌍 수집 완료, 최적화 입력 `data/jeonju_real/52110_jeonju/{standby.json,scenario_standby.json}` 생성·검증 통과, 기준안 시뮬레이터 `outputs/jeonju_standby_simulator_baseline.html`. 테스트 198개 통과.
-- 진행 중: 2 episode 시험 최적화(`outputs/jeonju_standby_test/`). 이후 중복 도로시간 행 정리 → 입력 재생성 → 예비 실행(episode 수 사용자 미확정, 예비 표시) → 시뮬레이터 `baseline,best` → 문서·보고서 노트 5절.
+- 진행 중: 2 episode 시험 최적화(`outputs/archive/jeonju_standby_test/`). 이후 중복 도로시간 행 정리 → 입력 재생성 → 예비 실행(episode 수 사용자 미확정, 예비 표시) → 시뮬레이터 `baseline,best` → 문서·보고서 노트 5절.
 - 주의: 같은 폴더의 도로시간 수집을 병렬 실행하면 CSV가 깨집니다(결정 기록 18절). 반드시 순차 실행.
 
 ## 0. 2026-09-11 전환 요약
@@ -84,7 +93,7 @@
 
 ## 6. 결과 파일
 
-- `outputs/suwon_placement_provisional/k1`, `k2`: **옛 후보 정의(보건소 4곳)**, 24시간, 100 episode, 옛 성공률(0.86/0.78). 참고용. 기준안 142.9명, k=1 최선 영통구보건소 +0.795[0.748, 0.843], k=2 최선 영통+장안 +1.214[1.146, 1.282].
+- `outputs/archive/suwon_placement_provisional/k1`, `k2`: **옛 후보 정의(보건소 4곳)**, 24시간, 100 episode, 옛 성공률(0.86/0.78). 참고용. 기준안 142.9명, k=1 최선 영통구보건소 +0.795[0.748, 0.843], k=2 최선 영통+장안 +1.214[1.146, 1.282].
 - `outputs/suwon_folium_simulator.html`: 위 k1 결과 기반 시뮬레이터(기준안 vs C02). 격자 후보 결과가 나오면 재생성.
 - `outputs/synthetic_examples/`: 합성 예제. 실제 결과 아님.
 

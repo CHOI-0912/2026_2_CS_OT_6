@@ -4,7 +4,7 @@
 
 ## 1. 수원시 병원 신설 (옛 후보: 보건소 4곳, 24시간, 100 episode, 임시 계수)
 
-결과 파일: `outputs/suwon_placement_provisional/k1/hospital_placement_result.json`, `k2/hospital_placement_result.json`
+결과 파일: `outputs/archive/suwon_placement_provisional/k1/hospital_placement_result.json`, `k2/hospital_placement_result.json`
 시뮬레이터: `outputs/suwon_folium_simulator.html`
 
 | 항목 | 값 |
@@ -31,7 +31,7 @@
 
 ## 3. 전주시 구급차 상시대기 재배치 (예비, 2 episode, 이동 3대, 격자 칸만 후보)
 
-결과 파일: `outputs/jeonju_standby_grid_test/standby_placement_result.json`
+결과 파일: `outputs/archive/jeonju_standby_grid_test/stdout.json`
 시뮬레이터: `outputs/jeonju_standby_simulator.html` (https://choi-0912.github.io/2026_2_CS_OT_6/outputs/jeonju_standby_simulator.html)
 
 | 항목 | 값 |
@@ -42,7 +42,7 @@
 | 이동 2 | 조촌119안전센터 차량 → 덕진구 덕진동1가 격자 6-6 (약 3,900명), +0.069 |
 | 이동 3 | 아중119안전센터 차량 → 덕진구 송천동1가 격자 7-6 (약 10,700명), +0.087 |
 
-세 이동 모두 덕진구 방향이며 완산구 차량은 이동 이득이 없었다. 안전센터 간 이동을 허용한 이전 시험(+0.176, `outputs/jeonju_standby_test/`)은 사용자 규칙(새 격자로만 이동)에 맞지 않아 참고용으로만 남긴다.
+세 이동 모두 덕진구 방향이며 완산구 차량은 이동 이득이 없었다. 안전센터 간 이동을 허용한 이전 시험(+0.176, `outputs/archive/jeonju_standby_test/`)은 사용자 규칙(새 격자로만 이동)에 맞지 않아 참고용으로만 남긴다.
 
 ## 4. 해석 (두 문제 공통)
 

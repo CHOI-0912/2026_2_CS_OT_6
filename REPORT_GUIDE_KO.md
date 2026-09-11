@@ -197,7 +197,7 @@ python scripts/build_folium_municipal_simulator.py --placement data/gyeonggi_rea
 
 ### 3-6. 현재 결과 (임시 계수, 참고용)
 
-- 이전 후보 정의(보건소 4곳), 24시간, 100 episode, 임시 계수(성공률 0.86/0.78): 기준안 142.9명(95% CI 140.6~145.2), 최선 후보 영통구보건소 +0.795명(0.748~0.843). 파일: `outputs/suwon_placement_provisional/k1/hospital_placement_result.json`. **후보 정의와 성공률 규칙이 바뀌어 보고서에 쓰지 말 것.**
+- 이전 후보 정의(보건소 4곳), 24시간, 100 episode, 임시 계수(성공률 0.86/0.78): 기준안 142.9명(95% CI 140.6~145.2), 최선 후보 영통구보건소 +0.795명(0.748~0.843). 파일: `outputs/archive/suwon_placement_provisional/k1/hospital_placement_result.json`. **후보 정의와 성공률 규칙이 바뀌어 보고서에 쓰지 말 것.**
 - 격자 후보 31곳 결과: 결과 대기.
 
 ---
@@ -282,7 +282,7 @@ python scripts/build_folium_municipal_simulator.py --placement data/gyeonggi_rea
 ### 5-5. 결과
 
 - 기준안 시뮬레이터: `outputs/jeonju_standby_simulator_baseline.html` (seed 42 하루: 환자 91명, 기대 생존 79.48, 손실 11.52).
-- 2 episode 시험 최적화(`outputs/jeonju_standby_test/`): 결과 대기.
+- 2 episode 시험 최적화(`outputs/archive/jeonju_standby_test/`): 결과 대기.
 - 예비 실행(episode 수 미확정): 결과 대기.
 
 ### 5-6. 이 문제에 특유한 한계

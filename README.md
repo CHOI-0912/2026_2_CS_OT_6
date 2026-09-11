@@ -22,10 +22,10 @@ python scripts/collect_kakao_routes.py --processed-dir data/processed/jeonju_202
 python scripts/build_municipal_standby_inputs.py --processed-dir data/processed/jeonju_20260911 --parameters data/processed/calibration/model_parameters_calibrated.json --municipality-code 52110 --slug jeonju --output-root data/jeonju_real --horizon-days 1 --cooldown-minutes 360 --overwrite
 
 # 4. 탐욕 재배치 최적화 (개발 확인: 2 episode, 이동 3대, 후보 사전선별 15)
-python -m ambulance_sim --standby-placement data/jeonju_real/52110_jeonju/standby.json --episodes 2 --seed 42 --movable 3 --shortlist 15 --json --output-dir outputs/jeonju_standby_test
+python -m ambulance_sim --standby-placement data/jeonju_real/52110_jeonju/standby.json --episodes 2 --seed 42 --movable 3 --shortlist 15 --json --output-dir outputs/jeonju_standby_rerun
 
 # 5. 시뮬레이터 (기준안 vs 최적 배정)
-python scripts/build_folium_municipal_simulator.py --standby data/jeonju_real/52110_jeonju/standby.json --processed-dir data/processed/jeonju_20260911 --results outputs/jeonju_standby_test/standby_placement_result.json --scenarios baseline,best --seed 42 --output outputs/jeonju_standby_simulator.html
+python scripts/build_folium_municipal_simulator.py --standby data/jeonju_real/52110_jeonju/standby.json --processed-dir data/processed/jeonju_20260911 --results outputs/jeonju_standby_rerun/standby_placement_result.json --scenarios baseline,best --seed 42 --output outputs/jeonju_standby_simulator.html
 ```
 
 전주 자료 출처와 수량은 [docs/jeonju_data_ko.md](docs/jeonju_data_ko.md), 대기지 후보 정의는 [docs/candidate_sites_ko.md](docs/candidate_sites_ko.md)의 "구급차 대기지 후보" 절, 시뮬레이터 사용법은 [docs/simulator_ko.md](docs/simulator_ko.md)의 "구급차 재배치 모드" 절을 보십시오.

@@ -16,7 +16,7 @@
 python scripts/build_folium_municipal_simulator.py `
   --placement data/gyeonggi_real/41110_suwon/placement.json `
   --processed-dir data/processed/gyeonggi_20260909 `
-  --results outputs/suwon_placement_provisional/k1/hospital_placement_result.json `
+  --results outputs/suwon_grid_k1/hospital_placement_result.json `
   --scenarios baseline,best `
   --seed 42 `
   --grid-km 1 `
